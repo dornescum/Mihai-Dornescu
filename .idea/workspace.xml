@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1jBII24XkkGGVq0pYhvnNplwNag" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DAN-Template/designFirmeCadastru" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/css/styles.css" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="" />
+      <created>1603270974721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603270974721</updated>
+      <workItem from="1603270975843" duration="4235000" />
+      <workItem from="1603283568268" duration="1513000" />
+      <workItem from="1603350892877" duration="10754000" />
+      <workItem from="1603368221035" duration="78000" />
+      <workItem from="1603373503276" duration="6228000" />
+      <workItem from="1603382548989" duration="3475000" />
+      <workItem from="1603479389913" duration="5683000" />
+      <workItem from="1603544477043" duration="699000" />
+      <workItem from="1603548852443" duration="1282000" />
+      <workItem from="1603568374674" duration="44000" />
+      <workItem from="1603636906992" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="127" width="1720" height="853" key="DiffContextDialog" timestamp="1603360902576">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="100" y="127" width="1720" height="853" key="DiffContextDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1603360902576" />
+    <state x="529" y="227" width="416" height="366" key="FileChooserDialogImpl" timestamp="1603568413274">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="529" y="227" width="416" height="366" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603568413274" />
+    <state x="743" y="311" width="416" height="519" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1603545257607" />
+  </component>
+</project>
