@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-
 /*
 =============== 
 Variables
@@ -54,17 +53,14 @@ Global Styles
 ===============
 */
 
-*,
-::after,
-::before {
+*, ::after, ::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: var(--clr-white);
     color: var(--clr-grey-1);
     line-height: 1.5;
@@ -80,10 +76,7 @@ a {
     display: flex;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
     letter-spacing: var(--spacing);
     text-transform: capitalize;
     line-height: 1.25;
@@ -116,35 +109,31 @@ p {
     h1 {
         font-size: 4rem;
     }
-
     h2 {
         font-size: 2.5rem;
     }
-
     h3 {
         font-size: 1.75rem;
     }
-
     h4 {
         font-size: 1rem;
     }
-
     body {
         font-size: 1rem;
     }
-
-    h1,
-    h2,
-    h3,
-    h4 {
+    h1, h2, h3, h4 {
         line-height: 1;
     }
 }
 
 /* .img {*/
+
 /*  width: 100%;*/
+
 /*  display: block;*/
+
 /*   height: 100%;*/
+
 /*}*/
 
 /* =============== 
@@ -154,8 +143,7 @@ Hero
 .hero {
     min-height: 100vh;
     margin-top: -6rem;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('../img/1.jpg') center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/1.jpg') center/cover;
     /*background-color: red;*/
     /* background-image: url('../img/1.jpg');*/
     display: grid;
@@ -196,6 +184,7 @@ Hero
 }
 
 /*ce am invatat*/
+
 img {
     height: 100%;
     width: 100%;
@@ -203,7 +192,6 @@ img {
     border-radius: var(--radius);
     /*transform: scale(1);*/
 }
-
 
 .overlay {
     position: absolute;
@@ -302,7 +290,6 @@ img {
     border-radius: var(--radius);
 }
 
-
 .picture {
     position: relative;
     left: 0;
@@ -322,13 +309,17 @@ img {
 }
 
 /*@media screen and (min-width: 800px) {*/
+
 /*    .screen {*/
+
 /*        border: 10px solid black;*/
+
 /*        border-radius: var(--radius);*/
+
 /*    }*/
 
-
 /*text imagine*/
+
 .text {
     color: var(--clr-black);
     font-size: 24px;
@@ -343,9 +334,13 @@ img {
 }
 
 /*@media (min-width: 992px) {*/
+
 /*    .text {*/
+
 /*        font-size: 10px;*/
+
 /*    }*/
+
 /*
 ===============
 Navbar
@@ -398,28 +393,25 @@ Navbar
 /*todo trebuie schimbat  VV*/
 
 /*pana aici*/
+
 @media screen and (min-width: 800px) {
     .nav-center {
         position: relative;
     }
-
     .nav-logo {
         position: absolute;
         top: 50%;
         left: 65%;
         transform: translate(-50%, -50%);
     }
-
     .toggle-nav {
         display: none;
     }
-
     .nav-links {
         display: flex;
         font-size: 1.5rem;
         text-transform: capitalize;
     }
-
     .nav-link {
         color: var(--clr-white);
         margin-right: 3rem;
@@ -427,7 +419,6 @@ Navbar
         transition: var(--transition);
         font-size: 1.25rem;
     }
-
     .nav-link:hover {
         color: var(--clr-primary-5);
     }
@@ -440,6 +431,7 @@ Navbar
 }
 
 /* page navbar */
+
 .page .nav-link {
     color: var(--clr-grey-1);
 }
@@ -457,6 +449,7 @@ Navbar
 Sidebar
 ===============
 */
+
 .sidebar-overlay {
     position: fixed;
     top: 0;
@@ -522,11 +515,13 @@ Sidebar
 }
 
 /*paragraf fade*/
+
 .fade1 {
     position: relative;
     animation: top 3s;
     animation-fill-mode: forwards;
 }
+
 @keyframes top {
     from {
         top: 0;
@@ -537,9 +532,9 @@ Sidebar
         top: 300px;
         opacity: 1;
         /*transform: translateY(-100px);*/
-
     }
 }
+
 @media (max-width: 992px) {
     .fade1 {
         animation: top 3s;
@@ -548,7 +543,6 @@ Sidebar
     .text {
         font-size: 20px;
     }
-
     @keyframes top {
         from {
             top: 0px;
@@ -559,10 +553,10 @@ Sidebar
             top: 250px;
             opacity: 1;
             /*transform: translateY(-100px);*/
-
         }
     }
 }
+
 @media (max-width: 599px) {
     .fade1 {
         animation: top 3s;
@@ -571,7 +565,6 @@ Sidebar
     .text {
         font-size: 16px;
     }
-
     @keyframes top {
         from {
             top: 0;
@@ -582,10 +575,193 @@ Sidebar
             top: 150px;
             opacity: 1;
             /*transform: translateY(-100px);*/
-
         }
     }
 }
+
 /*pana iaci paragraf fade1*/
 
-#abilitati { background-color: var(--clr-grey-9)}
+#abilitati {
+    background-color: var(--clr-grey-9)
+}
+
+/* footer  */
+
+.site-footer {
+    background-color: #26272b;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.site-footer hr.small {
+    margin: 20px 0
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+}
+
+.site-footer a {
+    color: #737373;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none
+}
+
+.footer-links li {
+    display: block
+}
+
+.footer-links a {
+    color: #737373
+}
+
+.footer-links a:active, .footer-links a:focus, .footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links.inline li {
+    display: inline-block
+}
+
+.site-footer .social-icons {
+    text-align: right
+}
+
+.site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d
+}
+
+.copyright-text {
+    margin: 0
+}
+
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+        margin-bottom: 30px
+    }
+}
+
+@media (max-width:767px) {
+    .site-footer {
+        padding-bottom: 0
+    }
+    .site-footer .copyright-text, .site-footer .social-icons {
+        text-align: center
+    }
+}
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px
+}
+
+.social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px
+}
+
+.social-icons a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.social-icons a:active, .social-icons a:focus, .social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe
+}
+
+.social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px
+}
+
+.social-icons a.github:hover {
+    background-color: var(--clr-black)
+}
+
+.social-icons a.linkedin:hover {
+    background-color: #007bb6
+}
+
+@media (max-width:767px) {
+    .social-icons li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600
+    }
+}
+
+/* culoare container despre mine  */
+
+#container {
+    background-color: var(--clr-white);
+}
+
+/* poza mea  */
+ #temporar {
+    position: relative;
+    animation: top 3s;
+    animation-fill-mode: forwards;
+    transition: top 2s linear;
+}
+
+@keyframes poza {
+    from {
+        top: 0;
+        opacity: 0;
+        /*transform: translateY(100px);*/
+    }
+    to {
+        top: 300px;
+        opacity: 1;
+        /*transform: translateY(-100px);*/
+    }
+}
