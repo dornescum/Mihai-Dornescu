@@ -1,21 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Past.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jBII24XkkGGVq0pYhvnNplwNag" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DAN-Template/designFirmeCadastru" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DAN-Template/designFirmeCadastru/index.html" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/css/styles.css" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -38,21 +55,46 @@
       <workItem from="1603548852443" duration="1282000" />
       <workItem from="1603568374674" duration="44000" />
       <workItem from="1603636906992" duration="15000" />
+      <workItem from="1603887752877" duration="1799000" />
     </task>
+    <task id="LOCAL-00001" summary="background alb">
+      <created>1603887928409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603887928409</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="background alb" />
+    <option name="LAST_COMMIT_MESSAGE" value="background alb" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2" timestamp="1603887928176">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1603887928176" />
     <state x="100" y="127" width="1720" height="853" key="DiffContextDialog" timestamp="1603360902576">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="100" y="127" width="1720" height="853" key="DiffContextDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1603360902576" />
-    <state x="529" y="227" width="416" height="366" key="FileChooserDialogImpl" timestamp="1603568413274">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="743" y="311" width="416" height="526" key="FileChooserDialogImpl" timestamp="1603888463795">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="529" y="227" width="416" height="366" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603568413274" />
-    <state x="743" y="311" width="416" height="519" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1603545257607" />
+    <state x="743" y="311" width="416" height="526" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1603888463795" />
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1603887930466">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1603887930466" />
+    <state x="732" y="466" width="446" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603887872797">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="732" y="466" width="446" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1603887872797" />
   </component>
 </project>
