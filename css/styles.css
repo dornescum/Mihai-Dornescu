@@ -583,30 +583,21 @@ Sidebar
     background-color: var(--clr-grey-10);
     display: flex;
     justify-content: center;
+    align-content: center;
 }
 .img-abilitati {
-    width: 350px;
-    height: 250px;
+    /*width: 350px;*/
+    /*height: 250px;*/
 }
 
 @media (min-width:1366px) {
     .img-abilitati {
-        width: 200px;
-        height: 180px;
+        /*width: 180px;*/
+        /*height: 180px;*/
     }
 }
-@media (min-width:768px) {
-    .img-abilitati {
-        width: 180px;
-        height: 150px;
-    }
-}
-@media (min-width:599px) {
-    .img-abilitati {
-        width: 160px;
-        height: 130px;
-    }
-}
+
+
 
 
 .opacity {
