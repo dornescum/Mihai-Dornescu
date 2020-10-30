@@ -72,9 +72,39 @@
             ceva
         </h1>
         <h3>Embrace your choices - we do</h3>
-        <a href="#" class="hero-btn">
+        <a href="#" class="hero-btn" data-toggle="modal" data-target="#exampleModal">
             ceva
         </a>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Certificari</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h1>html</h1>
+                        <img src="img/html.png" alt="html">
+                        <img src="img/css.png" alt="html">
+                        <img src="img/js.png" alt="html">
+                        <img src="img/bootstrap.jpg" alt="html">
+                        <img src="img/materializeCss.jpg" alt="html">
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 </section>
 <!--sidebar-->
@@ -110,61 +140,61 @@
     <div class="row m-2 ">
         <div class="col-lg-2 col-md-4 col-sm-12 screen">
             <div class="card-img p-1">
-                <img src="img/1.jpg" alt="" class="rounded">
+                <img src="img/happy1.jpg" alt="" class="rounded img-abilitati">
             </div>
             <div class="overlay">
-                <div class="text">Css 3</div>
+                <div class="text main-color" id="html">Html 5</div>
             </div>
         </div>
         <div class="col-lg-2 col-md-4 screen">
             <div class="card-img p-1">
-                <img src="img/1.jpg" alt="" class="rounded">
+                <img src="img/happy5.jpg" alt="" class="rounded img-abilitati">
             </div>
             <div class="overlay1">
-                <div class="text">Css 3</div>
+                <div class="text main-color" id="css">Css 3</div>
             </div>
         </div>
         <div class="col-lg-2 col-md-4 screen">
             <div class="card-img p-1">
-                <img src="img/1.jpg" alt="" class="rounded">
+                <img src="img/panic.jpg" alt="" class="rounded img-abilitati">
             </div>
             <div class="overlay2">
-                <div class="text">Css 3</div>
+                <div class="text main-color">JavaScript</div>
             </div>
         </div>
         <div class="col-lg-2 col-md-4 screen">
             <div class="card-img p-1">
-                <img src="img/1.jpg" alt="" class="rounded">
+                <img src="img/1.jpg" id="react" alt="" class="rounded img-abilitati">
             </div>
-            <div class="overlay2">
-                <div class="text">Css 3</div>
+            <div class="">
+                <div class="text main-color">React js</div>
             </div>
         </div>
         <div class="col-lg-2 col-md-4 screen">
             <div class="card-img p-1">
-                <img src="img/1.jpg" alt="" class="rounded">
+                <img src="img/vue.jpg" alt="" class="rounded opacity img-abilitati">
             </div>
             <div class="overlay4">
-                <div class="text">Css 3</div>
+                <div class="text main-color">Vue js</div>
             </div>
         </div>
 
         <div class="col-lg-2 col-md-4 screen">
             <div class="card-img p-1">
-                <img src="img/1.jpg" alt="" class="rounded">
+                <img src="img/typescript.jpg" alt="" class="rounded opacity img-abilitati">
             </div>
             <div class="overlay3">
-                <div class="text">Css 3</div>
+                <div class="text main-color" id="typescript">TypeScript</div>
             </div>
         </div>
     </div>
 </div>
-<!--prpjects-->
+<!--despre mine-->
 <div class="container" id="container">
     <div class="row m-2">
         <div class="col-lg-6 col-md-8">
-            <div class="img" id="poza">
-                <img src="./img/3.png" alt="temporar">
+            <div class="img">
+                <img src="./img/3.png" alt="temporar" id="poza">
             </div>
         </div>
         <div class="col-lg-6 col-md-4">
@@ -178,8 +208,9 @@
         </div>
     </div>
 </div>
+<!--projects-->
 <main>
-    <section class="container" id="container-repo">
+    <section id="container-repo">
         <div class="title">
             <!--    titlu-->
             <h2>proiectele mele</h2>

@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/css.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/happy1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/happy2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/happy3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/happy4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/happy5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/html.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/js.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/panic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/typescript.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/vue.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/4.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +35,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jBII24XkkGGVq0pYhvnNplwNag" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -58,7 +73,13 @@
       <workItem from="1603887752877" duration="2018000" />
       <workItem from="1603892971692" duration="1808000" />
       <workItem from="1603895884973" duration="1791000" />
-      <workItem from="1603897701784" duration="622000" />
+      <workItem from="1603897701784" duration="1531000" />
+      <workItem from="1603899770020" duration="1783000" />
+      <workItem from="1603902253380" duration="1841000" />
+      <workItem from="1603904452520" duration="1789000" />
+      <workItem from="1603906395011" duration="1479000" />
+      <workItem from="1603913828758" duration="19000" />
+      <workItem from="1603977331580" duration="970000" />
     </task>
     <task id="LOCAL-00001" summary="background alb">
       <created>1603887928409</created>
@@ -74,22 +95,31 @@
       <option name="project" value="LOCAL" />
       <updated>1603889758345</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="container proiecte">
+      <created>1603898630143</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603898630143</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="background alb" />
     <MESSAGE value="container" />
-    <option name="LAST_COMMIT_MESSAGE" value="container" />
+    <MESSAGE value="container proiecte" />
+    <option name="LAST_COMMIT_MESSAGE" value="container proiecte" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2" timestamp="1603889758235">
+    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2" timestamp="1603898629885">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1603889758235" />
+    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1603898629885" />
     <state x="100" y="127" width="1720" height="853" key="DiffContextDialog" timestamp="1603360902576">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -99,13 +129,14 @@
     </state>
     <state x="529" y="227" width="416" height="366" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603568413274" />
     <state x="743" y="311" width="416" height="526" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1603888463795" />
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1603889761160">
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1603898632776">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1603889761160" />
-    <state x="732" y="466" width="446" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603887872797">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1603898632776" />
+    <state x="521" y="336" width="456" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603977381751">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state x="521" y="336" width="456" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741@0.27.1366.741" timestamp="1603977381751" />
     <state x="732" y="466" width="446" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1603887872797" />
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1603894740808">
       <screen x="0" y="27" width="1920" height="1053" />
