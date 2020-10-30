@@ -2,31 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/bucatarie/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bucatarie/10.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bucatarie/2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bucatarie/20151212_174221.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bucatarie/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bucatarie/4.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bucatarie/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bucatarie/6.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bucatarie/7.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bucatarie/8.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bucatarie/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bucatarie/IMG_0097.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bucatarie/MIhai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bucatarie/Mihai-Dornescu.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bucatarie/barca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Learning.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bootstrap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/css.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/html.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/js.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/linkedinCss.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/linkedinHtml.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/linkedinJS.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/materializeCss.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/udemyHmtlCss.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bootstrap.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/css.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/html.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/js.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/materializeCss.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pdf.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/udemyHmtlCss.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/unemployed2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/past.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +95,8 @@
       <workItem from="1604069243642" duration="1901000" />
       <workItem from="1604071169538" duration="1605000" />
       <workItem from="1604076399744" duration="1262000" />
-      <workItem from="1604080595836" duration="1165000" />
+      <workItem from="1604080595836" duration="1789000" />
+      <workItem from="1604082412785" duration="967000" />
     </task>
     <task id="LOCAL-00001" summary="background alb">
       <created>1603887928409</created>
@@ -158,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604077601587</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="past galerie">
+      <created>1604081886624</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604081886624</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,13 +167,14 @@
     <MESSAGE value="container proiecte" />
     <MESSAGE value="past conatiner" />
     <MESSAGE value="fara container" />
-    <option name="LAST_COMMIT_MESSAGE" value="fara container" />
+    <MESSAGE value="past galerie" />
+    <option name="LAST_COMMIT_MESSAGE" value="past galerie" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2" timestamp="1604077601390">
+    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2" timestamp="1604081886226">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1604077601390" />
+    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1604081886226" />
     <state x="100" y="127" width="1720" height="853" maximized="true" key="DiffContextDialog" timestamp="1604077356823">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -187,10 +184,10 @@
     </state>
     <state x="529" y="227" width="416" height="366" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603568413274" />
     <state x="743" y="311" width="416" height="540" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1604077259696" />
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1604077605564">
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1604081888950">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1604077605564" />
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1604081888950" />
     <state x="732" y="466" width="456" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604077356797">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
