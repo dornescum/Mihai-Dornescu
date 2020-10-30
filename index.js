@@ -98,3 +98,10 @@ prevBtn.addEventListener('click', function () {
     }
     showProjects(workedProjects);
 })
+
+// slider past
+// let myCarousel = document.getElementById('carouselExampleDark')
+// let carousel = new bootstrap.Carousel(myCarousel, {
+//     interval: 100,
+//     wrap: false
+// })

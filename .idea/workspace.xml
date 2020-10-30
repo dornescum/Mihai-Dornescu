@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/css.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/happy1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/happy2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/happy3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/happy4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/happy5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/html.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/js.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/panic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/typescript.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/vue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jobless.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sg.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/study.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/unemployed1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/unemployed2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Past.html" beforeDir="false" afterPath="$PROJECT_DIR$/Past.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/4.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +27,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/dornescum/5animeText" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1jBII24XkkGGVq0pYhvnNplwNag" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -80,6 +81,10 @@
       <workItem from="1603906395011" duration="1479000" />
       <workItem from="1603913828758" duration="19000" />
       <workItem from="1603977331580" duration="970000" />
+      <workItem from="1604047303188" duration="1928000" />
+      <workItem from="1604049464279" duration="1794000" />
+      <workItem from="1604051284346" duration="1020000" />
+      <workItem from="1604054396159" duration="999000" />
     </task>
     <task id="LOCAL-00001" summary="background alb">
       <created>1603887928409</created>
@@ -102,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603898630143</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="container proiecte">
+      <created>1604047329670</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604047329670</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,10 +128,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="container proiecte" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2" timestamp="1603898629885">
+    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2" timestamp="1604047329336">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1603898629885" />
+    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1604047329336" />
     <state x="100" y="127" width="1720" height="853" key="DiffContextDialog" timestamp="1603360902576">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -129,10 +141,10 @@
     </state>
     <state x="529" y="227" width="416" height="366" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603568413274" />
     <state x="743" y="311" width="416" height="526" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1603888463795" />
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1603898632776">
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1604047333742">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1603898632776" />
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1604047333742" />
     <state x="521" y="336" width="456" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603977381751">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
