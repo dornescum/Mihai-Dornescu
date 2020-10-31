@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/past.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +87,9 @@
       <workItem from="1604080595836" duration="1789000" />
       <workItem from="1604082412785" duration="1793000" />
       <workItem from="1604084237287" duration="580000" />
-      <workItem from="1604087603143" duration="1386000" />
+      <workItem from="1604087603143" duration="1780000" />
+      <workItem from="1604138379183" duration="1614000" />
+      <workItem from="1604140571251" duration="959000" />
     </task>
     <task id="LOCAL-00001" summary="background alb">
       <created>1603887928409</created>
@@ -160,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604084619689</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="modificat abilitati si proiecte latime imagine">
+      <created>1604089143503</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604089143503</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,12 +184,14 @@
     <MESSAGE value="past galerie" />
     <MESSAGE value="probleme abilitati" />
     <MESSAGE value="img-abiliati sters proprietati" />
-    <option name="LAST_COMMIT_MESSAGE" value="img-abiliati sters proprietati" />
+    <MESSAGE value="modificat abilitati si proiecte latime imagine" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificat abilitati si proiecte latime imagine" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2" timestamp="1604084619133">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="363" y="27" width="948" height="741" key="CommitChangelistDialog2" timestamp="1604089143252">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state x="363" y="27" width="948" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1604089143252" />
     <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1604084619133" />
     <state x="100" y="127" width="1720" height="853" maximized="true" key="DiffContextDialog" timestamp="1604077356823">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -192,15 +202,16 @@
     </state>
     <state x="529" y="227" width="416" height="366" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603568413274" />
     <state x="743" y="311" width="416" height="540" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1604077259696" />
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1604084623767">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="395" y="209" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1604089146034">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state x="395" y="209" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1604089146034" />
     <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1604084623767" />
-    <state x="732" y="466" width="456" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604077356797">
+    <state x="732" y="466" width="456" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604138521315">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="521" y="336" width="456" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741@0.27.1366.741" timestamp="1603977381751" />
-    <state x="732" y="466" width="456" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1604077356797" />
+    <state x="732" y="466" width="456" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1604138521315" />
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1603894740808">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
