@@ -579,7 +579,7 @@ Sidebar
 
 /*pana iaci paragraf fade1*/
 /*abilitati*/
-#abilitati {
+#progress {
     background-color: var(--clr-grey-10);
     display: flex;
     justify-content: center;
@@ -603,17 +603,143 @@ Sidebar
     }
 }
 
-
-
-
-.opacity {
-    opacity: 0.6;
+/*progress bar*/
+span{
+    /*background-color: orangered;*/
+    height: 30px;
+    display: block;
+    animation: progressBar 2s linear forwards;
+    border-radius: 15px;
+    text-align: start;
+    padding-left: 20px;
+    margin: 10px;
 }
-#react
- {
-    animation: imagine 8s infinite;
+#html {
+    background-color: orangered;
+    animation: progressBar 2s linear forwards;
+}
+#css {
+    background-color: #2862E9;
+    animation: progressBarCss 2s linear forwards;
+}
+
+#js {
+    background-color: #F7E017;
+    animation: progressBarJs 2s linear forwards;
+}
+#react {
+    background-color: #61DBFB;
+    animation: progressBarReact 2s linear forwards;
+}
+#reactNative {
+    background-color: #61DBFB;
+    animation: progressBarReactNative 5s linear forwards;
+}
+#typeScript {
+    background-color: #0576C5;
+    animation: progressBarTypeScript 5s linear forwards;
+}
+
+@keyframes  progressBar {
+    0% {
+        width: 0;
+        box-shadow: 0 0 30px blue;
+    }
+    100% {
+        width: 80%;
+        box-shadow: 0 0 30px green;
+    }
+}
+@keyframes  progressBarCss {
+    0% {
+        width: 0;
+        box-shadow: 0 0 30px blue;
+    }
+    100% {
+        width: 70%;
+        box-shadow: 0 0 30px green;
+    }
+}
+@keyframes  progressBarJs {
+    0% {
+        width: 0;
+        box-shadow: 0 0 30px blue;
+    }
+    100% {
+        width: 50%;
+        box-shadow: 0 0 30px green;
+    }
+}
+@keyframes  progressBarReact {
+    0% {
+        width: 0;
+        box-shadow: 0 0 30px blue;
+    }
+    100% {
+        width: 30%;
+        box-shadow: 0 0 30px green;
+    }
+}
+@keyframes  progressBarReactNative {
+    0% {
+        width: 0;
+        box-shadow: 0 0 30px blue;
+    }
+    50% {
+        width: 100%;
+        box-shadow: 0 0 30px green;
+    }
+    100% {
+        width: 5%;
+        box-shadow: 0 0 30px blue;
+    }
+}
+@keyframes  progressBarTypeScript {
+    0% {
+        width: 0;
+        box-shadow: 0 0 30px blue;
+    }
+    50% {
+        width: 100%;
+        box-shadow: 0 0 30px green;
+    }
+    100% {
+        width: 0;
+        box-shadow: 0 0 30px blue;
+    }
+}
+
+
+
+.skills {
+    position: relative;
+    display: flex;
+    margin: 20px 0;
+    padding: 24px 10px 18px;
+    background: linear-gradient(#626262 0%, #333 10%, #222);
+    border-radius: 8px;
+    overflow: hidden;
+    border: black 2px solid;
     transition: var(--transition);
 }
+
+.skills .value {
+    position: relative;
+    width: 40px;
+    text-align: left;
+    color: var(--clr-white);
+    margin-top: -2px;
+}
+
+
+/*.opacity {*/
+/*    opacity: 0.6;*/
+/*}*/
+/*#react*/
+/* {*/
+/*    animation: imagine 8s infinite;*/
+/*    transition: var(--transition);*/
+/*}*/
 @keyframes imagine {
     0% {
         transform: perspective(400px) rotateY(0);
@@ -623,6 +749,12 @@ Sidebar
         transform: perspective(400px) rotateY(180deg);
     }
 }
+#ubuntu
+{
+    animation: imagine 8s infinite;
+    transition: var(--transition);
+}
+
 
 .main-color{
     color: var(--clr-primary-5);
@@ -1009,3 +1141,5 @@ main {
         width: 95vw;
     }
 }
+
+
