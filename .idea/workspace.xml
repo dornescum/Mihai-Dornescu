@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/Spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gear.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +101,9 @@
       <workItem from="1604404836035" duration="9000" />
       <workItem from="1604477773199" duration="1430000" />
       <workItem from="1604479230232" duration="1867000" />
-      <workItem from="1604481130470" duration="613000" />
+      <workItem from="1604481130470" duration="915000" />
+      <workItem from="1604488103206" duration="1787000" />
+      <workItem from="1604489911862" duration="1624000" />
     </task>
     <task id="LOCAL-00001" summary="background alb">
       <created>1603887928409</created>
@@ -204,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604398209350</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="refacut abilitati">
+      <created>1604481776305</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604481776305</updated>
+    </task>
+    <task id="LOCAL-00016" summary="loading">
+      <created>1604481950339</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604481950339</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,16 +235,17 @@
     <MESSAGE value="img-abiliati sters proprietati" />
     <MESSAGE value="modificat abilitati si proiecte latime imagine" />
     <MESSAGE value="culori sidebar" />
-    <MESSAGE value="refacut abilitati" />
     <MESSAGE value="mt-5 abilitati" />
-    <option name="LAST_COMMIT_MESSAGE" value="mt-5 abilitati" />
+    <MESSAGE value="refacut abilitati" />
+    <MESSAGE value="loading" />
+    <option name="LAST_COMMIT_MESSAGE" value="loading" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="510" y="27" width="948" height="741" key="CommitChangelistDialog2" timestamp="1604398209136">
+    <state x="510" y="27" width="948" height="741" key="CommitChangelistDialog2" timestamp="1604481950150">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="363" y="27" width="948" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1604089143252" />
-    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1604398209136" />
+    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1604481950150" />
     <state x="100" y="127" width="1720" height="853" maximized="true" key="DiffContextDialog" timestamp="1604077356823">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -241,11 +255,11 @@
     </state>
     <state x="529" y="227" width="416" height="366" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603568413274" />
     <state x="743" y="311" width="416" height="540" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1604309243785" />
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1604398210844">
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1604481960412">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="395" y="209" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1604089146034" />
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1604398210844" />
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1604481960412" />
     <state x="732" y="466" width="456" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604138521315">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

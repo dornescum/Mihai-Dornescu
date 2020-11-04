@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 /*
 =============== 
 Variables
@@ -109,18 +110,23 @@ p {
     h1 {
         font-size: 4rem;
     }
+
     h2 {
         font-size: 2.5rem;
     }
+
     h3 {
         font-size: 1.75rem;
     }
+
     h4 {
         font-size: 1rem;
     }
+
     body {
         font-size: 1rem;
     }
+
     h1, h2, h3, h4 {
         line-height: 1;
     }
@@ -396,20 +402,24 @@ Navbar
     .nav-center {
         position: relative;
     }
+
     .nav-logo {
         position: absolute;
         top: 50%;
         left: 65%;
         transform: translate(-50%, -50%);
     }
+
     .toggle-nav {
         display: none;
     }
+
     .nav-links {
         display: flex;
         font-size: 1.5rem;
         text-transform: capitalize;
     }
+
     .nav-link {
         color: var(--clr-white);
         margin-right: 3rem;
@@ -417,6 +427,7 @@ Navbar
         transition: var(--transition);
         font-size: 1.25rem;
     }
+
     .nav-link:hover {
         color: var(--clr-primary-5);
     }
@@ -538,9 +549,11 @@ Sidebar
         animation: top 3s;
         animation-fill-mode: forwards;
     }
+
     .text {
         font-size: 20px;
     }
+
     @keyframes top {
         from {
             top: 0px;
@@ -560,9 +573,11 @@ Sidebar
         animation: top 3s;
         animation-fill-mode: forwards;
     }
+
     .text {
         font-size: 16px;
     }
+
     @keyframes top {
         from {
             top: 0;
@@ -581,16 +596,20 @@ Sidebar
 /*abilitati*/
 #progress {
     /*background: rgb(74,71,122);*/
-    background: linear-gradient(90deg, rgba(192,182,207,0.3723506284563729) 0%, rgba(233,205,205,0.6476315273327774) 9%, rgba(226,226,244,0.7459461340743504) 19%, rgba(166,193,202,0.6448225385687325) 35%, rgba(165,212,212,0.9369573700294066) 48%, rgba(174,190,193,0.7010023138496313) 68%, rgba(224,231,232,0.816170853175474) 84%, rgba(198,210,212,0.765609055422665) 92%, rgba(209,230,234,0.8948225385687325) 97%, rgba(198,222,227,1) 100%);
+    /*background: linear-gradient(90deg, rgba(192, 182, 207, 0.3723506284563729) 0%, rgba(233, 205, 205, 0.6476315273327774) 9%, rgba(226, 226, 244, 0.7459461340743504) 19%, rgba(166, 193, 202, 0.6448225385687325) 35%, rgba(165, 212, 212, 0.9369573700294066) 48%, rgba(174, 190, 193, 0.7010023138496313) 68%, rgba(224, 231, 232, 0.816170853175474) 84%, rgba(198, 210, 212, 0.765609055422665) 92%, rgba(209, 230, 234, 0.8948225385687325) 97%, rgba(198, 222, 227, 1) 100%);*/
+    /*background: linear-gradient(90deg, rgba(102,101,104,0.3723506284563729) 0%, rgba(27,27,28,0.6476315273327774) 9%, rgba(27,27,42,0.7459461340743504) 19%, rgba(57,73,78,0.6448225385687325) 35%, rgba(24,37,37,0.8302456724877451) 48%, rgba(20,21,21,0.7010023138496313) 68%, rgba(34,45,46,0.816170853175474) 84%, rgba(27,30,31,0.765609055422665) 92%, rgba(43,45,48,0.8948225385687325) 97%, rgba(76,76,78,1) 100%);*/
+    background: linear-gradient(to right, var(--clr-grey-9), var(--clr-grey-10));
     box-shadow: var(--light-shadow);
+    transition: var(--transition);
     border-radius: var(--radius);
 }
+
 #progress:hover {
     box-shadow: var(--dark-shadow);
 }
 
 /*progress bar*/
-span{
+span {
     /*background-color: orangered;*/
     height: 30px;
     display: block;
@@ -600,10 +619,12 @@ span{
     padding-left: 20px;
     margin: 10px;
 }
+
 #html {
     background-color: orangered;
     animation: progressBar 2s linear forwards;
 }
+
 #css {
     background-color: #2862E9;
     animation: progressBarCss 2s linear forwards;
@@ -613,20 +634,23 @@ span{
     background-color: #F7E017;
     animation: progressBarJs 2s linear forwards;
 }
+
 #react {
     background-color: #61DBFB;
     animation: progressBarReact 2s linear forwards;
 }
+
 #reactNative {
     background-color: #61DBFB;
     animation: progressBarReactNative 5s linear forwards;
 }
+
 #typeScript {
     background-color: #0576C5;
     animation: progressBarTypeScript 5s linear forwards;
 }
 
-@keyframes  progressBar {
+@keyframes progressBar {
     0% {
         width: 0;
         box-shadow: 0 0 30px blue;
@@ -636,7 +660,8 @@ span{
         box-shadow: 0 0 30px green;
     }
 }
-@keyframes  progressBarCss {
+
+@keyframes progressBarCss {
     0% {
         width: 0;
         box-shadow: 0 0 30px blue;
@@ -646,7 +671,8 @@ span{
         box-shadow: 0 0 30px green;
     }
 }
-@keyframes  progressBarJs {
+
+@keyframes progressBarJs {
     0% {
         width: 0;
         box-shadow: 0 0 30px blue;
@@ -656,7 +682,8 @@ span{
         box-shadow: 0 0 30px green;
     }
 }
-@keyframes  progressBarReact {
+
+@keyframes progressBarReact {
     0% {
         width: 0;
         box-shadow: 0 0 30px blue;
@@ -666,7 +693,8 @@ span{
         box-shadow: 0 0 30px green;
     }
 }
-@keyframes  progressBarReactNative {
+
+@keyframes progressBarReactNative {
     0% {
         width: 0;
         box-shadow: 0 0 30px blue;
@@ -680,7 +708,8 @@ span{
         box-shadow: 0 0 30px blue;
     }
 }
-@keyframes  progressBarTypeScript {
+
+@keyframes progressBarTypeScript {
     0% {
         width: 0;
         box-shadow: 0 0 30px blue;
@@ -694,7 +723,6 @@ span{
         box-shadow: 0 0 30px blue;
     }
 }
-
 
 
 .skills {
@@ -735,14 +763,14 @@ span{
         transform: perspective(400px) rotateY(180deg);
     }
 }
-#ubuntu
-{
+
+#ubuntu {
     animation: imagine 8s infinite;
     transition: var(--transition);
 }
 
 
-.main-color{
+.main-color {
     color: var(--clr-primary-5);
     font-size: 28px;
 
@@ -825,16 +853,17 @@ span{
     margin: 0
 }
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
     .site-footer [class^=col-] {
         margin-bottom: 30px
     }
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .site-footer {
         padding-bottom: 0
     }
+
     .site-footer .copyright-text, .site-footer .social-icons {
         text-align: center
     }
@@ -894,8 +923,42 @@ span{
 .social-icons a.linkedin:hover {
     background-color: #007bb6
 }
+a.ubuntu {
+    /*font-size: 16px;*/
+    display: inline-block;
+    /*line-height: 44px;*/
+    /*width: 44px;*/
+    /*height: 44px;*/
+    /*text-align: center;*/
+    /*justify-content: center;*/
+    /*align-content: center;*/
+    /*margin-right: 8px;*/
+    /*border-radius: 100%;*/
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    animation: ubuntu-rotation 10s infinite ease-out;
 
-@media (max-width:767px) {
+}
+
+@keyframes ubuntu-rotation {
+    0% {
+        transform: perspective(400px) rotateY(0);
+        color: orangered;
+
+    }
+    50% {
+
+        color: darkorange;
+
+    }
+    100% {
+        transform: perspective(400px) rotateY(360deg);
+      color: orangered;
+    }
+}
+
+@media (max-width: 767px) {
     .social-icons li.title {
         display: block;
         margin-right: 0;
@@ -910,19 +973,20 @@ span{
 }
 
 /* poza mea nu merge */
- #poza {
+#poza {
     position: relative;
     animation: poza 10s;
     animation-fill-mode: forwards;
     transition: poza linear;
-     filter: grayscale(100%);
-     box-shadow: var(--light-shadow);
+    filter: grayscale(100%);
+    box-shadow: var(--light-shadow);
 }
- #poza:hover {
-     filter: grayscale(0);
-     transition: var(--transition);
-     box-shadow: var(--dark-shadow);
- }
+
+#poza:hover {
+    filter: grayscale(0);
+    transition: var(--transition);
+    box-shadow: var(--dark-shadow);
+}
 
 @keyframes poza {
     from {
@@ -934,6 +998,7 @@ span{
         transform: translateY(0px);
     }
 }
+
 /*section*/
 .section {
     padding: 5rem 0;
@@ -944,20 +1009,24 @@ span{
     margin: 0 auto;
     max-width: 1170px;
 }
+
 @media screen and (min-width: 992px) {
     .section-center {
         width: 95vw;
     }
 }
+
 main {
     min-height: 100vh;
     display: grid;
     place-items: center;
 }
+
 .title {
     text-align: center;
     margin-bottom: 4rem;
 }
+
 .underline {
     height: 0.25rem;
     width: 5rem;
@@ -966,10 +1035,12 @@ main {
     margin-left: auto;
     margin-right: auto;
 }
+
 #container-repo {
     width: 80vw;
     /*max-width: var(--fixed-width);*/
 }
+
 .projects {
     background: var(--clr-white);
     padding: 1.5rem 2rem;
@@ -978,9 +1049,11 @@ main {
     transition: var(--transition);
     text-align: center;
 }
+
 .projects:hover {
     box-shadow: var(--dark-shadow);
 }
+
 .img-container {
     position: relative;
     width: 170px;
@@ -989,6 +1062,7 @@ main {
     margin: 0 auto;
     margin-bottom: 1.5rem;
 }
+
 #person-img {
     width: 100%;
     display: block;
@@ -997,6 +1071,7 @@ main {
     border-radius: 10%;
     position: relative;
 }
+
 .img-container::after {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
@@ -1013,6 +1088,7 @@ main {
     background: var(--clr-primary-5);
     color: var(--clr-white);
 }
+
 .img-container::before {
     content: "";
     width: 100%;
@@ -1023,18 +1099,22 @@ main {
     right: -0.35rem;
     border-radius: 10%;
 }
+
 #author {
     margin-bottom: 0.25rem;
 }
+
 #source {
     margin-bottom: 0.5rem;
     text-transform: uppercase;
     color: var(--clr-primary-5);
     font-size: 0.85rem;
 }
+
 #info {
     margin-bottom: 0.75rem;
 }
+
 .prev-btn,
 .next-btn {
     color: var(--clr-primary-7);
@@ -1045,6 +1125,7 @@ main {
     transition: var(--transition);
     cursor: pointer;
 }
+
 .prev-btn:hover,
 .next-btn:hover {
     color: var(--clr-primary-5);
@@ -1059,29 +1140,35 @@ main {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('../img/sg.JPG') center/cover;
 
 }
+
 #unemployed {
     filter: blur(7px);
     transition: var(--transition);
 }
+
 #unemployed:hover {
     filter: blur(0px);
     transition: var(--transition);
 }
+
 #jobless {
     transform: scale(1);
     transition: var(--transition);
 
 }
+
 #jobless:hover {
     transform: scale(1.1);
     transition: var(--transition);
 }
+
 #study {
     transform: rotateY(0);
     /*transition: perspective(400px) ;*/
 
 
 }
+
 #study:hover {
     transform: rotateY(180deg);
     transition: var(--transition);
@@ -1098,15 +1185,18 @@ main {
     box-shadow: var(--light-shadow);
     height: 15rem;
 }
+
 .img-past:hover {
     box-shadow: var(--dark-shadow);
 }
+
 .main-img {
     width: 100%;
     height: 20rem;
     object-fit: cover;
     border-radius: var(--radius);
 }
+
 .section-grid {
     padding: 5rem 0;
     width: 90vw;
@@ -1115,18 +1205,21 @@ main {
     display: grid;
     gap: 2rem;
 }
+
 @media screen and (min-width: 768px) {
     .section-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
+
 @media screen and (min-width: 992px) {
     .section-grid {
         grid-template-columns: 1fr 1fr 1fr;
         width: 95vw;
     }
 }
+
 /*loading*/
 /*==========================================*/
 .loading {
