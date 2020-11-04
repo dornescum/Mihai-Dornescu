@@ -580,27 +580,13 @@ Sidebar
 /*pana iaci paragraf fade1*/
 /*abilitati*/
 #progress {
-    background-color: var(--clr-grey-10);
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    height: 100%;
-
-
+    /*background: rgb(74,71,122);*/
+    background: linear-gradient(90deg, rgba(192,182,207,0.3723506284563729) 0%, rgba(233,205,205,0.6476315273327774) 9%, rgba(226,226,244,0.7459461340743504) 19%, rgba(166,193,202,0.6448225385687325) 35%, rgba(165,212,212,0.9369573700294066) 48%, rgba(174,190,193,0.7010023138496313) 68%, rgba(224,231,232,0.816170853175474) 84%, rgba(198,210,212,0.765609055422665) 92%, rgba(209,230,234,0.8948225385687325) 97%, rgba(198,222,227,1) 100%);
+    box-shadow: var(--light-shadow);
+    border-radius: var(--radius);
 }
-.img-abilitati {
-    object-fit: cover;
-    cursor: pointer;
-    height: 15rem;
-
-}
-
-@media (min-width:1366px) {
-    .img-abilitati {
-        /*width: 180px;*/
-        /*height: 180px;*/
-    }
+#progress:hover {
+    box-shadow: var(--dark-shadow);
 }
 
 /*progress bar*/
@@ -1141,5 +1127,23 @@ main {
         width: 95vw;
     }
 }
+/*loading*/
+/*==========================================*/
+.loading {
+    min-height: 10vh;
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    object-fit: fill;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--clr-grey-10);
+    padding-top: 5rem;
+    z-index: 999;
+}
 
-
+.hide-loading {
+    display: none;
+}

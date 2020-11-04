@@ -9,13 +9,18 @@ const getElement = (selection) => {
 const toggleNav = getElement('.toggle-nav');
 const sidebarOverlay = getElement('.sidebar-overlay');
 const closeBtn = getElement('.sidebar-close');
-
 toggleNav.addEventListener('click', () => {
     sidebarOverlay.classList.add('show')
 })
 closeBtn.addEventListener('click', () => {
     sidebarOverlay.classList.remove('show')
 })
+
+// loading
+const loading = getElement('.loading');
+const hideLoading = () => {
+    loading.classList.add('hide-loading')
+};
 // container proiecte
 const projects = [
     {
@@ -63,7 +68,6 @@ const projects = [
 
     },
 ]
-
 const img = document.getElementById('person-img');
 const author = document.getElementById('author');
 const source = document.getElementById('source');
@@ -74,6 +78,7 @@ const nextBtn = document.querySelector('.next-btn');
 let workedProjects = 0;
 // incarca
 window.addEventListener("DOMContentLoaded", function () {
+    setTimeout(hideLoading, 1500);
     showProjects()
 })
 function showProjects() {
@@ -98,3 +103,4 @@ prevBtn.addEventListener('click', function () {
     }
     showProjects(workedProjects);
 })
+
