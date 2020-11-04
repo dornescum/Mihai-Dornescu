@@ -653,11 +653,11 @@ span {
 @keyframes progressBar {
     0% {
         width: 0;
-        box-shadow: 0 0 30px blue;
+        /*box-shadow: 0 0 30px blue;*/
     }
     100% {
         width: 80%;
-        box-shadow: 0 0 30px green;
+        /*box-shadow: 0 0 30px green;*/
     }
 }
 
@@ -754,6 +754,10 @@ span {
 /*    animation: imagine 8s infinite;*/
 /*    transition: var(--transition);*/
 /*}*/
+
+
+
+/*pt ubuntu*/
 @keyframes imagine {
     0% {
         transform: perspective(400px) rotateY(0);
@@ -1137,12 +1141,12 @@ main {
 #past {
     min-height: 50vh;
     /*margin-top: -6rem;*/
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('../img/sg.JPG') center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('../img/sg-min-min.JPG') center/cover;
 
 }
 
 #unemployed {
-    filter: blur(7px);
+    filter: blur(1px);
     transition: var(--transition);
 }
 
@@ -1220,6 +1224,20 @@ main {
     }
 }
 
+/*slider bootstrap */
+.img-slider {
+    width: 100%;
+    object-fit: contain;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: var(--light-shadow);
+    height: 15rem;
+}
+#slider {
+    background: linear-gradient(to right, var(--clr-grey-8), var(--clr-grey-8));
+    /*background: black;*/
+}
 /*loading*/
 /*==========================================*/
 .loading {
