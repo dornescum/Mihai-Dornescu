@@ -103,4 +103,3 @@ prevBtn.addEventListener('click', function () {
     }
     showProjects(workedProjects);
 })
-
