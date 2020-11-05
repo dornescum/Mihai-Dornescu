@@ -756,7 +756,6 @@ span {
 /*}*/
 
 
-
 /*pt ubuntu*/
 @keyframes imagine {
     0% {
@@ -770,6 +769,10 @@ span {
 
 #ubuntu {
     animation: imagine 8s infinite;
+    -webkit-animation: imagine 8s infinite;
+    -moz-animation: imagine 8s infinite;
+    -ms-animation: imagine 8s infinite;
+    -o-animation: imagine 8s infinite;
     transition: var(--transition);
 }
 
@@ -927,6 +930,7 @@ span {
 .social-icons a.linkedin:hover {
     background-color: #007bb6
 }
+
 a.ubuntu {
     /*font-size: 16px;*/
     display: inline-block;
@@ -958,7 +962,7 @@ a.ubuntu {
     }
     100% {
         transform: perspective(400px) rotateY(360deg);
-      color: orangered;
+        color: orangered;
     }
 }
 
@@ -980,6 +984,7 @@ a.ubuntu {
 #poza {
     position: relative;
     animation: poza 10s;
+    -webkit-animation-poza: 10s;
     animation-fill-mode: forwards;
     transition: poza linear;
     filter: grayscale(100%);
@@ -1234,10 +1239,12 @@ main {
     box-shadow: var(--light-shadow);
     height: 15rem;
 }
+
 #slider {
     background: linear-gradient(to right, var(--clr-grey-8), var(--clr-grey-8));
     /*background: black;*/
 }
+
 /*loading*/
 /*==========================================*/
 .loading {
