@@ -766,6 +766,24 @@ span {
         transform: perspective(400px) rotateY(180deg);
     }
 }
+@-webkit-keyframes imagine {
+    0% {
+        transform: perspective(400px) rotateY(0);
+    }
+
+    100% {
+        transform: perspective(400px) rotateY(180deg);
+    }
+}
+@-moz-keyframes imagine {
+    0% {
+        transform: perspective(400px) rotateY(0);
+    }
+
+    100% {
+        transform: perspective(400px) rotateY(180deg);
+    }
+}
 
 #ubuntu {
     animation: imagine 8s infinite;
