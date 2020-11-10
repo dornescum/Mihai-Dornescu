@@ -38,6 +38,7 @@ Variables
     --clr-green-dark: hsl(125, 67%, 44%);
     --clr-green-light: hsl(125, 71%, 66%);
     --clr-black: #222;
+    --clr-light-blue: lightblue;
     --line-height: 1.6;
     --transition: all 0.3s linear;
     --spacing: 0.1rem;
@@ -70,11 +71,15 @@ body {
 
 ul {
     list-style-type: none;
+   margin-bottom: 0;
 }
 
 a {
     text-decoration: none;
     display: flex;
+}
+a:hover{
+    text-decoration: none;
 }
 
 h1, h2, h3, h4 {
@@ -173,9 +178,9 @@ Hero
     color: var(--clr-white);
     background: transparent;
     border: 1px solid var(--clr-white);
-    padding: 0.5rem 0.75rem;
+    padding: 0.1rem 0.75rem;
     display: inline-block;
-    margin-top: 0.75rem;
+    /*margin-top: 0.75rem;*/
     text-transform: uppercase;
     letter-spacing: var(--spacing);
     border-radius: var(--radius);
@@ -418,6 +423,7 @@ Navbar
         display: flex;
         font-size: 1.5rem;
         text-transform: capitalize;
+
     }
 
     .nav-link {
@@ -425,11 +431,15 @@ Navbar
         margin-right: 3rem;
         letter-spacing: var(--spacing);
         transition: var(--transition);
-        font-size: 1.25rem;
+        font-size: 1rem;
+        border: 1px solid var(--clr-white);
+        border-radius: var(--radius);
+        padding: 0.1rem 1rem;
     }
 
     .nav-link:hover {
         color: var(--clr-primary-5);
+        background-color: var(--clr-white);
     }
 }
 
@@ -509,6 +519,12 @@ Sidebar
     font-size: 1.5rem;
     text-transform: capitalize;
     text-decoration: none;
+    padding: 1rem;
+}
+.sidebar-link:hover{
+    background-color: var(--clr-light-blue);
+    transition: all 3s linear;
+    border-radius: var(--radius);
 }
 
 .sidebar-link i {
@@ -719,7 +735,7 @@ span {
         box-shadow: 0 0 30px green;
     }
     100% {
-        width: 0;
+        width: 5%;
         box-shadow: 0 0 30px blue;
     }
 }
@@ -931,7 +947,8 @@ span {
 
 .social-icons a:active, .social-icons a:focus, .social-icons a:hover {
     color: #fff;
-    background-color: #29aafe
+    background-color: #29aafe;
+
 }
 
 .social-icons.size-sm a {
@@ -995,7 +1012,13 @@ a.ubuntu {
 /* culoare container despre mine  */
 
 #container {
-    background-color: var(--clr-white);
+    background-color: var(--clr-grey-10);
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+}
+#container:hover{
+    box-shadow: var(--dark-shadow);
+    transition: var(--transition);
 }
 
 /* poza mea nu merge */
@@ -1006,13 +1029,13 @@ a.ubuntu {
     animation-fill-mode: forwards;
     transition: poza linear;
     filter: grayscale(100%);
-    box-shadow: var(--light-shadow);
+
 }
 
 #poza:hover {
     filter: grayscale(0);
     transition: var(--transition);
-    box-shadow: var(--dark-shadow);
+
 }
 
 @keyframes poza {
@@ -1022,7 +1045,7 @@ a.ubuntu {
     }
     to {
         opacity: 1;
-        transform: translateY(0px);
+        transform: translateY(0px) scale(0.9);
     }
 }
 
