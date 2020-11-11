@@ -23,7 +23,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/past.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +133,11 @@
       <workItem from="1604767181677" duration="388000" />
       <workItem from="1605035044384" duration="1731000" />
       <workItem from="1605036806712" duration="1781000" />
-      <workItem from="1605038675278" duration="943000" />
+      <workItem from="1605038675278" duration="1553000" />
+      <workItem from="1605091753854" duration="36000" />
+      <workItem from="1605111663822" duration="453000" />
+      <workItem from="1605112137593" duration="1803000" />
+      <workItem from="1605113973332" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="background alb">
       <created>1603887928409</created>
@@ -283,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604563850316</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="navbar /sidebar / #container /#progress">
+      <created>1605039837202</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1605039837202</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,14 +331,15 @@
     <MESSAGE value="bootstrap slider" />
     <MESSAGE value="ubuntu animation apple" />
     <MESSAGE value="@-webkit-keyframes ubuntu animation apple" />
-    <option name="LAST_COMMIT_MESSAGE" value="@-webkit-keyframes ubuntu animation apple" />
+    <MESSAGE value="navbar /sidebar / #container /#progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="navbar /sidebar / #container /#progress" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="510" y="27" width="948" height="741" key="CommitChangelistDialog2" timestamp="1604563850174">
+    <state x="510" y="27" width="948" height="741" key="CommitChangelistDialog2" timestamp="1605039836847">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="363" y="27" width="948" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1604491551529" />
-    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1604563850174" />
+    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1605039836847" />
     <state x="100" y="127" width="1720" height="853" maximized="true" key="DiffContextDialog" timestamp="1605036653900">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -338,23 +349,23 @@
     </state>
     <state x="529" y="227" width="416" height="366" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603568413274" />
     <state x="743" y="311" width="416" height="540" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1605036350470" />
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1604563852349">
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1605039840116">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="395" y="209" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1604491554183" />
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1604563852349" />
-    <state x="809" y="513" width="456" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605035052843">
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1605039840116" />
+    <state x="809" y="513" width="456" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605111688089">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="521" y="336" width="456" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741@0.27.1366.741" timestamp="1603977381751" />
-    <state x="809" y="513" width="456" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1605035052843" />
+    <state x="809" y="513" width="456" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1605111688089" />
     <state x="639" y="76" width="641" height="954" key="find.popup" timestamp="1604248025658">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="639" y="76" width="641" height="954" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1604248025658" />
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1603894740808">
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1605113771756">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1603894740808" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1605113771756" />
   </component>
 </project>
