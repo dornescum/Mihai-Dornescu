@@ -1385,8 +1385,9 @@ main {
 }
 
 #unemployed {
-    filter: blur(1px);
+    filter: blur(2px);
     transition: var(--transition);
+    padding: 2px;
 }
 
 #unemployed:hover {
@@ -1397,19 +1398,17 @@ main {
 #jobless {
     transform: scale(1);
     transition: var(--transition);
-
+    padding: 2px;
 }
 
 #jobless:hover {
     transform: scale(1.1);
     transition: var(--transition);
+    padding: 2px;
 }
 
 #study {
     transform: rotateY(0);
-    /*transition: perspective(400px) ;*/
-
-
 }
 
 #study:hover {
@@ -1477,8 +1476,7 @@ main {
 #slider {
     /*background: linear-gradient(to right, var(--clr-grey-8), var(--clr-grey-8));*/
     background: rgb(204,204,204);
-    background: linear-gradient(0deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
-
+    background: linear-gradient(0deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%)
 }
 
 /*loading*/
