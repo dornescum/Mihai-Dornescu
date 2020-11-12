@@ -589,7 +589,7 @@ Sidebar
             /*transform: translateY(100px);*/
         }
         to {
-            top: 250px;
+            top: 120px;
             opacity: 1;
             /*transform: translateY(-100px);*/
         }
@@ -607,6 +607,42 @@ Sidebar
         }
     }
 }
+@media screen and (max-width: 768px){
+    .fade1 {
+        animation: top 3s;
+        animation-fill-mode: forwards;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    @keyframes top {
+        from {
+            top: 0;
+            opacity: 0;
+            /*transform: translateY(100px);*/
+        }
+        to {
+            top: 220px;
+            opacity: 1;
+            /*transform: translateY(-100px);*/
+        }
+    }
+    @-webkit-keyframes top{
+        from {
+            top: 0;
+            opacity: 0;
+            /*transform: translateY(100px);*/
+        }
+        to {
+            top: 220px;
+            opacity: 1;
+            /*transform: translateY(-100px);*/
+        }
+    }
+}
+
 
 @media (max-width: 599px) {
     .fade1 {
@@ -1184,25 +1220,24 @@ a.ubuntu {
     color: var(--clr-white);
     background: var(--clr-primary-5);
     display: block;
-    width: 100%;
+    width: 60%;
     border-color: transparent;
     margin: 2rem auto 0 auto;
     text-transform: capitalize;
     font-size: 1.2rem;
-    padding: 0.5rem 0;
+
     letter-spacing: var(--spacing);
     border-radius: var(--radius);
-    /*outline: 1px solid rgba(242, 138, 178, 0.8);*/
+
+    transition: var(--transition);
     cursor: pointer;
     box-shadow: var(--light-shadow);
 }
 .btn-main:hover{
     background-color: var(--clr-primary-10);
     color: var(--clr-primary-5);
-    transition: var(--transition);
     box-shadow: var(--dark-shadow);
-    font-size: 1.4rem;
-
+    font-size: 1.3rem;
 }
 
 /*section*/
