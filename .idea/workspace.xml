@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +138,7 @@
       <workItem from="1605205761001" duration="1772000" />
       <workItem from="1605207564081" duration="1755000" />
       <workItem from="1605209370181" duration="1784000" />
-      <workItem from="1605211191702" duration="615000" />
+      <workItem from="1605211191702" duration="923000" />
     </task>
     <task id="LOCAL-00001" summary="background alb">
       <created>1603887928409</created>
@@ -339,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605210991997</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="poze despre mine 2 px padding/ loader 1s">
+      <created>1605211962181</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1605211962181</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +363,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="background alb" />
     <MESSAGE value="container" />
     <MESSAGE value="container proiecte" />
     <MESSAGE value="past conatiner" />
@@ -384,14 +387,15 @@
     <MESSAGE value="btn centrat despre mine" />
     <MESSAGE value="index width 80vh" />
     <MESSAGE value="culoare background slider gradient" />
-    <option name="LAST_COMMIT_MESSAGE" value="culoare background slider gradient" />
+    <MESSAGE value="poze despre mine 2 px padding/ loader 1s" />
+    <option name="LAST_COMMIT_MESSAGE" value="poze despre mine 2 px padding/ loader 1s" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="510" y="27" width="948" height="741" key="CommitChangelistDialog2" timestamp="1605210991653">
+    <state x="510" y="27" width="948" height="741" key="CommitChangelistDialog2" timestamp="1605211961888">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="363" y="27" width="948" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1604491551529" />
-    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1605210991653" />
+    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1605211961888" />
     <state x="100" y="127" width="1720" height="853" maximized="true" key="DiffContextDialog" timestamp="1605036653900">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -401,11 +405,11 @@
     </state>
     <state x="529" y="227" width="416" height="366" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603568413274" />
     <state x="743" y="311" width="416" height="540" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1605036350470" />
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1605211020734">
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1605211965682">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="395" y="209" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1604491554183" />
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1605211020734" />
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1605211965682" />
     <state x="809" y="513" width="456" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605205772098">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
