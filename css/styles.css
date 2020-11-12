@@ -559,6 +559,18 @@ Sidebar
         /*transform: translateY(-100px);*/
     }
 }
+@-webkit-keyframes top{
+    from {
+        top: 0;
+        opacity: 0;
+        /*transform: translateY(100px);*/
+    }
+    to {
+        top: 300px;
+        opacity: 1;
+        /*transform: translateY(-100px);*/
+    }
+}
 
 @media (max-width: 992px) {
     .fade1 {
@@ -572,12 +584,24 @@ Sidebar
 
     @keyframes top {
         from {
-            top: 0px;
+            top: 0;
             opacity: 0;
             /*transform: translateY(100px);*/
         }
         to {
-            top: 120px;
+            top: 250px;
+            opacity: 1;
+            /*transform: translateY(-100px);*/
+        }
+    }
+    @-webkit-keyframes top{
+        from {
+            top: 0;
+            opacity: 0;
+            /*transform: translateY(100px);*/
+        }
+        to {
+            top: 250px;
             opacity: 1;
             /*transform: translateY(-100px);*/
         }
@@ -595,6 +619,18 @@ Sidebar
     }
 
     @keyframes top {
+        from {
+            top: 0;
+            opacity: 0;
+            /*transform: translateY(100px);*/
+        }
+        to {
+            top: 100px;
+            opacity: 1;
+            /*transform: translateY(-100px);*/
+        }
+    }
+    @-webkit-keyframes top{
         from {
             top: 0;
             opacity: 0;
@@ -676,8 +712,28 @@ span {
         /*box-shadow: 0 0 30px green;*/
     }
 }
+@-webkit-keyframes progressBar{
+    0% {
+        width: 0;
+        /*box-shadow: 0 0 30px blue;*/
+    }
+    100% {
+        width: 80%;
+        /*box-shadow: 0 0 30px green;*/
+    }
+}
 
 @keyframes progressBarCss {
+    0% {
+        width: 0;
+        box-shadow: 0 0 30px blue;
+    }
+    100% {
+        width: 70%;
+        box-shadow: 0 0 30px green;
+    }
+}
+@-webkit-keyframes progressBarCss{
     0% {
         width: 0;
         box-shadow: 0 0 30px blue;
@@ -698,8 +754,28 @@ span {
         box-shadow: 0 0 30px green;
     }
 }
+@-webkit-keyframes progressBarJs{
+    0% {
+        width: 0;
+        box-shadow: 0 0 30px blue;
+    }
+    100% {
+        width: 50%;
+        box-shadow: 0 0 30px green;
+    }
+}
 
 @keyframes progressBarReact {
+    0% {
+        width: 0;
+        box-shadow: 0 0 30px blue;
+    }
+    100% {
+        width: 30%;
+        box-shadow: 0 0 30px green;
+    }
+}
+@-webkit-keyframes progressBarReact{
     0% {
         width: 0;
         box-shadow: 0 0 30px blue;
@@ -724,8 +800,36 @@ span {
         box-shadow: 0 0 30px blue;
     }
 }
+@-webkit-keyframes progressBarReactNative{
+    0% {
+        width: 0;
+        box-shadow: 0 0 30px blue;
+    }
+    50% {
+        width: 100%;
+        box-shadow: 0 0 30px green;
+    }
+    100% {
+        width: 5%;
+        box-shadow: 0 0 30px blue;
+    }
+}
 
 @keyframes progressBarTypeScript {
+    0% {
+        width: 0;
+        box-shadow: 0 0 30px blue;
+    }
+    50% {
+        width: 100%;
+        box-shadow: 0 0 30px green;
+    }
+    100% {
+        width: 5%;
+        box-shadow: 0 0 30px blue;
+    }
+}
+@-webkit-keyframes progressBarTypeScript{
     0% {
         width: 0;
         box-shadow: 0 0 30px blue;
@@ -773,33 +877,33 @@ span {
 
 
 /*pt ubuntu*/
-@keyframes imagine {
-    0% {
-        transform: perspective(400px) rotateY(0);
-    }
+/*@keyframes imagine {*/
+/*    0% {*/
+/*        transform: perspective(400px) rotateY(0);*/
+/*    }*/
 
-    100% {
-        transform: perspective(400px) rotateY(180deg);
-    }
-}
-@-webkit-keyframes imagine {
-    0% {
-        transform: perspective(400px) rotateY(0);
-    }
+/*    100% {*/
+/*        transform: perspective(400px) rotateY(180deg);*/
+/*    }*/
+/*}*/
+/*@-webkit-keyframes imagine {*/
+/*    0% {*/
+/*        transform: perspective(400px) rotateY(0);*/
+/*    }*/
 
-    100% {
-        transform: perspective(400px) rotateY(180deg);
-    }
-}
-@-moz-keyframes imagine {
-    0% {
-        transform: perspective(400px) rotateY(0);
-    }
+/*    100% {*/
+/*        transform: perspective(400px) rotateY(180deg);*/
+/*    }*/
+/*}*/
+/*@-moz-keyframes imagine {*/
+/*    0% {*/
+/*        transform: perspective(400px) rotateY(0);*/
+/*    }*/
 
-    100% {
-        transform: perspective(400px) rotateY(180deg);
-    }
-}
+/*    100% {*/
+/*        transform: perspective(400px) rotateY(180deg);*/
+/*    }*/
+/*}*/
 
 #ubuntu {
     animation: imagine 8s infinite;
@@ -993,6 +1097,19 @@ a.ubuntu {
         color: orangered;
     }
 }
+@-webkit-keyframes ubuntu-rotation{
+    0% {
+        transform: perspective(400px) rotateY(0);
+        color: orangered;
+    }
+    50% {
+        color: darkorange;
+    }
+    100% {
+        transform: perspective(400px) rotateY(360deg);
+        color: orangered;
+    }
+}
 
 @media (max-width: 767px) {
     .social-icons li.title {
@@ -1043,6 +1160,16 @@ a.ubuntu {
 }
 
 @keyframes poza {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px) scale(0.9);
+    }
+}
+@-webkit-keyframes poza{
     from {
         opacity: 0;
         transform: translateY(100px);
@@ -1318,7 +1445,8 @@ main {
 /*loading*/
 /*==========================================*/
 .loading {
-    min-height: 10vh;
+    min-height: 20vh;
+    min-width: 20vw;
     display: grid;
     justify-content: center;
     position: absolute;
