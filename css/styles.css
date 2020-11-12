@@ -1475,9 +1475,10 @@ main {
 }
 
 #slider {
-    background: linear-gradient(to right, var(--clr-grey-8), var(--clr-grey-8));
+    /*background: linear-gradient(to right, var(--clr-grey-8), var(--clr-grey-8));*/
+    background: rgb(204,204,204);
+    background: linear-gradient(0deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
 
-    /*background: black;*/
 }
 
 /*loading*/
