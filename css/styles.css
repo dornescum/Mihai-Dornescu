@@ -690,6 +690,7 @@ Sidebar
     box-shadow: var(--light-shadow);
     transition: var(--transition);
     border-radius: var(--radius);
+    width: 80vw;
 }
 
 #progress:hover {
@@ -1172,6 +1173,7 @@ a.ubuntu {
     background-color: var(--clr-grey-10);
     border-radius: var(--radius);
     box-shadow: var(--light-shadow);
+    width: 80vw;
 }
 #container:hover{
     box-shadow: var(--dark-shadow);
@@ -1474,6 +1476,7 @@ main {
 
 #slider {
     background: linear-gradient(to right, var(--clr-grey-8), var(--clr-grey-8));
+
     /*background: black;*/
 }
 
