@@ -1083,7 +1083,7 @@ a.ubuntu {
 
 @keyframes ubuntu-rotation {
     0% {
-        transform: perspective(400px) rotateY(0);
+        transform: rotateY(0);
         color: orangered;
 
     }
@@ -1093,20 +1093,20 @@ a.ubuntu {
 
     }
     100% {
-        transform: perspective(400px) rotateY(360deg);
+        transform: rotateY(360deg);
         color: orangered;
     }
 }
 @-webkit-keyframes ubuntu-rotation{
     0% {
-        transform: perspective(400px) rotateY(0);
+        transform:  rotateY(0);
         color: orangered;
     }
     50% {
         color: darkorange;
     }
     100% {
-        transform: perspective(400px) rotateY(360deg);
+        transform:  rotateY(360deg);
         color: orangered;
     }
 }

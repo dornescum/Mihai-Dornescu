@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +137,7 @@
       <workItem from="1605112137593" duration="1803000" />
       <workItem from="1605113973332" duration="2004000" />
       <workItem from="1605120678828" duration="7000" />
-      <workItem from="1605205761001" duration="1054000" />
+      <workItem from="1605205761001" duration="1413000" />
     </task>
     <task id="LOCAL-00001" summary="background alb">
       <created>1603887928409</created>
@@ -301,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605114879331</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="-webkit-animation">
+      <created>1605206843007</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1605206843007</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,14 +347,15 @@
     <MESSAGE value="@-webkit-keyframes ubuntu animation apple" />
     <MESSAGE value="navbar /sidebar / #container /#progress" />
     <MESSAGE value="footer /btn-main" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer /btn-main" />
+    <MESSAGE value="-webkit-animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="-webkit-animation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="510" y="27" width="948" height="741" key="CommitChangelistDialog2" timestamp="1605114878954">
+    <state x="510" y="27" width="948" height="741" key="CommitChangelistDialog2" timestamp="1605206842811">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="363" y="27" width="948" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1604491551529" />
-    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1605114878954" />
+    <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1605206842811" />
     <state x="100" y="127" width="1720" height="853" maximized="true" key="DiffContextDialog" timestamp="1605036653900">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -358,11 +365,11 @@
     </state>
     <state x="529" y="227" width="416" height="366" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603568413274" />
     <state x="743" y="311" width="416" height="540" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1605036350470" />
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1605114884812">
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1605206845292">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="395" y="209" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1604491554183" />
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1605114884812" />
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1605206845292" />
     <state x="809" y="513" width="456" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605205772098">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
