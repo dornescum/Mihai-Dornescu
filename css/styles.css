@@ -1111,10 +1111,15 @@ a.ubuntu {
     justify-content: center;
     align-content: center;
     display: inline-block;
-    -webkit-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    transition: all .2s linear;
-    animation: ubuntu-rotation 5s infinite ease-out;
+    color: darkorange;
+    /*-webkit-transition: all .2s linear;*/
+    /*-o-transition: all .2s linear;*/
+    /*transition: all .2s linear;*/
+    /*animation: ubuntu-rotation 5s infinite ease-out;*/
+}
+a.ubuntu:hover{
+    transition: var(--transition);
+    color: red;
 }
 
 
@@ -1527,6 +1532,17 @@ main {
     justify-content: center;
 }
 .active-testimonials{
+    box-shadow: var(--light-shadow);
+    /*background-color: lightcoral;*/
+    transform: scale(1);
+}
+.active-testimonials:hover{
     box-shadow: var(--dark-shadow);
-    background-color: lightcoral;
+    background-color: lightgrey;
+    transition: var(--transition);
+    transform: scale(1.01);
+
+}
+.title-color{
+    background-color: #f9f9f9;
 }
