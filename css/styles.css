@@ -942,14 +942,14 @@ span {
 /*    }*/
 /*}*/
 
-#ubuntu {
-    animation: imagine 8s infinite;
-    -webkit-animation: imagine 8s infinite;
-    -moz-animation: imagine 8s infinite;
-    -ms-animation: imagine 8s infinite;
-    -o-animation: imagine 8s infinite;
-    transition: var(--transition);
-}
+/*#ubuntu {*/
+/*    animation: imagine 8s infinite;*/
+/*    -webkit-animation: imagine 8s infinite;*/
+/*    -moz-animation: imagine 8s infinite;*/
+/*    -ms-animation: imagine 8s infinite;*/
+/*    -o-animation: imagine 8s infinite;*/
+/*    transition: var(--transition);*/
+/*}*/
 
 
 .main-color {
@@ -1114,24 +1114,28 @@ a.ubuntu {
     -webkit-transition: all .2s linear;
     -o-transition: all .2s linear;
     transition: all .2s linear;
-    animation: ubuntu-rotation 10s infinite ease-out;
+    animation: ubuntu-rotation 5s infinite ease-out;
 }
 
 
 @keyframes ubuntu-rotation {
     0% {
-        transform: rotateY(0);
+        /*transform: rotateY(0);*/
         color: orangered;
-
+    transform: scale(0.5);
     }
     50% {
 
-        color: darkorange;
+        color: red;
+        transform: scale(1.1);
+
 
     }
     100% {
-        transform: rotateY(360deg);
+        /*transform: rotateY(180deg);*/
         color: orangered;
+        transform: scale(0.5);
+
     }
 }
 @-webkit-keyframes ubuntu-rotation{
@@ -1499,4 +1503,30 @@ main {
 
 .hide-loading {
     display: none;
+}
+
+/* past testimonials*/
+.testimonials-title{
+    font-size: 14px;
+}
+.font-size14{
+    font-size: 14px;
+    background-color: var(--clr-grey-10);
+    border-radius: var(--radius);
+    padding: 10px 14px;
+    margin: 5px;
+}
+.radius {
+    border-radius: var(--radius);
+    background-color: #96a2b2;
+    max-width: 340px;
+    margin: 10px;
+}
+.text-center {
+    display: flex;
+    justify-content: center;
+}
+.active-testimonials{
+    box-shadow: var(--dark-shadow);
+    background-color: lightcoral;
 }

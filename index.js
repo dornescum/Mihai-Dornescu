@@ -1,3 +1,5 @@
+
+
 const getElement = (selection) => {
     const element = document.querySelector(selection);
     if (element) return element;
@@ -103,3 +105,5 @@ prevBtn.addEventListener('click', function () {
     }
     showProjects(workedProjects);
 })
+
+
