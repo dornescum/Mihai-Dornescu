@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/modules/Game.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/future/game/game.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/future/game/game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/future/wheather/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/future/wheather/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/future/wheather/storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/future/wheather/ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/future/wheather/wheather.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/future/wheather/wheather.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,6 +172,11 @@
       <workItem from="1606235774738" duration="1651000" />
       <workItem from="1606238869660" duration="1378000" />
       <workItem from="1606241159070" duration="617000" />
+      <workItem from="1606244532704" duration="1782000" />
+      <workItem from="1606246346858" duration="1787000" />
+      <workItem from="1606248170185" duration="1548000" />
+      <workItem from="1606250058596" duration="1787000" />
+      <workItem from="1606251879212" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="background alb">
       <created>1603887928409</created>
