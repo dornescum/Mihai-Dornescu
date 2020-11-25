@@ -20,18 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/modules/loremIpsum.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/future/loremIpsum/loremIpsum.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/future/loremIpsum/loremIspum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/not-ready.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ready.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ready.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future/wheather/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/future/wheather/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +175,7 @@
       <workItem from="1606304343675" duration="2564000" />
       <workItem from="1606306934349" duration="1796000" />
       <workItem from="1606310524225" duration="1784000" />
-      <workItem from="1606312334014" duration="1154000" />
+      <workItem from="1606312334014" duration="1461000" />
     </task>
     <task id="LOCAL-00001" summary="background alb">
       <created>1603887928409</created>
@@ -425,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606253280112</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="lorem">
+      <created>1606313687704</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1606313687705</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +442,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="probleme abilitati" />
     <MESSAGE value="img-abiliati sters proprietati" />
     <MESSAGE value="modificat abilitati si proiecte latime imagine" />
     <MESSAGE value="culori sidebar" />
@@ -470,7 +466,8 @@
     <MESSAGE value="testimonials nume/ schimbat logo ubuntu" />
     <MESSAGE value="weather js" />
     <MESSAGE value="weather js favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="weather js favicon" />
+    <MESSAGE value="lorem" />
+    <option name="LAST_COMMIT_MESSAGE" value="lorem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="510" y="25" width="805" height="1055" key="CommitChangelistDialog2" timestamp="1606253279850">
