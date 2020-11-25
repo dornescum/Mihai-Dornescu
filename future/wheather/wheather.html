@@ -21,12 +21,36 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap.min.css">
+
     <title>Wheather</title>
 </head>
+<style>
+    .btn-weather{
+        background-color: #44ADEA; color: white;
+        border-radius: 10px; padding: 5px 10px;
+        text-decoration: none;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+</style>
 <body>
+
+<nav style="background-color: var(--clr-black)">
+    <div class="nav-center">
+        <!--        links-->
+        <div>
+            <button class="btn">
+                <a href="../../future.html" class="btn-weather">Projects</a>
+            </button>
+
+        </div>
+        <!--        button cv-->
+
+    </div>
+</nav>
+
 <div class="container">
     <div class="row">
-        <div class="col-md-6 mx-auto text-center bg-primary my-5 p-5 rounded">
+        <div class="col-md-6 col-sm-12 mx-auto text-center bg-primary my-5 p-5 rounded">
             <h1 id="w-location"></h1>
             <h3 class="text-dark" id="w-desc"></h3>
             <h3 id="w-string"></h3>

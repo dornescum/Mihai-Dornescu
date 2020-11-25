@@ -20,7 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/modules/future.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/modules/Game.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/modules/Game.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/modules/loremIpsum.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/modules/loremIpsum.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/future/game/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/future/game/game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/future/game/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/future/game/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/future/loremIpsum/loremIpsum.html" beforeDir="false" afterPath="$PROJECT_DIR$/future/loremIpsum/loremIpsum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/future/wheather/wheather.html" beforeDir="false" afterPath="$PROJECT_DIR$/future/wheather/wheather.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +41,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -62,6 +71,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DAN-Template/designFirmeCadastru/lista_firme.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/5animeText-master/css/styles.css" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -175,7 +185,11 @@
       <workItem from="1606304343675" duration="2564000" />
       <workItem from="1606306934349" duration="1796000" />
       <workItem from="1606310524225" duration="1784000" />
-      <workItem from="1606312334014" duration="1461000" />
+      <workItem from="1606312334014" duration="1839000" />
+      <workItem from="1606330622757" duration="1761000" />
+      <workItem from="1606332556241" duration="1788000" />
+      <workItem from="1606334386348" duration="1794000" />
+      <workItem from="1606336227860" duration="945000" />
     </task>
     <task id="LOCAL-00001" summary="background alb">
       <created>1603887928409</created>
@@ -422,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606313687705</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="future sidebar">
+      <created>1606313808173</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1606313808173</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +463,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="img-abiliati sters proprietati" />
     <MESSAGE value="modificat abilitati si proiecte latime imagine" />
     <MESSAGE value="culori sidebar" />
     <MESSAGE value="mt-5 abilitati" />
@@ -467,13 +487,18 @@
     <MESSAGE value="weather js" />
     <MESSAGE value="weather js favicon" />
     <MESSAGE value="lorem" />
-    <option name="LAST_COMMIT_MESSAGE" value="lorem" />
+    <MESSAGE value="future sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="future sidebar" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="510" y="25" width="805" height="1055" key="CommitChangelistDialog2" timestamp="1606253279850">
+    <state x="693" y="302" width="528" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606331157162">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="510" y="25" width="805" height="1055" key="CommitChangelistDialog2/0.25.1920.1055@0.25.1920.1055" timestamp="1606253279850" />
+    <state x="693" y="302" width="528" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1606331157162" />
+    <state x="510" y="25" width="805" height="1055" key="CommitChangelistDialog2" timestamp="1606313808044">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="510" y="25" width="805" height="1055" key="CommitChangelistDialog2/0.25.1920.1055@0.25.1920.1055" timestamp="1606313808044" />
     <state x="363" y="27" width="948" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1604491551529" />
     <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1605212293855" />
     <state x="100" y="127" width="1720" height="853" maximized="true" key="DiffContextDialog" timestamp="1605036653900">
@@ -486,10 +511,14 @@
     <state x="743" y="310" key="FileChooserDialogImpl/0.25.1920.1055@0.25.1920.1055" timestamp="1606305221380" />
     <state x="529" y="227" width="416" height="366" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603568413274" />
     <state x="743" y="311" width="416" height="540" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1605036350470" />
-    <state x="555" y="283" width="804" height="536" key="Vcs.Push.Dialog.v2" timestamp="1606253282665">
+    <state x="456" y="188" key="SettingsEditor" timestamp="1606337173942">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="555" y="283" width="804" height="536" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1606253282665" />
+    <state x="456" y="188" key="SettingsEditor/0.25.1920.1055@0.25.1920.1055" timestamp="1606337173942" />
+    <state x="555" y="283" width="804" height="536" key="Vcs.Push.Dialog.v2" timestamp="1606313813666">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="555" y="283" width="804" height="536" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1606313813666" />
     <state x="395" y="209" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1604491554183" />
     <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1605212296396" />
     <state x="809" y="512" width="456" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606156083302">

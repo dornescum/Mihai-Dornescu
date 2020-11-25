@@ -15,7 +15,6 @@ let crash = setInterval(function (){
     if (blockLeft <20 && blockLeft >0 && characterTop >= 130){
         block.style.animation = 'none';
         block.style.display = 'none';
-
         alert('you lost')
     }
 },10)

@@ -1,5 +1,7 @@
 @import "modules/Game.css";
 @import "modules/loremIpsum.css";
+@import "modules/future.css";
+
 /*
 =============== 
 Variables
@@ -193,7 +195,6 @@ Hero
 }
 
 /*ce am invatat*/
-
 img {
     height: 100%;
     width: 100%;
@@ -201,7 +202,6 @@ img {
     border-radius: var(--radius);
     /*transform: scale(1);*/
 }
-
 .overlay {
     position: absolute;
     bottom: 0;
@@ -451,17 +451,17 @@ Navbar
 
 /* page navbar */
 
-.page .nav-link {
-    color: var(--clr-grey-1);
-}
+/*.page .nav-link {*/
+/*    color: var(--clr-grey-1);*/
+/*}*/
 
-.page .nav-link:hover {
-    color: var(--clr-primary-5);
-}
+/*.page .nav-link:hover {*/
+/*    color: var(--clr-primary-5);*/
+/*}*/
 
-.page .toggle-cart {
-    color: var(--clr-grey-1);
-}
+/*.page .toggle-cart {*/
+/*    color: var(--clr-grey-1);*/
+/*}*/
 
 /*
 ===============
@@ -1548,24 +1548,6 @@ main {
 }
 
 /*future dropdown*/
-.dropdown-menu{
-    left: 350px;
-
-}
-.dropdown-menu a{
-    color: var(--clr-primary-5);
-    margin-right: 3rem;
-    letter-spacing: var(--spacing);
-    transition: var(--transition);
-    font-size: 1rem;
-    border: 1px solid var(--clr-white);
-    border-radius: var(--radius);
-    padding: 0.1rem 1rem;
-}
-.dropdown-menu a:hover{
-    color: var(--clr-black);
-    background-color: var(--clr-white);
-}
 
 /*colors*/
 .grey-color{
@@ -1574,24 +1556,6 @@ main {
 .yellow-color{
     background-color:  	#F0E68C;
 }
-
-.article {
-    border: #96a2b2 solid 1px;
-    border-radius: var(--radius);
-}
-.article h4{
-    text-align: center;
-}
-.future {
-    margin: 10px 20px;
-}
-.main-photo{
-    width: 100%;
-    height: 10rem;
-    object-fit: cover;
-    border-radius: var(--radius);
-}
-.item-text {
-    padding: 5px 10px;
-    font-size: 16px;
+.black-color {
+    background-color: black;
 }
