@@ -80,7 +80,7 @@ const nextBtn = document.querySelector('.next-btn');
 let workedProjects = 0;
 // incarca
 window.addEventListener("DOMContentLoaded", function () {
-    setTimeout(hideLoading, 1000);
+    setTimeout(hideLoading, 100);
     showProjects()
 })
 function showProjects() {

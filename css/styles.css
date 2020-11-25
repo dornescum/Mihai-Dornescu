@@ -1,4 +1,5 @@
 @import "modules/Game.css";
+@import "modules/loremIpsum.css";
 /*
 =============== 
 Variables
@@ -1447,8 +1448,8 @@ main {
     border-radius: var(--radius);
 }
 
-.section-grid {
-    padding: 5rem 0;
+.section-projects {
+    padding: 1rem 0;
     width: 90vw;
     margin: 0 auto;
     max-width: 1170px;
@@ -1457,14 +1458,14 @@ main {
 }
 
 @media screen and (min-width: 768px) {
-    .section-grid {
+    .section-projects {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (min-width: 992px) {
-    .section-grid {
+    .section-projects {
         grid-template-columns: 1fr 1fr 1fr;
         width: 95vw;
     }
@@ -1569,4 +1570,28 @@ main {
 /*colors*/
 .grey-color{
     background-color: #96a2b2;
+}
+.yellow-color{
+    background-color:  	#F0E68C;
+}
+
+.article {
+    border: #96a2b2 solid 1px;
+    border-radius: var(--radius);
+}
+.article h4{
+    text-align: center;
+}
+.future {
+    margin: 10px 20px;
+}
+.main-photo{
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: var(--radius);
+}
+.item-text {
+    padding: 5px 10px;
+    font-size: 16px;
 }
