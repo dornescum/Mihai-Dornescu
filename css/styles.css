@@ -1188,6 +1188,10 @@ a.ubuntu:hover{
     box-shadow: var(--dark-shadow);
     transition: var(--transition);
 }
+#quote{
+    color: black;
+    padding-left: 150px
+}
 
 /* poza mea nu merge */
 #poza {
@@ -1557,4 +1561,7 @@ main {
 }
 .black-color {
     background-color: black;
+}
+.blue-color {
+    background-color: var(--clr-light-blue);
 }
