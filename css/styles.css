@@ -1236,10 +1236,8 @@ a.ubuntu:hover{
     margin: 2rem auto 0 auto;
     text-transform: capitalize;
     font-size: 1.2rem;
-
     letter-spacing: var(--spacing);
     border-radius: var(--radius);
-
     transition: var(--transition);
     cursor: pointer;
     box-shadow: var(--light-shadow);
@@ -1248,7 +1246,8 @@ a.ubuntu:hover{
     background-color: var(--clr-primary-10);
     color: var(--clr-primary-5);
     box-shadow: var(--dark-shadow);
-    font-size: 1.3rem;
+    /*font-size: 1.3rem;*/
+    border: none;
 }
 
 /*section*/
