@@ -22,8 +22,6 @@
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/past.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,9 +61,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DAN-Template/designFirmeCadastru/lista_firme.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DAN-Template/designFirmeCadastru/oficiu-cadastru.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/5animeText-master/css/styles.css" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -188,6 +186,10 @@
       <workItem from="1606383378010" duration="257000" />
       <workItem from="1606391758696" duration="30000" />
       <workItem from="1606422728758" duration="1232000" />
+      <workItem from="1606423982283" duration="244000" />
+      <workItem from="1606489261399" duration="1964000" />
+      <workItem from="1606491266668" duration="2265000" />
+      <workItem from="1606493683741" duration="378000" />
     </task>
     <task id="LOCAL-00001" summary="background alb">
       <created>1603887928409</created>
@@ -455,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606383576218</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="descriere">
+      <created>1606424013992</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1606424013993</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,7 +484,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="mt-5 abilitati" />
     <MESSAGE value="refacut abilitati" />
     <MESSAGE value="loading" />
     <MESSAGE value="ubuntu" />
@@ -500,16 +508,18 @@
     <MESSAGE value="future sidebar" />
     <MESSAGE value="future navbar" />
     <MESSAGE value="navbar link" />
-    <option name="LAST_COMMIT_MESSAGE" value="navbar link" />
+    <MESSAGE value="descriere" />
+    <option name="LAST_COMMIT_MESSAGE" value="descriere" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="302" width="528" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606331157162">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="693" y="302" width="528" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1606331157162" />
-    <state x="510" y="25" width="805" height="1055" key="CommitChangelistDialog2" timestamp="1606383575929">
-      <screen x="0" y="25" width="1920" height="1055" />
+    <state x="363" y="25" width="805" height="743" key="CommitChangelistDialog2" timestamp="1606424013724">
+      <screen x="0" y="25" width="1366" height="743" />
     </state>
+    <state x="363" y="25" width="805" height="743" key="CommitChangelistDialog2/0.25.1366.743@0.25.1366.743" timestamp="1606424013724" />
     <state x="510" y="25" width="805" height="1055" key="CommitChangelistDialog2/0.25.1920.1055@0.25.1920.1055" timestamp="1606383575929" />
     <state x="363" y="27" width="948" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1604491551529" />
     <state x="510" y="27" width="948" height="1053" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1605212293855" />
@@ -517,19 +527,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="100" y="127" width="1720" height="853" maximized="true" key="DiffContextDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1605036653900" />
-    <state x="743" y="310" width="416" height="540" key="FileChooserDialogImpl" timestamp="1606305221380">
-      <screen x="0" y="25" width="1920" height="1055" />
+    <state x="448" y="57" width="640" height="485" key="FileChooserDialogImpl" timestamp="1606491581073">
+      <screen x="0" y="25" width="1366" height="743" />
     </state>
+    <state x="448" y="57" width="640" height="485" key="FileChooserDialogImpl/0.25.1366.743@0.25.1366.743" timestamp="1606491581073" />
     <state x="743" y="310" key="FileChooserDialogImpl/0.25.1920.1055@0.25.1920.1055" timestamp="1606305221380" />
     <state x="529" y="227" width="416" height="366" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603568413274" />
     <state x="743" y="311" width="416" height="540" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1605036350470" />
-    <state x="456" y="188" key="SettingsEditor" timestamp="1606337173942">
-      <screen x="0" y="25" width="1920" height="1055" />
+    <state x="324" y="38" key="SettingsEditor" timestamp="1606493077459">
+      <screen x="0" y="25" width="1366" height="743" />
     </state>
+    <state x="324" y="38" key="SettingsEditor/0.25.1366.743@0.25.1366.743" timestamp="1606493077459" />
     <state x="456" y="188" key="SettingsEditor/0.25.1920.1055@0.25.1920.1055" timestamp="1606337173942" />
-    <state x="555" y="283" width="804" height="536" key="Vcs.Push.Dialog.v2" timestamp="1606383578908">
-      <screen x="0" y="25" width="1920" height="1055" />
+    <state x="395" y="207" width="804" height="536" key="Vcs.Push.Dialog.v2" timestamp="1606424017162">
+      <screen x="0" y="25" width="1366" height="743" />
     </state>
+    <state x="395" y="207" key="Vcs.Push.Dialog.v2/0.25.1366.743@0.25.1366.743" timestamp="1606424017162" />
     <state x="555" y="283" width="804" height="536" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1606383578908" />
     <state x="395" y="209" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1604491554183" />
     <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1605212296396" />

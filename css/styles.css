@@ -1393,8 +1393,15 @@ main {
     min-height: 50vh;
     /*margin-top: -6rem;*/
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('../img/sg-min-min.JPG') center/cover;
-
 }
+.btn-pop{
+   background-color: black;
+    color: white;
+    margin: auto;
+}
+
+
+
 
 #unemployed {
     filter: blur(2px);

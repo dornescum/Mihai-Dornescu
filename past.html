@@ -129,14 +129,14 @@
 </section>
 <!--despre mine imagine-->
 <section>
-    <div class="container mt-3">
+    <div class="container mt-3 mb-5">
         <!--    despre mine-->
-        <h3>About me</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, sit.</p>
+        <h3 class="mt-1">About me</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet corporis cum delectus deleniti eveniet facere fugiat illo impedit iusto, magni maxime necessitatibus nostrum optio quae quibusdam reiciendis repellat, velit.</p>
         <!--    slider-->
         <div class="row mb-3">
             <div class="col-lg-4 col-md-4 col-sm-12 ">
-                <img src="./img/unemployed.png" alt="" id="unemployed">
+                <img src="./img/unemployed.png" alt="unemployed" id="unemployed" >
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 ">
                 <img src="./img/jobless.jpg" alt="" id="jobless">
@@ -389,6 +389,21 @@
         review.innerHTML = displayTestimonials;
     });
 
+// popover
+//     $(function () {
+//         $('.example-popover').popover({
+//             container: 'body'
+//         })
+//     })
+
+
+    // $(function () {
+    //     $('[data-toggle="popover"]').popover()
+    // })
+// tooltips
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
 </script>
 
 <!-- js -->
