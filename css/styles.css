@@ -1569,6 +1569,12 @@ main {
 .black-color {
     background-color: black;
 }
+.blackColor{
+    color: var(--clr-black);
+}
 .blue-color {
-    background-color: var(--clr-light-blue);
+    background-color: #61DAFB;
+}
+.green-color{
+    background-color: #3AAF80;
 }
