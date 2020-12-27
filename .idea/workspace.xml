@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="search filter net ninja">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +201,7 @@
       <workItem from="1607597476800" duration="183000" />
       <workItem from="1607599237225" duration="1596000" />
       <workItem from="1607609921066" duration="13000" />
-      <workItem from="1609077528325" duration="355000" />
+      <workItem from="1609077528325" duration="2722000" />
     </task>
     <task id="LOCAL-00001" summary="background alb">
       <created>1603887928409</created>
@@ -503,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607600577981</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="search filter net ninja">
+      <created>1609078091501</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1609078091501</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,7 +531,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="bootstrap slider" />
     <MESSAGE value="ubuntu animation apple" />
     <MESSAGE value="@-webkit-keyframes ubuntu animation apple" />
     <MESSAGE value="navbar /sidebar / #container /#progress" />
@@ -548,6 +555,7 @@
     <MESSAGE value="about me descriere" />
     <MESSAGE value="about me corectie goal" />
     <MESSAGE value="corectie" />
-    <option name="LAST_COMMIT_MESSAGE" value="corectie" />
+    <MESSAGE value="search filter net ninja" />
+    <option name="LAST_COMMIT_MESSAGE" value="search filter net ninja" />
   </component>
 </project>
