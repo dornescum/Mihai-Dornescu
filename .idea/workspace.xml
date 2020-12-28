@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="js mutat in index.html scos/ scos eroare de prevBtn si nextBtn">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="modificat text poza si font button in index.html/&#10;autoprefixer pt --webkit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/past.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +203,7 @@
       <workItem from="1607609921066" duration="13000" />
       <workItem from="1609077528325" duration="3747000" />
       <workItem from="1609081701659" duration="38000" />
-      <workItem from="1609169048908" duration="1684000" />
+      <workItem from="1609169048908" duration="3670000" />
     </task>
     <task id="LOCAL-00001" summary="background alb">
       <created>1603887928409</created>
@@ -521,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609080953524</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="modificat text poza si font button in index.html/&#10;autoprefixer pt --webkit">
+      <created>1609170773271</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1609170773271</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +547,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="@-webkit-keyframes ubuntu animation apple" />
     <MESSAGE value="navbar /sidebar / #container /#progress" />
     <MESSAGE value="footer /btn-main" />
     <MESSAGE value="-webkit-animation" />
@@ -566,6 +571,7 @@
     <MESSAGE value="corectie" />
     <MESSAGE value="search filter net ninja" />
     <MESSAGE value="js mutat in index.html scos/ scos eroare de prevBtn si nextBtn" />
-    <option name="LAST_COMMIT_MESSAGE" value="js mutat in index.html scos/ scos eroare de prevBtn si nextBtn" />
+    <MESSAGE value="modificat text poza si font button in index.html/&#10;autoprefixer pt --webkit" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificat text poza si font button in index.html/&#10;autoprefixer pt --webkit" />
   </component>
 </project>

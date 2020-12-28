@@ -820,16 +820,26 @@ span {
     animation: progressBarReact 2s linear forwards;
 }
 
-#reactNative {
+#typeScript {
     background-color: #61DBFB;
-    -webkit-animation: progressBarReactNative 5s linear forwards;
-    animation: progressBarReactNative 5s linear forwards;
+    -webkit-animation: progressBarTypeScript 5s linear forwards;
+    animation: progressBarTypeScript 5s linear forwards;
 }
 
 #vuejs {
     background-color: #0576C5;
-    -webkit-animation: progressBarTypeScript 5s linear forwards;
-    animation: progressBarTypeScript 5s linear forwards;
+    -webkit-animation: progressBarVue 5s linear forwards;
+    animation: progressBarVue 5s linear forwards;
+}
+#sass {
+    background-color: #CF649A;
+    -webkit-animation: progressBarSass 5s linear forwards;
+    animation: progressBarSass 5s linear forwards;
+}
+#pwa {
+    background-color: #ccc;
+    -webkit-animation: progressBarPwa 5s linear forwards;
+    animation: progressBarVue 5s linear forwards;
 }
 
 @keyframes progressBar {
@@ -1004,6 +1014,115 @@ span {
     }
 }
 
+@keyframes progressBarVue {
+    0% {
+        width: 0;
+        -webkit-box-shadow: 0 0 30px blue;
+        box-shadow: 0 0 30px blue;
+    }
+    50% {
+        width: 100%;
+        -webkit-box-shadow: 0 0 30px green;
+        box-shadow: 0 0 30px green;
+    }
+    100% {
+        width: 45%;
+        -webkit-box-shadow: 0 0 30px blue;
+        box-shadow: 0 0 30px blue;
+    }
+}
+
+@-webkit-keyframes progressBarVue {
+    0% {
+        width: 0;
+        -webkit-box-shadow: 0 0 30px blue;
+        box-shadow: 0 0 30px blue;
+    }
+    50% {
+        width: 100%;
+        -webkit-box-shadow: 0 0 30px green;
+        box-shadow: 0 0 30px green;
+    }
+    100% {
+        width: 45%;
+        -webkit-box-shadow: 0 0 30px blue;
+        box-shadow: 0 0 30px blue;
+    }
+}
+
+@keyframes progressBarSass {
+    0% {
+        width: 0;
+        -webkit-box-shadow: 0 0 30px blue;
+        box-shadow: 0 0 30px blue;
+    }
+    50% {
+        width: 100%;
+        -webkit-box-shadow: 0 0 30px blue;
+        box-shadow: 0 0 30px blue;
+    }
+    100% {
+        width: 35%;
+        -webkit-box-shadow: 0 0 30px blue;
+        box-shadow: 0 0 30px blue;
+    }
+}
+
+@-webkit-keyframes progressBarSass {
+    0% {
+        width: 0;
+        -webkit-box-shadow: 0 0 30px blue;
+        box-shadow: 0 0 30px blue;
+    }
+    50% {
+        width: 100%;
+        -webkit-box-shadow: 0 0 30px green;
+        box-shadow: 0 0 30px green;
+    }
+    100% {
+        width: 35%;
+        -webkit-box-shadow: 0 0 30px blue;
+        box-shadow: 0 0 30px blue;
+    }
+}
+
+@keyframes progressBarPwa {
+    0% {
+        width: 0;
+        -webkit-box-shadow: 0 0 30px blue;
+        box-shadow: 0 0 30px blue;
+    }
+    50% {
+        width: 100%;
+        -webkit-box-shadow: 0 0 30px green;
+        box-shadow: 0 0 30px green;
+    }
+    100% {
+        width: 35%;
+        -webkit-box-shadow: 0 0 30px blue;
+        box-shadow: 0 0 30px blue;
+    }
+}
+
+@-webkit-keyframes progressBarPwa {
+    0% {
+        width: 0;
+        -webkit-box-shadow: 0 0 30px blue;
+        box-shadow: 0 0 30px blue;
+    }
+    50% {
+        width: 100%;
+        -webkit-box-shadow: 0 0 30px green;
+        box-shadow: 0 0 30px green;
+    }
+    100% {
+        width: 35%;
+        -webkit-box-shadow: 0 0 30px blue;
+        box-shadow: 0 0 30px blue;
+    }
+}
+
+
 
 .skills {
     position: relative;
@@ -1011,7 +1130,7 @@ span {
     display: -ms-flexbox;
     display: flex;
     margin: 20px 0;
-    padding: 24px 10px 18px;
+    padding:  10px 10px;
     background: -webkit-gradient(linear, left top, left bottom, from(#626262), color-stop(10%, #333), to(#222));
     background: -o-linear-gradient(#626262 0%, #333 10%, #222);
     background: linear-gradient(#626262 0%, #333 10%, #222);
@@ -1028,7 +1147,7 @@ span {
     width: 40px;
     text-align: left;
     color: var(--clr-white);
-    margin-top: -2px;
+    /*margin-top: -2px;*/
 }
 
 
