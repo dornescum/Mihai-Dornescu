@@ -839,7 +839,7 @@ span {
 #pwa {
     background-color: #ccc;
     -webkit-animation: progressBarPwa 5s linear forwards;
-    animation: progressBarVue 5s linear forwards;
+    animation: progressBarPwa 5s linear forwards;
 }
 
 @keyframes progressBar {
@@ -1098,7 +1098,7 @@ span {
         box-shadow: 0 0 30px green;
     }
     100% {
-        width: 35%;
+        width: 10%;
         -webkit-box-shadow: 0 0 30px blue;
         box-shadow: 0 0 30px blue;
     }
@@ -1116,7 +1116,7 @@ span {
         box-shadow: 0 0 30px green;
     }
     100% {
-        width: 35%;
+        width: 10%;
         -webkit-box-shadow: 0 0 30px blue;
         box-shadow: 0 0 30px blue;
     }
