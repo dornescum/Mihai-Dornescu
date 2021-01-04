@@ -165,7 +165,7 @@ Hero
 =============== */
 
 .hero {
-    min-height: 100vh;
+    min-height: 60vh;
     margin-top: -6rem;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.1))), url('../img/Learning.jpeg') center/cover;
     background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('../img/Learning.jpeg') center/cover;
@@ -775,7 +775,7 @@ Sidebar
     -o-transition: var(--transition);
     transition: var(--transition);
     border-radius: var(--radius);
-    width: 80vw;
+    max-width: 80vw;
 }
 
 #progress:hover {
@@ -1451,7 +1451,7 @@ a.ubuntu:hover {
     border-radius: var(--radius);
     -webkit-box-shadow: var(--light-shadow);
     box-shadow: var(--light-shadow);
-    width: 80vw;
+    max-width: 80vw;
 }
 
 #container:hover {
@@ -1928,6 +1928,11 @@ main {
 }
 
 /*future dropdown*/
+.article {
+    height: 40vh;
+}
+
+
 
 /*colors*/
 .grey-color {
@@ -1936,6 +1941,7 @@ main {
 
 .yellow-color {
     background-color: #F0E68C;
+    bottom: 0;
 }
 
 .black-color {
