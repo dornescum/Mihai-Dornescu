@@ -1705,9 +1705,9 @@ main {
 #past {
     min-height: 50vh;
     /*margin-top: -6rem;*/
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.1))), url('../img/sg-min-min.JPG') center/cover;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('../img/sg-min-min.JPG') center/cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('../img/sg-min-min.JPG') center/cover;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.1))), url('../img/webp/sg-min-min.webp') center/cover;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('../img/webp/sg-min-min.webp') center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('../img/webp/sg-min-min.webp') center/cover;
 }
 
 .btn-pop {

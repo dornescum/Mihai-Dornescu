@@ -19,10 +19,32 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="restaurant vue">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="curatenie">
+      <change afterPath="$PROJECT_DIR$/img/webp/09.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/10-min.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/6-min.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/8-min.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/IMG_20191124_103021.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/Learning.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/Mihai-Dornescu.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/barca.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/bootstrap.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/css.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/jobless.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/materializeCss.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/sg-min-min.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/study.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/tortelini-min.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/udemyHmtlCss (1).webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp/udemyHmtlCss.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/past.html" afterDir="false" />
     </list>
@@ -62,6 +84,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -210,7 +233,10 @@
       <workItem from="1609250295995" duration="410000" />
       <workItem from="1609678137701" duration="815000" />
       <workItem from="1609765377350" duration="1758000" />
-      <workItem from="1609767159920" duration="312000" />
+      <workItem from="1609767159920" duration="627000" />
+      <workItem from="1609770446895" duration="356000" />
+      <workItem from="1609838902345" duration="1689000" />
+      <workItem from="1609840615788" duration="1011000" />
     </task>
     <task id="LOCAL-00001" summary="background alb">
       <created>1603887928409</created>
@@ -548,7 +574,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609678899016</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="curatenie">
+      <created>1609767726637</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1609767726637</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,7 +601,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="-webkit-animation" />
     <MESSAGE value="ubuntu rotation fara perspective" />
     <MESSAGE value="btn centrat despre mine" />
     <MESSAGE value="index width 80vh" />
@@ -593,6 +625,7 @@
     <MESSAGE value="modificat text poza si font button in index.html/&#10;autoprefixer pt --webkit" />
     <MESSAGE value="sass si pwa" />
     <MESSAGE value="restaurant vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="restaurant vue" />
+    <MESSAGE value="curatenie" />
+    <option name="LAST_COMMIT_MESSAGE" value="curatenie" />
   </component>
 </project>
