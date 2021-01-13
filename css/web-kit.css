@@ -1398,7 +1398,7 @@ a.ubuntu {
     -webkit-transition: all .2s linear;
     -o-transition: all .2s linear;
     transition: all .2s linear;
-    animation: ubuntu-rotation 5s infinite ease-out;
+    animation: ubuntu-rotation 5s infinite 0.01s ease-out;
 }
 
 a.ubuntu:hover {
