@@ -19,34 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="curatenie">
-      <change afterPath="$PROJECT_DIR$/img/webp/09.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/10-min.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/6-min.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/7.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/8-min.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/IMG_20191124_103021.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/Learning.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/Mihai-Dornescu.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/barca.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/bootstrap.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/css.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/jobless.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/materializeCss.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/sg-min-min.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/study.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/tortelini-min.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/udemyHmtlCss (1).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/webp/udemyHmtlCss.webp" afterDir="false" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="WEBP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/past.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CSSmihai/Var-colors.css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
@@ -236,14 +213,16 @@
       <workItem from="1609767159920" duration="627000" />
       <workItem from="1609770446895" duration="356000" />
       <workItem from="1609838902345" duration="1689000" />
-      <workItem from="1609840615788" duration="1011000" />
-    </task>
-    <task id="LOCAL-00001" summary="background alb">
-      <created>1603887928409</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1603887928409</updated>
+      <workItem from="1609840615788" duration="1485000" />
+      <workItem from="1609844235203" duration="67000" />
+      <workItem from="1610524530214" duration="1782000" />
+      <workItem from="1610526348628" duration="1780000" />
+      <workItem from="1610528748525" duration="715000" />
+      <workItem from="1610535105642" duration="1833000" />
+      <workItem from="1610536958097" duration="1809000" />
+      <workItem from="1610538789570" duration="1789000" />
+      <workItem from="1610540603471" duration="1788000" />
+      <workItem from="1610542413247" duration="432000" />
     </task>
     <task id="LOCAL-00002" summary="container">
       <created>1603889758345</created>
@@ -581,7 +560,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609767726637</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="WEBP">
+      <created>1609841943941</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1609841943942</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +587,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ubuntu rotation fara perspective" />
     <MESSAGE value="btn centrat despre mine" />
     <MESSAGE value="index width 80vh" />
     <MESSAGE value="culoare background slider gradient" />
@@ -626,6 +611,7 @@
     <MESSAGE value="sass si pwa" />
     <MESSAGE value="restaurant vue" />
     <MESSAGE value="curatenie" />
-    <option name="LAST_COMMIT_MESSAGE" value="curatenie" />
+    <MESSAGE value="WEBP" />
+    <option name="LAST_COMMIT_MESSAGE" value="WEBP" />
   </component>
 </project>

@@ -64,6 +64,7 @@
         <a href="#" class="hero-btn" data-toggle="modal" data-target="#exampleModal">
             Learning
         </a>
+
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -76,11 +77,7 @@
                     </div>
                     <div class="modal-body">
                         <h1>html</h1>
-                        <img src="img/webp/udemyHmtlCss%20(1).webp" alt="html">
-                        <img src="img/webp/css.webp" alt="css">
-                        <img src="img/js.png" alt="js">
-                        <img src="img/webp/bootstrap.webp" alt="bootstrap">
-                        <img src="img/webp/materializeCss.webp" alt="materializeCss">
+
 
 
                     </div>
@@ -138,9 +135,47 @@
 <section class="loading">
     <img src="./img/loading/ripple.gif" alt="loading"/>
 </section>
+
+<div class="p-3 text-center">
+    <button id="containerDisplay" class="hero-btn-display">About me</button>
+</div>
+<!--despre mine-->
+<div class="container invisible" id="container">
+    <div class="row m-2">
+        <div class="col-lg-6 col-md-8">
+            <div>
+                <img src="./img/webp/IMG_20191124_103021.webp" alt="temporar" id="poza">
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-4">
+            <div>
+                <p class="text fade1">
+                    Be willing to be a beginner every single morning.
+                    <br>
+                    <br>
+                    <a href="https://en.wikipedia.org/wiki/Meister_Eckhart" id="quote">
+                        Meister Eckhart
+                    </a>
+                    <br>
+                    <a href="./future.html">
+                        <button class="btn-main">
+                            JavaScript
+                        </button>
+                    </a>
+
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
 <!--abilitati progress bar 2-->
-<div class="container" id="progress">
-    <h6 class="text-center mt-3">Skills</h6>
+<div class="p-3 text-center">
+    <button id="skills" class="hero-btn-display">Show skills</button>
+</div>
+<div class="container invisible" id="progress">
+<!--    <h6 class="text-center mt-3">Skills</h6>-->
     <div class="row ">
         <div class="col-lg-6">
             <div class="container">
@@ -196,42 +231,12 @@
     </div>
 </div>
 
-<!--despre mine-->
-<div class="container" id="container">
-    <div class="row m-2">
-        <div class="col-lg-6 col-md-8">
-            <div>
-                <img src="./img/webp/IMG_20191124_103021.webp" alt="temporar" id="poza">
-            </div>
-        </div>
-        <div class="col-lg-6 col-md-4">
-            <div>
-                <p class="text fade1">
-                    Be willing to be a beginner every single morning.
-                    <br>
-                    <br>
-                    <a href="https://en.wikipedia.org/wiki/Meister_Eckhart" id="quote">
-                    Meister Eckhart
-                    </a>
-                    <br>
-                    <a href="./future.html">
-                        <button class="btn-main">
-                            JavaScript
-                        </button>
-                    </a>
-
-                </p>
-
-            </div>
-        </div>
-    </div>
-</div>
 <!--projects-->
 <main>
     <section id="container-repo">
         <div class="title">
             <!--    titlu-->
-            <h2>Some Projects</h2>
+            <h2>Some exercises</h2>
             <div class="underline"></div>
             <!--    despre-->
             <article class="projects">
@@ -242,37 +247,41 @@
                 <p id="source"></p>
                 <p id="info"></p>
                 <!--        prev next btn-->
-                <div class="button-container">
-                    <button class="prev-btn">
-                        <i class="fas fa-chevron-left"></i>
-                    </button>
-                    <button class="next-btn">
-                        <i class="fas fa-chevron-right"></i>
-                    </button>
-                </div>
+
             </article>
+            <div class="button-container">
+                <button class="prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
         </div>
     </section>
 </main>
 <!--footer-->
 <footer class="site-footer">
     <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-sm-6 col-xs-12">
-                <div class="d-flex" id="footer">
-                    <p class="pr-4">Linux fan</p>
-                    <a href="https://ubuntu.com/download/desktop" target="_blank" class="ubuntu">
-                        <i class="fab fa-ubuntu fa-2x"></i></a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
+
+<!--            <div class="col-md-8 col-sm-6 col-xs-12">-->
+<!--                <div class="d-flex" id="footer">-->
+<!--                    <p class="pr-4">Linux fan</p>-->
+<!--                    <a href="https://ubuntu.com/download/desktop" target="_blank" class="ubuntu">-->
+<!--                        <i class="fab fa-ubuntu fa-2x"></i></a>-->
+<!--                </div>-->
+<!--            </div>-->
+            <div>
                 <ul class="social-icons">
+                    <li>Linux Fan<a class="ubuntu" href="https://github.com/dornescum.html" target="_blank">
+                        <i class="fab fa-ubuntu"></i>
+                    </a></li>
                     <li><a class="github" href="https://github.com/dornescum.html" target="_blank"><i class="fab fa-github"></i></a></li>
                     <li><a class="linkedin" href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
 
                 </ul>
             </div>
-        </div>
+
     </div>
 </footer>
 
@@ -331,10 +340,18 @@
     const info = document.getElementById('info');
     const prevBtn = document.querySelector('.prev-btn');
     const nextBtn = document.querySelector('.next-btn');
+    const main = document.querySelector("main");
+    const btnUp = document.createElement("button");
+    let rootElement = document.documentElement;
+
+    // show buttons
+    const progress = document.getElementById("progress")
+    const skillsBtn = document.getElementById("skills")
+    const containerDisplay = document.getElementById("containerDisplay")
+    const container = document.getElementById("container")
     let workedProjects = 0;
     // incarca
     window.addEventListener("DOMContentLoaded", function () {
-        // setTimeout(hideLoading, 100);
         showProjects()
     })
     function showProjects() {
@@ -344,7 +361,7 @@
         source.textContent = item.source;
         info.textContent = item.text;
     }
-    // btn
+    // btn projects
     nextBtn.addEventListener('click', function () {
         workedProjects++;
         if (workedProjects > projects.length -1){
@@ -358,6 +375,25 @@
             workedProjects = projects.length -1;
         }
         showProjects(workedProjects);
+    })
+    // btn sus
+    btnUp.classList.add("btn-up")
+    btnUp.innerText= " Up"
+    btnUp.addEventListener("click", scrollToTop)
+    main.appendChild(btnUp)
+    function scrollToTop() {
+        // Scroll to top logic
+        rootElement.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
+    }
+    // show | hide on index.html
+    skillsBtn.addEventListener("click", ()=>{
+        progress.classList.toggle("invisible")
+    })
+    containerDisplay.addEventListener("click", ()=>{
+        container.classList.toggle("invisible")
     })
 </script>
 

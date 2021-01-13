@@ -22,7 +22,8 @@ Variables
     --clr-primary-3: hsl(21, 81%, 29%);
     --clr-primary-4: hsl(21, 77%, 34%);
     /* primary/main color */
-    --clr-primary-5: hsl(21, 62%, 45%);
+    /*schimbata*/
+    --clr-primary-5: #bdbdbd;
     /* lighter shades of primary color */
     --clr-primary-6: hsl(21, 57%, 50%);
     --clr-primary-7: hsl(21, 65%, 59%);
@@ -31,7 +32,7 @@ Variables
     --clr-primary-10: hsl(21, 100%, 94%);
     /* darkest grey - used for headings */
     --clr-grey-1: #102a42;
-    --clr-grey-2: hsl(211, 39%, 23%);
+    --clr-grey-2:  #969696 ;
     --clr-grey-3: hsl(209, 34%, 30%);
     --clr-grey-4: hsl(209, 28%, 39%);
     /* grey used for paragraphs */
@@ -51,7 +52,7 @@ Variables
     --line-height: 1.6;
     --transition: all 0.3s linear;
     --spacing: 0.1rem;
-    --radius: 15px;
+    --radius: 5px;
     --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     --max-width: 1170px;
@@ -78,7 +79,9 @@ body {
     line-height: 1.5;
     font-size: 0.875rem;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 ul {
     list-style-type: none;
     margin-bottom: 0;
@@ -97,7 +100,7 @@ a:hover {
 
 h1, h2, h3, h4 {
     letter-spacing: var(--spacing);
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     line-height: 1.25;
     margin-bottom: 0.75rem;
     font-weight: 400;
@@ -197,7 +200,7 @@ Hero
     padding: 0.1rem 0.75rem;
     display: inline-block;
     /*margin-top: 0.75rem;*/
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     letter-spacing: var(--spacing);
     border-radius: var(--radius);
     -webkit-transition: var(--transition);
@@ -210,6 +213,26 @@ Hero
     color: var(--clr-primary-5);
 }
 
+.hero-btn-display {
+    color: var(--clr-white);
+    background: var(--clr-primary-5);
+    border: 1px solid var(--clr-white);
+    padding: 0.1rem 0.75rem;
+    display: inline-block;
+    /*margin-top: 0.75rem;*/
+    /*text-transform: uppercase;*/
+    letter-spacing: var(--spacing);
+    border-radius: var(--radius);
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
+    transition: var(--transition);
+    width: 450px;
+}
+
+.hero-btn-display:hover {
+    background: var(--clr-white);
+    color: var(--clr-primary-5);
+}
 /*ce am invatat*/
 img {
     height: 100%;
@@ -781,6 +804,7 @@ Sidebar
 #progress:hover {
     -webkit-box-shadow: var(--dark-shadow);
     box-shadow: var(--dark-shadow);
+
 }
 
 /*progress bar*/
@@ -1150,6 +1174,13 @@ span {
     /*margin-top: -2px;*/
 }
 
+.visible {
+    display: block;
+}
+.invisible {
+    display: none;
+}
+
 
 /*.opacity {*/
 /*    opacity: 0.6;*/
@@ -1211,9 +1242,9 @@ span {
 
 .site-footer {
     background-color: #26272b;
-    padding: 45px 0 20px;
+    padding: 15px 0 10px;
     font-size: 15px;
-    line-height: 24px;
+    line-height: 10px;
     color: #737373;
 }
 
@@ -1364,30 +1395,30 @@ a.ubuntu {
     align-content: center;
     display: inline-block;
     color: darkorange;
-    /*-webkit-transition: all .2s linear;*/
-    /*-o-transition: all .2s linear;*/
-    /*transition: all .2s linear;*/
-    /*animation: ubuntu-rotation 5s infinite ease-out;*/
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    animation: ubuntu-rotation 5s infinite ease-out;
 }
 
 a.ubuntu:hover {
     -webkit-transition: var(--transition);
     -o-transition: var(--transition);
     transition: var(--transition);
-    color: red;
+    background:  #4a4a4a ;
 }
 
 
 @keyframes ubuntu-rotation {
     0% {
         /*transform: rotateY(0);*/
-        color: orangered;
+        color: orange;
         -webkit-transform: scale(0.5);
         transform: scale(0.5);
     }
     50% {
 
-        color: red;
+        color: darkorange;
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
 
@@ -1395,7 +1426,7 @@ a.ubuntu:hover {
     }
     100% {
         /*transform: rotateY(180deg);*/
-        color: orangered;
+        color: orange;
         -webkit-transform: scale(0.5);
         transform: scale(0.5);
 
@@ -1406,7 +1437,7 @@ a.ubuntu:hover {
     0% {
         -webkit-transform: rotateY(0);
         transform: rotateY(0);
-        color: orangered;
+        color: orange;
     }
     50% {
         color: darkorange;
@@ -1414,7 +1445,7 @@ a.ubuntu:hover {
     100% {
         -webkit-transform: rotateY(360deg);
         transform: rotateY(360deg);
-        color: orangered;
+        color: orange;
     }
 }
 
@@ -1548,7 +1579,7 @@ a.ubuntu:hover {
 }
 
 .btn-main:hover {
-    background-color: var(--clr-primary-10);
+    background-color: var(--clr-grey-2);
     color: var(--clr-primary-5);
     -webkit-box-shadow: var(--dark-shadow);
     box-shadow: var(--dark-shadow);
@@ -1574,7 +1605,7 @@ a.ubuntu:hover {
 }
 
 main {
-    min-height: 100vh;
+    min-height: 30vh;
     display: -ms-grid;
     display: grid;
     place-items: center;
@@ -1599,6 +1630,7 @@ main {
     /*max-width: var(--fixed-width);*/
 }
 
+
 .projects {
     background: var(--clr-white);
     padding: 1.5rem 2rem;
@@ -1609,12 +1641,14 @@ main {
     -o-transition: var(--transition);
     transition: var(--transition);
     text-align: center;
+    /*height: 500px;*/
 }
 
 .projects:hover {
     -webkit-box-shadow: var(--dark-shadow);
     box-shadow: var(--dark-shadow);
 }
+
 
 .img-container {
     position: relative;
@@ -1683,7 +1717,7 @@ main {
 
 .prev-btn,
 .next-btn {
-    color: var(--clr-primary-7);
+    color: var(--clr-primary-5);
     font-size: 1.25rem;
     background: transparent;
     border-color: transparent;
@@ -1932,6 +1966,17 @@ main {
     height: 40vh;
 }
 
+
+
+.btn-up{
+    background: var(--clr-black);
+    color: var(--clr-white);
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 20px;
+    display: flex;
+    justify-self: start;
+}
 
 
 /*colors*/
