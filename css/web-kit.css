@@ -1395,16 +1395,17 @@ a.ubuntu {
     align-content: center;
     display: inline-block;
     color: darkorange;
-    -webkit-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    transition: all .2s linear;
-    animation: ubuntu-rotation 5s infinite 0.01s ease-out;
+    /*-webkit-transition: all .2s linear;*/
+    /*-o-transition: all .2s linear;*/
+    /*transition: all .2s linear;*/
+    /*animation: ubuntu-rotation 5s infinite 0.01s ease-out;*/
 }
 
 a.ubuntu:hover {
     -webkit-transition: var(--transition);
     -o-transition: var(--transition);
     transition: var(--transition);
+    transform: scale(1.1);
     background:  #4a4a4a ;
 }
 
