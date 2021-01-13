@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="refacut butoane index / refacut foote/ refacut modal" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="animatie ios">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,21 +219,8 @@
       <workItem from="1610536958097" duration="1809000" />
       <workItem from="1610538789570" duration="1789000" />
       <workItem from="1610540603471" duration="1788000" />
-      <workItem from="1610542413247" duration="1330000" />
-    </task>
-    <task id="LOCAL-00003" summary="container proiecte">
-      <created>1603898630143</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1603898630143</updated>
-    </task>
-    <task id="LOCAL-00004" summary="container proiecte">
-      <created>1604047329670</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1604047329670</updated>
+      <workItem from="1610542413247" duration="1844000" />
+      <workItem from="1610544316684" duration="566000" />
     </task>
     <task id="LOCAL-00005" summary="past conatiner">
       <created>1604055698984</created>
@@ -562,7 +551,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610543085351</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="animatie ios">
+      <created>1610543936624</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1610543936625</updated>
+    </task>
+    <task id="LOCAL-00053" summary="fara animatie ubuntu">
+      <created>1610544388098</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1610544388100</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,8 +585,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="index width 80vh" />
-    <MESSAGE value="culoare background slider gradient" />
     <MESSAGE value="poze despre mine 2 px padding/ loader 1s" />
     <MESSAGE value="alt poze modal" />
     <MESSAGE value="testimonials" />
@@ -607,6 +608,8 @@
     <MESSAGE value="curatenie" />
     <MESSAGE value="WEBP" />
     <MESSAGE value="refacut butoane index / refacut foote/ refacut modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="refacut butoane index / refacut foote/ refacut modal" />
+    <MESSAGE value="animatie ios" />
+    <MESSAGE value="fara animatie ubuntu" />
+    <option name="LAST_COMMIT_MESSAGE" value="fara animatie ubuntu" />
   </component>
 </project>
