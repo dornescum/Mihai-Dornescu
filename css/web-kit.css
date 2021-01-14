@@ -193,6 +193,7 @@ Hero
     font-size: 1.5rem;
 }
 
+
 .hero-btn {
     color: var(--clr-white);
     background: transparent;
@@ -232,7 +233,9 @@ Hero
 .hero-btn-display:hover {
     background: var(--clr-white);
     color: var(--clr-primary-5);
+    border: none;
 }
+
 /*ce am invatat*/
 img {
     height: 100%;
@@ -1919,6 +1922,20 @@ main {
     padding: 10px 14px;
     margin: 5px;
 }
+.font-size16 {
+    font-size: 14px;
+    background-color: var(--clr-grey-10);
+    border-radius: var(--radius);
+    padding: 10px 14px;
+    margin: 5px;
+}
+.font-size18 {
+    font-size: 18px;
+    /*background-color: var(--clr-grey-10);*/
+    /*border-radius: var(--radius);*/
+    /*padding: 10px 14px;*/
+    margin: 5px;
+}
 
 .radius {
     border-radius: var(--radius);
@@ -1964,7 +1981,7 @@ main {
 
 /*future dropdown*/
 .article {
-    height: 40vh;
+    height: 50vh;
 }
 
 
