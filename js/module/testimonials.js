@@ -1,4 +1,4 @@
-let testimonials = [
+export let testimonials = [
     {
         id: 1,
         title: 'Worst chef ever',

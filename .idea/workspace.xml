@@ -19,15 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fara animatie ubuntu">
-      <change afterPath="$PROJECT_DIR$/js/firstPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/module/testimonials.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/past.js" afterDir="false" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="footer toate 3 facut js individual">
+      <change afterPath="$PROJECT_DIR$/css/modules/inputText.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/module/projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/firstPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/firstPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/module/testimonials.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/module/testimonials.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/past.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/past.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/past.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -232,13 +231,10 @@
       <workItem from="1610544316684" duration="566000" />
       <workItem from="1610561811472" duration="132000" />
       <workItem from="1610615639198" duration="1764000" />
-    </task>
-    <task id="LOCAL-00006" summary="fara container">
-      <created>1604077408117</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1604077408117</updated>
+      <workItem from="1610617431698" duration="280000" />
+      <workItem from="1610634267186" duration="12000" />
+      <workItem from="1610699286717" duration="1382000" />
+      <workItem from="1610701015740" duration="1922000" />
     </task>
     <task id="LOCAL-00007" summary="fara container">
       <created>1604077601587</created>
@@ -576,7 +572,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610561852471</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="footer toate 3 facut js individual">
+      <created>1610617668526</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1610617668527</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,7 +599,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="poze despre mine 2 px padding/ loader 1s" />
     <MESSAGE value="alt poze modal" />
     <MESSAGE value="testimonials" />
     <MESSAGE value="testimonials nume/ schimbat logo ubuntu" />
@@ -621,6 +623,7 @@
     <MESSAGE value="refacut butoane index / refacut foote/ refacut modal" />
     <MESSAGE value="animatie ios" />
     <MESSAGE value="fara animatie ubuntu" />
-    <option name="LAST_COMMIT_MESSAGE" value="fara animatie ubuntu" />
+    <MESSAGE value="footer toate 3 facut js individual" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer toate 3 facut js individual" />
   </component>
 </project>

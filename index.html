@@ -62,7 +62,7 @@
 <section class="hero">
     <div class="hero-container">
         <a href="#" class="hero-btn" data-toggle="modal" data-target="#exampleModal">
-            Learning
+            Invite me to an interview?
         </a>
 
         <!-- Modal -->
@@ -76,13 +76,24 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <h1>html</h1>
+<!--                        <h6>html</h6>-->
+
+<!--todo temporar pana este gata js-->
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John V">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Leave a message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+
 
 
 
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Sent</button>
                     </div>
                 </div>
             </div>
@@ -135,6 +146,14 @@
 <section class="loading">
     <img src="./img/loading/ripple.gif" alt="loading"/>
 </section>
+
+<!--Input  -->
+<!--<section id="entry-text" class="card">-->
+<!--    <p></p>-->
+<!--</section>-->
+<!--<ul id="input-list"></ul>-->
+<!--=========================================-->
+
 
 <div class="p-3 text-center">
     <button id="containerDisplay" class="hero-btn-display">About me</button>
@@ -398,6 +417,6 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 <script src="js/index.js"></script>
-<script src="js/firstPage.js"></script>
+<script src="js/firstPage.js" type="module"></script>
 </body>
 </html>
