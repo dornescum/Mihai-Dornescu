@@ -2068,3 +2068,108 @@ main {
 .green-color {
     background-color: #3AAF80;
 }
+
+/*modal index.html pe care il pun dupa intr un modul*/
+#backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 10;
+    pointer-events: none;
+    display: none;
+}
+
+#backdrop.visible {
+    display: block;
+    pointer-events: all;
+}
+
+#add-comment .modal__content {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .modal {
+        width: 40rem;
+        left: calc(50% - 20rem);
+    }
+}
+.modal {
+    position: fixed;
+    z-index: 100;
+    width: 80%;
+    top: 30vh;
+    left: 10%;
+    display: none;
+}
+
+.modal.visible {
+    display: block;
+    animation: fade-slide-in 0.3s ease-out forwards;
+}
+
+.modal .modal__title {
+    margin: 0;
+    padding: 1rem;
+    border-bottom: 1px solid #00329e;
+    background: #00329e;
+    color: var(--clr-white);
+    border-radius: 10px 10px 0 0;
+}
+
+.modal .modal__content {
+    padding: 1rem;
+}
+
+.modal .modal__actions {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.card {
+    background: white;
+    border-radius: var(--radius);
+    box-shadow: var(--dark-shadow);
+}
+input {
+    font: inherit;
+    border: 1px solid #ccc;
+    padding: 0.4rem 0.2rem;
+    color: #383838;
+    margin: 10px 0;
+}
+
+input:focus {
+    outline: none;
+    background: lightgray;
+}
+.message-li {
+    margin: 1rem 1rem;
+    /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);*/
+    box-shadow: var(--dark-shadow);
+    border-radius: var(--radius);
+    display: flex;
+}
+.message__info {
+    flex: 2;
+    padding: 1rem;
+}
+.message-textarea {
+    width: auto;
+    font-size: 14px;
+}
+#entry-text {
+    width: 80rem;
+    margin: 2rem auto;
+    max-width: 80%;
+    padding: 1rem;
+}
+
+#entry-text p {
+    font-size: 18px;
+    text-align: center;
+}

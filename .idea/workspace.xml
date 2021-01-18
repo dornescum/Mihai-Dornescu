@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="module js / modul css input/">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fancy link / toggle button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/firstPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/firstPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +63,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CSSmihai" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Udemy/Academind-Vue/Js/Projects/MovieDataBase/dom-07-selected-modal-and-button/assets/styles/app.css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
     <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/5animeText-master/css/styles.css" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -235,14 +235,14 @@
       <workItem from="1610803653186" duration="46000" />
       <workItem from="1610804827988" duration="645000" />
       <workItem from="1610806306772" duration="39000" />
-      <workItem from="1610983706318" duration="993000" />
-    </task>
-    <task id="LOCAL-00008" summary="past galerie">
-      <created>1604081886624</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1604081886624</updated>
+      <workItem from="1610983706318" duration="1905000" />
+      <workItem from="1610986920130" duration="1785000" />
+      <workItem from="1610988729101" duration="2425000" />
+      <workItem from="1610992857573" duration="2131000" />
+      <workItem from="1610995026085" duration="1789000" />
+      <workItem from="1610996930566" duration="1697000" />
+      <workItem from="1610998655825" duration="1781000" />
+      <workItem from="1611000466220" duration="665000" />
     </task>
     <task id="LOCAL-00009" summary="probleme abilitati">
       <created>1604083654792</created>
@@ -580,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610703184503</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="fancy link / toggle button">
+      <created>1610984926365</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1610984926366</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +607,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="testimonials" />
     <MESSAGE value="testimonials nume/ schimbat logo ubuntu" />
     <MESSAGE value="weather js" />
     <MESSAGE value="weather js favicon" />
@@ -625,6 +631,11 @@
     <MESSAGE value="fara animatie ubuntu" />
     <MESSAGE value="footer toate 3 facut js individual" />
     <MESSAGE value="module js / modul css input/" />
-    <option name="LAST_COMMIT_MESSAGE" value="module js / modul css input/" />
+    <MESSAGE value="fancy link / toggle button" />
+    <option name="LAST_COMMIT_MESSAGE" value="fancy link / toggle button" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

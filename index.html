@@ -16,7 +16,7 @@
     <!--bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<!--    <link rel="stylesheet" href="./css/styles.css">-->
+    <!--    <link rel="stylesheet" href="./css/styles.css">-->
     <link rel="stylesheet" href="./css/web-kit.css">
     <title>Resume</title>
 </head>
@@ -61,43 +61,79 @@
 <!--hero-->
 <section class="hero">
     <div class="hero-container">
-        <a href="#" class="hero-btn" data-toggle="modal" data-target="#exampleModal">
+        <a href="#" class="hero-btn" data-toggle="modal" data-target="#exampleModal" id="invitation">
             Invite me to an interview?
         </a>
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Certificari</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-<!--                        <h6>html</h6>-->
+        <!-- Modal  bootstrap-->
+        <!--        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">-->
+        <!--            <div class="modal-dialog">-->
+        <!--                <div class="modal-content">-->
+        <!--                    <div class="modal-header">-->
+        <!--                        <h5 class="modal-title" id="exampleModalLabel">Certificari</h5>-->
+        <!--                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
+        <!--                            <span aria-hidden="true">&times;</span>-->
+        <!--                        </button>-->
+        <!--                    </div>-->
+        <!--                    <div class="modal-body">-->
+        <!--&lt;!&ndash;                        <h6>html</h6>&ndash;&gt;-->
 
-<!--todo temporar pana este gata js-->
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Your Name</label>
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John V">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Leave a message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-
-
+        <!--&lt;!&ndash;todo temporar pana este gata js&ndash;&gt;-->
+        <!--                        <div class="mb-3">-->
+        <!--                            <label for="exampleFormControlInput1" class="form-label">Your Name</label>-->
+        <!--                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John V">-->
+        <!--                        </div>-->
+        <!--                        <div class="mb-3">-->
+        <!--                            <label for="exampleFormControlTextarea1" class="form-label">Leave a message</label>-->
+        <!--                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>-->
+        <!--                        </div>-->
 
 
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Sent</button>
-                    </div>
-                </div>
+        <!--                    </div>-->
+        <!--                    <div class="modal-footer">-->
+        <!--                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Sent</button>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+
+        <!--        =======================inchide modal bootstrap-->
+
+        <!--        modal js-->
+        <div id="backdrop"></div>
+        <div class="modal card" id="add-comment">
+            <div class="modal__content">
+
+                <!--                    <label for="title">Leave a Message</label>-->
+                <label for="title">Your Name</label>
+                <input type="text" name="title" id="title" placeholder="Name" style="width: auto"/>
+                <label for="message">Your Message</label>
+
+                <textarea id="message" name="message" rows="4" cols="50" class="message-textarea"
+                          placeholder="this is just an exercise..  ">
+
+                    </textarea>
+
+                <!--                <label for="image-url">Image URL</label>-->
+                <!--                <input type="text" name="image-url" id="image-url" />-->
+                <!--                <label for="rating">Your Rating</label>-->
+                <!--                <input-->
+                <!--                        type="number"-->
+                <!--                        step="1"-->
+                <!--                        max="5"-->
+                <!--                        min="1"-->
+                <!--                        name="rating"-->
+                <!--                        id="rating"-->
+                <!--                />-->
+            </div>
+            <div class="modal__actions">
+                <button class="btn btn--passive">Cancel</button>
+                <button class="btn btn--success">Add</button>
             </div>
         </div>
+
+
+        <!--        ==================================================-->
     </div>
 </section>
 <!--sidebar-->
@@ -125,11 +161,13 @@
                 </a>
             </li>
             <li>
-                <a class="github sidebar-link" href="https://github.com/dornescum.html" target="_blank"><i class="fab fa-github">
+                <a class="github sidebar-link" href="https://github.com/dornescum.html" target="_blank"><i
+                        class="fab fa-github">
                     <b>Github</b></i></a>
             </li>
             <li>
-                <a class="linkedin sidebar-link" href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"><b> LinkedIn</b></i></a>
+                <a class="linkedin sidebar-link" href="https://www.linkedin.com/feed/" target="_blank"><i
+                        class="fab fa-linkedin"><b> LinkedIn</b></i></a>
             </li>
             <li>
                 <a class="linkedin sidebar-link" href="tel:0762369717"><i class="fas fa-phone-volume"><b> Call
@@ -148,10 +186,13 @@
 </section>
 
 <!--Input  -->
-<!--<section id="entry-text" class="card">-->
-<!--    <p></p>-->
-<!--</section>-->
-<!--<ul id="input-list"></ul>-->
+<section>
+    <div id="entry-text" class="card">
+        <p>No invitation ...</p>
+    </div>
+    <ul id="input-list"></ul>
+</section>
+
 <!--=========================================-->
 
 
@@ -194,7 +235,7 @@
     <button id="skills" class="hero-btn-display">Show skills</button>
 </div>
 <div class="container invisible" id="progress">
-<!--    <h6 class="text-center mt-3">Skills</h6>-->
+    <!--    <h6 class="text-center mt-3">Skills</h6>-->
     <div class="row ">
         <div class="col-lg-6">
             <div class="container">
@@ -282,15 +323,17 @@
 <!--footer-->
 <footer class="site-footer">
     <div class="container">
-            <div>
-                <ul class="social-icons">
-                    <li>Linux Fan<a class="ubuntu" href="https://ubuntu.com/download/desktop" target="_blank">
-                        <i class="fab fa-ubuntu"></i>
-                    </a></li>
-                    <li><a class="github" href="https://github.com/dornescum.html" target="_blank"><i class="fab fa-github"></i></a></li>
-                    <li><a class="linkedin" href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                </ul>
-            </div>
+        <div>
+            <ul class="social-icons">
+                <li>Linux Fan<a class="ubuntu" href="https://ubuntu.com/download/desktop" target="_blank">
+                    <i class="fab fa-ubuntu"></i>
+                </a></li>
+                <li><a class="github" href="https://github.com/dornescum.html" target="_blank"><i
+                        class="fab fa-github"></i></a></li>
+                <li><a class="linkedin" href="https://www.linkedin.com/feed/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
     </div>
 </footer>
 

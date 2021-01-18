@@ -62,10 +62,25 @@ const skillsBtn = document.getElementById("skills")
 const containerDisplay = document.getElementById("containerDisplay")
 const container = document.getElementById("container")
 let workedProjects = 0;
+
+// modal
+const comment = document.getElementById("add-comment");
+const invitation = document.getElementById("invitation");
+const backdrop = document.getElementById("backdrop");
+const cancelMessage = document.querySelector(".btn--passive");
+const addMessage = cancelMessage.nextElementSibling;
+// const  userInput = comment.querySelectorAll("input")
+const userName = document.getElementById("title");
+const userMessage = document.getElementById("message");
+const invitationMessage = document.getElementById("entry-text");
+const listMessage = document.getElementById("input-list")
+
+
 // incarca
 window.addEventListener("DOMContentLoaded", function () {
     showProjects()
 })
+
 function showProjects() {
     const item = projects[workedProjects];
     img.src = item.img;
@@ -73,26 +88,28 @@ function showProjects() {
     source.textContent = item.source;
     info.textContent = item.text;
 }
+
 // btn projects
 nextBtn.addEventListener('click', function () {
     workedProjects++;
-    if (workedProjects > projects.length -1){
+    if (workedProjects > projects.length - 1) {
         workedProjects = 0;
     }
     showProjects(workedProjects);
 })
 prevBtn.addEventListener('click', function () {
     workedProjects--;
-    if (workedProjects < 0){
-        workedProjects = projects.length -1;
+    if (workedProjects < 0) {
+        workedProjects = projects.length - 1;
     }
     showProjects(workedProjects);
 })
 // btn sus
 btnUp.classList.add("btn-up")
-btnUp.innerText= " Up "
+btnUp.innerText = " Up "
 btnUp.addEventListener("click", scrollToTop)
 main.appendChild(btnUp)
+
 function scrollToTop() {
     // Scroll to top logic
     rootElement.scrollTo({
@@ -100,10 +117,81 @@ function scrollToTop() {
         behavior: "smooth"
     })
 }
+
 // show | hide on index.html
-skillsBtn.addEventListener("click", ()=>{
+skillsBtn.addEventListener("click", () => {
     progress.classList.toggle("invisible")
 })
-containerDisplay.addEventListener("click", ()=>{
+containerDisplay.addEventListener("click", () => {
     container.classList.toggle("invisible")
 })
+// =================================================
+// modal
+const message = [];
+const updatePage = () => {
+    if (message.length === 0){
+        invitationMessage.style.display = "block"
+    } else {
+        invitationMessage.style.display = "none"
+    }
+}
+const updateMessages =(title, message)=>{
+    const noInfo ="this is just an exercise"
+    const newMessage = document.createElement("li");
+    newMessage.className ="message-li";
+    newMessage.innerHTML =`
+            <div class="message__info">
+            <h6>${title}</h6>
+             <p>${message}</p>
+             <p>${noInfo}</p>
+            </div>
+          
+    `
+
+    listMessage.append(newMessage)
+    console.log(newMessage)
+}
+const toggleBackdrop = () => {
+    backdrop.classList.toggle("visible")
+}
+
+const openModal = () => {
+    comment.classList.toggle("visible");
+    toggleBackdrop();
+}
+const closeBackdrop = () => {
+    openModal();
+}
+const cancelAddMessage = () => {
+    openModal();
+    clearInput();
+}
+const addMessageBtn = () => {
+    const titleValue = userName.value;
+    const messageValue = userMessage.value;
+    console.log(titleValue)
+    if (titleValue.trim() === '' || messageValue.trim() === "") {
+        alert("is there something wrong?")
+        return;
+    }
+    const newMessage = {
+        title: titleValue,
+        message: messageValue
+    };
+    message.push(newMessage);
+    // console.log(userName, userMessage)
+    console.log(message)
+    updateMessages(newMessage.title, newMessage.message);
+    clearInput();
+    openModal();
+    updatePage();
+}
+const clearInput = () => {
+    userMessage.value = ""
+    userName.value = ""
+}
+
+invitation.addEventListener("click", openModal);
+backdrop.addEventListener("click", closeBackdrop);
+cancelMessage.addEventListener("click", cancelAddMessage);
+addMessage.addEventListener("click", addMessageBtn)
