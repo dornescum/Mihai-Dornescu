@@ -2174,7 +2174,7 @@ input:focus {
     display: flex;
 }
 
-@media screen and (min-width: 350px){
+@media screen and (min-width: 320px){
     .message-li{
         margin:10px 25px;
     }
