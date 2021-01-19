@@ -135,17 +135,17 @@ const updatePage = () => {
         invitationMessage.style.display = "none"
     }
 }
+
 const updateMessages =(title, message)=>{
-    const noInfo ="this is just an exercise"
+    const noInfo ="This is just an exercise &#128540"
     const newMessage = document.createElement("li");
     newMessage.className ="message-li";
     newMessage.innerHTML =`
             <div class="message__info">
-            <h6>${title}</h6>
-             <p>${message}</p>
-             <p>${noInfo}</p>
+            <h6>${title.toUpperCase()}</h6>
+             <p class="message-text">${message.toLowerCase()}</p>
+             <p class="align-start">${noInfo}</p>
             </div>
-          
     `
 
     listMessage.append(newMessage)

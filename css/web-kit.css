@@ -33,7 +33,7 @@ Variables
     --clr-primary-10: hsl(21, 100%, 94%);
     /* darkest grey - used for headings */
     --clr-grey-1: #102a42;
-    --clr-grey-2:  #969696 ;
+    --clr-grey-2: #969696;
     --clr-grey-3: hsl(209, 34%, 30%);
     --clr-grey-4: hsl(209, 28%, 39%);
     /* grey used for paragraphs */
@@ -44,6 +44,7 @@ Variables
     --clr-grey-9: hsl(212, 33%, 89%);
     --clr-grey-10: hsl(210, 36%, 96%);
     --clr-grey-11: #595959;
+    --clr-grey-12: #828282;
     --clr-white: #fff;
     --clr-red-dark: hsl(360, 67%, 44%);
     --clr-red-light: hsl(360, 71%, 66%);
@@ -51,6 +52,8 @@ Variables
     --clr-green-light: hsl(125, 71%, 66%);
     --clr-black: #222;
     --clr-light-blue: lightblue;
+    --blue-1: #0505ff;
+    --blue-2: #000094;
     --line-height: 1.6;
     --transition: all 0.3s linear;
     --spacing: 0.1rem;
@@ -81,9 +84,11 @@ body {
     line-height: 1.5;
     font-size: 0.875rem;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 ul {
     list-style-type: none;
     margin-bottom: 0;
@@ -539,9 +544,11 @@ Navbar
 ul li a {
     color: white;
 }
-ul li a:hover{
+
+ul li a:hover {
     color: white;
 }
+
 .fancy-link {
     color: var(--clr-white);
     position: relative;
@@ -899,11 +906,13 @@ span {
     -webkit-animation: progressBarVue 5s linear forwards;
     animation: progressBarVue 5s linear forwards;
 }
+
 #sass {
     background-color: #CF649A;
     -webkit-animation: progressBarSass 5s linear forwards;
     animation: progressBarSass 5s linear forwards;
 }
+
 #pwa {
     background-color: #ccc;
     -webkit-animation: progressBarPwa 5s linear forwards;
@@ -1191,14 +1200,13 @@ span {
 }
 
 
-
 .skills {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 20px 0;
-    padding:  10px 10px;
+    padding: 10px 10px;
     background: -webkit-gradient(linear, left top, left bottom, from(#626262), color-stop(10%, #333), to(#222));
     background: -o-linear-gradient(#626262 0%, #333 10%, #222);
     background: linear-gradient(#626262 0%, #333 10%, #222);
@@ -1221,6 +1229,7 @@ span {
 .visible {
     display: block;
 }
+
 .invisible {
     display: none;
 }
@@ -1359,7 +1368,6 @@ span {
 }
 
 
-
 @media (max-width: 767px) {
     .site-footer {
         padding-bottom: 0
@@ -1375,6 +1383,7 @@ span {
         margin-bottom: 30px
     }
 }
+
 .social-icons {
     padding-left: 0;
     margin-bottom: 0;
@@ -1450,7 +1459,7 @@ a.ubuntu:hover {
     /*-o-transition: var(--transition);*/
     /*transition: var(--transition);*/
     /*transform: scale(1.1);*/
-    background:  #4a4a4a ;
+    background: #4a4a4a;
 }
 
 
@@ -1542,12 +1551,14 @@ a.ubuntu:hover {
     color: black;
     padding-left: 150px
 }
-@media (min-width:768px){
+
+@media (min-width: 768px) {
     #quote {
         padding: 100px;
     }
 }
-@media (min-width:768px){
+
+@media (min-width: 768px) {
     #quote {
         padding: 50px;
     }
@@ -1606,7 +1617,7 @@ a.ubuntu:hover {
 
 .btn-main {
     color: var(--clr-white);
-    background: var(--clr-primary-5);
+    background: var(--clr-grey-5);
     display: block;
     width: 90%;
     border-color: transparent;
@@ -1625,7 +1636,7 @@ a.ubuntu:hover {
 
 .btn-main:hover {
     background-color: var(--clr-grey-2);
-    color: var(--clr-primary-5);
+    color: var(--clr-grey-11);
     -webkit-box-shadow: var(--dark-shadow);
     box-shadow: var(--dark-shadow);
     /*font-size: 1.3rem;*/
@@ -1884,6 +1895,7 @@ main {
     display: grid;
     gap: 2rem;
 }
+
 @media screen and (min-width: 992px) {
     .section-projects {
         -ms-grid-columns: 1fr 1fr 1fr;
@@ -1891,6 +1903,7 @@ main {
         width: 95vw;
     }
 }
+
 @media screen and (min-width: 768px) {
     .section-projects {
         display: -ms-grid;
@@ -1899,7 +1912,6 @@ main {
         grid-template-columns: 1fr 1fr;
     }
 }
-
 
 
 /*slider bootstrap */
@@ -1963,6 +1975,7 @@ main {
     padding: 10px 14px;
     margin: 5px;
 }
+
 .font-size16 {
     font-size: 14px;
     background-color: var(--clr-grey-10);
@@ -1970,6 +1983,7 @@ main {
     padding: 10px 14px;
     margin: 5px;
 }
+
 .font-size18 {
     font-size: 18px;
     /*background-color: var(--clr-grey-10);*/
@@ -2026,8 +2040,7 @@ main {
 }
 
 
-
-.btn-up{
+.btn-up {
     background: var(--clr-black);
     color: var(--clr-white);
     border-radius: 50%;
@@ -2036,7 +2049,8 @@ main {
     display: flex;
     justify-self: start;
 }
-.temp-link{
+
+.temp-link {
     padding: 2px 10px;
     font-size: 14px;
     color: black;
@@ -2098,6 +2112,7 @@ main {
         left: calc(50% - 20rem);
     }
 }
+
 .modal {
     position: fixed;
     z-index: 100;
@@ -2130,46 +2145,133 @@ main {
     display: flex;
     justify-content: flex-end;
 }
+
 .card {
     background: white;
     border-radius: var(--radius);
     box-shadow: var(--dark-shadow);
 }
+
 input {
     font: inherit;
     border: 1px solid #ccc;
     padding: 0.4rem 0.2rem;
     color: #383838;
     margin: 10px 0;
+    text-align: center;
 }
 
 input:focus {
     outline: none;
     background: lightgray;
 }
+
 .message-li {
-    margin: 1rem 1rem;
+    /*margin: 1rem 5rem;*/
     /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);*/
     box-shadow: var(--dark-shadow);
     border-radius: var(--radius);
     display: flex;
 }
-.message__info {
-    flex: 2;
-    padding: 1rem;
+
+@media screen and (min-width: 350px){
+    .message-li{
+        margin:10px 25px;
+    }
 }
-.message-textarea {
-    width: auto;
-    font-size: 14px;
+@media screen and (min-width: 765px){
+    .message-li{
+        margin:1rem 3rem;
+    }
 }
-#entry-text {
-    width: 80rem;
-    margin: 2rem auto;
-    max-width: 80%;
-    padding: 1rem;
+@media screen and (min-width: 990px){
+    .message-li{
+        margin:1rem 5rem;
+    }
+}
+@media screen and (min-width: 1440px){
+    .message-li{
+        margin:1rem 8rem;
+    }
 }
 
-#entry-text p {
-    font-size: 18px;
-    text-align: center;
-}
+
+    .message__info {
+        border-top: 5px solid var(--clr-grey-12);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        flex: 2;
+        padding: 1rem;
+        text-align: center;
+
+    }
+
+    .message-textarea {
+        width: auto;
+        font-size: inherit;
+        text-align: center;
+        border: 1px solid #ccc;
+        padding: 0.4rem 0.2rem;
+    }
+
+    .message-textarea:focus {
+        background: lightgray;
+        outline: none;
+
+    }
+
+    #entry-text {
+        width: 80rem;
+        margin: 2rem auto;
+        max-width: 80%;
+        padding: 1rem;
+
+    }
+
+    #entry-text p {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .message-text {
+        font-style: italic;
+    }
+
+    .align-start {
+        display: flex;
+        align-content: start;
+    }
+
+    .btn--passive {
+        color: var(--clr-black);
+        background: var(--clr-grey-7);
+        border: none;
+        box-shadow: none;
+        margin-right: 25px;
+        margin-top: 50px;
+        padding: 5px 10px;
+    }
+
+    .btn--passive:hover,
+    .btn--passive:active {
+        background: var(--clr-grey-11);
+    }
+
+    .btn--success {
+        background: var(--blue-1);
+        color: white;
+        border-color: 1px solid var(--clr-grey-11);
+        margin-top: 50px;
+        padding: 5px 10px;
+
+    }
+
+    .btn--success:hover,
+    .btn--success:active {
+        background: var(--blue-2);
+        border-color: 1px solid var(--clr-grey-11);
+    }
+
+    label {
+        color: var(--clr-grey-11);
+    }
