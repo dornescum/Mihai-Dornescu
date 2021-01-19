@@ -137,7 +137,9 @@ const updatePage = () => {
 }
 
 const updateMessages =(title, message)=>{
-    const noInfo ="This is just an exercise &#128540"
+    const noInfo ="This is just an exercise &#128540";
+   const date = new Date();
+   const hour = date.toLocaleTimeString();
     const newMessage = document.createElement("li");
     newMessage.className ="message-li";
     newMessage.innerHTML =`
@@ -145,6 +147,7 @@ const updateMessages =(title, message)=>{
             <h6>${title.toUpperCase()}</h6>
              <p class="message-text">${message.toLowerCase()}</p>
              <p class="align-start">${noInfo}</p>
+             <p class="align-start">${hour}</p>
             </div>
     `
 
