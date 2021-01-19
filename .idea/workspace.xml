@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="refacut modal in js fara bootstrap">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="@media 320">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -243,14 +244,8 @@
       <workItem from="1611042969958" duration="1681000" />
       <workItem from="1611044683104" duration="1827000" />
       <workItem from="1611046556483" duration="1771000" />
-      <workItem from="1611048356842" duration="1090000" />
-    </task>
-    <task id="LOCAL-00011" summary="modificat abilitati si proiecte latime imagine">
-      <created>1604089143503</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1604089143503</updated>
+      <workItem from="1611048356842" duration="1707000" />
+      <workItem from="1611055798738" duration="430000" />
     </task>
     <task id="LOCAL-00012" summary="culori sidebar">
       <created>1604141720557</created>
@@ -588,7 +583,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611049062235</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="@media 320">
+      <created>1611049461783</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1611049461783</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,7 +610,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="weather js favicon" />
     <MESSAGE value="lorem" />
     <MESSAGE value="future sidebar" />
     <MESSAGE value="future navbar" />
@@ -633,7 +634,8 @@
     <MESSAGE value="fancy link / toggle button" />
     <MESSAGE value="refacut modal in js fara bootstrap" />
     <MESSAGE value="message border" />
-    <option name="LAST_COMMIT_MESSAGE" value="message border" />
+    <MESSAGE value="@media 320" />
+    <option name="LAST_COMMIT_MESSAGE" value="@media 320" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
