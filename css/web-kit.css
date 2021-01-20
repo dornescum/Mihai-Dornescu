@@ -2264,7 +2264,7 @@ input:focus {
         border: none;
         box-shadow: none;
         margin-right: 25px;
-        margin-top: 50px;
+        /*margin-top: 50px;*/
         padding: 5px 10px;
     }
 
@@ -2277,7 +2277,7 @@ input:focus {
         background: var(--blue-1);
         color: white;
         border-color: 1px solid var(--clr-grey-11);
-        margin-top: 50px;
+        /*margin-top: 50px;*/
         padding: 5px 10px;
 
     }

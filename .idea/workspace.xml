@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="@media 320">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/firstPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/firstPage.js" afterDir="false" />
-    </list>
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="ora mesaj" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -245,14 +242,7 @@
       <workItem from="1611044683104" duration="1827000" />
       <workItem from="1611046556483" duration="1771000" />
       <workItem from="1611048356842" duration="1707000" />
-      <workItem from="1611055798738" duration="793000" />
-    </task>
-    <task id="LOCAL-00013" summary="refacut abilitati">
-      <created>1604397667925</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1604397667926</updated>
+      <workItem from="1611055798738" duration="1151000" />
     </task>
     <task id="LOCAL-00014" summary="mt-5 abilitati">
       <created>1604398209350</created>
@@ -590,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611056384286</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="ora mesaj">
+      <created>1611056817750</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1611056817750</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -610,7 +607,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="future sidebar" />
     <MESSAGE value="future navbar" />
     <MESSAGE value="navbar link" />
     <MESSAGE value="descriere" />
@@ -635,7 +631,8 @@
     <MESSAGE value="message border" />
     <MESSAGE value="@media 320" />
     <MESSAGE value="media 375" />
-    <option name="LAST_COMMIT_MESSAGE" value="media 375" />
+    <MESSAGE value="ora mesaj" />
+    <option name="LAST_COMMIT_MESSAGE" value="ora mesaj" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
