@@ -1807,6 +1807,13 @@ main {
     color: white;
     margin: auto;
 }
+.about{
+    color: var(--clr-grey-12);
+}
+.about::first-letter{
+    font-size: 34px;
+    color: black;
+}
 
 
 #unemployed {
@@ -2051,12 +2058,12 @@ main {
     display: flex;
     justify-self: start;
 }
-
-.temp-link {
-    padding: 2px 10px;
-    font-size: 14px;
-    color: black;
-}
+/*a fost temporar folosita  */
+/*.temp-link {*/
+/*    padding: 2px 10px;*/
+/*    font-size: 14px;*/
+/*    color: black;*/
+/*}*/
 
 
 /*colors*/
