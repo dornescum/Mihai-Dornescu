@@ -67,5 +67,21 @@ window.addEventListener("DOMContentLoaded", function () {
 //         behavior: "smooth"
 //     })
 // }
-
-
+// footer
+const footer = document.getElementById("footer");
+// console.log(footer)
+// const footerUl = document.createElement("ul");
+// footerUl.classList.add("social-icons");
+// const footerLi = document.createElement("li");
+footer.innerHTML = `
+     <ul class="social-icons">
+                <li>Linux Fan<a class="ubuntu" href="https://ubuntu.com/download/desktop" target="_blank">
+                    <i class="fab fa-ubuntu"></i>
+                </a></li>
+                <li><a class="github" href="https://github.com/dornescum.html" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a class="linkedin" href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+    `
+console.log(footer)
+// footerUl.append(footerLi)
+// footer.append(footerUl)
