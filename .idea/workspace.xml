@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="colors in future">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="footer index.js">
       <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/future.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,14 +257,7 @@
       <workItem from="1611575170586" duration="1816000" />
       <workItem from="1611577022257" duration="1787000" />
       <workItem from="1611578837333" duration="2299000" />
-      <workItem from="1611581165958" duration="1312000" />
-    </task>
-    <task id="LOCAL-00017" summary="ubuntu">
-      <created>1604491551794</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1604491551794</updated>
+      <workItem from="1611581165958" duration="3653000" />
     </task>
     <task id="LOCAL-00018" summary="footer past">
       <created>1604501633104</created>
@@ -605,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611580265883</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="footer index.js">
+      <created>1611582777246</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1611582777249</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +622,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="despre mine / past" />
     <MESSAGE value="about me descriere" />
     <MESSAGE value="about me corectie goal" />
     <MESSAGE value="corectie" />
@@ -650,7 +646,8 @@
     <MESSAGE value="butoane modal margin-bottom scos" />
     <MESSAGE value="colors in future" />
     <MESSAGE value="totul generat din js cu class" />
-    <option name="LAST_COMMIT_MESSAGE" value="totul generat din js cu class" />
+    <MESSAGE value="footer index.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer index.js" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
