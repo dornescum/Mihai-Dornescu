@@ -86,7 +86,7 @@ class ProjectsList {
             "Restaurant mobile first",
             "https://s3.hulkshare.com/song_images/original/9/e/9/9e983f57483bce33d02502c27cba56d2.jpg?dd=1423715114",
             "Basic components, bootstrap vue, mobile first",
-            "http://vuejs-restaurant.s3-website.eu-west-3.amazonaws.com/",
+            "https://github.com/dornescum/RestaurantVue",
             "Vue Js"
         ),
         // 11
