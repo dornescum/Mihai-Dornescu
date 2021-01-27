@@ -16,7 +16,7 @@ class ProjectsList {
             "Easy game",
             "https://s3.hulkshare.com/song_images/original/9/e/9/9e983f57483bce33d02502c27cba56d2.jpg?dd=1423715114",
             "A simple game with some basic JS",
-            "https://www.javascript.com/",
+            "https://github.com/dornescum/SimpleGame",
             "Vanilla Js"
         ),
         new Project(
