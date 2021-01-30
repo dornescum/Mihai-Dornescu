@@ -8,7 +8,6 @@ class Project {
     }
 }
 
-// console.log(new Project())
 
 class ProjectsList {
     projects = [
@@ -142,6 +141,6 @@ class ProjectsList {
 // ProjectsList.render();
 const productList = new ProjectsList();
 productList.render();
-// console.log(ProjectsList);
+
 
 

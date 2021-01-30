@@ -19,9 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="footer index.js">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="restaurant vue github">
       <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/firstPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/firstPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/future.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/past.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +52,9 @@
         <option value="https://github.com/dornescum/5animeText" />
       </set>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1jBII24XkkGGVq0pYhvnNplwNag" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -258,34 +267,12 @@
       <workItem from="1611577022257" duration="1787000" />
       <workItem from="1611578837333" duration="2299000" />
       <workItem from="1611581165958" duration="3653000" />
-    </task>
-    <task id="LOCAL-00018" summary="footer past">
-      <created>1604501633104</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1604501633104</updated>
-    </task>
-    <task id="LOCAL-00019" summary="bootstrap slider">
-      <created>1604507745701</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1604507745701</updated>
-    </task>
-    <task id="LOCAL-00020" summary="ubuntu animation apple">
-      <created>1604563483833</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1604563483833</updated>
-    </task>
-    <task id="LOCAL-00021" summary="@-webkit-keyframes ubuntu animation apple">
-      <created>1604563850316</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1604563850316</updated>
+      <workItem from="1611739942987" duration="506000" />
+      <workItem from="1611740728370" duration="693000" />
+      <workItem from="1611772189222" duration="375000" />
+      <workItem from="1612023098506" duration="1717000" />
+      <workItem from="1612024840513" duration="1306000" />
+      <workItem from="1612043699260" duration="999000" />
     </task>
     <task id="LOCAL-00022" summary="navbar /sidebar / #container /#progress">
       <created>1605039837202</created>
@@ -602,7 +589,35 @@
       <option name="project" value="LOCAL" />
       <updated>1611582777249</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="random site vue">
+      <created>1611740052571</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1611740052572</updated>
+    </task>
+    <task id="LOCAL-00068" summary="link simple game">
+      <created>1611740788338</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1611740788338</updated>
+    </task>
+    <task id="LOCAL-00069" summary="restaurant vue">
+      <created>1611740963332</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1611740963332</updated>
+    </task>
+    <task id="LOCAL-00070" summary="restaurant vue github">
+      <created>1611741194785</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1611741194785</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,14 +637,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="about me descriere" />
-    <MESSAGE value="about me corectie goal" />
-    <MESSAGE value="corectie" />
     <MESSAGE value="search filter net ninja" />
     <MESSAGE value="js mutat in index.html scos/ scos eroare de prevBtn si nextBtn" />
     <MESSAGE value="modificat text poza si font button in index.html/&#10;autoprefixer pt --webkit" />
     <MESSAGE value="sass si pwa" />
-    <MESSAGE value="restaurant vue" />
     <MESSAGE value="curatenie" />
     <MESSAGE value="WEBP" />
     <MESSAGE value="refacut butoane index / refacut foote/ refacut modal" />
@@ -647,7 +658,11 @@
     <MESSAGE value="colors in future" />
     <MESSAGE value="totul generat din js cu class" />
     <MESSAGE value="footer index.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer index.js" />
+    <MESSAGE value="random site vue" />
+    <MESSAGE value="link simple game" />
+    <MESSAGE value="restaurant vue" />
+    <MESSAGE value="restaurant vue github" />
+    <option name="LAST_COMMIT_MESSAGE" value="restaurant vue github" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
