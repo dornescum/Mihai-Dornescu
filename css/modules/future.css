@@ -2,6 +2,7 @@
 .article {
     border: #96a2b2 solid 1px;
     border-radius: var(--radius);
+    height: 50vh;
 }
 .article h4{
     text-align: center;
@@ -18,4 +19,11 @@
 .item-text {
     padding: 5px 10px;
     font-size: 16px;
+
+}
+/*fixme*/
+@media (max-width: 1366px){
+        .article{
+            height: 60vh;
+        }
 }

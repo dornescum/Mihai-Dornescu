@@ -51,7 +51,7 @@ class ProjectsList {
         // 6
         new Project(
             "Colors",
-            "https://i.kym-cdn.com/photos/images/facebook/001/237/072/307.jpg",
+            "img/colors.jpg",
             "colors id #",
             "https://github.com/dornescum/ColorsList",
             "Vanilla Js"
@@ -83,7 +83,7 @@ class ProjectsList {
         // 10
         new Project(
             "Restaurant mobile first",
-            "https://s3.hulkshare.com/song_images/original/9/e/9/9e983f57483bce33d02502c27cba56d2.jpg?dd=1423715114",
+            "img/rv.png",
             "Basic components, bootstrap vue, mobile first",
             "https://github.com/dornescum/RestaurantVue",
             "Vue Js"

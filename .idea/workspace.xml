@@ -19,14 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="restaurant vue github">
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="curatenie comment">
+      <change afterPath="$PROJECT_DIR$/img/colors.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rv.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/modules/future.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/modules/future.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/firstPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/firstPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/future.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/past.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -272,14 +272,11 @@
       <workItem from="1611772189222" duration="375000" />
       <workItem from="1612023098506" duration="1717000" />
       <workItem from="1612024840513" duration="1306000" />
-      <workItem from="1612043699260" duration="999000" />
-    </task>
-    <task id="LOCAL-00022" summary="navbar /sidebar / #container /#progress">
-      <created>1605039837202</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1605039837202</updated>
+      <workItem from="1612043699260" duration="1882000" />
+      <workItem from="1612045612683" duration="455000" />
+      <workItem from="1612047816981" duration="2059000" />
+      <workItem from="1612169407070" duration="235000" />
+      <workItem from="1612170140459" duration="713000" />
     </task>
     <task id="LOCAL-00023" summary="footer /btn-main">
       <created>1605114879331</created>
@@ -617,7 +614,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611741194785</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="curatenie comment">
+      <created>1612044742650</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1612044742651</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -637,7 +641,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="search filter net ninja" />
     <MESSAGE value="js mutat in index.html scos/ scos eroare de prevBtn si nextBtn" />
     <MESSAGE value="modificat text poza si font button in index.html/&#10;autoprefixer pt --webkit" />
     <MESSAGE value="sass si pwa" />
@@ -662,7 +665,8 @@
     <MESSAGE value="link simple game" />
     <MESSAGE value="restaurant vue" />
     <MESSAGE value="restaurant vue github" />
-    <option name="LAST_COMMIT_MESSAGE" value="restaurant vue github" />
+    <MESSAGE value="curatenie comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="curatenie comment" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
