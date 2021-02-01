@@ -19,15 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="curatenie comment">
-      <change afterPath="$PROJECT_DIR$/img/colors.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/rv.png" afterDir="false" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="aranjat poze">
+      <change afterPath="$PROJECT_DIR$/img/random.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/modules/future.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/modules/future.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/future.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/past.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,14 +271,8 @@
       <workItem from="1612045612683" duration="455000" />
       <workItem from="1612047816981" duration="2059000" />
       <workItem from="1612169407070" duration="235000" />
-      <workItem from="1612170140459" duration="713000" />
-    </task>
-    <task id="LOCAL-00023" summary="footer /btn-main">
-      <created>1605114879331</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1605114879331</updated>
+      <workItem from="1612170140459" duration="964000" />
+      <workItem from="1612174445774" duration="301000" />
     </task>
     <task id="LOCAL-00024" summary="-webkit-animation">
       <created>1605206843007</created>
@@ -621,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612044742651</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="aranjat poze">
+      <created>1612171078388</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1612171078388</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -641,7 +637,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="js mutat in index.html scos/ scos eroare de prevBtn si nextBtn" />
     <MESSAGE value="modificat text poza si font button in index.html/&#10;autoprefixer pt --webkit" />
     <MESSAGE value="sass si pwa" />
     <MESSAGE value="curatenie" />
@@ -666,7 +661,8 @@
     <MESSAGE value="restaurant vue" />
     <MESSAGE value="restaurant vue github" />
     <MESSAGE value="curatenie comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="curatenie comment" />
+    <MESSAGE value="aranjat poze" />
+    <option name="LAST_COMMIT_MESSAGE" value="aranjat poze" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

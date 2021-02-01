@@ -91,7 +91,7 @@ class ProjectsList {
         // 11
         new Project(
             "Random site",
-            "https://s3.hulkshare.com/song_images/original/9/e/9/9e983f57483bce33d02502c27cba56d2.jpg?dd=1423715114",
+            "img/random.png",
             "Basic components, slots, bootstrap vue",
             "https://github.com/dornescum/constructionVue",
             "Vue Js"
