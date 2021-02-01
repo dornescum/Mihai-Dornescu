@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="aranjat poze">
-      <change afterPath="$PROJECT_DIR$/img/random.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/future.js" afterDir="false" />
-    </list>
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="random site" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Exercitii/TypeScript/hoppingGame" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shoppingList-Bitfumes" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
@@ -272,14 +268,7 @@
       <workItem from="1612047816981" duration="2059000" />
       <workItem from="1612169407070" duration="235000" />
       <workItem from="1612170140459" duration="964000" />
-      <workItem from="1612174445774" duration="301000" />
-    </task>
-    <task id="LOCAL-00024" summary="-webkit-animation">
-      <created>1605206843007</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1605206843007</updated>
+      <workItem from="1612174445774" duration="373000" />
     </task>
     <task id="LOCAL-00025" summary="ubuntu rotation fara perspective">
       <created>1605207251451</created>
@@ -617,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612171078388</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="random site">
+      <created>1612174763405</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1612174763406</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -637,7 +633,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modificat text poza si font button in index.html/&#10;autoprefixer pt --webkit" />
     <MESSAGE value="sass si pwa" />
     <MESSAGE value="curatenie" />
     <MESSAGE value="WEBP" />
@@ -662,7 +657,8 @@
     <MESSAGE value="restaurant vue github" />
     <MESSAGE value="curatenie comment" />
     <MESSAGE value="aranjat poze" />
-    <option name="LAST_COMMIT_MESSAGE" value="aranjat poze" />
+    <MESSAGE value="random site" />
+    <option name="LAST_COMMIT_MESSAGE" value="random site" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
