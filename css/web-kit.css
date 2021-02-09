@@ -1880,7 +1880,6 @@ main {
     -webkit-box-shadow: var(--light-shadow);
     box-shadow: var(--light-shadow);
     height: 10rem;
-
 }
 
 .img-past:hover {
@@ -1888,6 +1887,28 @@ main {
     box-shadow: var(--dark-shadow);
     opacity: 0.9;
     transform: scale(1.1);
+}
+.img-carousel {
+    width: 50%;
+    height: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: var(--radius);
+    cursor: pointer;
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
+    transition: var(--transition);
+    -webkit-box-shadow: var(--light-shadow);
+    box-shadow: var(--light-shadow);
+    height: 10rem;
+}
+.img-carousel:hover{
+    -webkit-box-shadow: var(--dark-shadow);
+    box-shadow: var(--dark-shadow);
+    opacity: 0.9;
+    transform: scale(1.1);
+    content: attr(data-tooltip);
+
 }
 
 .main-img {
@@ -1923,6 +1944,9 @@ main {
         -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     }
+}
+#photoChanger::before{
+    content: attr(data-tooltip);
 }
 
 

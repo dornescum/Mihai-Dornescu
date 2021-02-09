@@ -2,15 +2,25 @@ import {testimonials} from "../js/module/testimonials.js";
 import {photos} from "../js/module/photosWork.js";
 
 let review = document.getElementById('testimonials');
-let photosLink =document.getElementById("photoChanger")
+let photosLink = document.getElementById("photoChanger")
 
-console.log(photos)
+
 window.addEventListener('DOMContentLoaded', () => {
+
+
+    // let shuffled = photos
+    //     .map((a) => ({sort: Math.random(), value: a}))
+    //     .sort((a, b) => a.sort - b.sort)
+    //     .map((a) => a.value)
+    //
+    // console.log(shuffled)
+
     let displayPhotos = photos.map((item) => {
-        const {id, foto, location, data, title} = item;
+        const {id, foto, location, dataTooltip, title} = item;
         return `
-                <div class="col-lg-4 radius img-past">
-                   <img src="${foto}" alt="${title}" data-location="${location}" datatype="${id}" data-browse="${data}">
+                <div class="col-lg-4 radius img-carousel">
+                   <img src="${foto}" alt="${title}" data-location="${location}" datatype="${id}" 
+                   data-tooltip="${dataTooltip}">
                 </div>
                `
     }).join('')

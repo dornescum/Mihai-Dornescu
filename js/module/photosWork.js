@@ -6,7 +6,7 @@ export const photos = [
         foto: "../../img/webp/1.webp",
         title: "",
         location: "",
-        data: "2005"
+        dataTooltip: "2005"
     },
     {
         id: "p2",
@@ -23,42 +23,42 @@ export const photos = [
         data: "2005"
     },
     {
-        id: "p1",
-        foto: "../../img/webp/4.webp",
+        id: "p4",
+        foto: "../../img/webp/6-min.webp",
         title: "",
         location: "",
         data: "2005"
     },
     {
-        id: "p1",
+        id: "p5",
         foto: "../../img/webp/10-min.webp",
         title: "",
         location: "",
         data: "2005"
     },
     {
-        id: "p1",
+        id: "p6",
         foto: "../../img/webp/7.webp",
         title: "",
         location: "",
         data: "2005"
     },
     {
-        id: "p1",
+        id: "p7",
         foto: "../../img/webp/09.webp",
         title: "",
         location: "",
         data: "2005"
     },
     {
-        id: "p1",
+        id: "p8",
         foto: "../../img/webp/barca.webp",
         title: "",
         location: "",
         data: "2005"
     },
     {
-        id: "p1",
+        id: "p9",
         foto: "../../img/webp/tortelini-min.webp",
         title: "",
         location: "",
