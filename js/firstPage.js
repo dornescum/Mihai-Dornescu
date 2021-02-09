@@ -82,20 +82,20 @@ containerDisplay.addEventListener("click", () => {
 // modal
 const message = [];
 const updatePage = () => {
-    if (message.length === 0){
+    if (message.length === 0) {
         invitationMessage.style.display = "block"
     } else {
         invitationMessage.style.display = "none"
     }
 }
 
-const updateMessages =(title, message)=>{
-    const noInfo ="This is just an exercise &#128540";
-   const date = new Date();
-   const hour = date.toLocaleTimeString();
+const updateMessages = (title, message) => {
+    const noInfo = "This is just an exercise &#128540";
+    const date = new Date();
+    const hour = date.toLocaleTimeString();
     const newMessage = document.createElement("li");
-    newMessage.className ="message-li";
-    newMessage.innerHTML =`
+    newMessage.className = "message-li";
+    newMessage.innerHTML = `
             <div class="message__info">
             <h6>${title.toUpperCase()}</h6>
              <p class="message-text">${message.toLowerCase()}</p>
@@ -105,7 +105,7 @@ const updateMessages =(title, message)=>{
     `
 
     listMessage.append(newMessage)
-    console.log(newMessage)
+    // console.log(newMessage)
 }
 const toggleBackdrop = () => {
     backdrop.classList.toggle("visible")
@@ -126,6 +126,7 @@ const addMessageBtn = () => {
     const titleValue = userName.value;
     const messageValue = userMessage.value;
     console.log(titleValue)
+    console.log(messageValue)
     if (titleValue.trim() === '' || messageValue.trim() === "") {
         alert("is there something wrong?")
         return;
@@ -135,8 +136,8 @@ const addMessageBtn = () => {
         message: messageValue
     };
     message.push(newMessage);
-    // console.log(userName, userMessage)
-    console.log(message)
+    console.log(userName, userMessage)
+    console.log(message.length)
     updateMessages(newMessage.title, newMessage.message);
     clearInput();
     openModal();
@@ -146,8 +147,13 @@ const clearInput = () => {
     userMessage.value = ""
     userName.value = ""
 }
+// ==============================================
+// fixme
+// console.log(addMessageBtn)
+localStorage.setItem("mesaj", message);
+// ==============================================
 
 invitation.addEventListener("click", openModal);
 backdrop.addEventListener("click", closeBackdrop);
 cancelMessage.addEventListener("click", cancelAddMessage);
-addMessage.addEventListener("click", addMessageBtn)
+addMessage.addEventListener("click", addMessageBtn);

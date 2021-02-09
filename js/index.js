@@ -44,6 +44,6 @@ footer.innerHTML = `
                 <li><a class="linkedin" href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
             </ul>
     `
-console.log(footer)
+// console.log(footer)
 // footerUl.append(footerLi)
 // footer.append(footerUl)
