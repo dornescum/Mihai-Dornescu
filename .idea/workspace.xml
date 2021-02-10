@@ -19,7 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="refacut" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="refacut">
+      <change afterPath="$PROJECT_DIR$/img/webp2/1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp2/10-min.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp2/2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp2/4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp2/6-min.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/bootstrap.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/css.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/materializeCss.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/tortelini-min.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/webp/tortelini-min.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/udemyHmtlCss (1).webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/udemyHmtlCss.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/module/testimonials.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/module/testimonials.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -293,21 +307,8 @@
       <workItem from="1612949290459" duration="1212000" />
       <workItem from="1612951162724" duration="1878000" />
       <workItem from="1612953069860" duration="1785000" />
-      <workItem from="1612954890481" duration="1081000" />
-    </task>
-    <task id="LOCAL-00029" summary="poze despre mine 2 px padding/ loader 1s">
-      <created>1605211962181</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1605211962181</updated>
-    </task>
-    <task id="LOCAL-00030" summary="alt poze modal">
-      <created>1605212294019</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1605212294019</updated>
+      <workItem from="1612954890481" duration="1413000" />
+      <workItem from="1612970045294" duration="2425000" />
     </task>
     <task id="LOCAL-00031" summary="testimonials">
       <created>1606163146852</created>
@@ -638,7 +639,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612956293701</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="poZe cu path corect">
+      <created>1612956420598</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1612956420599</updated>
+    </task>
+    <task id="LOCAL-00079" summary="refacut testimonials">
+      <created>1612956588653</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1612956588653</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -658,8 +673,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="animatie ios" />
-    <MESSAGE value="fara animatie ubuntu" />
     <MESSAGE value="footer toate 3 facut js individual" />
     <MESSAGE value="module js / modul css input/" />
     <MESSAGE value="fancy link / toggle button" />
@@ -683,7 +696,9 @@
     <MESSAGE value="past refacut, nefinalizate sort random" />
     <MESSAGE value="past refacut, nefinalizate sort random 2" />
     <MESSAGE value="poze gasite" />
-    <option name="LAST_COMMIT_MESSAGE" value="poze gasite" />
+    <MESSAGE value="poZe cu path corect" />
+    <MESSAGE value="refacut testimonials" />
+    <option name="LAST_COMMIT_MESSAGE" value="refacut testimonials" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
