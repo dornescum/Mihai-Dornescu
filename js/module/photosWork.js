@@ -38,28 +38,28 @@ export const photos = [
     },
     {
         id: "p6",
-        foto: "../../img/webp/7.webp",
+        foto: "@../../img/webp/7.webp",
         title: "",
         location: "",
         data: "2005"
     },
     {
         id: "p7",
-        foto: "../../img/webp/09.webp",
+        foto: "@../../img/webp/09.webp",
         title: "",
         location: "",
         data: "2005"
     },
     {
         id: "p8",
-        foto: "../../img/webp/barca.webp",
+        foto: "@../../img/webp/barca.webp",
         title: "",
         location: "",
         data: "2005"
     },
     {
         id: "p9",
-        foto: "../../img/webp/tortelini-min.webp",
+        foto: "@../../img/webp/tortelini-min.webp",
         title: "",
         location: "",
         data: "2005"

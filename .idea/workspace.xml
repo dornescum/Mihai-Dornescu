@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="refacut">
-      <change beforePath="$PROJECT_DIR$/js/module/testimonials.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/module/testimonials.js" afterDir="false" />
-    </list>
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="refacut" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -295,21 +293,7 @@
       <workItem from="1612949290459" duration="1212000" />
       <workItem from="1612951162724" duration="1878000" />
       <workItem from="1612953069860" duration="1785000" />
-      <workItem from="1612954890481" duration="818000" />
-    </task>
-    <task id="LOCAL-00027" summary="index width 80vh">
-      <created>1605210349289</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1605210349289</updated>
-    </task>
-    <task id="LOCAL-00028" summary="culoare background slider gradient">
-      <created>1605210991997</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1605210991997</updated>
+      <workItem from="1612954890481" duration="1081000" />
     </task>
     <task id="LOCAL-00029" summary="poze despre mine 2 px padding/ loader 1s">
       <created>1605211962181</created>
@@ -640,7 +624,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612954969630</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="past refacut, nefinalizate sort random 2">
+      <created>1612956157597</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1612956157597</updated>
+    </task>
+    <task id="LOCAL-00077" summary="poze gasite">
+      <created>1612956293701</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1612956293701</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -660,8 +658,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="WEBP" />
-    <MESSAGE value="refacut butoane index / refacut foote/ refacut modal" />
     <MESSAGE value="animatie ios" />
     <MESSAGE value="fara animatie ubuntu" />
     <MESSAGE value="footer toate 3 facut js individual" />
@@ -685,7 +681,9 @@
     <MESSAGE value="random site" />
     <MESSAGE value="simple shopping list" />
     <MESSAGE value="past refacut, nefinalizate sort random" />
-    <option name="LAST_COMMIT_MESSAGE" value="past refacut, nefinalizate sort random" />
+    <MESSAGE value="past refacut, nefinalizate sort random 2" />
+    <MESSAGE value="poze gasite" />
+    <option name="LAST_COMMIT_MESSAGE" value="poze gasite" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
