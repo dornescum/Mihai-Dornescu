@@ -15,12 +15,15 @@ window.addEventListener('DOMContentLoaded', () => {
     //
     // console.log(shuffled)
 
+    console.log(photos)
     let displayPhotos = photos.map((item) => {
         const {id, foto, location, dataTooltip, title} = item;
+
         return `
-                <div class="col-lg-4 radius img-carousel">
+                <div class="col-lg-4 img-carousel">
                    <img src="${foto}" alt="${title}" data-location="${location}" datatype="${id}" 
                    data-tooltip="${dataTooltip}">
+                    <p class="text-card">${dataTooltip}</p>
                 </div>
                `
     }).join('')
