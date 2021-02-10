@@ -5,7 +5,7 @@ export let testimonials = [
         nume: "Akemi",
         data: '01.06.2425',
         text:"THIS JUST A JOKE .I used an array method: map.(), destructure an object and return the content of an" +
-            " array of objects."
+            " array of objects with funny reviews."
     },
     {
         id: 2,

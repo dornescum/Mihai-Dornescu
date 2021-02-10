@@ -4,7 +4,6 @@ import {photos} from "../js/module/photosWork.js";
 let review = document.getElementById('testimonials');
 let photosLink = document.getElementById("photoChanger")
 
-
 window.addEventListener('DOMContentLoaded', () => {
 
 

@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="refacut">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/module/testimonials.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/module/testimonials.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/past.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/past.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/past.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,13 +295,7 @@
       <workItem from="1612949290459" duration="1212000" />
       <workItem from="1612951162724" duration="1878000" />
       <workItem from="1612953069860" duration="1785000" />
-    </task>
-    <task id="LOCAL-00026" summary="btn centrat despre mine">
-      <created>1605209515401</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1605209515401</updated>
+      <workItem from="1612954890481" duration="818000" />
     </task>
     <task id="LOCAL-00027" summary="index width 80vh">
       <created>1605210349289</created>
@@ -643,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612175034196</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="past refacut, nefinalizate sort random">
+      <created>1612954969629</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1612954969630</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,7 +660,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="curatenie" />
     <MESSAGE value="WEBP" />
     <MESSAGE value="refacut butoane index / refacut foote/ refacut modal" />
     <MESSAGE value="animatie ios" />
@@ -688,7 +684,8 @@
     <MESSAGE value="aranjat poze" />
     <MESSAGE value="random site" />
     <MESSAGE value="simple shopping list" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple shopping list" />
+    <MESSAGE value="past refacut, nefinalizate sort random" />
+    <option name="LAST_COMMIT_MESSAGE" value="past refacut, nefinalizate sort random" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
