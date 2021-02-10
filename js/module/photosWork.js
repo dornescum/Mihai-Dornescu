@@ -64,5 +64,4 @@ export const photos = [
         location: "",
         data: "2005"
     },
-
 ]
