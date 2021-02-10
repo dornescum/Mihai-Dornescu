@@ -4,7 +4,7 @@ export let testimonials = [
         title: 'Worst chef ever',
         nume: "Akemi",
         data: '01.06.2425',
-        text:"THIS JUST A JOKE .I used an array method: map.(), destructure an object and return the content of an" +
+        text:"THIS IS JUST A JOKE .I used an array method: map.(), destructure an object and return the content of an" +
             " array of objects with funny reviews."
     },
     {
