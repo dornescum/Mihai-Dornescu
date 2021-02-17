@@ -83,7 +83,7 @@ class ProjectsList {
         // 10
         new Project(
             "Restaurant mobile first",
-            "img/rv.png",
+            "https://images.unsplash.com/photo-1428515613728-6b4607e44363?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
             "Basic components, bootstrap vue, mobile first",
             "https://github.com/dornescum/RestaurantVue",
             "Vue Js"
