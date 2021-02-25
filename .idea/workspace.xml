@@ -19,11 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix foto">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix article card">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/loading/Spinner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/loading/Spinner.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/future.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +74,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/5animeText-master/css/styles.css" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -302,14 +309,8 @@
       <workItem from="1612970045294" duration="2425000" />
       <workItem from="1612972637951" duration="638000" />
       <workItem from="1613561095909" duration="1610000" />
-      <workItem from="1613596315129" duration="713000" />
-    </task>
-    <task id="LOCAL-00035" summary="lorem">
-      <created>1606313687704</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1606313687705</updated>
+      <workItem from="1613596315129" duration="911000" />
+      <workItem from="1614240917211" duration="13690000" />
     </task>
     <task id="LOCAL-00036" summary="future sidebar">
       <created>1606313808173</created>
@@ -647,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613561933732</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="fix article card">
+      <created>1613597214424</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1613597214424</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -667,7 +675,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refacut modal in js fara bootstrap" />
     <MESSAGE value="message border" />
     <MESSAGE value="@media 320" />
     <MESSAGE value="media 375" />
@@ -692,7 +699,8 @@
     <MESSAGE value="poze webp dimensiune" />
     <MESSAGE value="poze webp dimensiune 2" />
     <MESSAGE value="fix foto" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix foto" />
+    <MESSAGE value="fix article card" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix article card" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
