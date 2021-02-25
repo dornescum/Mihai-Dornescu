@@ -53,7 +53,7 @@ template: `
                         <p class="p-1 text-capitalize">{{task.text}}</p>
                        
                     </div>
-                    <div class="col-lg-1 col-md-4">
+                    <div class="col-lg-1 col-md-4 border-lesson">
                      <i @click="deleteTask(task.id)" class="fas fa-times  color-red"></i>
                      </div>
                </div>

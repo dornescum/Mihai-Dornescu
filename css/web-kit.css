@@ -49,6 +49,7 @@ Variables
     --silver-1:  #e8e8e8 ;
     --clr-white: #fff;
     --clr-red-dark: hsl(360, 67%, 44%);
+    --clr-red-dark-2:  #4e1609;
     --clr-red-light: hsl(360, 71%, 66%);
     --clr-green-dark: hsl(125, 67%, 44%);
     --clr-green-light: hsl(125, 71%, 66%);
@@ -2393,17 +2394,19 @@ label {
 
 /*vuejs*/
 .color-red{
-    color:var(--red);
+    color:var(--clr-red-dark-2);
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 10px;
-    background-color: var(--grey-13);
+    margin-top: 5px;
+    /*background-color: var(--grey-13);*/
     border-radius: var(--radius);
     padding: 5px;
+
 }
+
 .color-red:hover{
-    background-color: black;
+    /*background-color: black;*/
     color: var(--clr-white);
     transition: var(--transition);
 }
@@ -2421,7 +2424,12 @@ label {
 .display-flex{
     display: flex;
     justify-content: space-around;
-    padding: 10px 20px;
+    /*padding: 10px 20px;*/
+}
+.border-lesson{
+    border:1px solid var(--clr-grey-9);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .title-task{
