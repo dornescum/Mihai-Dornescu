@@ -35,16 +35,16 @@ template: `
         <div class="container mb-4">
             <div class="row display-flex m-3">
              <p class="text-capitalize title-task">{{title}}</p>
-             <button @click="onClick()" :style="{background : btnText.color}"
+             <button  :style="{background : btnText.color}"
              class="btn hero-btn-display">{{btnText.text}}</button>
               </div>
 <!--              ====================================-->
               <form @submit="onSubmit" class="add-form">
                  <div class="form-control">
-                     <label>Task</label>
+                     <label class="text-center">Task</label>
                      <input type="text" v-model="text" name="text" placeholder="Add Task" />
                 </div>
-                <input type="submit" value="Save Task" class="btn btn-block" @click="addTask()" />
+                <input type="submit" value="Save Task" class="btn btn-block" @click="addTask" />
                </form>
 <!--              ===========================================-->
               <div  v-for="task in tasks" :key="task.id" class="row display-flex task m-1">
@@ -61,7 +61,7 @@ template: `
 `,
     data(){
         return{
-            title : "learn vue",
+            title : "learning vue",
             btnText : {
                 text: "new Chapter",
                 color: "#f4r5t3",
@@ -125,9 +125,9 @@ template: `
     ]
     },
     methods:{
-        onClick(){
-        console.log("test")
-    },
+        // onClick(){
+        // console.log("test")
+        //  },
         deleteTask(id){
         if (confirm('are you sure?')){
             this.tasks = this.tasks.filter((task)=> task.id !== id )
@@ -144,15 +144,12 @@ template: `
                 id: Math.floor(Math.random() * 100000),
                 text: this.text,
             }
-            console.log(newTask)
             this.text = ''
         },
         addTask(item){
-            this.tasks = [...this.tasks, item]
+            this.tasks = this.tasks.push(item)
         }
-
     },
-
 })
 app.mount("#vue")
 

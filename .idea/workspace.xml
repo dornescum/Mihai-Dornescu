@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix article card">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="neterminata add task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/loading/Spinner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/loading/Spinner.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -310,14 +309,7 @@
       <workItem from="1612972637951" duration="638000" />
       <workItem from="1613561095909" duration="1610000" />
       <workItem from="1613596315129" duration="911000" />
-      <workItem from="1614240917211" duration="13690000" />
-    </task>
-    <task id="LOCAL-00036" summary="future sidebar">
-      <created>1606313808173</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1606313808173</updated>
+      <workItem from="1614240917211" duration="16274000" />
     </task>
     <task id="LOCAL-00037" summary="future navbar">
       <created>1606337216452</created>
@@ -655,7 +647,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613597214424</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="neterminata add task">
+      <created>1614257011592</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1614257011593</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,7 +674,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="message border" />
     <MESSAGE value="@media 320" />
     <MESSAGE value="media 375" />
     <MESSAGE value="ora mesaj" />
@@ -700,7 +698,8 @@
     <MESSAGE value="poze webp dimensiune 2" />
     <MESSAGE value="fix foto" />
     <MESSAGE value="fix article card" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix article card" />
+    <MESSAGE value="neterminata add task" />
+    <option name="LAST_COMMIT_MESSAGE" value="neterminata add task" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
