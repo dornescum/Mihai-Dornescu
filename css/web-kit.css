@@ -2115,26 +2115,7 @@ main {
     background-color: #f9f9f9;
 }
 
-/*!*future dropdown*!*/
-.article {
-    height: 35vh;
-}
 
-@media screen and (max-width: 768px){
-    .article{
-        height: 32vh;
-    }
-}
-/*@media screen and (max-width: 567px){*/
-/*    .article{*/
-/*        height: 40vh;*/
-/*    }*/
-/*}*/
-@media screen and (max-width: 499px){
-    .article{
-        height: 30vh;
-    }
-}
 
 .btn-up {
     background: var(--clr-black);

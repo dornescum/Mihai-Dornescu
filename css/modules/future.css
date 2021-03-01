@@ -2,7 +2,7 @@
 .article {
     border: #96a2b2 solid 1px;
     border-radius: var(--radius);
-    height: 50vh;
+    height: 35vh;
 }
 .article h4{
     text-align: center;
@@ -21,9 +21,33 @@
     font-size: 16px;
 
 }
-/*fixme*/
-@media (max-width: 1366px){
-        .article{
-            height: 60vh;
-        }
+/*!*fixme*!*/
+/*@media (max-width: 1366px){*/
+/*        .article{*/
+/*            height: 40vh;*/
+/*        }*/
+/*}@media screen and (max-width: 768px){*/
+/*        .article{*/
+/*            height: 35vh;*/
+/*        }*/
+/*}*/
+/*!*future dropdown*!*/
+/*.article {*/
+/*    height: 35vh;*/
+/*}*/
+
+@media screen and (max-width: 768px){
+    .article{
+        height: 32vh;
+    }
 }
+@media screen and (max-width: 567px){
+    .article{
+        height: 45vh;
+    }
+}
+/*@media screen and (max-width: 499px){*/
+/*    .article{*/
+/*        height: 30vh;*/
+/*    }*/
+/*}*/
