@@ -19,10 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="eroare task add">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="culoare icon si border">
+      <change afterPath="$PROJECT_DIR$/img/webp/Learning-576.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/loading/Spinner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/loading/Spinner.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/future.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -309,14 +312,9 @@
       <workItem from="1612972637951" duration="638000" />
       <workItem from="1613561095909" duration="1610000" />
       <workItem from="1613596315129" duration="911000" />
-      <workItem from="1614240917211" duration="17065000" />
-    </task>
-    <task id="LOCAL-00038" summary="navbar link">
-      <created>1606383576218</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1606383576218</updated>
+      <workItem from="1614240917211" duration="19988000" />
+      <workItem from="1614527206254" duration="340000" />
+      <workItem from="1614586495828" duration="2963000" />
     </task>
     <task id="LOCAL-00039" summary="descriere">
       <created>1606424013992</created>
@@ -654,7 +652,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614268639123</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="culoare icon si border">
+      <created>1614269487490</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1614269487490</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -674,7 +679,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="media 375" />
     <MESSAGE value="ora mesaj" />
     <MESSAGE value="butoane modal margin-bottom scos" />
     <MESSAGE value="colors in future" />
@@ -699,7 +703,8 @@
     <MESSAGE value="fix article card" />
     <MESSAGE value="neterminata add task" />
     <MESSAGE value="eroare task add" />
-    <option name="LAST_COMMIT_MESSAGE" value="eroare task add" />
+    <MESSAGE value="culoare icon si border" />
+    <option name="LAST_COMMIT_MESSAGE" value="culoare icon si border" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
