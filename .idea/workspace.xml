@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="vue  // future.js">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="media querry future">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/modules/future.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/modules/future.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/loading/Spinner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/loading/Spinner.gif" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -310,14 +311,8 @@
       <workItem from="1613596315129" duration="911000" />
       <workItem from="1614240917211" duration="19988000" />
       <workItem from="1614527206254" duration="340000" />
-      <workItem from="1614586495828" duration="3956000" />
-    </task>
-    <task id="LOCAL-00040" summary="despre mine / past">
-      <created>1606494251447</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1606494251447</updated>
+      <workItem from="1614586495828" duration="5033000" />
+      <workItem from="1614845026539" duration="339000" />
     </task>
     <task id="LOCAL-00041" summary="about me descriere">
       <created>1606768304944</created>
@@ -655,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614589613609</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="media querry future">
+      <created>1614590749949</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1614590749949</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,7 +677,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="butoane modal margin-bottom scos" />
     <MESSAGE value="colors in future" />
     <MESSAGE value="totul generat din js cu class" />
     <MESSAGE value="footer index.js" />
@@ -700,7 +701,8 @@
     <MESSAGE value="eroare task add" />
     <MESSAGE value="culoare icon si border" />
     <MESSAGE value="vue  // future.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="vue  // future.js" />
+    <MESSAGE value="media querry future" />
+    <option name="LAST_COMMIT_MESSAGE" value="media querry future" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

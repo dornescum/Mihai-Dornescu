@@ -58,6 +58,7 @@ Variables
     --blue-1: #0505ff;
     --blue-2: #000094;
     --line-height: 1.6;
+    --line-height-2: 1.4;
     --transition: all 0.3s linear;
     --spacing: 0.1rem;
     --radius: 5px;
@@ -1813,10 +1814,12 @@ main {
 
 .about {
     color: var(--clr-grey-11);
+    line-height: var(--line-height-2);
 }
 
 .about::first-letter {
-    font-size: 34px;
+    font-size: 1.1rem;
+    font-weight: bolder;
     color: black;
 }
 
