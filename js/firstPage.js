@@ -142,16 +142,13 @@ const addMessageBtn = () => {
     clearInput();
     openModal();
     updatePage();
+    localStorage.setItem("mesaj", JSON.stringify(message));
 }
 const clearInput = () => {
     userMessage.value = ""
     userName.value = ""
 }
-// ==============================================
-// fixme
-// console.log(addMessageBtn)
-localStorage.setItem("mesaj", message);
-// ==============================================
+
 
 invitation.addEventListener("click", openModal);
 backdrop.addEventListener("click", closeBackdrop);
