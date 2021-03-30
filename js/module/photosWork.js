@@ -4,64 +4,64 @@ export const photos = [
     {
         id: "p1",
         foto: "@../../img/webp2/1.webp",
-        title: "",
-        location: "",
-        dataTooltip: "2005"
+        title: "Montaj",
+        location: "La Cave de Bucharest",
+        dataTooltip: "2018"
     },
     {
         id: "p2",
         foto: "@../../img/webp2/2.webp",
-        title: "",
-        location: "",
-        data: "2005"
+        title: "Un eveniment",
+        location: "Secret garden",
+        data: "2017"
     },
     {
         id: "p3",
         foto: "@../../img/webp2/4.webp",
-        title: "",
-        location: "",
-        data: "2005"
+        title: "Un eveniment",
+        location: "Secret garden",
+        data: "2017"
     },
     {
         id: "p4",
         foto: "@../../img/webp2/6-min.webp",
-        title: "",
-        location: "",
-        data: "2005"
+        title: "Un eveniment",
+        location: "Secret garden",
+        data: "2017"
     },
     {
         id: "p5",
         foto: "@../../img/webp2/10-min.webp",
-        title: "",
-        location: "",
-        data: "2005"
+        title: "Oysters",
+        location: "Secret garden",
+        data: "2017"
     },
     {
         id: "p6",
         foto: "@../../img/webp2/09.webp",
-        title: "",
-        location: "",
+        title: "Amadeus ship",
+        location: "Rin",
         data: "2005"
     },
     {
         id: "p7",
         foto: "@../../img/webp2/7.webp",
-        title: "",
-        location: "",
-        data: "2005"
+        title: "Un eveniment",
+        location: "Secret garden",
+        data: "2017"
     },
     {
         id: "p8",
         foto: "@../../img/webp2/tortelini-min.webp",
-        title: "",
+        title: "Tortelini al forno",
         location: "",
         data: "2005"
     },
     {
         id: "p9",
         foto: "@../../img/webp2/barca.webp",
-        title: "",
-        location: "",
-        data: "2005"
+        title: "Emerald ship",
+        location: "Greece",
+        data: "2004"
     },
 ]

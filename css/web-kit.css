@@ -1930,7 +1930,8 @@ main {
 }
 
 .text-card {
-    display: none;
+    /*display: none;*/
+    font-size: 10px;
 }
 @media screen and (max-width: 1440px) {
     .img-carousel {

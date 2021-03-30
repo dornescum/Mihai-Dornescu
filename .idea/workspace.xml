@@ -19,13 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="testimonials mobile fix">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="foto fix ipad">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/modules/past.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/modules/past.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/loading/Spinner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/loading/Spinner.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/module/photosWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/module/photosWork.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/past.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/past.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/past.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,14 +321,8 @@
       <workItem from="1617099468655" duration="1795000" />
       <workItem from="1617101277172" duration="153000" />
       <workItem from="1617101506278" duration="918000" />
-      <workItem from="1617112019229" duration="1208000" />
-    </task>
-    <task id="LOCAL-00046" summary="modificat text poza si font button in index.html/&#10;autoprefixer pt --webkit">
-      <created>1609170773271</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1609170773271</updated>
+      <workItem from="1617112019229" duration="1796000" />
+      <workItem from="1617113829147" duration="302000" />
     </task>
     <task id="LOCAL-00047" summary="sass si pwa">
       <created>1609172770503</created>
@@ -667,7 +660,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617101525246</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="foto fix ipad">
+      <created>1617113482753</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1617113482753</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,7 +687,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="restaurant vue" />
     <MESSAGE value="restaurant vue github" />
     <MESSAGE value="curatenie comment" />
     <MESSAGE value="aranjat poze" />
@@ -712,7 +711,8 @@
     <MESSAGE value="curatat ce era in plus" />
     <MESSAGE value="testimonials mobile fix" />
     <MESSAGE value="width temp" />
-    <option name="LAST_COMMIT_MESSAGE" value="width temp" />
+    <MESSAGE value="foto fix ipad" />
+    <option name="LAST_COMMIT_MESSAGE" value="foto fix ipad" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
