@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="future class about">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix local storage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/loading/Spinner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/loading/Spinner.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/firstPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/firstPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,14 +314,10 @@
       <workItem from="1614527206254" duration="340000" />
       <workItem from="1614586495828" duration="5033000" />
       <workItem from="1614845026539" duration="1082000" />
-      <workItem from="1615363366903" duration="331000" />
-    </task>
-    <task id="LOCAL-00042" summary="about me corectie goal">
-      <created>1606769729820</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1606769729821</updated>
+      <workItem from="1615363366903" duration="2342000" />
+      <workItem from="1615704923518" duration="3000" />
+      <workItem from="1617089828385" duration="397000" />
+      <workItem from="1617090246534" duration="359000" />
     </task>
     <task id="LOCAL-00043" summary="corectie">
       <created>1607600577981</created>
@@ -657,7 +655,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614845633823</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="fix local storage">
+      <created>1615363909809</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1615363909809</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -677,7 +682,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="totul generat din js cu class" />
     <MESSAGE value="footer index.js" />
     <MESSAGE value="random site vue" />
     <MESSAGE value="link simple game" />
@@ -702,7 +706,8 @@
     <MESSAGE value="vue  // future.js" />
     <MESSAGE value="media querry future" />
     <MESSAGE value="future class about" />
-    <option name="LAST_COMMIT_MESSAGE" value="future class about" />
+    <MESSAGE value="fix local storage" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix local storage" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
