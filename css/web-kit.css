@@ -9,6 +9,7 @@
 @import "modules/loremIpsum.css";
 @import "modules/future.css";
 @import "modules/inputText.css";
+@import "modules/past.css";
 
 /*
 =============== 
@@ -2050,6 +2051,9 @@ main {
 /* past testimonials*/
 .testimonials-title {
     font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .font-size14 {
@@ -2079,8 +2083,9 @@ main {
 .radius {
     border-radius: var(--radius);
     background-color: #96a2b2;
-    max-width: 340px;
-    margin: 10px;
+    /*max-width: 340px;*/
+    margin: 1.25rem 1.8rem;
+    padding: 5px;
 }
 
 .text-center {
@@ -2111,11 +2116,10 @@ main {
     -webkit-transform: scale(1.01);
     -ms-transform: scale(1.01);
     transform: scale(1.01);
-
 }
 
 .title-color {
-    background-color: #f9f9f9;
+    background-color: var(--clr-grey-10);
 }
 
 

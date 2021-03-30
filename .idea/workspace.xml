@@ -19,12 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix local storage">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="curatat ce era in plus">
+      <change afterPath="$PROJECT_DIR$/css/modules/past.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/loading/Spinner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/loading/Spinner.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/past.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/past.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/past.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -317,14 +318,8 @@
       <workItem from="1615363366903" duration="2342000" />
       <workItem from="1615704923518" duration="3000" />
       <workItem from="1617089828385" duration="397000" />
-      <workItem from="1617090246534" duration="359000" />
-    </task>
-    <task id="LOCAL-00043" summary="corectie">
-      <created>1607600577981</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1607600577981</updated>
+      <workItem from="1617090246534" duration="989000" />
+      <workItem from="1617099468655" duration="1795000" />
     </task>
     <task id="LOCAL-00044" summary="search filter net ninja">
       <created>1609078091501</created>
@@ -662,7 +657,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615363909809</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="curatat ce era in plus">
+      <created>1617090630706</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1617090630706</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -682,7 +684,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="footer index.js" />
     <MESSAGE value="random site vue" />
     <MESSAGE value="link simple game" />
     <MESSAGE value="restaurant vue" />
@@ -707,7 +708,8 @@
     <MESSAGE value="media querry future" />
     <MESSAGE value="future class about" />
     <MESSAGE value="fix local storage" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix local storage" />
+    <MESSAGE value="curatat ce era in plus" />
+    <option name="LAST_COMMIT_MESSAGE" value="curatat ce era in plus" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

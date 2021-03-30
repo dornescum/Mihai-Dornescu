@@ -37,8 +37,8 @@ window.addEventListener('DOMContentLoaded', () => {
     let displayTestimonials = testimonials.map((item) => {
         const {nume, text, data, title} = item;
         return `
-                <div class="col-lg-4 radius active-testimonials">
-                    <div class="card-header testimonials-title radius text-center title-color">${title}</div>
+                <div class="columns  active-testimonials">
+                    <div class="testimonials-title radius text-center title-color">${title}</div>
                     <div class="card-body main-color">
                         <h5 class="card-title text-center">${nume}</h5>
                         <p class="card-text font-size14">${text}</p>
