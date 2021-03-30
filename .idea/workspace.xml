@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="curatat ce era in plus">
-      <change afterPath="$PROJECT_DIR$/css/modules/past.css" afterDir="false" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="testimonials mobile fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/modules/past.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/modules/past.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/loading/Spinner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/loading/Spinner.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/past.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/past.js" afterDir="false" />
@@ -320,20 +320,9 @@
       <workItem from="1617089828385" duration="397000" />
       <workItem from="1617090246534" duration="989000" />
       <workItem from="1617099468655" duration="1795000" />
-    </task>
-    <task id="LOCAL-00044" summary="search filter net ninja">
-      <created>1609078091501</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1609078091501</updated>
-    </task>
-    <task id="LOCAL-00045" summary="js mutat in index.html scos/ scos eroare de prevBtn si nextBtn">
-      <created>1609080953524</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1609080953524</updated>
+      <workItem from="1617101277172" duration="153000" />
+      <workItem from="1617101506278" duration="918000" />
+      <workItem from="1617112019229" duration="1208000" />
     </task>
     <task id="LOCAL-00046" summary="modificat text poza si font button in index.html/&#10;autoprefixer pt --webkit">
       <created>1609170773271</created>
@@ -664,7 +653,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617090630706</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="testimonials mobile fix">
+      <created>1617101417207</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1617101417207</updated>
+    </task>
+    <task id="LOCAL-00094" summary="width temp">
+      <created>1617101525246</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1617101525246</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,8 +687,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="random site vue" />
-    <MESSAGE value="link simple game" />
     <MESSAGE value="restaurant vue" />
     <MESSAGE value="restaurant vue github" />
     <MESSAGE value="curatenie comment" />
@@ -709,7 +710,9 @@
     <MESSAGE value="future class about" />
     <MESSAGE value="fix local storage" />
     <MESSAGE value="curatat ce era in plus" />
-    <option name="LAST_COMMIT_MESSAGE" value="curatat ce era in plus" />
+    <MESSAGE value="testimonials mobile fix" />
+    <MESSAGE value="width temp" />
+    <option name="LAST_COMMIT_MESSAGE" value="width temp" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

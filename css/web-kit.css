@@ -1938,6 +1938,13 @@ main {
         max-width: 340px;
     }
 }
+@media screen and (max-width: 1199px) {
+    .img-carousel {
+        height: 13rem;
+        max-width: 280px;
+    }
+}
+
 
 @media screen and (max-width: 992px) {
     .img-carousel {
@@ -1947,8 +1954,8 @@ main {
 }
 @media screen and (max-width: 768px) {
     .img-carousel {
-        height: 12rem;
-        max-width: 240px;
+        height: 11rem;
+        max-width: 210px;
     }
 }
 @media screen and (max-width: 520px) {

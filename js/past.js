@@ -5,21 +5,18 @@ let review = document.getElementById('testimonials');
 let photosLink = document.getElementById("photoChanger")
 
 window.addEventListener('DOMContentLoaded', () => {
-
-
     // let shuffled = photos
     //     .map((a) => ({sort: Math.random(), value: a}))
     //     .sort((a, b) => a.sort - b.sort)
     //     .map((a) => a.value)
     //
     // console.log(shuffled)
-
     console.log(photos)
     let displayPhotos = photos.map((item) => {
         const {id, foto, location, dataTooltip, title} = item;
 
         return `
-                <div class="col-lg-4 img-carousel">
+                <div class="columns img-carousel">
                    <img src="${foto}" alt="${title}" data-location="${location}" datatype="${id}" 
                    data-tooltip="${dataTooltip}">
                     <p class="text-card">${dataTooltip}</p>
