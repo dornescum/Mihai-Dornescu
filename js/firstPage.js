@@ -125,8 +125,8 @@ const cancelAddMessage = () => {
 const addMessageBtn = () => {
     const titleValue = userName.value;
     const messageValue = userMessage.value;
-    console.log(titleValue)
-    console.log(messageValue)
+    console.log(titleValue);
+    console.log(messageValue);
     if (titleValue.trim() === '' || messageValue.trim() === "") {
         alert("is there something wrong?")
         return;
@@ -154,3 +154,19 @@ invitation.addEventListener("click", openModal);
 backdrop.addEventListener("click", closeBackdrop);
 cancelMessage.addEventListener("click", cancelAddMessage);
 addMessage.addEventListener("click", addMessageBtn);
+
+
+// =======cookie====
+const cookieContainer = document.querySelector(".cookie-container");
+const cookieButton = document.querySelector(".cookie-btn");
+
+cookieButton.addEventListener("click", () => {
+    cookieContainer.classList.remove("active");
+    localStorage.setItem("cookieBannerDisplayed", "true");
+});
+
+setTimeout(() => {
+    if (!localStorage.getItem("cookieBannerDisplayed")) {
+        cookieContainer.classList.add("active");
+    }
+}, 100);
