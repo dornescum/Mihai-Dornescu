@@ -25,7 +25,7 @@ const hideLoading = () => {
 
 // incarca
 window.addEventListener("DOMContentLoaded", function () {
-    setTimeout(hideLoading, 100);
+    setTimeout(hideLoading, 500);
 })
 // =====================================
 
