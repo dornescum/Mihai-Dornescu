@@ -1,3 +1,4 @@
+console.time("timer")
 const getElement = (selection) => {
     const element = document.querySelector(selection);
     if (element) return element;
@@ -43,3 +44,4 @@ footer.innerHTML = `
             </ul>
     `
 
+console.timeEnd("timer")

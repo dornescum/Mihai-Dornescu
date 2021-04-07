@@ -5,7 +5,7 @@ export let testimonials = [
         nume: "Akemi",
         data: '01.06.2425',
         text:"THIS IS JUST A JOKE. I used an array method: map.(), destructure an object and return the content of an" +
-            " array of objects with funny reviews."
+            " array of objects with fake reviews."
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ export let testimonials = [
         title: 'Best food ever',
         data: '01.1.24254',
         text:"THIS IS JUST A JOKE. I used an array method: map.(), destructure an object and return the content of an" +
-            " array of objects with funny reviews."
+            " array of objects with fake reviews."
     },
     {
         id: 3,
@@ -21,6 +21,6 @@ export let testimonials = [
         title: 'I had worst &#128540',
         data: '11.01.2425323',
         text:"THIS IS JUST A JOKE. I used an array method: map.(), destructure an object and return the content of an" +
-            " array of objects with funny reviews."
+            " array of objects with fake reviews."
     }
 ]

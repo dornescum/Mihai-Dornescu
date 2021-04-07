@@ -8,7 +8,6 @@ class Project {
     }
 }
 
-
 class ProjectsList {
     projects = [
         new Project(
