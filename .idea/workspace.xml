@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix pwa">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix past fix layout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/loading/Spinner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/loading/Spinner.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/future.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/module/testimonials.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/module/testimonials.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,14 +329,7 @@
       <workItem from="1617463656649" duration="254000" />
       <workItem from="1617464959736" duration="620000" />
       <workItem from="1617541267870" duration="20000" />
-      <workItem from="1617785909722" duration="402000" />
-    </task>
-    <task id="LOCAL-00052" summary="animatie ios">
-      <created>1610543936624</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1610543936625</updated>
+      <workItem from="1617785909722" duration="815000" />
     </task>
     <task id="LOCAL-00053" summary="fara animatie ubuntu">
       <created>1610544388098</created>
@@ -677,7 +667,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617463712094</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="fix past fix layout">
+      <created>1617786460690</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1617786460690</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -697,7 +694,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="past refacut, nefinalizate sort random" />
     <MESSAGE value="past refacut, nefinalizate sort random 2" />
     <MESSAGE value="poze gasite" />
     <MESSAGE value="poZe cu path corect" />
@@ -722,7 +718,8 @@
     <MESSAGE value="cookie consent" />
     <MESSAGE value="loading fix" />
     <MESSAGE value="fix pwa" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix pwa" />
+    <MESSAGE value="fix past fix layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix past fix layout" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
