@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix past fix layout">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="google analitics all">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/loading/Spinner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/loading/Spinner.gif" afterDir="false" />
     </list>
@@ -330,20 +330,7 @@
       <workItem from="1617464959736" duration="620000" />
       <workItem from="1617541267870" duration="20000" />
       <workItem from="1617785909722" duration="815000" />
-    </task>
-    <task id="LOCAL-00053" summary="fara animatie ubuntu">
-      <created>1610544388098</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1610544388100</updated>
-    </task>
-    <task id="LOCAL-00054" summary="fara animatie ubuntu">
-      <created>1610561852471</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1610561852471</updated>
+      <workItem from="1620733368922" duration="537000" />
     </task>
     <task id="LOCAL-00055" summary="footer toate 3 facut js individual">
       <created>1610617668526</created>
@@ -674,7 +661,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617786460690</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="google analitics">
+      <created>1620733482641</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1620733482641</updated>
+    </task>
+    <task id="LOCAL-00103" summary="google analitics all">
+      <created>1620733579069</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1620733579070</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -694,8 +695,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="past refacut, nefinalizate sort random 2" />
-    <MESSAGE value="poze gasite" />
     <MESSAGE value="poZe cu path corect" />
     <MESSAGE value="refacut testimonials" />
     <MESSAGE value="poze webp dimensiune" />
@@ -719,7 +718,9 @@
     <MESSAGE value="loading fix" />
     <MESSAGE value="fix pwa" />
     <MESSAGE value="fix past fix layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix past fix layout" />
+    <MESSAGE value="google analitics" />
+    <MESSAGE value="google analitics all" />
+    <option name="LAST_COMMIT_MESSAGE" value="google analitics all" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
