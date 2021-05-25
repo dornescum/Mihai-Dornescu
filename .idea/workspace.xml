@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="temp card projects">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix focus btn">
+      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/future.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,14 +334,7 @@
       <workItem from="1620750723971" duration="645000" />
       <workItem from="1621921215651" duration="1790000" />
       <workItem from="1621923025497" duration="1792000" />
-      <workItem from="1621924837720" duration="985000" />
-    </task>
-    <task id="LOCAL-00058" summary="refacut modal in js fara bootstrap">
-      <created>1611001274616</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1611001274617</updated>
+      <workItem from="1621924837720" duration="1427000" />
     </task>
     <task id="LOCAL-00059" summary="message border">
       <created>1611049062234</created>
@@ -679,7 +672,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621925342916</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="fix focus btn">
+      <created>1621925887218</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1621925887218</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -699,7 +699,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="poze webp dimensiune 2" />
     <MESSAGE value="fix foto" />
     <MESSAGE value="fix article card" />
     <MESSAGE value="neterminata add task" />
@@ -724,7 +723,8 @@
     <MESSAGE value="google analitics index" />
     <MESSAGE value="fix img past" />
     <MESSAGE value="temp card projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="temp card projects" />
+    <MESSAGE value="fix focus btn" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix focus btn" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

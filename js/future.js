@@ -152,19 +152,19 @@ window.addEventListener('DOMContentLoaded', () => {
         {
             name: 'Topo-Online',
             link: "http://misu.topo-online.ro/FirmeCadastruTemplate/index.html",
-            desc: 'basic frontend, classic html, css, js',
+            desc: ' html, css, js',
             id: 1
         },
         {
             name: 'Vanzare Apartament',
             link: "https://github.com/dornescum/Vanzare-15.05.21",
-            desc: 'basic frontend, react',
+            desc: ' react',
             id: 2
         },
         {
             name: 'Voluntar',
             link: "http://pi-frontend.cpco.ro/",
-            desc: 'basic frontend, html, css, js',
+            desc: ' html, css, js',
             id: 3
         },
     ]
@@ -173,8 +173,8 @@ window.addEventListener('DOMContentLoaded', () => {
         return ` <div class="col-lg-4 col-sm-6 py-4">
         <div class="card" >
             <div class="card-body">
-             <h5 class="card-title">${name}</h5>
-                <p class="card-text">${desc}</p>
+             <h5 class="card-title" style="margin-left: 1rem">${name}</h5>
+                <p class="card-text" style="margin-left: 1rem">${desc}</p>
                 <a href="${link}" class="btn btn-future" target="_blank">Viziteaza</a>
              </div>
             </div>
