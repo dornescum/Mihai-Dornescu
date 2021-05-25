@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix card classes">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix card effects">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/modules/future.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/modules/future.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/future.js" afterDir="false" />
     </list>
@@ -335,14 +336,7 @@
       <workItem from="1621921215651" duration="1790000" />
       <workItem from="1621923025497" duration="1792000" />
       <workItem from="1621924837720" duration="2205000" />
-      <workItem from="1621927128700" duration="1270000" />
-    </task>
-    <task id="LOCAL-00061" summary="media 375">
-      <created>1611056384285</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1611056384286</updated>
+      <workItem from="1621927128700" duration="1870000" />
     </task>
     <task id="LOCAL-00062" summary="ora mesaj">
       <created>1611056817750</created>
@@ -680,7 +674,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621928078830</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="fix card effects">
+      <created>1621928416943</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1621928416943</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -700,7 +701,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="neterminata add task" />
     <MESSAGE value="eroare task add" />
     <MESSAGE value="culoare icon si border" />
     <MESSAGE value="vue  // future.js" />
@@ -725,7 +725,8 @@
     <MESSAGE value="fix focus btn" />
     <MESSAGE value="fix card text" />
     <MESSAGE value="fix card classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix card classes" />
+    <MESSAGE value="fix card effects" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix card effects" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

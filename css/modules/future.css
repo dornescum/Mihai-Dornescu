@@ -2,10 +2,10 @@
 .article {
     border: var(--clr-primary-5) solid 1px;
     border-radius: var(--radius);
-    height: 38vh;
+    height: 32vh;
     transform: scale(1);
     transition: var(--transition);
-    opacity: 0.5;
+    opacity: 0.7;
 }
 .article:hover{
     transform: scale(1.05) !important;
@@ -81,24 +81,38 @@
 /*    height: 35vh;*/
 /*}*/
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1366px){
     .article{
-        height: 25vh;
+        height: 29vh;
     }
 }
-
+@media screen and (max-width: 1024px){
+    .article{
+        height: 30vh;
+    }
+}
+@media screen and (max-width: 992px){
+    .article{
+        height: 29vh;
+    }
+}
 @media screen and (max-width: 768px){
     .article{
-        height: 32vh;
+        height: 29vh;
+        opacity: 0.9;
     }
 }
 @media screen and (max-width: 567px){
     .article{
         height: 40vh;
+        opacity: 0.9;
     }
 }
-/*@media screen and (max-width: 499px){*/
-/*    .article{*/
-/*        height: 30vh;*/
-/*    }*/
-/*}*/
+@media screen and (max-width: 499px){
+    .article{
+        height: 30vh;
+        margin: 2rem 0;
+        opacity: 0.9;
+
+    }
+}

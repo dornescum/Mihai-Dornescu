@@ -124,9 +124,7 @@ class ProjectsList {
                         <header>
                             <h4 class="pt-1">${item.title}</h4>
                         </header>
-                        <p class="item-text">
-                            ${item.desc}
-                        </p>
+                      
                     </div>
 
                 </article>
