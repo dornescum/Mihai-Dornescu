@@ -17,10 +17,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
         return `
                 <div class="columns img-carousel">
-                                    <p class="text-card">${location} ${title}</p>
-                   <img src="${foto}" alt="${title}" data-location="${location}" datatype="${id}" 
+                   <p class="text-card">${location} ${title}</p>
+                   <img src="${foto}" alt="${title}" loading="lazy" data-location="${location}" datatype="${id}" 
                    data-tooltip="${dataTooltip}">
-
                 </div>
                `
     }).join('')

@@ -10,10 +10,23 @@
     display: flex;
     flex-wrap:wrap;
 }
+@media screen and (max-width: 1920px){
+    .row-flex-wrap {
+        margin-right: 1rem;
+    }
+}
+/*@media screen and (max-width: 1024px){*/
+/*    .row-flex-wrap {*/
+/*        margin-right: 1rem;*/
+/*    }*/
+/*}*/
 @media screen and (max-width: 768px){
     .columns{
         width: 320px;
         min-width: 200px;
+    }
+    .row-flex-wrap {
+        margin-right: 0;
     }
 }
 @media screen and (max-width: 576px){

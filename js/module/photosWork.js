@@ -46,7 +46,7 @@ export const photos = [
     {
         id: "p7",
         foto: "@../../img/webp2/7.webp",
-        title: "Un eveniment",
+        title: "Evenimet privat",
         location: "Secret garden",
         data: "2017"
     },

@@ -30,7 +30,6 @@ class ProjectsList {
             "Generating paragraphs from an array",
             "https://www.javascript.com/",
             "Vanilla Js"
-
         ),
         new Project(
             "Search filter",
@@ -104,6 +103,7 @@ class ProjectsList {
             "Vue Js"
         ),
     ]
+
     render() {
         const renderProjects = document.getElementById("future");
         const projectList = document.createElement("div");
@@ -111,7 +111,7 @@ class ProjectsList {
         projectList.classList.add("mb-2");
         for (const item of this.projects) {
             const projectItem = document.createElement("div");
-            projectItem.className="col-lg-3 col-md-4 col-sm-6 mb-2"
+            projectItem.className = "col-lg-3 col-md-4 col-sm-6 mb-2"
             projectItem.innerHTML = `
 <!--               <div class="col-lg-3 col-md-4 col-sm-6">-->
                 <article class="article">
@@ -137,139 +137,50 @@ class ProjectsList {
         renderProjects.appendChild(projectList)
     }
 }
+
 // ProjectsList.render();
 const productList = new ProjectsList();
 productList.render();
 
+// project
+const projects = document.getElementById('projects');
+console.log(projects)
 
-// vue
-// vue js
- const appVue = Vue.createApp({
-    template: `
-        <div class="container mb-4">
-            <div class="row display-flex m-3">
-             <p class="text-capitalize title-task">{{title}}</p>
-<!--             <button  :style="{background : btnText.color}"-->
-<!--             class="btn hero-btn-display">{{btnText.text}}</button>-->
 
-<!--before vue-->
-<div class="text-center">
-
-    <progress></progress>
-</div>
-
-              </div>
-<!--              ====================================-->
-              <form @submit="onSubmit" class="add-form">
-                 <div class="form-control">
-                     <label class="text-center">Chapters</label>
-                     <input type="text" v-model.lazy="text" name="text" placeholder="Add Task" />
-                </div>
-                <input type="submit" value="add chapter" class="btn btn-block" @click="addTask" />
-               </form>
-<!--              ===========================================-->
-              <div  v-for="task in tasks" :key="task.id" class="row display-flex task m-1">
-                    <div class="col-lg-11 col-md-8">
-                    
-                        <p class="p-1 text-capitalize">{{task.text}}</p>
-                       
-                    </div>
-                    <div class="col-lg-1 col-md-4 border-lesson">
-                     <i @click="deleteTask(task.id)" class="fas fa-times  color-red"></i>
-                     </div>
-               </div>
+window.addEventListener('DOMContentLoaded', () => {
+    const projectsDone = [
+        {
+            name: 'Topo-Online',
+            link: "http://misu.topo-online.ro/FirmeCadastruTemplate/index.html",
+            desc: 'basic frontend, classic html, css, js',
+            id: 1
+        },
+        {
+            name: 'Vanzare Apartament',
+            link: "https://github.com/dornescum/Vanzare-15.05.21",
+            desc: 'basic frontend, react',
+            id: 2
+        },
+        {
+            name: 'Voluntar',
+            link: "http://pi-frontend.cpco.ro/",
+            desc: 'basic frontend, html, css, js',
+            id: 3
+        },
+    ]
+    let work = projectsDone.map((el) => {
+        const {id, link, desc, name} = el;
+        return ` <div class="col-lg-4 col-sm-6 py-4">
+        <div class="card" >
+            <div class="card-body">
+             <h5 class="card-title">${name}</h5>
+                <p class="card-text">${desc}</p>
+                <a href="${link}" class="btn btn-future" target="_blank">Viziteaza</a>
+             </div>
+            </div>
         </div>
-`,
-    data() {
-        return {
-            title: "learning vue",
-            btnText: {
-                text: "new Chapter",
-                color: "#f4r5t3",
-            },
-            text: '  ',
-            tasks: [],
-        }
-    },
-    created() {
-        this.tasks = [
-            {
-                id: 1,
-                text: "How to import js file in Vue component ?",
-                data: "yesterday",
-                learned: true
-            },
-            {
-                id: 2,
-                text: "How to call rest API from Vue js?",
-                data: "today",
-                learned: false
-
-            },
-            {
-                id: 3,
-                text: "List some features of Vue js",
-                data: "today"
-            },
-            {
-                id: 4,
-                text: "Explain Lyfe cycle if Vue instance",
-                data: "today"
-            },
-            {
-                id: 5,
-                text: "How to create an instance of Vue js?",
-                data: "today"
-            },
-            {
-                id: 6,
-                text: "How to create  two way binding",
-                data: "today"
-            },
-            {
-                id: 7,
-                text: "What are Components Vue js",
-                data: "today"
-            },
-            {
-                id: 8,
-                text: "Directives in Vue js",
-                data: "today"
-            },
-            {
-                id: 9,
-                text: "How to create a component in Vue js",
-                data: "today"
-            },
-
-
-        ]
-    },
-    methods: {
-        // onClick(){
-        // console.log("test")
-        //  },
-        deleteTask(id) {
-            if (confirm('are you sure?')) {
-                this.tasks = this.tasks.filter((task) => task.id !== id)
-            }
-            // console.log(this.tasks, id)
-        },
-        onSubmit(e) {
-            e.preventDefault()
-            if (!this.text) {
-                alert('Please add a task')
-                return
-            }
-            const newTask = {
-                id: Math.floor(Math.random() * 100000),
-                text: this.text,
-            }
-            this.text = ''
-        },
-        addTask(item) {
-            this.tasks = this.tasks.push(item)
-        }
-    },
+`
+    }).join('')
+    projects.innerHTML = work;
 })
-appVue.mount("#vue")
+
