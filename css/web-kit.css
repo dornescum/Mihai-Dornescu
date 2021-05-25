@@ -227,6 +227,10 @@ Hero
     background: var(--clr-white);
     color: var(--clr-primary-5);
 }
+.hero-btn:focus {
+    outline: none;
+
+}
 
 .hero-btn-display {
     color: var(--clr-white);
@@ -248,8 +252,14 @@ Hero
 .hero-btn-display:hover {
     background: var(--clr-white);
     color: var(--clr-primary-5);
-    border: none;
+    /*border: none;*/
+    outline: none;
+
 }
+.hero-btn-display:focus {
+    outline: none;
+}
+
 
 /*ce am invatat*/
 img {
@@ -1572,7 +1582,7 @@ a.ubuntu:hover {
     }
 }
 
-/* poza mea nu merge */
+/* poza mea  */
 #poza {
     position: relative;
     -webkit-animation: poza 10s;
@@ -1649,6 +1659,9 @@ a.ubuntu:hover {
     box-shadow: var(--dark-shadow);
     /*font-size: 1.3rem;*/
     border: none;
+}
+.btn-main:focus{
+    outline: none;
 }
 
 /*section*/

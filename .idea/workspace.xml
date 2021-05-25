@@ -19,22 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix img past">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="temp card projects">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/modules/future.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/modules/future.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/modules/past.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/modules/past.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon_io.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/loading/Spinner.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/loading/gear.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/loading/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sg-min.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sg.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/future.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/module/photosWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/module/photosWork.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/past.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/past.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/past.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,14 +334,7 @@
       <workItem from="1620750723971" duration="645000" />
       <workItem from="1621921215651" duration="1790000" />
       <workItem from="1621923025497" duration="1792000" />
-      <workItem from="1621924837720" duration="312000" />
-    </task>
-    <task id="LOCAL-00057" summary="fancy link / toggle button">
-      <created>1610984926365</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1610984926366</updated>
+      <workItem from="1621924837720" duration="985000" />
     </task>
     <task id="LOCAL-00058" summary="refacut modal in js fara bootstrap">
       <created>1611001274616</created>
@@ -692,7 +672,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621921904848</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="temp card projects">
+      <created>1621925342916</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1621925342916</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -712,7 +699,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="poze webp dimensiune" />
     <MESSAGE value="poze webp dimensiune 2" />
     <MESSAGE value="fix foto" />
     <MESSAGE value="fix article card" />
@@ -737,7 +723,8 @@
     <MESSAGE value="google analitics all" />
     <MESSAGE value="google analitics index" />
     <MESSAGE value="fix img past" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix img past" />
+    <MESSAGE value="temp card projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="temp card projects" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
