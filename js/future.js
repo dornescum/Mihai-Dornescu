@@ -155,7 +155,7 @@ window.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: 'Vanzare Apartament',
-            link: "https://github.com/dornescum/Vanzare-15.05.21",
+            link: "https://apartament-1a2c9.web.app/",
             desc: ' react',
             id: 2
         },
