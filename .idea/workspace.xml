@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix focus btn">
-      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix card text">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/modules/future.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/modules/future.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/future.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -334,14 +336,8 @@
       <workItem from="1620750723971" duration="645000" />
       <workItem from="1621921215651" duration="1790000" />
       <workItem from="1621923025497" duration="1792000" />
-      <workItem from="1621924837720" duration="1427000" />
-    </task>
-    <task id="LOCAL-00059" summary="message border">
-      <created>1611049062234</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1611049062235</updated>
+      <workItem from="1621924837720" duration="2205000" />
+      <workItem from="1621927128700" duration="935000" />
     </task>
     <task id="LOCAL-00060" summary="@media 320">
       <created>1611049461783</created>
@@ -679,7 +675,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621925887218</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="fix card text">
+      <created>1621926361003</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1621926361003</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -699,7 +702,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fix foto" />
     <MESSAGE value="fix article card" />
     <MESSAGE value="neterminata add task" />
     <MESSAGE value="eroare task add" />
@@ -724,7 +726,8 @@
     <MESSAGE value="fix img past" />
     <MESSAGE value="temp card projects" />
     <MESSAGE value="fix focus btn" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix focus btn" />
+    <MESSAGE value="fix card text" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix card text" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

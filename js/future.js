@@ -13,28 +13,28 @@ class ProjectsList {
         new Project(
             "Easy game",
             "https://s3.hulkshare.com/song_images/original/9/e/9/9e983f57483bce33d02502c27cba56d2.jpg?dd=1423715114",
-            "A simple game with some basic JS",
+            "Vanilla JS",
             "https://github.com/dornescum/SimpleGame",
             "Vanilla Js"
         ),
         new Project(
             "Weather",
             "https://s3.hulkshare.com/song_images/original/9/e/9/9e983f57483bce33d02502c27cba56d2.jpg?dd=1423715114",
-            "A weather web app, ES6 Classes",
+            " ES6 Classes",
             "https://reactjs.org/",
             "Vanilla Js"
         ),
         new Project(
             "Lorem Ipsum",
             "https://s3.hulkshare.com/song_images/original/9/e/9/9e983f57483bce33d02502c27cba56d2.jpg?dd=1423715114",
-            "Generating paragraphs from an array",
+            "Not Ready!",
             "https://www.javascript.com/",
             "Vanilla Js"
         ),
         new Project(
             "Search filter",
             "https://s3.hulkshare.com/song_images/original/9/e/9/9e983f57483bce33d02502c27cba56d2.jpg?dd=1423715114",
-            "Simple search in vanilla javascript",
+            "Search in vanilla Js",
             "https://github.com/dornescum/SearchFilter-JS",
             "Vanilla Js"
         ),
@@ -42,7 +42,7 @@ class ProjectsList {
         new Project(
             "React bootstrap",
             "https://i.kym-cdn.com/photos/images/facebook/001/237/072/307.jpg",
-            "react with bootstrap navbar",
+            "react",
             "https://www.javascript.com/",
             "React Js"
         ),
@@ -50,7 +50,7 @@ class ProjectsList {
         new Project(
             "Colors",
             "img/colors.jpg",
-            "colors id #",
+            "Not Ready!",
             "https://github.com/dornescum/ColorsList",
             "Vanilla Js"
         ),
@@ -82,7 +82,7 @@ class ProjectsList {
         new Project(
             "Restaurant mobile first",
             "https://images.unsplash.com/photo-1428515613728-6b4607e44363?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-            "Basic components, bootstrap vue, mobile first",
+            "Bootstrap vue",
             "https://github.com/dornescum/RestaurantVue",
             "Vue Js"
         ),
@@ -90,7 +90,7 @@ class ProjectsList {
         new Project(
             "Random site",
             "img/random.png",
-            "Basic components, slots, bootstrap vue",
+            "Bootstrap vue",
             "https://github.com/dornescum/constructionVue",
             "Vue Js"
         ),
@@ -98,7 +98,7 @@ class ProjectsList {
         new Project(
             "Handy men Vue",
             "https://i.kym-cdn.com/photos/images/facebook/001/237/072/307.jpg",
-            "",
+            "Not Ready!",
             "https://www.javascript.com/",
             "Vue Js"
         ),
@@ -171,7 +171,7 @@ window.addEventListener('DOMContentLoaded', () => {
     let work = projectsDone.map((el) => {
         const {id, link, desc, name} = el;
         return ` <div class="col-lg-4 col-sm-6 py-4">
-        <div class="card" >
+        <div class="card hover" >
             <div class="card-body">
              <h5 class="card-title" style="margin-left: 1rem">${name}</h5>
                 <p class="card-text" style="margin-left: 1rem">${desc}</p>
