@@ -6,6 +6,7 @@
     transform: scale(1);
     transition: var(--transition);
     opacity: 0.7;
+    margin: 2rem 0;
 }
 .article:hover{
     transform: scale(1.05) !important;

@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix article heigth" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix article ipad2">
+      <change beforePath="$PROJECT_DIR$/css/modules/future.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/modules/future.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -333,21 +335,7 @@
       <workItem from="1621923025497" duration="1792000" />
       <workItem from="1621924837720" duration="2205000" />
       <workItem from="1621927128700" duration="1870000" />
-      <workItem from="1621929020818" duration="310000" />
-    </task>
-    <task id="LOCAL-00063" summary="butoane modal margin-bottom scos">
-      <created>1611132011789</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1611132011790</updated>
-    </task>
-    <task id="LOCAL-00064" summary="colors in future">
-      <created>1611227709363</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1611227709365</updated>
+      <workItem from="1621929020818" duration="675000" />
     </task>
     <task id="LOCAL-00065" summary="totul generat din js cu class">
       <created>1611580265883</created>
@@ -678,7 +666,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621929316754</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="fix article ipad">
+      <created>1621929457189</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1621929457189</updated>
+    </task>
+    <task id="LOCAL-00113" summary="fix article ipad2">
+      <created>1621929517233</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1621929517233</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -698,8 +700,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="culoare icon si border" />
-    <MESSAGE value="vue  // future.js" />
     <MESSAGE value="media querry future" />
     <MESSAGE value="future class about" />
     <MESSAGE value="fix local storage" />
@@ -723,7 +723,9 @@
     <MESSAGE value="fix card classes" />
     <MESSAGE value="fix card effects" />
     <MESSAGE value="fix article heigth" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix article heigth" />
+    <MESSAGE value="fix article ipad" />
+    <MESSAGE value="fix article ipad2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix article ipad2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
