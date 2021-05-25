@@ -111,7 +111,7 @@ class ProjectsList {
         projectList.classList.add("mb-2");
         for (const item of this.projects) {
             const projectItem = document.createElement("div");
-            projectItem.className = "col-lg-3 col-md-4 col-sm-6 mb-2"
+            projectItem.className = "col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-2"
             projectItem.innerHTML = `
 <!--               <div class="col-lg-3 col-md-4 col-sm-6">-->
                 <article class="article">

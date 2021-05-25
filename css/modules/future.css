@@ -1,6 +1,6 @@
 
 .article {
-    border: var(--clr-primary-5) solid 3px;
+    border: var(--clr-primary-5) solid 1px;
     border-radius: var(--radius);
     height: 38vh;
     transform: scale(1);
@@ -81,6 +81,12 @@
 /*    height: 35vh;*/
 /*}*/
 
+@media screen and (max-width: 1024px){
+    .article{
+        height: 25vh;
+    }
+}
+
 @media screen and (max-width: 768px){
     .article{
         height: 32vh;
@@ -88,7 +94,7 @@
 }
 @media screen and (max-width: 567px){
     .article{
-        height: 45vh;
+        height: 40vh;
     }
 }
 /*@media screen and (max-width: 499px){*/
