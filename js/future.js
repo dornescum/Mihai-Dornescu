@@ -165,6 +165,13 @@ window.addEventListener('DOMContentLoaded', () => {
             desc: ' html, css, js',
             id: 3
         },
+        {
+            name: 'Mirage',
+            link: "https://mirage-a2c18.web.app/",
+            desc: ' react',
+            id: 4
+        },
+
     ]
     let work = projectsDone.map((el) => {
         const {id, link, desc, name} = el;

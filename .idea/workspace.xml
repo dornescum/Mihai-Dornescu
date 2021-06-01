@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix 1366">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="link apartament">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/loading/ripple.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/future.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -337,13 +339,9 @@
       <workItem from="1621927128700" duration="1870000" />
       <workItem from="1621929020818" duration="1411000" />
       <workItem from="1621932838618" duration="1308000" />
-    </task>
-    <task id="LOCAL-00067" summary="random site vue">
-      <created>1611740052571</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1611740052572</updated>
+      <workItem from="1621949118464" duration="749000" />
+      <workItem from="1622540252438" duration="11000" />
+      <workItem from="1622540330364" duration="195000" />
     </task>
     <task id="LOCAL-00068" summary="link simple game">
       <created>1611740788338</created>
@@ -681,7 +679,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621933707840</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="link apartament">
+      <created>1621949344531</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1621949344531</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -701,7 +706,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fix local storage" />
     <MESSAGE value="curatat ce era in plus" />
     <MESSAGE value="testimonials mobile fix" />
     <MESSAGE value="width temp" />
@@ -726,7 +730,8 @@
     <MESSAGE value="fix article ipad2" />
     <MESSAGE value="fix article ipad3" />
     <MESSAGE value="fix 1366" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix 1366" />
+    <MESSAGE value="link apartament" />
+    <option name="LAST_COMMIT_MESSAGE" value="link apartament" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
