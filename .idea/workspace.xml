@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="alte poze" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix 992px" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -340,13 +340,7 @@
       <workItem from="1622540330364" duration="195000" />
       <workItem from="1622540532754" duration="85000" />
       <workItem from="1623683757693" duration="1370000" />
-    </task>
-    <task id="LOCAL-00070" summary="restaurant vue github">
-      <created>1611741194785</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1611741194785</updated>
+      <workItem from="1623688756631" duration="882000" />
     </task>
     <task id="LOCAL-00071" summary="curatenie comment">
       <created>1612044742650</created>
@@ -684,7 +678,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623684523621</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="fix 992px">
+      <created>1623689031895</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1623689031895</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -704,7 +705,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="width temp" />
     <MESSAGE value="foto fix ipad" />
     <MESSAGE value="update location and title foto" />
     <MESSAGE value="no value skills" />
@@ -729,7 +729,8 @@
     <MESSAGE value="link apartament" />
     <MESSAGE value="link mirage" />
     <MESSAGE value="alte poze" />
-    <option name="LAST_COMMIT_MESSAGE" value="alte poze" />
+    <MESSAGE value="fix 992px" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix 992px" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

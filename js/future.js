@@ -171,6 +171,12 @@ window.addEventListener('DOMContentLoaded', () => {
             desc: ' react',
             id: 4
         },
+        {
+            name: 'MInimalist Resume',
+            link: "https://resume-mihai.web.app/",
+            desc: ' html, css, js',
+            id: 5
+        },
 
     ]
     let work = projectsDone.map((el) => {
