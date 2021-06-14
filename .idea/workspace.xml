@@ -19,10 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="link apartament">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="link mirage">
+      <change afterPath="$PROJECT_DIR$/img/webp-git/crema.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp-git/mousse.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp-git/paste-2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp-git/paste.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp-git/supa.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp-git/supa_rosii.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/webp-git/vinete.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/loading/ripple.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/future.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/module/photosWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/module/photosWork.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,13 +348,8 @@
       <workItem from="1621949118464" duration="749000" />
       <workItem from="1622540252438" duration="11000" />
       <workItem from="1622540330364" duration="195000" />
-    </task>
-    <task id="LOCAL-00068" summary="link simple game">
-      <created>1611740788338</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1611740788338</updated>
+      <workItem from="1622540532754" duration="85000" />
+      <workItem from="1623683757693" duration="518000" />
     </task>
     <task id="LOCAL-00069" summary="restaurant vue">
       <created>1611740963332</created>
@@ -686,7 +687,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621949344531</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="link mirage">
+      <created>1622540543751</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1622540543752</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -706,7 +714,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="curatat ce era in plus" />
     <MESSAGE value="testimonials mobile fix" />
     <MESSAGE value="width temp" />
     <MESSAGE value="foto fix ipad" />
@@ -731,7 +738,8 @@
     <MESSAGE value="fix article ipad3" />
     <MESSAGE value="fix 1366" />
     <MESSAGE value="link apartament" />
-    <option name="LAST_COMMIT_MESSAGE" value="link apartament" />
+    <MESSAGE value="link mirage" />
+    <option name="LAST_COMMIT_MESSAGE" value="link mirage" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
