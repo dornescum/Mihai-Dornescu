@@ -1968,7 +1968,7 @@ main {
 @media screen and (max-width: 992px) {
     .img-carousel {
         height: 13rem;
-        max-width: 320px;
+        max-width: 310px;
     }
 }
 @media screen and (max-width: 768px) {
