@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix 992px" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="update projects">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -340,14 +342,8 @@
       <workItem from="1622540330364" duration="195000" />
       <workItem from="1622540532754" duration="85000" />
       <workItem from="1623683757693" duration="1370000" />
-      <workItem from="1623688756631" duration="882000" />
-    </task>
-    <task id="LOCAL-00071" summary="curatenie comment">
-      <created>1612044742650</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1612044742651</updated>
+      <workItem from="1623688756631" duration="3782000" />
+      <workItem from="1623768785954" duration="10000" />
     </task>
     <task id="LOCAL-00072" summary="aranjat poze">
       <created>1612171078388</created>
@@ -685,7 +681,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623689031895</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="update projects">
+      <created>1623689894438</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1623689894438</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -705,7 +708,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="foto fix ipad" />
     <MESSAGE value="update location and title foto" />
     <MESSAGE value="no value skills" />
     <MESSAGE value="cookie consent" />
@@ -730,7 +732,8 @@
     <MESSAGE value="link mirage" />
     <MESSAGE value="alte poze" />
     <MESSAGE value="fix 992px" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix 992px" />
+    <MESSAGE value="update projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="update projects" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

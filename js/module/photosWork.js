@@ -3,7 +3,8 @@
 export const photos = [
     {
         id: "p1",
-        foto: "@../../img/webp-git/paste-2.webp",
+        // foto: "@../../img/webp-git/paste-2.webp",
+        foto: "@../../img/900/1-900.webp",
         title: "Paste",
         location: "La Cave de Bucharest",
         dataTooltip: "2018"
@@ -24,7 +25,7 @@ export const photos = [
     },
     {
         id: "p4",
-        foto: "@../../img/webp-git/supa_rosii.webp",
+        foto: "@../../img/900/2-900.webp",
         title: "Crema de rosii",
         location: "Secret garden",
         data: "2017"
