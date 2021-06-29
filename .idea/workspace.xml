@@ -19,8 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="update projects">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="poze refacute">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/modules/future.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/modules/future.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/future.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,13 +347,8 @@
       <workItem from="1623683757693" duration="1370000" />
       <workItem from="1623688756631" duration="3782000" />
       <workItem from="1623768785954" duration="10000" />
-    </task>
-    <task id="LOCAL-00072" summary="aranjat poze">
-      <created>1612171078388</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1612171078388</updated>
+      <workItem from="1624259087806" duration="915000" />
+      <workItem from="1624971683775" duration="1120000" />
     </task>
     <task id="LOCAL-00073" summary="random site">
       <created>1612174763405</created>
@@ -688,7 +686,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623689894438</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="poze refacute">
+      <created>1624259392262</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1624259392263</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -708,7 +713,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="update location and title foto" />
     <MESSAGE value="no value skills" />
     <MESSAGE value="cookie consent" />
     <MESSAGE value="loading fix" />
@@ -733,7 +737,8 @@
     <MESSAGE value="alte poze" />
     <MESSAGE value="fix 992px" />
     <MESSAGE value="update projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="update projects" />
+    <MESSAGE value="poze refacute" />
+    <option name="LAST_COMMIT_MESSAGE" value="poze refacute" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

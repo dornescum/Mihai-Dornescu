@@ -248,6 +248,7 @@ Hero
     transition: var(--transition);
     width: 450px;
     outline: none;
+    cursor: pointer;
 }
 
 .hero-btn-display:hover {
@@ -2272,6 +2273,7 @@ main {
     background: white;
     border-radius: var(--radius);
     box-shadow: var(--dark-shadow);
+    cursor: pointer;
 }
 
 input {

@@ -34,7 +34,7 @@
 }
 .btn-future{
     color: var(--clr-white);
-    background: var(--clr-grey-5);
+    background: var(--clr-grey-8);
     display: block;
     width: 90%;
     border-color: transparent;
@@ -54,8 +54,8 @@
 .btn-future:hover {
     background-color: var(--clr-white);
     color: var(--clr-grey-11);
-    -webkit-box-shadow: var(--dark-shadow);
-    box-shadow: var(--dark-shadow);
+    /*-webkit-box-shadow: var(--dark-shadow);*/
+    /*box-shadow: var(--dark-shadow);*/
     /*font-size: 1.3rem;*/
     border: none;
 }
@@ -68,7 +68,9 @@
     box-shadow: var(--dark-shadow) !important;
     transform: var(--transform);
 }
-
+.silver{
+    background-color: var(--silver-1);
+}
 
 /*!*fixme*!*/
 /*@media (max-width: 1366px){*/

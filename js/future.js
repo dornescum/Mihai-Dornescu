@@ -177,16 +177,22 @@ window.addEventListener('DOMContentLoaded', () => {
             desc: ' html, css, js',
             id: 5
         },
+        {
+            name: 'Vanzare Apartament Next js ',
+            link: "https://apartament-1a2c9.web.app/",
+            desc: ' next js',
+            id: 2
+        },
 
     ]
     let work = projectsDone.map((el) => {
         const {id, link, desc, name} = el;
         return ` <div class="col-lg-4 col-sm-6 py-4">
-        <div class="card hover" >
-            <div class="card-body">
+        <div class="card hover">
+            <div class="card-body silver">
              <h5 class="card-title" style="margin-left: 1rem">${name}</h5>
                 <p class="card-text" style="margin-left: 1rem">${desc}</p>
-                <a href="${link}" class="btn btn-future" target="_blank">Viziteaza</a>
+                <a href="${link}" class="btn-future" target="_blank">Viziteaza</a>
              </div>
             </div>
         </div>
