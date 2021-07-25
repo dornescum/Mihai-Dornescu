@@ -148,7 +148,7 @@ console.log(projects)
 window.addEventListener('DOMContentLoaded', () => {
     const projectsDone = [
         {
-            name: 'Topo-Online',
+            name: 'Firme cadastru',
             link: "http://misu.topo-online.ro/FirmeCadastruTemplate/index.html",
             desc: ' html, css, js',
             id: 1
@@ -165,14 +165,9 @@ window.addEventListener('DOMContentLoaded', () => {
             desc: ' html, css, js',
             id: 3
         },
+
         {
-            name: 'Mirage',
-            link: "https://mirage-a2c18.web.app/",
-            desc: ' react',
-            id: 4
-        },
-        {
-            name: 'MInimalist Resume',
+            name: 'Minimalist Resume',
             link: "https://resume-mihai.web.app/",
             desc: ' html, css, js',
             id: 5
@@ -181,7 +176,13 @@ window.addEventListener('DOMContentLoaded', () => {
             name: 'Vanzare Apartament Next js ',
             link: "https://apartament-1a2c9.web.app/",
             desc: ' next js',
-            id: 2
+            id: 6
+        },
+        {
+            name: 'Rezervatie Burnitei',
+            link: "https://rezervatie-7eb81.web.app/",
+            desc: ' html, css, javascript',
+            id: 4
         },
 
     ]

@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="poze refacute">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="seo &amp; next js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/modules/future.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/modules/future.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/future.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +69,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -349,13 +348,8 @@
       <workItem from="1623768785954" duration="10000" />
       <workItem from="1624259087806" duration="915000" />
       <workItem from="1624971683775" duration="1120000" />
-    </task>
-    <task id="LOCAL-00073" summary="random site">
-      <created>1612174763405</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1612174763406</updated>
+      <workItem from="1624972827145" duration="493000" />
+      <workItem from="1627232763151" duration="357000" />
     </task>
     <task id="LOCAL-00074" summary="simple shopping list">
       <created>1612175034196</created>
@@ -693,7 +687,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624259392263</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="seo &amp; next js">
+      <created>1624972945757</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1624972945757</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -713,7 +714,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="no value skills" />
     <MESSAGE value="cookie consent" />
     <MESSAGE value="loading fix" />
     <MESSAGE value="fix pwa" />
@@ -738,7 +738,8 @@
     <MESSAGE value="fix 992px" />
     <MESSAGE value="update projects" />
     <MESSAGE value="poze refacute" />
-    <option name="LAST_COMMIT_MESSAGE" value="poze refacute" />
+    <MESSAGE value="seo &amp; next js" />
+    <option name="LAST_COMMIT_MESSAGE" value="seo &amp; next js" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
