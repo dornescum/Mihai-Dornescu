@@ -4,283 +4,98 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4LTQKH0FZ7"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
 
-        gtag('config', 'G-4LTQKH0FZ7');
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+
+		gtag('js', new Date());
+
+		gtag('config', 'G-4LTQKH0FZ7');
     </script>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Junior front end developer, Javascript, Html5, Css3, Sccs, React js, Vue js" />
-    <meta name="keywords" content="Vanilla Javascript "/>
-    <meta name="author" content="Mihai Dornescu"/>
-    <meta name="format-detection" content="telephone=no">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Junior front end developer, Javascript, Html5, Css3, Sccs, React js, Vue js" name="description"/>
+    <meta content="Vanilla Javascript " name="keywords"/>
+    <meta content="Mihai Dornescu" name="author"/>
+    <meta content="telephone=no" name="format-detection">
     <!--    favicon-->
-    <link rel="shortcut icon" href="img/favicon_io/android-chrome-192x192.png">
-    <link rel="shortcut icon" href="img/favicon_io/android-chrome-512x512.png">
-    <link rel="shortcut icon" href="img/favicon_io/apple-touch-icon.png">
-    <link rel="shortcut icon" href="img/favicon_io/favicon-16x16.png">
-    <link rel="shortcut icon" href="img/favicon_io/favicon-32x32.png">
-    <link rel="shortcut icon" href="img/favicon_io/favicon.ico">
-    <link rel="shortcut icon" href="img/favicon_io/site.webmanifest">
+    <!--    <link rel="shortcut icon" href="img/favicon_io/android-chrome-192x192.png">-->
+    <!--    <link rel="shortcut icon" href="img/favicon_io/android-chrome-512x512.png">-->
+    <!--    <link rel="shortcut icon" href="img/favicon_io/apple-touch-icon.png">-->
+    <!--    <link rel="shortcut icon" href="img/favicon_io/favicon-16x16.png">-->
+    <!--    <link rel="shortcut icon" href="img/favicon_io/favicon-32x32.png">-->
+    <!--    <link rel="shortcut icon" href="img/favicon_io/favicon.ico">-->
+    <!--    <link rel="shortcut icon" href="img/favicon_io/site.webmanifest">-->
     <!-- font-awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet"/>
     <!--bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet">
     <!--    <link rel="stylesheet" href="./css/styles.css">-->
-    <link rel="stylesheet" href="./css/web-kit.css">
+    <link href="./css/web-kit.css" rel="stylesheet">
 
-    <title>Resume</title>
+    <title>Playground</title>
 </head>
 <body>
-<!--header-->
-<nav class="navbar">
-    <div class="nav-center">
-        <!--        links-->
-        <div>
-            <button class="toggle-nav">
-                <i class="fas fa-bars"></i>
-            </button>
-            <ul class="nav-links">
-                <li>
-                    <a href="index.html" class="fancy-link">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="past.html" class="fancy-link">
-                        past
-                    </a>
-                </li>
-                <li>
-                    <a href="future.html" class="fancy-link">
-                        future
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <!--        button cv-->
-        <div>
-            <a href="./img/resume/Resume.docx" download="">
-                <button class="hero-btn">
-                    <i class="fas fa-user"> Curriculum Vitae</i>
-                </button>
-            </a>
-        </div>
-    </div>
-</nav>
 
-<!--hero-->
-<section class="hero">
-    <div class="hero-container">
-        <a href="#" class="hero-btn" data-toggle="modal" data-target="#exampleModal" id="invitation">
-            Invite me to an interview?
-        </a>
-        <!--        modal js-->
-        <div id="backdrop"></div>
-        <div class="modal card" id="add-comment">
-            <div class="modal__content">
-                <label for="title">Your Name</label>
-                <input type="text" name="title" id="title" placeholder="Name" style="width: auto"/>
-                <label for="message">Your Message</label>
-                <textarea id="message" name="message" rows="4" cols="50" class="message-textarea"
-                          placeholder="this is just an exercise..  ">
-                    </textarea>
-            </div>
-            <div class="modal__actions">
-                <button class="btn btn--passive">Cancel</button>
-                <button class="btn btn--success">Add</button>
-            </div>
-        </div>
-        <!--        ==================================================-->
-    </div>
-</section>
-<!--sidebar-->
-<div class="sidebar-overlay">
-    <aside class="sidebar">
-        <!--        close-->
-        <button class="sidebar-close">
-            <i class="fas fa-times"></i>
-        </button>
-        <!--        links-->
-        <ul class="sidebar-links">
-            <li>
-                <a href="index.html" class="sidebar-link">
-                    <i class="fas fa-home"> home</i>
-                </a>
-            </li>
-            <li>
-                <a href="past.html" class="sidebar-link">
-                    <i class="fas fa-backward"> past</i>
-                </a>
-            </li>
-            <li>
-                <a href="future.html" class="sidebar-link">
-                    <i class="fas fa-forward"> future</i>
-                </a>
-            </li>
-            <li>
-                <a class="github sidebar-link" href="https://github.com/dornescum.html" target="_blank"><i
-                        class="fab fa-github">
-                    <b>Github</b></i></a>
-            </li>
-            <li>
-                <a class="linkedin sidebar-link" href="https://www.linkedin.com/feed/" target="_blank"><i
-                        class="fab fa-linkedin"><b> LinkedIn</b></i></a>
-            </li>
-            <li>
-                <a class="linkedin sidebar-link" href="tel:0762369717"><i class="fas fa-phone-volume"><b> Call
-                    Me</b></i></a>
-            </li>
-            <li>
-                <a class="linkedin sidebar-link" href="mailto:dornescu@gmail.com"><i class="fas fa-envelope"><b> Email
-                    Me</b></i></a>
-            </li>
-        </ul>
-    </aside>
-</div>
-<!--loading-->
-<section class="loading">
-    <img src="./img/loading/ripple.gif" alt="loading"/>
-</section>
-
-<!--Input  -->
-<section>
-    <div id="entry-text" class="card">
-        <p>No invitation ...</p>
-    </div>
-    <ul id="input-list"></ul>
-</section>
-<!--=========================================-->
-
-<div class="p-3 text-center">
-    <button id="containerDisplay" class="hero-btn-display">About me</button>
-</div>
-<!--despre mine-->
-<div class="container invisible" id="container">
-    <div class="row m-2">
-        <div class="col-lg-6 col-md-8">
-            <div>
-                <img src="./img/webp/3.webp" alt="temporar" id="poza">
-            </div>
-        </div>
-        <div class="col-lg-6 col-md-4">
-            <div>
-                <p class="text fade1">
-                    Be willing to be a beginner every single morning.
-                    <br>
-                    <br>
-                    <a href="https://en.wikipedia.org/wiki/Meister_Eckhart" id="quote" target="_blank">
-                        Meister Eckhart
-                    </a>
-                    <br>
-                    <a href="./future.html">
-                        <button class="btn-main">
-                            JavaScript
-                        </button>
-                    </a>
-
-                </p>
-
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--abilitati progress bar 2-->
-<div class="p-3 text-center">
-    <button id="skills" class="hero-btn-display">Show skills</button>
-</div>
-<!--<div class="container invisible" id="progress">-->
-<!--    &lt;!&ndash;    <h6 class="text-center mt-3">Skills</h6>&ndash;&gt;-->
-<!--    <div class="row ">-->
-<!--        <div class="col-lg-6">-->
-<!--            <div class="container">-->
-<!--                <p>Html</p>-->
-<!--                <div class="skills">-->
-<!--                    <span class="value" id="html"></span>-->
-<!--                </div>-->
-<!--                <p>Css</p>-->
-<!--                <div class="skills">-->
-<!--                    <span class="value" id="css"></span>-->
-<!--                </div>-->
-<!--                <p>Vanill Js </p>-->
-<!--                <div class="skills">-->
-<!--                    <span class="value" id="js"></span>-->
-<!--                </div>-->
-
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="col-lg-6 ">-->
-<!--            <div class="container">-->
-<!--                <p>React js</p>-->
-<!--                <div class="skills">-->
-<!--                    <span class="value" id="react"></span>-->
-<!--                </div>-->
-<!--                <p>TypeScript</p>-->
-<!--                <div class="skills">-->
-<!--                    <span class="value" id="typeScript"></span>-->
-<!--                </div>-->
-<!--                <p>Vue js</p>-->
-<!--                <div class="skills">-->
-<!--                    <span class="value" id="vuejs"></span>-->
-<!--                </div>-->
-
-<!--            </div>-->
-<!--        </div>-->
-
-<!--        <div class="col-lg-6">-->
-<!--            <div class="container">-->
-<!--                <p>Sass</p>-->
-<!--                <div class="skills">-->
-<!--                    <span class="value" id="sass"></span>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="col-lg-6 ">-->
-<!--            <div class="container">-->
-<!--                <p>Pwa</p>-->
-<!--                <div class="skills">-->
-<!--                    <span class="value" id="pwa"></span>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-
-<!--projects-->
 <main>
-    <section id="container-repo">
-        <div class="title">
-            <!--    titlu-->
-            <h2>Some exercises</h2>
-            <div class="underline"></div>
-            <!--    despre-->
-            <article class="projects">
-                <div class="img-container">
-                    <img src="" id="person-img" alt="">
-                </div>
-                <h4 id="author"></h4>
-                <p id="source"></p>
-                <p id="info"></p>
-                <!--        prev next btn-->
-
-            </article>
-            <div class="button-container">
-                <button class="prev-btn">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button class="next-btn">
-                    <i class="fas fa-chevron-right"></i>
+    <!--header-->
+    <nav class="navbar">
+        <div class="nav-center">
+            <div>
+                <button class="toggle-nav">
+                    <i class="fas fa-bars"></i>
                 </button>
             </div>
         </div>
-    </section>
-</main>
+    </nav>
 
+    <!--hero-->
+    <section class="hero">
+        <p>My playground</p>
+    </section>
+    <!--sidebar-->
+    <div class="sidebar-overlay">
+        <aside class="sidebar">
+            <!--        close-->
+            <button class="sidebar-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <!--        links-->
+            <p>My Playground</p>
+        </aside>
+    </div>
+    <!--loading-->
+    <section class="loading">
+        <img alt="loading" src="./img/loading/ripple.gif"/>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <img class="h-12" src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+
+               <div class="col-lg-4 col-md-6">
+                    <img class="h-12" src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+
+               <div class="col-lg-4 col-md-6">
+                    <img class="h-12" src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+</main>
 
 
 <!--========================cookie consent-->
@@ -308,19 +123,16 @@
 </footer>
 
 
-
-
-
 <!-- js -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+<script crossorigin="anonymous"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script crossorigin="anonymous"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script crossorigin="anonymous"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="js/index.js"></script>
 <script src="js/firstPage.js" type="module"></script>
 </body>
