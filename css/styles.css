@@ -3,7 +3,7 @@
 @import "modules/future.css";
 
 /*
-=============== 
+===============
 Variables
 ===============
 */
@@ -52,7 +52,7 @@ Variables
 }
 
 /*
-=============== 
+===============
 Global Styles
 ===============
 */
@@ -149,7 +149,7 @@ p {
 
 /*}*/
 
-/* =============== 
+/* ===============
 Hero
 =============== */
 
@@ -1497,7 +1497,6 @@ main {
     background: rgb(204,204,204);
     background: linear-gradient(0deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%)
 }
-
 /*loading*/
 /*==========================================*/
 .loading {
@@ -1519,6 +1518,7 @@ main {
 .hide-loading {
     display: none;
 }
+
 
 /* past testimonials*/
 .testimonials-title{

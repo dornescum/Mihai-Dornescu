@@ -34,14 +34,11 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
 const footer = document.getElementById("footer");
-footer.innerHTML = `
-     <ul class="social-icons">
-                <li>Linux Fan<a class="ubuntu" href="https://ubuntu.com/download/desktop" target="_blank">
-                    <i class="fab fa-ubuntu"></i>
-                </a></li>
-                <li><a class="github" href="https://github.com/dornescum.html" target="_blank"><i class="fab fa-github"></i></a></li>
-                <li><a class="linkedin" href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            </ul>
-    `
+const d = new Date();
+let year =d.getFullYear();
+console.log(year);
 
+footer.innerHTML = `
+    <p>${year}</p>
+    `
 console.timeEnd("timer")

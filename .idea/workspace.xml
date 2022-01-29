@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,7 +22,94 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="rezervatie web" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="remove progress">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/modules/Game.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/modules/future.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/modules/inputText.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/modules/loremIpsum.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/modules/past.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/future/game/game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/future/game/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/future/loremIpsum/loremIpsum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/future/loremIpsum/loremIspum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/future/wheather/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/future/wheather/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/future/wheather/storage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/future/wheather/ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/future/wheather/wheather.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/future/wheather/wheather.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/900/09-900.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/900/1-900.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/900/2-900.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Learning.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/colors.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon_io/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon_io/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon_io/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon_io/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon_io/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon_io/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon_io/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/not-ready.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/random.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ready.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/resume/Resume.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sg-min-min.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/utils/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp-git/crema.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp-git/mousse.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp-git/paste-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp-git/paste.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp-git/supa.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp-git/supa_rosii.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp-git/vinete.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/09.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/10-min.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/6-min.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/7.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/8-min.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/IMG_20191124_103021.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/Learning-576.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/Learning.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/Mihai-Dornescu.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/barca.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/jobless.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/p1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/p2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/p3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/p4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/sg-min-min.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/study.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp/tortelini-min.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp2/09.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp2/1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp2/10-min.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp2/2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp2/4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp2/6-min.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp2/7.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp2/barca.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/webp2/tortelini-min.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/firstPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/firstPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/future.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/module/photosWork.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/module/projects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/module/testimonials.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/past.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/past.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +141,9 @@
         <option value="https://github.com/dornescum/5animeText" />
       </set>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1jBII24XkkGGVq0pYhvnNplwNag" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -347,13 +440,7 @@
       <workItem from="1624971683775" duration="1120000" />
       <workItem from="1624972827145" duration="493000" />
       <workItem from="1627232763151" duration="685000" />
-    </task>
-    <task id="LOCAL-00075" summary="past refacut, nefinalizate sort random">
-      <created>1612954969629</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1612954969630</updated>
+      <workItem from="1643481160624" duration="3761000" />
     </task>
     <task id="LOCAL-00076" summary="past refacut, nefinalizate sort random 2">
       <created>1612956157597</created>
@@ -691,7 +778,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627233135656</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="remove progress">
+      <created>1643481350412</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1643481350412</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -707,11 +801,9 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="loading fix" />
     <MESSAGE value="fix pwa" />
     <MESSAGE value="fix past fix layout" />
     <MESSAGE value="google analitics" />
@@ -736,7 +828,8 @@
     <MESSAGE value="poze refacute" />
     <MESSAGE value="seo &amp; next js" />
     <MESSAGE value="rezervatie web" />
-    <option name="LAST_COMMIT_MESSAGE" value="rezervatie web" />
+    <MESSAGE value="remove progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove progress" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
