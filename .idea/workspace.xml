@@ -23,8 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="refactor">
-      <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/web-kit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/favicon/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/loading/ripple.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/projects/pastaAmatriciana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sunSet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/modules/cookie.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/modules/cookie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/web-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/web-kit.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/firstPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/firstPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +105,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/dist" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/future/memoryGame" />
     </key>
@@ -358,13 +375,9 @@
       <workItem from="1627232763151" duration="685000" />
       <workItem from="1643481160624" duration="3761000" />
       <workItem from="1643485491320" duration="34000" />
-    </task>
-    <task id="LOCAL-00077" summary="poze gasite">
-      <created>1612956293701</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1612956293701</updated>
+      <workItem from="1643485592593" duration="21000" />
+      <workItem from="1643526347074" duration="2479000" />
+      <workItem from="1643529062659" duration="7311000" />
     </task>
     <task id="LOCAL-00078" summary="poZe cu path corect">
       <created>1612956420598</created>
@@ -702,7 +715,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643485516496</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="refactor">
+      <created>1643485607235</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1643485607235</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

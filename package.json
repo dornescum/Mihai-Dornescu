@@ -1,0 +1,23 @@
+{
+  "name": "mihai-dornescu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dornescum/Mihai-Dornescu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dornescum/Mihai-Dornescu/issues"
+  },
+  "homepage": "https://github.com/dornescum/Mihai-Dornescu#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.18"
+  }
+}
