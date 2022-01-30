@@ -22,14 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="refactor cdn">
-      <change afterPath="$PROJECT_DIR$/src/img/svg/blog.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/svg/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/svg/linkedIn.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="refactor cdn" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -367,7 +360,7 @@
       <workItem from="1643485491320" duration="34000" />
       <workItem from="1643485592593" duration="21000" />
       <workItem from="1643526347074" duration="2479000" />
-      <workItem from="1643529062659" duration="21262000" />
+      <workItem from="1643529062659" duration="21568000" />
     </task>
     <task id="LOCAL-00080" summary="poze webp dimensiune">
       <created>1612972941157</created>
