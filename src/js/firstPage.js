@@ -1,8 +1,8 @@
 // const main = document.querySelector("main");
 // let rootElement = document.documentElement;
-//
-//
-// // =======cookie====
+
+
+// =======cookie====
 // const cookieContainer = document.querySelector(".cookie-container");
 // const cookieButton = document.querySelector(".cookie-btn");
 //

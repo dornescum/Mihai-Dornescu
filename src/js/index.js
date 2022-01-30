@@ -1,4 +1,6 @@
 console.time("timer");
+
+
 const getElement = (selection) => {
 	const element = document.querySelector(selection);
 	if (element) return element;
@@ -6,8 +8,7 @@ const getElement = (selection) => {
 };
 
 
-const projects = [
-	{
+const projects = [{
 	id: 1,
 	title: "Mock Up Delivery Website",
 	description: "An exercise in which I used Next js and Tailwind Css to create a website for an imaginary company that produces and processes food. Using ISR & SSR, hybrid.",
@@ -15,8 +16,7 @@ const projects = [
 	linkRepo: "https://github.com/dornescum/tailwind-nextJs-setup",
 	linkPage: "https://tailwind-next-js-menu.vercel.app/",
 	img: "@../../src/img/projects/mockUpMenu.webp"
-},
-	{
+}, {
 	id: 2,
 	title: "Best Car Ever",
 	description: "An exercise in which I used Next js and Scss to create a website where I sell a car.",
@@ -33,13 +33,22 @@ const projects = [
 	linkRepo: "https://github.com/dornescum/adminPannel",
 	linkPage: "https://dornescum.github.io/Mihai-Dornescu/",
 	img: "@../../src/img/projects/github.webp"
-},
+	},
+	{
+		id: 4,
+		title: "Cypress testing FirmeCadastru.ro",
+		description: "An admin panel in which I tested Cypress together with React js.",
+		tools: "React js, React-router, Styled-Components, Cypress, Context Api",
+		linkRepo: "https://github.com/dornescum/FC",
+		linkPage: "https://firmecadastru.ro/",
+		img: "@../../src/img/projects/cypress.webp"
+	},
 ];
 const projectsGrid = getElement('#grid-projects');
 
 projectsGrid.innerHTML = projects.map((item) => {
 	return `         
-	        <div class="flex flex-col mx-0 md:mx-6 lg:mx-12" data-testid={item?.id}>
+	        <div class="flex flex-col mx-0 md:mx-6 lg:mx-8" data-testid=${item?.id}>
                 <div class="">
                     <div>
                         <img alt="picture"
@@ -86,8 +95,8 @@ window.addEventListener("DOMContentLoaded", function () {
 
 const footer = getElement('#footer');
 const d = new Date();
-let year =d.getFullYear();
+let year = d.getFullYear();
 footer.innerHTML = `
     <p>${year}</p>
-    `
+    `;
 console.timeEnd("timer");
