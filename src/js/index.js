@@ -22,7 +22,7 @@ const projects = [{
 	description: "An exercise in which I used Next js and Scss to create a website where I sell a car.",
 	tools: "Next js, Scss, Simple-react-lightbox, React Icons",
 	linkRepo: "https://github.com/dornescum/tailwind-nextJs-setup",
-	linkPage: "https://tailwind-next-js-menu.vercel.app/",
+	linkPage: "https://car-next.vercel.app/",
 	img: "@../../src/img/projects/opelDan.webp"
 },
 	{
