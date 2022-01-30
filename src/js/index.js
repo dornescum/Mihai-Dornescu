@@ -93,10 +93,10 @@ window.addEventListener("DOMContentLoaded", function () {
 });
 
 
-const footer = getElement('#footer');
+const footer = getElement('#footer-year');
 const d = new Date();
 let year = d.getFullYear();
 footer.innerHTML = `
-    <p>${year}</p>
+    <p>&copy; ${year}</p>
     `;
 console.timeEnd("timer");
