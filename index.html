@@ -30,7 +30,7 @@
     <link href="src/img/favicon/favicon.ico" rel="shortcut icon">
     <!--    <link rel="shortcut icon" href="img/favicon_io/site.webmanifest">-->
     <!-- font-awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet"/>
+    <!--    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet"/>-->
     <!--google fonts-->
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
@@ -47,7 +47,7 @@
     <link href="/dist/style.css" rel="stylesheet">
 
     <title>Playground</title>
-<!--    fixme add to main tailwind-->
+    <!--    fixme add to main tailwind-->
     <style>
         .loading {
             min-height: 20vh;
@@ -73,90 +73,29 @@
 <body>
 
 <main class="font-dosis">
-    <!--header-->
-    <nav class="navbar">
-        <!--        <div class="nav-center">-->
-        <!--            <div>-->
-        <!--                <button class="toggle-nav">-->
-        <!--                    <i class="fas fa-bars"></i>-->
-        <!--                </button>-->
-        <!--            </div>-->
-        <!--        </div>-->
-    </nav>
 
     <!--hero-->
-    <section class="container mx-auto text-red-300 w-full py-4">
-        <p class="text-center mx-8 py-4">My playground</p>
-        <p class="mx-8 p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa nihil, quo. Ad adipisci
-            aliquid amet
-            consequuntur dolore dolorum, eligendi excepturi illum impedit laboriosam nemo nulla pariatur porro
-            praesentium quidem quisquam reiciendis sequi suscipit! Animi ducimus eveniet iure, odio ut veniam. Alias
-            aliquam consequatur, delectus deleniti ex facere fugit hic id, ipsa minus nulla, optio quisquam saepe soluta
-            voluptates? Corporis, dolore, eius eveniet excepturi, in ipsam itaque laborum magnam maiores molestiae
-            quidem repellendus sapiente soluta. Accusamus accusantium atque autem beatae consectetur, consequatur dicta
-            eligendi fugiat, id incidunt maiores modi nemo, odio optio perferendis quasi quidem recusandae rerum
-            similique velit veniam voluptatum.</p>
+    <section class="mx-0 md:mx-4 lg:mx-10 text-center text-red-300 py-4">
+        <p class="text-center mx-4 py-4 text-2xl text-stone-600">My playground</p>
+        <p class="mx-4 p-2 text-justify text-2xl text-stone-500">
+            The place where I test different technologies or frameworks. Tutorial exercises on different directions of
+            Javascript, such as Typescript, Node js or Electron. Right now I like Next js because it helps SEO, and I'm trying
+            Tailwind css.
+        </p>
     </section>
     <!--sidebar-->
-    <div class="sidebar-overlay">
-        <!--        <aside class="sidebar">-->
-        <!--            &lt;!&ndash;        close&ndash;&gt;-->
-        <!--            <button class="sidebar-close">-->
-        <!--                <i class="fas fa-times"></i>-->
-        <!--            </button>-->
-        <!--            &lt;!&ndash;        links&ndash;&gt;-->
-        <!--            <p>My Playground</p>-->
-        <!--        </aside>-->
-    </div>
+
     <!--loading-->
     <section class="loading">
         <img alt="loading" src="src/img/loading/ripple.gif"/>
     </section>
 
 
-    <section class="mx-8 my-4" data-testid="projects" id="section-projects">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" data-testid="projects-grid"
+    <section class="mx-4 my-4" data-testid="projects" id="section-projects">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4" data-testid="projects-grid"
              id="grid-projects">
-            <!--            <div class="flex flex-col mx-4 md:mx-6 lg:mx-12 relative" data-testid="id">-->
-            <!--                <div class="">-->
-            <!--                    <div>-->
-            <!--                        <img alt="picture"-->
-            <!--                             src="/src/img/projects/mockUpMenu.jpg" class="h-48 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md-->
-            <!--                shadow-sm hover:shadow-lg cursor-pointer transition duration:300">-->
-            <!--                    </div>-->
-            <!--                    <div class=" border p-1 rounded-br-md rounded-bl-md">-->
-            <!--                        <article class="">-->
-            <!--                            <h2 class="text-center font-bold p-1">title1</h2>-->
-            <!--                            <ul class="text-justify">-->
-            <!--                                <li class="leading-relaxed py-4 px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda-->
-            <!--                                    atque commodi corporis minima-->
-            <!--                                    odio perspiciatis quidem quos rem sapiente suscipit.</li>-->
-            <!--                                <li class="py-2 px-2">tools: Next js</li>-->
-            <!--                                <li class="py-2 px-2">-->
-            <!--                                    <div>-->
-            <!--                                        <p  class="inline-flex">-->
-            <!--                                            Github repo:-->
-            <!--                                        </p>-->
-            <!--                                        <a href="#"  class="inline-flex">link github</a>-->
-            <!--                                    </div>-->
-            <!--                                </li>-->
-            <!--                                <li class="pt-2 pb-4 px-2 ">-->
-            <!--                                    <a href="#" class="">link to</a>-->
-            <!--                                </li>-->
-            <!--                            </ul>-->
-            <!--                        </article>-->
-            <!--&lt;!&ndash;                        <div class="">&ndash;&gt;-->
-            <!--&lt;!&ndash;                            <a href="#" class="absolute bottom-0 left-3">link to</a>&ndash;&gt;-->
-            <!--&lt;!&ndash;                        </div>&ndash;&gt;-->
-            <!--                    </div>-->
-            <!--                </div>-->
-            <!--            </div>-->
-
-
         </div>
-
     </section>
-
 </main>
 
 
@@ -176,13 +115,10 @@
 <!--========================cookie consent-->
 
 
-<!--footer-->
-<!--<footer class="site-footer">-->
-<!--    <div class="container">-->
-<!--        <div id="footer">-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</footer>-->
+<footer id="footer">
+
+
+</footer>
 
 
 <!-- js -->

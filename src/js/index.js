@@ -9,69 +9,59 @@ const getElement = (selection) => {
 const projects = [
 	{
 	id: 1,
-	title: "title1",
-		description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet dolores, ducimus ex fugiat illo laborum\n" +
-			"        minus molestiae nesciunt nihil provident ullam vitae voluptates! Accusantium aliquam asperiores aspernatur\n" +
-			"        assumenda, atque blanditiis consequatur consequuntur dolore ipsa iste itaque iusto natus, nesciunt numquam\n" +
-			"        officia pariatur reiciendis repudiandae sunt ut veritatis voluptates voluptatibus!",
-		tools:"Next js, Tailwind css",
-		linkRepo:"",
-		linkPage:"",
-		img:"@../../src/img/projects/mockUpMenu.jpg"
-	},
+	title: "Mock Up Delivery Website",
+	description: "An exercise in which I used Next js and Tailwind Css to create a website for an imaginary company that produces and processes food. Using ISR & SSR, hybrid.",
+	tools: "Next js, Tailwind Css",
+	linkRepo: "https://github.com/dornescum/tailwind-nextJs-setup",
+	linkPage: "https://tailwind-next-js-menu.vercel.app/",
+	img: "@../../src/img/projects/mockUpMenu.webp"
+},
 	{
 	id: 2,
-	title: "title2",
-		description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet dolores, ducimus ex fugiat illo laborum\n" +
-			"        minus molestiae nesciunt nihil provident ullam vitae voluptates! Accusantium aliquam asperiores aspernatur\n" +
-			"        assumenda, atque blanditiis consequatur consequuntur dolore ipsa iste itaque iusto natus, nesciunt numquam\n" +
-			"        officia pariatur reiciendis repudiandae sunt ut veritatis voluptates voluptatibus!",
-		tools:"Next js, Tailwind css",
-		linkRepo:"",
-		linkPage:"",
-		img:"@../../src/img/projects/mockUpMenu.jpg"
-	},
+	title: "Best Car Ever",
+	description: "An exercise in which I used Next js and Scss to create a website where I sell a car.",
+	tools: "Next js, Scss, Simple-react-lightbox, React Icons",
+	linkRepo: "https://github.com/dornescum/tailwind-nextJs-setup",
+	linkPage: "https://tailwind-next-js-menu.vercel.app/",
+	img: "@../../src/img/projects/opelDan.webp"
+},
 	{
 	id: 3,
-	title: "title3",
-		description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet dolores, ducimus ex fugiat illo laborum\n" +
-			"        minus molestiae nesciunt nihil provident ullam vitae voluptates! Accusantium aliquam asperiores aspernatur\n" +
-			"        assumenda, atque blanditiis consequatur consequuntur dolore ipsa iste itaque iusto natus, nesciunt numquam\n" +
-			"        officia pariatur reiciendis repudiandae sunt ut veritatis voluptates voluptatibus!",
-		tools:"Next js, Tailwind css",
-		linkRepo:"",
-		linkPage:"",
-		img:"@../../src/img/projects/mockUpMenu.jpg"
-	},
-
-	];
+	title: "Admin Panel",
+	description: "An admin panel in which I tested Cypress together with React js.",
+	tools: "React js, React-router, Styled-Components, Cypress, Context Api",
+	linkRepo: "https://github.com/dornescum/adminPannel",
+	linkPage: "https://dornescum.github.io/Mihai-Dornescu/",
+	img: "@../../src/img/projects/github.webp"
+},
+];
 const projectsGrid = getElement('#grid-projects');
 
 projectsGrid.innerHTML = projects.map((item) => {
 	return `         
-	        <div class="flex flex-col mx-4 md:mx-6 lg:mx-12 relative" data-testid={item?.id}>
+	        <div class="flex flex-col mx-0 md:mx-6 lg:mx-12" data-testid={item?.id}>
                 <div class="">
                     <div>
                         <img alt="picture"
-                             src=${item?.img} class="h-48 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md
+                             src=${item?.img} class="h-60 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md
                 shadow-sm hover:shadow-lg cursor-pointer transition duration:300">
                     </div>
-                    <div class=" border p-1 rounded-br-md rounded-bl-md">
-                        <article class="">
+                    <div class=" border p-1 rounded-br-md rounded-bl-md h-80 md:h-90 lg:h-72">
+                        <article class="text-stone-500" data-testid=${item?.title.slice(0, 3)}>
                             <h2 class="text-center font-bold p-1">${item?.title}</h2>
                             <ul class="text-justify">
                                 <li class="leading-relaxed py-4 px-2">${item?.description}</li>
-                                <li class="py-2 px-2 hover:text-red-300">${item?.tools}</li>
+                                <li class="py-2 px-2 hover:text-red-300 cursor-pointer">${item?.tools}</li>
                                 <li class="py-2 px-2">
                                     <div>
                                         <p  class="inline-flex">
-                                            Github repo:
+                                            Repo:
                                         </p>
-                                        <a href="#"  class="inline-flex">link Github</a>
+                                        <a href=${item?.linkRepo} target="_blank"  class="inline-flex">Github</a>
                                     </div>
                                 </li>
                                 <li class="pt-2 pb-4 px-2 ">
-                                    <a href="#" class="">Visit website</a>
+                                    <a href=${item?.linkPage} target="_blank" class="text-stone-700 animate-pulse">Visit website</a>
                                 </li>
                             </ul>
                         </article>
@@ -80,19 +70,6 @@ projectsGrid.innerHTML = projects.map((item) => {
             </div>
 	 `;
 }).join(' ');
-
-
-// navbar
-// const toggleNav = getElement('.toggle-nav');
-// const sidebarOverlay = getElement('.sidebar-overlay');
-// const closeBtn = getElement('.sidebar-close');
-
-// toggleNav.addEventListener('click', () => {
-//     sidebarOverlay.classList.add('show')
-// })
-// closeBtn.addEventListener('click', () => {
-//     sidebarOverlay.classList.remove('show')
-// })
 
 // loading
 const loading = getElement('.loading');
@@ -105,17 +82,12 @@ const hideLoading = () => {
 window.addEventListener("DOMContentLoaded", function () {
 	setTimeout(hideLoading, 500);
 });
-// =====================================
-
-// =====================================
 
 
-// const footer = document.getElementById("footer");
-// const d = new Date();
-// let year =d.getFullYear();
-// console.log(year);
-//
-// footer.innerHTML = `
-//     <p>${year}</p>
-//     `
+const footer = getElement('#footer');
+const d = new Date();
+let year =d.getFullYear();
+footer.innerHTML = `
+    <p>${year}</p>
+    `
 console.timeEnd("timer");

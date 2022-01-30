@@ -23,7 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="refactor cdn">
-      <change beforePath="$PROJECT_DIR$/dist/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/projects/github.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/projects/mockUpMenu.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/projects/opelDan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/projects/opelDan.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -362,7 +369,7 @@
       <workItem from="1643485491320" duration="34000" />
       <workItem from="1643485592593" duration="21000" />
       <workItem from="1643526347074" duration="2479000" />
-      <workItem from="1643529062659" duration="11628000" />
+      <workItem from="1643529062659" duration="18347000" />
     </task>
     <task id="LOCAL-00080" summary="poze webp dimensiune">
       <created>1612972941157</created>
