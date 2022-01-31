@@ -22,7 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="refactor cdn" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix error svg">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -360,14 +364,8 @@
       <workItem from="1643485491320" duration="34000" />
       <workItem from="1643485592593" duration="21000" />
       <workItem from="1643526347074" duration="2479000" />
-      <workItem from="1643529062659" duration="21568000" />
-    </task>
-    <task id="LOCAL-00080" summary="poze webp dimensiune">
-      <created>1612972941157</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1612972941158</updated>
+      <workItem from="1643529062659" duration="22612000" />
+      <workItem from="1643614920862" duration="911000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
@@ -705,7 +703,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643541412503</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="fix error svg">
+      <created>1643555823321</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1643555823321</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -724,7 +729,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="google analitics all" />
     <MESSAGE value="google analitics index" />
     <MESSAGE value="fix img past" />
     <MESSAGE value="temp card projects" />
@@ -749,7 +753,8 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="refactor tailwind" />
     <MESSAGE value="refactor cdn" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor cdn" />
+    <MESSAGE value="fix error svg" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix error svg" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
