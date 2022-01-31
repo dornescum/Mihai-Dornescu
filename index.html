@@ -1,20 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--    &lt;!&ndash; Global site tag (gtag.js) - Google Analytics &ndash;&gt;-->
-<!--    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4LTQKH0FZ7"></script>-->
-<!--    <script>-->
-<!--		window.dataLayer = window.dataLayer || [];-->
-
-<!--		function gtag() {-->
-<!--			dataLayer.push(arguments);-->
-<!--		}-->
-
-<!--		gtag('js', new Date());-->
-
-<!--		gtag('config', 'G-4LTQKH0FZ7');-->
-<!--    </script>-->
-
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Junior front end developer, Javascript, Html5, Css3, Sccs, React js, Vue js" name="description"/>
@@ -22,51 +8,137 @@
     <meta content="Mihai Dornescu" name="author"/>
     <meta content="telephone=no" name="format-detection">
     <!--    favicon-->
-
     <link href="src/img/favicon/favicon.ico" rel="shortcut icon">
     <!--google fonts-->
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;800&display=swap" rel="stylesheet">
-
     <!--tailwind-->
     <script src="https://cdn.tailwindcss.com"></script>
-
     <link href="/dist/style.css" rel="stylesheet">
-
     <title>Playground</title>
     <!--    fixme add to main tailwind-->
     <style>
-        .loading {
-            min-height: 20vh;
-            min-width: 20vw;
-            display: grid;
-            justify-content: center;
-            position: absolute;
-            object-fit: fill;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: var(--clr-grey-10);
-            padding-top: 5rem;
-            z-index: 999;
-        }
+        /*.loading {*/
+        /*    min-height: 20vh;*/
+        /*    min-width: 20vw;*/
+        /*    display: grid;*/
+        /*    justify-content: center;*/
+        /*    position: absolute;*/
+        /*    object-fit: fill;*/
+        /*    top: 0;*/
+        /*    left: 0;*/
+        /*    width: 100%;*/
+        /*    height: 100%;*/
+        /*    background: var(--clr-grey-10);*/
+        /*    padding-top: 5rem;*/
+        /*    z-index: 999;*/
+        /*}*/
 
-        .hide-loading {
+        /*.hide-loading {*/
+        /*    display: none;*/
+        /*}*/
+        @keyframes anim-left {
+            0% {
+                opacity: 0;
+                transform: translateX(-100px);
+            }
+            50% {
+                opacity: 0.5;
+            }
+            100% {
+                opacity: 1;
+            }
+
+        }
+        .show {
+            display: block;
+            animation: anim-left .2s ease-in-out;
+            position: absolute;
+            z-index: 1;
+        }
+        .sidebar {
             display: none;
         }
     </style>
 </head>
 <body>
 
-<main class="font-dosis">
+<main class="font-dosis relative">
+    <!--    navbar-->
+    <nav class="relative">
+        <ul class="flex justify-between p-4">
+            <li>
+                <a href="https://dornescu.ro/" itemprop="author" rel="noopener" target="_blank">
+                    Mihai Dornescu
+                </a>
+               </li>
+            <li>
+                <button id="access-sidebar">
+                    <img src="./src/img/svg/hamburger.svg" alt="hamburger menu">
+                </button>
+            </li>
+        </ul>
+
+    </nav>
+    <!--    sidebar-->
+    <aside class="z-10 absolute top-0 left-0 h-full sidebar" id="sidebar">
+        <ul class="w-48 bg-stone-100 h-full pt-8">
+            <li class="block p-1 text-center">
+                <button class="py-4">
+                    Javascript
+                </button>
+            </li>
+            <li class="block p-1 text-center">
+                <button class="py-4">
+                    React js
+                </button>
+            </li>
+            <li class="block p-1 text-center">
+                <button class="py-4">
+                    Next js
+                </button>
+            </li>
+            <li class="block p-1 text-center">
+                <button class="py-4">
+                    Vue js
+                </button>
+            </li>
+            <li class="block p-1 text-center">
+                <button class="py-4">
+                    Ccs
+                </button>
+            </li>
+
+            <li class="block p-1 text-center">
+                <button class="py-4">
+                    Sccs
+                </button>
+            </li>
+
+            <li class="block p-1 text-center">
+                <button class="py-4">
+                    Bootstrap
+                </button>
+            </li>
+
+            <li class="block p-1 text-center">
+                <button class="py-4">
+                    Tailwind css
+                </button>
+            </li>
+
+
+        </ul>
+    </aside>
+    <!--  end sidebar  -->
     <!--hero-->
     <section class="mx-0 md:mx-4 lg:mx-10 text-center text-red-300 py-4">
         <p class="text-center mx-4 py-4 text-2xl text-stone-600">My playground</p>
-        <p class="mx-4 p-2 text-justify text-2xl text-stone-500">
+        <p class="mx-4 p-2 md:p-1 md:mx-2 text-justify text-2xl text-stone-500">
             The place where I test different technologies or frameworks. Tutorial exercises on different directions of
-            Javascript, such as Typescript, Node js or Electron. Right now I like Next js because it helps with SEO, and I'm trying
+            Javascript, such as Typescript, Node js or Electron. Right now I like Next js because it helps with SEO, and
+            I'm trying
             Tailwind css.
         </p>
     </section>
@@ -86,20 +158,17 @@
     <!--========================cookie consent-->
     <div class="cookie-container bg-slate-100 hidden mx-4 md:mx-8 lg:mx-10 py-8 relative z-10
    left-0 bottom-10 m-auto">
-        <p id="cookie" class="text-stone-500 px-8 py-2 ">
+        <p class="text-stone-500 px-8 py-2 " id="cookie">
             We use cookies in this website to give you the best experience on our
             site and show you relevant ads. To find out more, read our
             <a href="#">privacy policy</a> and <a href="#">cookie policy</a>.
         </p>
         <button class="cookie-btn  p-1 rounded-md absolute top-2 right-2">
-            <img src="./src/img/svg/close.svg" alt="close btn" class="">
+            <img alt="close btn" class="" src="./src/img/svg/close.svg">
         </button>
     </div>
     <!--========================cookie consent-->
 </main>
-
-
-
 
 
 <footer id="footer">
@@ -108,18 +177,18 @@
             <div id="footer-year"></div>
         </li>
         <li class="p-1 flex justify-center items-center">
-            <a href="https://github.com/dornescum" target="_blank" rel="noopener">
-                <img src="./src/img/svg/github.svg"  alt="github action">
+            <a href="https://github.com/dornescum" rel="noopener" target="_blank">
+                <img alt="github action" src="./src/img/svg/github.svg">
             </a>
         </li>
         <li class="p-1 flex justify-center items-center">
-            <a href="https://www.linkedin.com/in/mihai-dornescu-21b35a94/" target="_blank" rel="noopener">
-                <img src="./src/img/svg/linkedIn.svg"  alt="linkedIn action">
+            <a href="https://www.linkedin.com/in/mihai-dornescu-21b35a94/" rel="noopener" target="_blank">
+                <img alt="linkedIn action" src="./src/img/svg/linkedIn.svg">
             </a>
         </li>
         <li class="p-1 flex justify-center items-center">
-            <a href="https://dornescu.ro/" target="_blank"  itemprop="author" rel="noopener">
-                <img src="./src/img/svg/blog.svg" alt="dornescu.ro">
+            <a href="https://dornescu.ro/" itemprop="author" rel="noopener" target="_blank">
+                <img alt="dornescu.ro" src="./src/img/svg/blog.svg">
             </a>
         </li>
     </ul>

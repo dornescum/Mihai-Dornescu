@@ -5,7 +5,9 @@ export const projects = [{
 	tools: "Next js, Tailwind Css",
 	linkRepo: "https://github.com/dornescum/tailwind-nextJs-setup",
 	linkPage: "https://tailwind-next-js-menu.vercel.app/",
-	img: "@../../src/img/projects/mockUpMenu.webp"
+	img: "@../../src/img/projects/mockUpMenu.webp",
+	tagJs: "Next",
+	tagCss: "Tailwind"
 }, {
 	id: 2,
 	title: "Best Car Ever",
@@ -13,7 +15,9 @@ export const projects = [{
 	tools: "Next js, Scss, Simple-react-lightbox, React Icons",
 	linkRepo: "https://github.com/dornescum/tailwind-nextJs-setup",
 	linkPage: "https://car-next.vercel.app/",
-	img: "@../../src/img/projects/opelDan.webp"
+	img: "@../../src/img/projects/opelDan.webp",
+	tagJs: "Next",
+	tagCss: "Scss"
 }, {
 	id: 3,
 	title: "Admin Panel",
@@ -21,7 +25,9 @@ export const projects = [{
 	tools: "React js, React-router, Styled-Components, Cypress, Context Api",
 	linkRepo: "https://github.com/dornescum/adminPannel",
 	linkPage: "",
-	img: "@../../src/img/projects/github.webp"
+	img: "@../../src/img/projects/github.webp",
+	tagJs: "Cypress",
+	tagCss: "Tailwind"
 }, {
 	id: 4,
 	title: "Cypress testing FirmeCadastru.ro",
@@ -29,7 +35,9 @@ export const projects = [{
 	tools: "React js, React-router, Styled-Components, Cypress, Context Api",
 	linkRepo: "https://github.com/dornescum/FC",
 	linkPage: "https://firmecadastru.ro/",
-	img: "@../../src/img/projects/cypress.webp"
+	img: "@../../src/img/projects/cypress.webp",
+	tagJs: "Cypress",
+	tagCss: "Css"
 }, {
 	id: 5,
 	title: "Todo App",
@@ -37,7 +45,9 @@ export const projects = [{
 	tools: "Typescript",
 	linkRepo: "https://github.com/dornescum/Todo-tsx",
 	linkPage: "https://todo-app-cc92d.web.app/",
-	img: "@../../src/img/projects/task_app.webp"
+	img: "@../../src/img/projects/task_app.webp",
+	tagJs: "Next",
+	tagCss: "Css"
 }, {
 	id: 6,
 	title: "Card",
@@ -45,16 +55,19 @@ export const projects = [{
 	tools: "Html, Scss",
 	linkRepo: "https://github.com/dornescum/FrontEndMentor-article",
 	linkPage: "https://front-end-mentor-article.vercel.app/",
-	img: "@../../src/img/projects/article_card.webp"
+	img: "@../../src/img/projects/article_card.webp",
+	tagJs: "Html",
+	tagCss: "Scss"
+}, {
+	id: 7,
+	title: "Card",
+	description: "Equilibrium card, challenge from FrontEndMentor.io",
+	tools: "Html, Scss",
+	linkRepo: "https://github.com/dornescum/Frontend-mentor-NFT",
+	linkPage: "https://nft-beige.vercel.app/",
+	img: "@../../src/img/projects/challenge-card.webp",
+	tagJs: "Html",
+	tagCss: "Scss"
 },
-	{
-		id: 7,
-		title: "Card",
-		description: "Equilibrium card, challenge from FrontEndMentor.io",
-		tools: "Html, Scss",
-		linkRepo: "https://github.com/dornescum/Frontend-mentor-NFT",
-		linkPage: "https://nft-beige.vercel.app/",
-		img: "@../../src/img/projects/challenge-card.webp"
-	},
 
 ];

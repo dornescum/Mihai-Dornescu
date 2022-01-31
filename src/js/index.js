@@ -1,13 +1,29 @@
 console.time("timer");
 import {projects} from "./Projects.js";
 
+
+// console.log(projects.filter((item)=>{
+// 	return item.tagJs ==='Next'
+// }));
+
 const getElement = (selection) => {
 	const element = document.querySelector(selection);
 	if (element) return element;
 	throw new Error(`Please check "${selection}" selector, no such element exist`);
 };
 
+const btnNavbar = getElement('#access-sidebar');
+const sidebar = getElement('#sidebar');
 const projectsGrid = getElement('#grid-projects');
+
+// ================navbar
+btnNavbar.addEventListener('click', ()=>{
+	// sidebar.classList.toggle("hidden");
+	sidebar.classList.toggle("sidebar");
+	sidebar.classList.toggle("show");
+})
+// ================navbar
+
 
 projectsGrid.innerHTML = projects.map((item) => {
 	if (item.linkPage === ''){
@@ -22,7 +38,7 @@ projectsGrid.innerHTML = projects.map((item) => {
                     <div class=" border p-1 rounded-br-md rounded-bl-md h-80 md:h-90 lg:h-72">
                         <article class="text-stone-500" data-testid=${item?.title.slice(0, 3)}>
                             <h2 class="text-center font-bold p-1">${item?.title}</h2>
-                            <ul class="text-justify">
+                            <ul class="text-justify md:text-lg">
                                 <li class="leading-relaxed py-4 px-2">${item?.description}</li>
                                 <li class="py-2 px-2 hover:text-red-300 cursor-pointer">${item?.tools}</li>
                                 <li class="py-2 px-2">
@@ -54,7 +70,7 @@ projectsGrid.innerHTML = projects.map((item) => {
                     <div class=" border p-1 rounded-br-md rounded-bl-md h-80 md:h-90 lg:h-72">
                         <article class="text-stone-500" data-testid=${item?.title.slice(0, 3)}>
                             <h2 class="text-center font-bold p-1">${item?.title}</h2>
-                            <ul class="text-justify">
+                            <ul class="text-justify md:text-lg">
                                 <li class="leading-relaxed py-4 px-2">${item?.description}</li>
                                 <li class="py-2 px-2 hover:text-red-300 cursor-pointer">${item?.tools}</li>
                                 <li class="py-2 px-2">
