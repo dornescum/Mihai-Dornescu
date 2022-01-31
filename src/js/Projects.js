@@ -27,7 +27,7 @@ export const  projects = [{
 	{
 		id: 4,
 		title: "Cypress testing FirmeCadastru.ro",
-		description: "An admin panel in which I tested Cypress together with React js.",
+		description: "Cypress testing FirmeCadastru.ro",
 		tools: "React js, React-router, Styled-Components, Cypress, Context Api",
 		linkRepo: "https://github.com/dornescum/FC",
 		linkPage: "https://firmecadastru.ro/",
