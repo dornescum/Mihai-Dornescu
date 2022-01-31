@@ -33,4 +33,14 @@ export const  projects = [{
 		linkPage: "https://firmecadastru.ro/",
 		img: "@../../src/img/projects/cypress.webp"
 	},
+	{
+		id: 5,
+		title: "Todo App",
+		description: "A simple typescript app, from freeCodeCamp.org",
+		tools: "Typescript",
+		linkRepo: "https://github.com/dornescum/Todo-tsx",
+		linkPage: "https://todo-app-cc92d.web.app/",
+		img: "@../../src/img/projects/task_app.webp"
+	},
+
 ];
