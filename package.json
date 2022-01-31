@@ -19,5 +19,8 @@
   "homepage": "https://github.com/dornescum/Mihai-Dornescu#readme",
   "devDependencies": {
     "tailwindcss": "^3.0.18"
+  },
+  "dependencies": {
+    "serve": "^13.0.2"
   }
 }

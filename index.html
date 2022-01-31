@@ -61,7 +61,6 @@
 <body>
 
 <main class="font-dosis">
-
     <!--hero-->
     <section class="mx-0 md:mx-4 lg:mx-10 text-center text-red-300 py-4">
         <p class="text-center mx-4 py-4 text-2xl text-stone-600">My playground</p>
@@ -83,23 +82,24 @@
              id="grid-projects">
         </div>
     </section>
+
+    <!--========================cookie consent-->
+    <div class="cookie-container bg-slate-100 hidden mx-4 md:mx-8 lg:mx-10 py-8 relative z-10
+   left-0 bottom-10 m-auto">
+        <p id="cookie" class="text-stone-500 px-8 py-2 ">
+            We use cookies in this website to give you the best experience on our
+            site and show you relevant ads. To find out more, read our
+            <a href="#">privacy policy</a> and <a href="#">cookie policy</a>.
+        </p>
+        <button class="cookie-btn  p-1 rounded-md absolute top-2 right-2">
+            <img src="./src/img/svg/close.svg" alt="close btn" class="">
+        </button>
+    </div>
+    <!--========================cookie consent-->
 </main>
 
 
-<!--========================cookie consent-->
-<!--fixme cookie-->
-<div class="cookie-container">
-<!--        <p id="cookie">-->
-<!--            We use cookies in this website to give you the best experience on our-->
-<!--            site and show you relevant ads. To find out more, read our-->
-<!--            <a href="#">privacy policy</a> and <a href="#">cookie policy</a>.-->
-<!--        </p>-->
 
-<!--        <button class="cookie-btn">-->
-<!--            Okay-->
-<!--        </button>-->
-</div>
-<!--========================cookie consent-->
 
 
 <footer id="footer">
@@ -111,7 +111,6 @@
             <a href="https://github.com/dornescum" target="_blank" rel="noopener">
                 <img src="./src/img/svg/github.svg"  alt="github action">
             </a>
-
         </li>
         <li class="p-1 flex justify-center items-center">
             <a href="https://www.linkedin.com/in/mihai-dornescu-21b35a94/" target="_blank" rel="noopener">
@@ -122,15 +121,13 @@
             <a href="https://dornescu.ro/" target="_blank"  itemprop="author" rel="noopener">
                 <img src="./src/img/svg/blog.svg" alt="dornescu.ro">
             </a>
-
         </li>
     </ul>
-
 </footer>
 
 <!-- js -->
-<script src="src/js/index.js"></script>
-<script src="src/js/firstPage.js" type="module"></script>
+<script src="src/js/index.js" type="module"></script>
+<script src="src/js/Cookie.js" type="module"></script>
 
 
 </body>
