@@ -23,10 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix error svg">
+      <change afterPath="$PROJECT_DIR$/nextJs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactJs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/nextJs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/reactJs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/utils/filteredProjects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/utils/footerYear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/utils/getElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/modules/loading.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/modules/navbar.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +48,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -371,7 +383,7 @@
       <workItem from="1643640746351" duration="8749000" />
       <workItem from="1643655397933" duration="534000" />
       <workItem from="1643716790470" duration="93000" />
-      <workItem from="1643731208716" duration="334000" />
+      <workItem from="1643731208716" duration="4859000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>

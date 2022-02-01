@@ -46,7 +46,7 @@ export const projects = [{
 	linkRepo: "https://github.com/dornescum/Todo-tsx",
 	linkPage: "https://todo-app-cc92d.web.app/",
 	img: "@../../src/img/projects/task_app.webp",
-	tagJs: "Next",
+	tagJs: "React",
 	tagCss: "Css"
 }, {
 	id: 6,

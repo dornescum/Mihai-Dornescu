@@ -31,7 +31,7 @@
     <!--tailwind-->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="/dist/style.css" rel="stylesheet">
-    <title>Playground</title>
+    <title>React js</title>
     <!--    fixme add to main tailwind-->
     <style>
         .loading {
@@ -87,17 +87,16 @@
                 <a href="https://dornescu.ro/" itemprop="author" rel="noopener" target="_blank">
                     Mihai Dornescu
                 </a>
-               </li>
+            </li>
             <li>
                 <button id="access-sidebar">
                     <img src="./src/img/svg/hamburger.svg" alt="hamburger menu">
                 </button>
             </li>
         </ul>
-
     </nav>
     <!--    sidebar-->
-    <aside class="z-10 absolute top-0 left-0 h-full sidebar" id="sidebar">
+    <aside class="z-10 absolute top-0 left-0 h-full sidebar" id="sidebar-react">
         <ul class="w-48 bg-stone-100 h-full pt-8">
             <li class="block py-4 text-center">
                 <a href="index.html" class="py-8">
@@ -119,10 +118,10 @@
                     Javascript
                 </a>
             </li>
-           <li class="block py-4 text-center">
-               <a href="index.html" class="py-4">
-                   Typescript
-               </a>
+            <li class="block py-4 text-center">
+                <a href="index.html" class="py-4">
+                    Typescript
+                </a>
             </li>
             <li class="block py-4 text-center">
                 <a href="index.html" class="py-4">
@@ -151,6 +150,8 @@
             </li>
         </ul>
     </aside>
+
+
     <!--  end sidebar  -->
     <!--hero-->
     <section class="mx-0 md:mx-4 lg:mx-10 text-center text-red-300 py-4">
@@ -162,32 +163,11 @@
             Tailwind css.
         </p>
     </section>
-
-    <!--loading-->
-    <section class="loading">
-        <img alt="loading" src="src/img/loading/ripple.gif"/>
-    </section>
-
-
-    <section class="mx-4 my-4" data-testid="projects" id="nest-projects">
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4" data-testid="projects-nest"
-             id="grid-projects">
+    <section class="mx-4 my-4" data-testid="projects" id="react-projects">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4" data-testid="react-grid"
+             id="grid-react">
         </div>
     </section>
-
-    <!--========================cookie consent-->
-    <div class="cookie-container bg-slate-100 hidden mx-4 md:mx-8 lg:mx-10 py-8 relative z-10
-   left-0 bottom-10 m-auto">
-        <p class="text-stone-500 px-8 py-2 " id="cookie">
-            We use cookies in this website to give you the best experience on our
-            site and show you relevant ads. To find out more, read our
-            <a href="#">privacy policy</a> and <a href="#">cookie policy</a>.
-        </p>
-        <button class="cookie-btn  p-1 rounded-md absolute top-2 right-2">
-            <img alt="close btn" class="" src="./src/img/svg/close.svg">
-        </button>
-    </div>
-    <!--========================cookie consent-->
 </main>
 
 
@@ -215,8 +195,7 @@
 </footer>
 
 <!-- js -->
-<script src="src/js/index.js" type="module"></script>
-<script src="src/js/Cookie.js" type="module"></script>
+<script src="src/js/reactJs.js" type="module"></script>
 
 
 </body>
