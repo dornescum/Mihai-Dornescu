@@ -41,7 +41,7 @@ export const projects = [{
 }, {
 	id: 5,
 	title: "Todo App",
-	description: "A simple typescript app, from freeCodeCamp.org",
+	description: "A simple todo app with typescript , from freeCodeCamp.org",
 	tools: "Typescript",
 	linkRepo: "https://github.com/dornescum/Todo-tsx",
 	linkPage: "https://todo-app-cc92d.web.app/",
@@ -68,6 +68,16 @@ export const projects = [{
 	img: "@../../src/img/projects/challenge-card.webp",
 	tagJs: "Html",
 	tagCss: "Scss"
+}, {
+	id: 8,
+	title: "Google Clone",
+	description: "Google clone exercise from jS Mastery, Context Api, useDebounce,Tailwind darkMode",
+	tools: "React js, Tailwind Css",
+	linkRepo: "https://github.com/dornescum/google-clone-jsMastery",
+	linkPage: "",
+	img: "@../../src/img/projects/googl.webp",
+	tagJs: "React",
+	tagCss: "Tailwind"
 },
 
 ];
