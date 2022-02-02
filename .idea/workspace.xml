@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix error svg">
+      <change afterPath="$PROJECT_DIR$/src/img/svg/home.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css.html" beforeDir="false" afterPath="$PROJECT_DIR$/css.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress.html" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.html" afterDir="false" />
@@ -31,6 +32,7 @@
       <change beforePath="$PROJECT_DIR$/nextJs.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextJs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reactJs.html" beforeDir="false" afterPath="$PROJECT_DIR$/reactJs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss.html" beforeDir="false" afterPath="$PROJECT_DIR$/scss.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/css.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/css.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.html" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typescript.html" beforeDir="false" afterPath="$PROJECT_DIR$/typescript.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue.html" afterDir="false" />
@@ -379,7 +381,7 @@
       <workItem from="1643655397933" duration="534000" />
       <workItem from="1643716790470" duration="93000" />
       <workItem from="1643731208716" duration="5690000" />
-      <workItem from="1643789939843" duration="16091000" />
+      <workItem from="1643789939843" duration="19451000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>

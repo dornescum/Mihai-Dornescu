@@ -90,18 +90,25 @@
     <nav class="relative pb-12 z-10">
         <ul class="flex justify-between py-4 px-4 md:px-8 lg:px-12 fixed w-full bg-slate-50">
             <li>
-                <a href="https://dornescu.ro/" itemprop="author" rel="noopener" target="_blank" class="text-xl">
-                    Mihai Dornescu
-                </a>
+                <div class="flex">
+                    <a href="index.html" class="flex items-center justify-center">
+                        <img src="./src/img/svg/home.svg" alt="home button" style="padding: 0 0 3px 0">
+                    </a>
+
+                    <a href="javascript:;" itemprop="author"  class="text-xl pl-4">
+                        Mihai Dornescu
+                    </a>
+                </div>
             </li>
             <li>
-                <button id="access-sidebar">
+                <button id="access-sidebar" style="padding: 3px 0 0 0">
                     <img src="./src/img/svg/hamburger.svg" alt="hamburger menu">
                 </button>
             </li>
         </ul>
 
     </nav>
+
     <!--    sidebar-->
     <div class="relative">
         <aside class="z-20 fixed top-10 left-0 h-full  sidebar" id="sidebar-vue">
@@ -166,17 +173,11 @@
     </div>
     <!--  end sidebar  -->
     <!--hero-->
-    <section class="mx-0 md:mx-4 lg:mx-10 text-center text-red-300 py-4">
-        <p class="text-center mx-4 py-4 text-2xl text-stone-600">My playground</p>
-        <p class="mx-4 p-2 md:p-1 md:mx-2 text-justify text-2xl text-stone-500">
-            The place where I test different technologies or frameworks. Tutorial exercises on different directions of
-            Javascript, such as Typescript, Node js or Electron. Right now I like Next js because it helps with SEO, and
-            I'm trying
-            Tailwind css.
+    <section class="mx-0 md:mx-4 lg:mx-10 mb-4 md:mb-8 text-center text-red-300 py-4">
+        <p class="text-center mx-4 py-4 text-2xl text-stone-600">
+            Projects where I used <span class="text-stone-900 underline decoration-double">Vue js</span>
         </p>
     </section>
-
-
 
     <!--projects-->
     <section class="mx-4 my-4" data-testid="projects" id="vue-projects">

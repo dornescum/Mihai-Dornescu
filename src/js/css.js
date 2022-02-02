@@ -15,9 +15,6 @@ const cssProjects = projects.filter((item) => {
 	return item.tagCss==="Css";
 });
 
-
 filteredProjects(gridCss, cssProjects);
-
-
 
 footer.innerHTML = `<p>&copy; ${YEAR}</p>`;
