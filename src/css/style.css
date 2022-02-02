@@ -23,6 +23,15 @@
 .hide-loading {
     display: none;
 }
+
+/*======sidebar=======*/
+.show {
+    display: block;
+    animation: anim-left .2s ease-in-out;
+    position: absolute;
+    z-index: 1;
+}
+
 @keyframes anim-left {
     0% {
         opacity: 0;
@@ -36,12 +45,13 @@
     }
 
 }
-.show {
-    display: block;
-    animation: anim-left .2s ease-in-out;
-    position: absolute;
-    z-index: 1;
-}
 .sidebar {
     display: none;
 }
+/*=================*/
+
+/*card no website*/
+.clip{
+    clip-path: polygon(2% 0, 100% 0%, 100% 100%, 0 100%, 0 2%);
+}
+/*===========*/

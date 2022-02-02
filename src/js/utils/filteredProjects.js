@@ -3,13 +3,13 @@ export const filteredProjects=(access, itemProjects)=>{
 		if (item.linkPage === '') {
 			return `
 		<div class="flex flex-col mx-0 md:mx-6 lg:mx-8" data-testid=${item?.id}>
-                <div class="">
-                    <div>
+                <div class="clip">
+                    <div class="bg-slate-50">
                         <img alt="picture"
                              src=${item?.img} class="h-60 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md
                 shadow-sm hover:shadow-lg cursor-pointer transition duration:300">
                     </div>
-                    <div class=" border p-1 rounded-br-md rounded-bl-md h-80 md:h-90 lg:h-72">
+                    <div class="border p-1 rounded-br-md rounded-bl-md h-80 md:h-90 lg:h-72">
                         <article class="text-stone-500" data-testid=${item?.title.slice(0, 3)}>
                             <h2 class="text-center font-bold p-1">${item?.title}</h2>
                             <ul class="text-justify md:text-lg">
@@ -41,7 +41,7 @@ export const filteredProjects=(access, itemProjects)=>{
                              src=${item?.img} class="h-60 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md
                 shadow-sm hover:shadow-lg cursor-pointer transition duration:300">
                     </div>
-                    <div class=" border p-1 rounded-br-md rounded-bl-md h-80 md:h-90 lg:h-72">
+                    <div class="border p-1 rounded-br-md rounded-bl-md h-80 md:h-90 lg:h-72">
                         <article class="text-stone-500" data-testid=${item?.title.slice(0, 3)}>
                             <h2 class="text-center font-bold p-1">${item?.title}</h2>
                             <ul class="text-justify md:text-lg">

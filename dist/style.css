@@ -1,5 +1,3 @@
-
-
 /*
 ! tailwindcss v3.0.18 | MIT License | https://tailwindcss.com
 */
@@ -425,7 +423,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-*, ::before, ::after{
+*, ::before, ::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -470,192 +468,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.absolute{
-  position: absolute;
-}
-
-.relative{
-  position: relative;
-}
-
-.top-0{
-  top: 0px;
-}
-
-.left-0{
-  left: 0px;
-}
-
-.bottom-10{
-  bottom: 2.5rem;
-}
-
-.top-2{
-  top: 0.5rem;
-}
-
-.right-2{
-  right: 0.5rem;
-}
-
-.z-10{
-  z-index: 10;
-}
-
-.m-auto{
-  margin: auto;
-}
-
-.mx-0{
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-.mx-4{
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.block{
-  display: block;
-}
-
-.flex{
-  display: flex;
-}
-
-.grid{
-  display: grid;
-}
-
-.hidden{
-  display: none;
-}
-
-.h-full{
-  height: 100%;
-}
-
-.w-48{
-  width: 12rem;
-}
-
-.transform{
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.grid-cols-1{
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.items-center{
-  align-items: center;
-}
-
-.justify-center{
-  justify-content: center;
-}
-
-.justify-between{
-  justify-content: space-between;
-}
-
-.gap-4{
-  gap: 1rem;
-}
-
-.rounded-md{
-  border-radius: 0.375rem;
-}
-
-.bg-stone-100{
-  --tw-bg-opacity: 1;
-  background-color: rgb(245 245 244 / var(--tw-bg-opacity));
-}
-
-.bg-slate-100{
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
-}
-
-.p-4{
-  padding: 1rem;
-}
-
-.p-1{
-  padding: 0.25rem;
-}
-
-.p-2{
-  padding: 0.5rem;
-}
-
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.py-8{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.py-2{
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.pt-8{
-  padding-top: 2rem;
-}
-
-.pl-6{
-  padding-left: 1.5rem;
-}
-
-.text-center{
-  text-align: center;
-}
-
-.text-justify{
-  text-align: justify;
-}
-
-.font-dosis{
-  font-family: Dosis, sans-serif;
-}
-
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-red-300{
-  --tw-text-opacity: 1;
-  color: rgb(252 165 165 / var(--tw-text-opacity));
-}
-
-.text-stone-600{
-  --tw-text-opacity: 1;
-  color: rgb(87 83 78 / var(--tw-text-opacity));
-}
-
-.text-stone-500{
-  --tw-text-opacity: 1;
-  color: rgb(120 113 108 / var(--tw-text-opacity));
-}
-
 /*npx tailwindcss -i ./src/css/style.css -o ./dist/style.css --watch */
+
+/*todo verificat css fara head style*/
 
 .loading {
   min-height: 20vh;
@@ -669,13 +484,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--clr-grey-10);
   padding-top: 5rem;
   z-index: 999;
 }
 
 .hide-loading {
   display: none;
+}
+
+/*======sidebar=======*/
+
+.show {
+  display: block;
+  -webkit-animation: anim-left .2s ease-in-out;
+          animation: anim-left .2s ease-in-out;
+  position: absolute;
+  z-index: 1;
 }
 
 @-webkit-keyframes anim-left {
@@ -708,56 +532,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-.show {
-  display: block;
-  -webkit-animation: anim-left .2s ease-in-out;
-          animation: anim-left .2s ease-in-out;
-  position: absolute;
-  z-index: 1;
-}
-
 .sidebar {
   display: none;
 }
 
-@media (min-width: 768px){
-  .md\:mx-4{
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
+/*=================*/
 
-  .md\:mx-2{
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-  }
+/*card no website*/
 
-  .md\:mx-8{
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-
-  .md\:grid-cols-2{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:p-1{
-    padding: 0.25rem;
-  }
-
-  .md\:pl-12{
-    padding-left: 3rem;
-  }
+.clip{
+  -webkit-clip-path: polygon(2% 0, 100% 0%, 100% 100%, 0 100%, 0 2%);
+          clip-path: polygon(2% 0, 100% 0%, 100% 100%, 0 100%, 0 2%);
 }
 
-@media (min-width: 1024px){
-  .lg\:mx-10{
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-  }
-}
-
-@media (min-width: 1280px){
-  .xl\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
+/*===========*/
