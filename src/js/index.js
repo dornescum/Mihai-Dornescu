@@ -12,7 +12,7 @@ const sidebar = getElement('#sidebar');
 const projectsGrid = getElement('#grid-projects');
 const footer = getElement('#footer-year');
 
-console.log(sidebar);
+
 
 handleSidebar(btnNavbar, sidebar);
 filteredProjects(projectsGrid, projects);

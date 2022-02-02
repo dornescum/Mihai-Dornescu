@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4LTQKH0FZ7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-4LTQKH0FZ7');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="Junior front end developer, Javascript, Html5, Css3, Sccs, React js, Vue js" name="description"/>
+  <meta content="Vanilla Javascript " name="keywords"/>
+  <meta content="Mihai Dornescu" name="author"/>
+  <meta content="telephone=no" name="format-detection">
+  <!--    favicon-->
+  <link href="src/img/favicon/favicon.ico" rel="shortcut icon">
+  <!--google fonts-->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;800&display=swap" rel="stylesheet">
+  <!--tailwind-->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="/dist/style.css" rel="stylesheet">
+  <title>Scss </title>
+  <!--    fixme add to main tailwind-->
+  <style>
+    .loading {
+      min-height: 20vh;
+      min-width: 20vw;
+      display: grid;
+      justify-content: center;
+      position: absolute;
+      object-fit: fill;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: var(--clr-grey-10);
+      padding-top: 5rem;
+      z-index: 999;
+    }
+
+    .hide-loading {
+      display: none;
+    }
+    @keyframes anim-left {
+      0% {
+        opacity: 0;
+        transform: translateX(-100px);
+      }
+      50% {
+        opacity: 0.5;
+      }
+      100% {
+        opacity: 1;
+      }
+
+    }
+    .show {
+      display: block;
+      animation: anim-left .2s ease-in-out;
+      position: absolute;
+      z-index: 1;
+    }
+
+
+    .sidebar {
+      display: none;
+    }
+
+    .clip{
+      clip-path: polygon(2% 0, 100% 0%, 100% 100%, 0 100%, 0 2%);
+    }
+  </style>
+</head>
+<body>
+
+<main class="font-dosis relative">
+  <!--    navbar-->
+  <nav class="relative pb-12 z-10">
+    <ul class="flex justify-between py-4 px-4 md:px-8 lg:px-12 fixed w-full bg-slate-50">
+      <li>
+        <a href="https://dornescu.ro/" itemprop="author" rel="noopener" target="_blank" class="text-xl">
+          Mihai Dornescu
+        </a>
+      </li>
+      <li>
+        <button id="access-sidebar">
+          <img src="src/img/svg/hamburger.svg" alt="hamburger menu">
+        </button>
+      </li>
+    </ul>
+
+  </nav>
+  <!--    sidebar-->
+  <div class="relative">
+    <aside class="z-20 fixed top-10 left-0 h-full  sidebar" id="sidebar-scss">
+      <ul class="w-48 rounded-br-md h-full md:h-[650px] bg-stone-50 pt-8">
+        <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+          <a href="index.html" class="py-8">
+            Home
+          </a>
+        </li>
+        <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+          <a href="reactJs.html" class="py-4">
+            React js
+          </a>
+        </li>
+        <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+          <a href="nextJs.html" class="py-4">
+            Next js
+          </a>
+        </li>
+        <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+          <a href="javascript.html" class="py-4">
+            Javascript
+          </a>
+        </li>
+        <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+          <a href="typescript.html" class="py-4">
+            Typescript
+          </a>
+        </li>
+        <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+          <a href="vue.html" class="py-4">
+            Vue js
+          </a>
+        </li>
+        <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+          <a href="css.html" class="py-4">
+            Css
+          </a>
+        </li>
+        <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+          <a href="scss.html" class="py-4">
+            Scss
+          </a>
+        </li>
+        <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+          <a href="javascript:;" class="py-4 hover:text-stone-50">
+            Bootstrap
+          </a>
+        </li>
+        <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+          <a href="tailwind.html" class="py-4">
+            Tailwind
+          </a>
+        </li>
+        <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+          <a href="cypress.html" class="py-4">
+            Cypress
+          </a>
+        </li>
+      </ul>
+    </aside>
+  </div>
+  <!--  end sidebar  -->
+  <!--hero-->
+  <section class="mx-0 md:mx-4 lg:mx-10 text-center text-red-300 py-4">
+    <p class="text-center mx-4 py-4 text-2xl text-stone-600">My playground</p>
+    <p class="mx-4 p-2 md:p-1 md:mx-2 text-justify text-2xl text-stone-500">
+      The place where I test different technologies or frameworks. Tutorial exercises on different directions of
+      Javascript, such as Typescript, Node js or Electron. Right now I like Next js because it helps with SEO, and
+      I'm trying
+      Tailwind css.
+    </p>
+  </section>
+
+
+
+  <!--projects-->
+  <section class="mx-4 my-4" data-testid="projects" id="scss-projects">
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4" data-testid="projects-scss"
+         id="grid-scss">
+    </div>
+  </section>
+
+  <!--========================cookie consent-->
+  <div class="cookie-container bg-slate-100 hidden mx-4 md:mx-8 lg:mx-10 py-8 relative z-10
+   left-0 bottom-10 m-auto">
+    <p class="text-stone-500 px-8 py-2 " id="cookie">
+      We use cookies in this website to give you the best experience on our
+      site and show you relevant ads. To find out more, read our
+      <a href="#">privacy policy</a> and <a href="#">cookie policy</a>.
+    </p>
+    <button class="cookie-btn  p-1 rounded-md absolute top-2 right-2">
+      <img alt="close btn" class="" src="src/img/svg/close.svg">
+    </button>
+  </div>
+  <!--========================cookie consent-->
+</main>
+
+
+<footer id="footer">
+  <ul class="flex pl-6 md:pl-12 py-4">
+    <li class="p-1">
+      <div id="footer-year"></div>
+    </li>
+    <li class="p-1 flex justify-center items-center">
+      <a href="https://github.com/dornescum" rel="noopener" target="_blank">
+        <img alt="github action" src="src/img/svg/github.svg">
+      </a>
+    </li>
+    <li class="p-1 flex justify-center items-center">
+      <a href="https://www.linkedin.com/in/mihai-dornescu-21b35a94/" rel="noopener" target="_blank">
+        <img alt="linkedIn action" src="src/img/svg/linkedIn.svg">
+      </a>
+    </li>
+    <li class="p-1 flex justify-center items-center">
+      <a href="https://dornescu.ro/" itemprop="author" rel="noopener" target="_blank">
+        <img alt="dornescu.ro" src="src/img/svg/blog.svg">
+      </a>
+    </li>
+  </ul>
+</footer>
+
+<!-- js -->
+<script src="src/js/sccs.js" type="module"></script>
+
+
+</body>
+</html>

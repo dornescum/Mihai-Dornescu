@@ -27,31 +27,32 @@ export const projects = [{
 	linkPage: "",
 	img: "@../../src/img/projects/github.webp",
 	tagJs: "Cypress",
-	tagCss: "Tailwind"
+	tagCss: "Styled-Components"
 }, {
 	id: 4,
 	title: "Cypress testing FirmeCadastru.ro",
 	description: "Cypress testing FirmeCadastru.ro",
-	tools: "React js, React-router, Styled-Components, Cypress, Context Api",
+	tools: "React js, React-router, Styled-Components, Cypress, Context Api.",
 	linkRepo: "https://github.com/dornescum/FC",
 	linkPage: "https://firmecadastru.ro/",
 	img: "@../../src/img/projects/cypress.webp",
 	tagJs: "Cypress",
-	tagCss: "Css"
+	tagCss: "Styled-Components"
 }, {
 	id: 5,
 	title: "Todo App",
-	description: "A simple todo app with typescript , from freeCodeCamp.org",
+	description: "A simple todo app with typescript , from freeCodeCamp.org.",
 	tools: "Typescript",
 	linkRepo: "https://github.com/dornescum/Todo-tsx",
 	linkPage: "https://todo-app-cc92d.web.app/",
 	img: "@../../src/img/projects/task_app.webp",
 	tagJs: "React",
-	tagCss: "Css"
+	tagCss: "Css",
+	tagTs:"Typescript"
 }, {
 	id: 6,
 	title: "Card",
-	description: "Basic article card, challenge from FrontEndMentor.io",
+	description: "Basic article card, challenge from FrontEndMentor.io.",
 	tools: "Html, Scss",
 	linkRepo: "https://github.com/dornescum/FrontEndMentor-article",
 	linkPage: "https://front-end-mentor-article.vercel.app/",
@@ -61,7 +62,7 @@ export const projects = [{
 }, {
 	id: 7,
 	title: "Card",
-	description: "Equilibrium card, challenge from FrontEndMentor.io",
+	description: "Equilibrium card, challenge from FrontEndMentor.io.",
 	tools: "Html, Scss",
 	linkRepo: "https://github.com/dornescum/Frontend-mentor-NFT",
 	linkPage: "https://nft-beige.vercel.app/",
@@ -71,7 +72,7 @@ export const projects = [{
 }, {
 	id: 8,
 	title: "Google Clone",
-	description: "Google clone exercise from jS Mastery, Context Api, useDebounce,Tailwind darkMode",
+	description: "Google clone exercise from jS Mastery, Context Api, useDebounce,Tailwind darkMode.",
 	tools: "React js, Tailwind Css",
 	linkRepo: "https://github.com/dornescum/google-clone-jsMastery",
 	linkPage: "",
@@ -79,5 +80,27 @@ export const projects = [{
 	tagJs: "React",
 	tagCss: "Tailwind"
 },
+	{
+		id: 10,
+		title: "Vuetify",
+		description: "Vue js and Vuetify, a Material Design Framework",
+		tools: "Vue Js",
+		linkRepo: "https://github.com/dornescum/retetarVue",
+		linkPage: "",
+		img: "@../../src/img/projects/vuetify.webp",
+		tagJs: "Vue Js",
+		tagCss: "Vuetify"
+	},
+	{
+		id: 9,
+		title: "You are looking at it 😃",
+		description: "I am using Vanilla Js , ES6 modules with Tailwind Css.",
+		tools: "Vanilla Js, Tailwind Css",
+		linkRepo: "https://github.com/dornescum/Mihai-Dornescu",
+		linkPage: "https://dornescum.github.io/Mihai-Dornescu/",
+		img: "@../../src/img/projects/mihai-dornescu.webp",
+		tagJs: "Javascript",
+		tagCss: "Tailwind"
+	},
 
 ];
