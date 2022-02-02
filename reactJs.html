@@ -53,6 +53,7 @@
         .hide-loading {
             display: none;
         }
+
         @keyframes anim-left {
             0% {
                 opacity: 0;
@@ -66,16 +67,19 @@
             }
 
         }
+
         .show {
             display: block;
             animation: anim-left .2s ease-in-out;
             position: absolute;
             z-index: 1;
         }
+
         .sidebar {
             display: none;
         }
-        .clip{
+
+        .clip {
             clip-path: polygon(2% 0, 100% 0%, 100% 100%, 0 100%, 0 2%);
         }
     </style>
@@ -84,8 +88,8 @@
 
 <main class="font-dosis relative">
     <!--    navbar-->
-    <nav class="relative">
-        <ul class="flex justify-between p-4">
+    <nav class="relative pb-12 z-10">
+        <ul class="flex justify-between py-4 px-4 md:px-8 lg:px-12 fixed w-full bg-slate-50">
             <li>
                 <a href="https://dornescu.ro/" itemprop="author" rel="noopener" target="_blank">
                     Mihai Dornescu
@@ -97,64 +101,65 @@
                 </button>
             </li>
         </ul>
+
     </nav>
     <!--    sidebar-->
-    <aside class="z-10 absolute top-0 left-0 h-full sidebar" id="sidebar-react">
-        <ul class="w-48 bg-stone-100 h-full pt-8">
-            <li class="block py-4 text-center">
-                <a href="index.html" class="py-8">
-                    Home
-                </a>
-            </li>
-            <li class="block py-4 text-center">
-                <a href="reactJs.html" class="py-4">
-                    React js
-                </a>
-            </li>
-            <li class="block py-4 text-center">
-                <a href="nextJs.html" class="py-4">
-                    Next js
-                </a>
-            </li>
-            <li class="block py-4 text-center">
-                <a href="index.html" class="py-4">
-                    Javascript
-                </a>
-            </li>
-            <li class="block py-4 text-center">
-                <a href="index.html" class="py-4">
-                    Typescript
-                </a>
-            </li>
-            <li class="block py-4 text-center">
-                <a href="index.html" class="py-4">
-                    Vue js
-                </a>
-            </li>
-            <li class="block py-4 text-center">
-                <a href="index.html" class="py-4">
-                    Css
-                </a>
-            </li>
-            <li class="block py-4 text-center">
-                <a href="index.html" class="py-4">
-                    Scss
-                </a>
-            </li>
-            <li class="block py-4 text-center">
-                <a href="index.html" class="py-4">
-                    Bootstrap
-                </a>
-            </li>
-            <li class="block py-4 text-center">
-                <a href="index.html" class="py-4">
-                    Tailwind
-                </a>
-            </li>
-        </ul>
-    </aside>
-
-
+    <div class="relative">
+        <aside class="z-20 fixed top-10 left-0 h-full  sidebar" id="sidebar-react">
+            <ul class="w-48 rounded-br-md h-full md:h-[600px] bg-stone-50 pt-8">
+                <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+                    <a class="py-8" href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+                    <a class="py-4" href="reactJs.html">
+                        React js
+                    </a>
+                </li>
+                <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+                    <a class="py-4" href="nextJs.html">
+                        Next js
+                    </a>
+                </li>
+                <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+                    <a class="py-4" href="index.html">
+                        Javascript
+                    </a>
+                </li>
+                <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+                    <a class="py-4" href="index.html">
+                        Typescript
+                    </a>
+                </li>
+                <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+                    <a class="py-4" href="index.html">
+                        Vue js
+                    </a>
+                </li>
+                <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+                    <a class="py-4" href="index.html">
+                        Css
+                    </a>
+                </li>
+                <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+                    <a class="py-4" href="index.html">
+                        Scss
+                    </a>
+                </li>
+                <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+                    <a class="py-4" href="index.html">
+                        Bootstrap
+                    </a>
+                </li>
+                <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
+                    <a class="py-4" href="index.html">
+                        Tailwind
+                    </a>
+                </li>
+            </ul>
+        </aside>
+    </div>
     <!--  end sidebar  -->
     <!--hero-->
     <section class="mx-0 md:mx-4 lg:mx-10 text-center text-red-300 py-4">
@@ -166,6 +171,7 @@
             Tailwind css.
         </p>
     </section>
+    <!--    projects-->
     <section class="mx-4 my-4" data-testid="projects" id="react-projects">
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4" data-testid="react-grid"
              id="grid-react">
