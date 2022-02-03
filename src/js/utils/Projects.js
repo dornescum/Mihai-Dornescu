@@ -13,7 +13,7 @@ export const projects = [{
 	title: "Best Car Ever",
 	description: "An exercise in which I used Next js and Scss to create a website where I sell a car.",
 	tools: "Next js, Scss, Simple-react-lightbox, React Icons",
-	linkRepo: "https://github.com/dornescum/tailwind-nextJs-setup",
+	linkRepo: "https://github.com/dornescum/car_next",
 	linkPage: "https://car-next.vercel.app/",
 	img: "@../../src/img/projects/opelDan.webp",
 	tagJs: "Next",
@@ -22,7 +22,7 @@ export const projects = [{
 	id: 3,
 	title: "Admin Panel",
 	description: "An admin panel in which I tested Cypress together with React js.",
-	tools: "React js, React-router, Styled-Components, Cypress, Context Api",
+	tools: "React js, Styled-Components, Cypress, Context Api",
 	linkRepo: "https://github.com/dornescum/adminPannel",
 	linkPage: "",
 	img: "@../../src/img/projects/github.webp",
@@ -32,12 +32,12 @@ export const projects = [{
 	id: 4,
 	title: "Cypress testing FirmeCadastru.ro",
 	description: "Cypress testing FirmeCadastru.ro",
-	tools: "React js, React-router, Styled-Components, Cypress, Context Api.",
+	tools: "Cypress",
 	linkRepo: "https://github.com/dornescum/FC",
 	linkPage: "https://firmecadastru.ro/",
 	img: "@../../src/img/projects/cypress.webp",
 	tagJs: "Cypress",
-	tagCss: "Styled-Components"
+	tagCss: "Css"
 }, {
 	id: 5,
 	title: "Todo App",
@@ -94,7 +94,7 @@ export const projects = [{
 	{
 		id: 9,
 		title: "You are looking at it 😃",
-		description: "I am using Vanilla Js , ES6 modules with Tailwind Css.",
+		description: "I am using Vanilla Js, ES6 modules with Tailwind Css.",
 		tools: "Vanilla Js, Tailwind Css",
 		linkRepo: "https://github.com/dornescum/Mihai-Dornescu",
 		linkPage: "https://dornescum.github.io/Mihai-Dornescu/",

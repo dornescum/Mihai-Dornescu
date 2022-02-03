@@ -1,5 +1,5 @@
 console.time("timer");
-import {projects} from "./Projects.js";
+import {projects} from "./utils/Projects.js";
 import {getElement} from './utils/getElement.js'
 import {YEAR} from "./utils/footerYear.js";
 
