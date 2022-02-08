@@ -25,7 +25,7 @@ export const projects = [{
 	tools: "React js, Styled-Components, Cypress, Context Api",
 	linkRepo: "https://github.com/dornescum/adminPannel",
 	linkPage: "",
-	img: "@../../src/img/projects/github.webp",
+	img: "@../../src/img/projects/cypress.webp",
 	tagJs: "Cypress",
 	tagCss: "Styled-Components"
 }, {
@@ -48,7 +48,7 @@ export const projects = [{
 	img: "@../../src/img/projects/task_app.webp",
 	tagJs: "React",
 	tagCss: "Css",
-	tagTs:"Typescript"
+	tagTs: "Typescript"
 }, {
 	id: 6,
 	title: "Card",
@@ -101,6 +101,17 @@ export const projects = [{
 		img: "@../../src/img/projects/mihai-dornescu.webp",
 		tagJs: "Javascript",
 		tagCss: "Tailwind"
+	},
+	{
+		id: 11,
+		title: "Shopping Cart",
+		description: "Context Api & useReducer for state management from freeCodeCamp.org",
+		tools: "React js, React-Bootstrap",
+		linkRepo: "https://github.com/dornescum/shoppingCart",
+		linkPage: "",
+		img: "@../../src/img/projects/shoppingCart.webp",
+		tagJs: "React",
+		tagCss: "Bootstrap"
 	},
 
 ];
