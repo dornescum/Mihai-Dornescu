@@ -18,7 +18,20 @@ export const projects = [{
 	img: "@../../src/img/projects/opelDan.webp",
 	tagJs: "Next",
 	tagCss: "Scss"
-}, {
+},
+	{
+		id: 12,
+		title: "Menu cart",
+		description: "Context Api for state management.",
+		tools: "React js, Tailwind Css",
+		linkRepo: "https://github.com/dornescum/menu-cart",
+		linkPage: "https://menu-cart-21724.web.app/",
+		img: "@../../src/img/projects/menuCart.webp",
+		tagJs: "React",
+		tagCss: "Tailwind"
+	},
+
+	{
 	id: 3,
 	title: "Admin Panel",
 	description: "An admin panel in which I tested Cypress together with React js.",
