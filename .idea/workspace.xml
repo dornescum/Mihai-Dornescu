@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix error svg">
-      <change afterPath="$PROJECT_DIR$/src/img/projects/menuCart.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/projects/movieDb.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/projects/typescript.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/utils/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/Projects.js" afterDir="false" />
     </list>
@@ -86,7 +87,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/5animeText-master/css/styles.css" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -377,6 +378,12 @@
       <workItem from="1644247486241" duration="1213000" />
       <workItem from="1644339675839" duration="1482000" />
       <workItem from="1644689659207" duration="698000" />
+      <workItem from="1644690550363" duration="462000" />
+      <workItem from="1644770213689" duration="1416000" />
+      <workItem from="1644825762580" duration="110000" />
+      <workItem from="1644825932955" duration="61000" />
+      <workItem from="1644826007917" duration="468000" />
+      <workItem from="1644913835148" duration="337000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
