@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix error svg">
-      <change afterPath="$PROJECT_DIR$/src/img/projects/movieDb.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/projects/typescript.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/projects/searchPhoto.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/utils/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/Projects.js" afterDir="false" />
     </list>
@@ -383,7 +382,8 @@
       <workItem from="1644825762580" duration="110000" />
       <workItem from="1644825932955" duration="61000" />
       <workItem from="1644826007917" duration="468000" />
-      <workItem from="1644913835148" duration="337000" />
+      <workItem from="1644913835148" duration="1049000" />
+      <workItem from="1645088476058" duration="1427000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>

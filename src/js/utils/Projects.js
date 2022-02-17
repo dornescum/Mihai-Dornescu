@@ -65,6 +65,17 @@ export const projects = [{
 		tagCss: "Scss"
 	},
 	{
+		id: 2-17,
+		title: "Search for images",
+		description: "React, Unsplash api",
+		tools: "React js, React-Icons, Tailwind css",
+		linkRepo: "https://github.com/dornescum/unsplash-photos",
+		linkPage: "",
+		img: "@../../src/img/projects/searchPhoto.webp",
+		tagJs: "React",
+		tagCss: "Tailwind",
+	},
+	{
 		id: 5,
 		title: "Todo App",
 		description: "A simple todo app with typescript , from freeCodeCamp.org.",

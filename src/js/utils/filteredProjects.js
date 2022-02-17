@@ -24,7 +24,8 @@ export const filteredProjects = (access, itemProjects) => {
                                     </div>
                                 </li>
                                 <li class="pt-2 px-2 pb-4">
-                                    <a href='javascript:;'  rel="noopener" class="text-stone-700 animate-pulse">No website just a repo</a>
+                                    <a href='javascript:;'  rel="noopener" class="text-stone-700 animate-pulse">
+                                    <span class="text-2xl font-bold text-black"> No </span>website just a repo</a>
                                 </li>
                             </ul>
                         </article>
