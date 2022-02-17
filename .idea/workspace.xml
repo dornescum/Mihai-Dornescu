@@ -23,9 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix error svg">
-      <change afterPath="$PROJECT_DIR$/src/img/projects/searchPhoto.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/tutorials.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css.html" beforeDir="false" afterPath="$PROJECT_DIR$/css.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.html" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextJs.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextJs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactJs.html" beforeDir="false" afterPath="$PROJECT_DIR$/reactJs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss.html" beforeDir="false" afterPath="$PROJECT_DIR$/scss.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/tailwind.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/tailwind.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/utils/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/utils/filteredProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/filteredProjects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.html" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript.html" beforeDir="false" afterPath="$PROJECT_DIR$/typescript.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,7 +396,8 @@
       <workItem from="1644825932955" duration="61000" />
       <workItem from="1644826007917" duration="468000" />
       <workItem from="1644913835148" duration="1049000" />
-      <workItem from="1645088476058" duration="1427000" />
+      <workItem from="1645088476058" duration="1926000" />
+      <workItem from="1645112296339" duration="3469000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>

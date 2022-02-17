@@ -5,20 +5,25 @@ import {handleSidebar} from "./utils/handleSidebar.js";
 import {filteredProjects} from "./utils/filteredProjects.js";
 
 
-const gridTailwind = getElement('#grid-tailwind');
+const gridTutorials = getElement('#grid-tutorials');
 const btnNavbar = getElement('#access-sidebar');
-const sidebar = getElement('#sidebar-tailwind');
+const sidebar = getElement('#sidebar-tutorials');
 const footer = getElement('#footer-year');
 
 
 handleSidebar(btnNavbar, sidebar);
-const tailwindProjects = projects.filter((item) => {
-	return item.tagCss === 'Tailwind';
+
+const tutorialsProjects = projects.filter((item) => {
+	console.log(item);
+	if (item.tagTutorial === true){
+		return item
+	}
+
 });
 
 
-filteredProjects(gridTailwind, tailwindProjects);
+filteredProjects(gridTutorials, tutorialsProjects);
 
 
 
-footer.innerHTML = `<p>&copy; ${YEAR}</p>`;
+// footer.innerHTML = `<p>&copy; ${YEAR}</p>`;

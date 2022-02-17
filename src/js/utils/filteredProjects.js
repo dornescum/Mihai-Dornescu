@@ -11,8 +11,9 @@ export const filteredProjects = (access, itemProjects) => {
                     </div>
                     <div class="bg-slate-50 border p-1 rounded-br-md rounded-bl-md h-80 md:h-90 lg:h-72 relative">
                         <article class="text-stone-500" data-testid=${item?.title.slice(0, 3)}>
-                            <h2 class="text-center font-bold p-1">${item?.title}</h2>
+                            <h2 class="text-center font-bold p-1">${item?.title} </h2>
                              <p class="px-2 py-2 leading-relaxed">Description: ${item?.description}</p>
+                             <p class="px-2 py-2 text-sm">${item?.tagTutorial === true ? "Tutorial" : ""}</p>
                             <ul class="text-justify md:text-lg absolute bottom-0">
                                 <li class="py-2 px-2 hover:text-red-300 cursor-pointer">Tools: ${item?.tools}</li>
                                 <li class="py-2 px-2">
@@ -49,6 +50,8 @@ export const filteredProjects = (access, itemProjects) => {
                         <article class="text-stone-500" data-testid=${item?.title.slice(0, 3)}>
                             <h2 class="text-center font-bold p-1">${item?.title}</h2>
                             <p class="px-2 py-2 leading-relaxed">Description: ${item?.description}</p>
+                            <p class="px-2 py-2 text-sm">${item?.tagTutorial === true ? "Tutorial" : ""}</p>
+
                             <ul class="text-justify md:text-lg absolute bottom-0">
                                 <li class="py-2 px-2 hover:text-red-300 cursor-pointer">Tools: ${item?.tools}</li>
                                 <li class="py-2 px-2">

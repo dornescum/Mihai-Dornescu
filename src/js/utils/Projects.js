@@ -7,7 +7,8 @@ export const projects = [{
 	linkPage: "https://tailwind-next-js-menu.vercel.app/",
 	img: "@../../src/img/projects/mockUpMenu.webp",
 	tagJs: "Next",
-	tagCss: "Tailwind"
+	tagCss: "Tailwind",
+	tagTutorial: false
 },
 	{
 		id: 2-15,
@@ -19,6 +20,7 @@ export const projects = [{
 		img: "@../../src/img/projects/movieDb.webp",
 		tagJs: "React",
 		tagCss: "Tailwind",
+		tagTutorial: false
 	},
 	{
 		id: 12,
@@ -29,7 +31,8 @@ export const projects = [{
 		linkPage: "https://menu-cart-21724.web.app/",
 		img: "@../../src/img/projects/menuCart.webp",
 		tagJs: "React",
-		tagCss: "Tailwind"
+		tagCss: "Tailwind",
+		tagTutorial: false
 	},
 
 	{
@@ -41,7 +44,8 @@ export const projects = [{
 		linkPage: "",
 		img: "@../../src/img/projects/cypress.webp",
 		tagJs: "Cypress",
-		tagCss: "Styled-Components"
+		tagCss: "Styled-Components",
+		tagTutorial: false
 	}, {
 		id: 4,
 		title: "Cypress testing FirmeCadastru.ro",
@@ -51,7 +55,8 @@ export const projects = [{
 		linkPage: "https://firmecadastru.ro/",
 		img: "@../../src/img/projects/cypress.webp",
 		tagJs: "Cypress",
-		tagCss: "Css"
+		tagCss: "",
+		tagTutorial: false
 	},
 	{
 		id: 2,
@@ -62,7 +67,8 @@ export const projects = [{
 		linkPage: "https://car-next.vercel.app/",
 		img: "@../../src/img/projects/opelDan.webp",
 		tagJs: "Next",
-		tagCss: "Scss"
+		tagCss: "Scss",
+		tagTutorial: false
 	},
 	{
 		id: 2-17,
@@ -74,6 +80,7 @@ export const projects = [{
 		img: "@../../src/img/projects/searchPhoto.webp",
 		tagJs: "React",
 		tagCss: "Tailwind",
+		tagTutorial: false
 	},
 	{
 		id: 5,
@@ -85,7 +92,8 @@ export const projects = [{
 		img: "@../../src/img/projects/typescript.webp",
 		tagJs: "React",
 		tagCss: "Css",
-		tagTs: "Typescript"
+		tagTs: "Typescript",
+		tagTutorial: true
 	}, {
 		id: 6,
 		title: "Card",
@@ -95,7 +103,8 @@ export const projects = [{
 		linkPage: "https://front-end-mentor-article.vercel.app/",
 		img: "@../../src/img/projects/article_card.webp",
 		tagJs: "Html",
-		tagCss: "Scss"
+		tagCss: "Scss",
+		tagTutorial: false
 	}, {
 		id: 7,
 		title: "Card",
@@ -105,7 +114,8 @@ export const projects = [{
 		linkPage: "https://nft-beige.vercel.app/",
 		img: "@../../src/img/projects/challenge-card.webp",
 		tagJs: "Html",
-		tagCss: "Scss"
+		tagCss: "Scss",
+		tagTutorial: false
 	}, {
 		id: 8,
 		title: "Google Clone",
@@ -115,7 +125,8 @@ export const projects = [{
 		linkPage: "",
 		img: "@../../src/img/projects/googl.webp",
 		tagJs: "React",
-		tagCss: "Tailwind"
+		tagCss: "Tailwind",
+		tagTutorial: true
 	},
 	{
 		id: 10,
@@ -126,7 +137,8 @@ export const projects = [{
 		linkPage: "",
 		img: "@../../src/img/projects/vuetify.webp",
 		tagJs: "Vue Js",
-		tagCss: "Vuetify"
+		tagCss: "Vuetify",
+		tagTutorial: false
 	},
 	{
 		id: 9,
@@ -137,7 +149,8 @@ export const projects = [{
 		linkPage: "https://dornescum.github.io/Mihai-Dornescu/",
 		img: "@../../src/img/projects/mihai-dornescu.webp",
 		tagJs: "Javascript",
-		tagCss: "Tailwind"
+		tagCss: "Tailwind",
+		tagTutorial: false
 	},
 	{
 		id: 11,
@@ -148,7 +161,8 @@ export const projects = [{
 		linkPage: "",
 		img: "@../../src/img/projects/shoppingCart.webp",
 		tagJs: "React",
-		tagCss: "Bootstrap"
+		tagCss: "Bootstrap",
+		tagTutorial: true
 	},
 	{
 		id: 13,
@@ -160,7 +174,8 @@ export const projects = [{
 		img: "@../../src/img/projects/typescript.webp",
 		tagJs: "React",
 		tagCss: "Tailwind",
-		tagTs: "Typescript"
+		tagTs: "Typescript",
+		tagTutorial: true
 	},
 
 
