@@ -23,6 +23,18 @@ export const projects = [{
 		tagTutorial: false
 	},
 	{
+		id: 2-23,
+		title: "Working on it.. not ready",
+		description: "Ecommerce, Next js, Node js",
+		tools: "Next js, Tailwind Css",
+		linkRepo: "",
+		linkPage: "https://electronic-store-next-js.vercel.app/Phones",
+		img: "@../../src/img/projects/ecommerce.webp",
+		tagJs: "Next",
+		tagCss: "Tailwind",
+		tagTutorial: false
+	},
+	{
 		id: 12,
 		title: "Menu cart",
 		description: "Context Api for state management.",
