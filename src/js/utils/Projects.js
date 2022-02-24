@@ -28,7 +28,7 @@ export const projects = [{
 		description: "Ecommerce, Next js, Node js",
 		tools: "Next js, Tailwind Css",
 		linkRepo: "",
-		linkPage: "https://electronic-store-next-js.vercel.app/Phones",
+		linkPage: "https://electronic-store-next-js.vercel.app/",
 		img: "@../../src/img/projects/ecommerce.webp",
 		tagJs: "Next",
 		tagCss: "Tailwind",
