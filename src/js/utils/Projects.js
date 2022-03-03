@@ -46,6 +46,18 @@ export const projects = [{
 		tagCss: "Tailwind",
 		tagTutorial: false
 	},
+	{
+		id: 3-3,
+		title: "Challenge",
+		description: "FrontEndMentor challenge, Sunnyside agency landing page",
+		tools: "React js, Tailwind Css",
+		linkRepo: "https://github.com/dornescum/sunnySide-agency-FM",
+		linkPage: "https://frontendmentor-sunnyagency.web.app/",
+		img: "@../../src/img/projects/sunnyAgency.webp",
+		tagJs: "React",
+		tagCss: "Tailwind",
+		tagTutorial: false
+	},
 
 	{
 		id: 3,
