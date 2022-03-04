@@ -7,7 +7,8 @@ export const filteredProjects = (access, itemProjects) => {
                     <div class="bg-slate-50">
                         <img alt="picture"
                              src=${item?.img} class="h-60 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md
-                shadow-sm hover:shadow-lg cursor-pointer transition duration:300 cursor-not-allowed">
+                shadow-sm hover:shadow-lg cursor-pointer transition duration:300 cursor-not-allowed 
+                contrast-50 grayscale hover:contrast-100 hover:grayscale-0">
                     </div>
                     <div class="bg-slate-50 border p-1 rounded-br-md rounded-bl-md h-80 md:h-90 lg:h-72 relative">
                         <article class="text-stone-500" data-testid=${item?.title.slice(0, 3)}>
@@ -42,7 +43,8 @@ export const filteredProjects = (access, itemProjects) => {
                     <a href=${item?.linkPage} target="_blank">
                     <img alt="picture"
                              src=${item?.img} class="h-60 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md
-                shadow-sm hover:shadow-lg cursor-pointer transition duration:300">
+                shadow-sm hover:shadow-lg cursor-pointer transition duration:300
+                contrast-50 grayscale hover:contrast-100 hover:grayscale-0">
                     </a>
                         
                     </div>
