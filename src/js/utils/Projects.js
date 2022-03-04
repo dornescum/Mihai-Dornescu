@@ -192,7 +192,7 @@ export const projects = [{
 		id: 13,
 		title: "Add List",
 		description: "React Typescript passing props, interface exercise from <b>Laith Harb</b>",
-		tools: "React js, React-Bootstrap",
+		tools: "React js",
 		linkRepo: "https://github.com/dornescum/react-props-typescript",
 		linkPage: "",
 		img: "@../../src/img/projects/typescript.webp",
@@ -201,6 +201,16 @@ export const projects = [{
 		tagTs: "Typescript",
 		tagTutorial: true
 	},
-
-
+	{
+		id: 3-4,
+		title: "Challenge testimonials",
+		description: "FrontEndMentor challenge, Testimonials, grid section ",
+		tools: "Tailwind Css",
+		linkRepo: "https://github.com/dornescum/testimonials-frontEndMentor",
+		linkPage: "https://frontmentor-testimonials.web.app/",
+		img: "@../../src/img/projects/testimonials.webp",
+		tagJs: "",
+		tagCss: "Tailwind",
+		tagTutorial: false
+	},
 ];
