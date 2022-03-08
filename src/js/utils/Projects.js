@@ -24,7 +24,7 @@ export const projects = [{
 	},
 	{
 		id: 2-23,
-		title: "Working on it.. not ready",
+		title: "Mockup Ecommerce, context api",
 		description: "Ecommerce, Next js, Node js",
 		tools: "Next js, Tailwind Css",
 		linkRepo: "",
@@ -58,7 +58,18 @@ export const projects = [{
 		tagCss: "Tailwind",
 		tagTutorial: false
 	},
-
+	{
+		id: 3-8,
+		title: "Challenge time-tracking",
+		description: "FrontEndMentor challenge",
+		tools: "Tailwind Css",
+		linkRepo: "https://github.com/dornescum/frontEndMentor-timeTracking",
+		linkPage: "https://frontendm-timetracking.web.app/",
+		img: "@../../src/img/projects/timeTracking.webp",
+		tagJs: "Javascript",
+		tagCss: "Tailwind",
+		tagTutorial: false
+	},
 	{
 		id: 3,
 		title: "Admin Panel",
@@ -140,7 +151,20 @@ export const projects = [{
 		tagJs: "Html",
 		tagCss: "Scss",
 		tagTutorial: false
-	}, {
+	},
+	{
+		id: 3-4,
+		title: "Challenge testimonials",
+		description: "FrontEndMentor challenge, Testimonials, grid section ",
+		tools: "Tailwind Css",
+		linkRepo: "https://github.com/dornescum/testimonials-frontEndMentor",
+		linkPage: "https://frontmentor-testimonials.web.app/",
+		img: "@../../src/img/projects/testimonials.webp",
+		tagJs: "",
+		tagCss: "Tailwind",
+		tagTutorial: false
+	},
+	{
 		id: 8,
 		title: "Google Clone",
 		description: "Google clone exercise from <b>JavaScriptSMastery</b>, Context Api, useDebounce,Tailwind darkMode.",
@@ -201,16 +225,6 @@ export const projects = [{
 		tagTs: "Typescript",
 		tagTutorial: true
 	},
-	{
-		id: 3-4,
-		title: "Challenge testimonials",
-		description: "FrontEndMentor challenge, Testimonials, grid section ",
-		tools: "Tailwind Css",
-		linkRepo: "https://github.com/dornescum/testimonials-frontEndMentor",
-		linkPage: "https://frontmentor-testimonials.web.app/",
-		img: "@../../src/img/projects/testimonials.webp",
-		tagJs: "",
-		tagCss: "Tailwind",
-		tagTutorial: false
-	},
+
+
 ];
