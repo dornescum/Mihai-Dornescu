@@ -62,7 +62,7 @@ export const projects = [{
 		id: 3-8,
 		title: "Challenge time-tracking",
 		description: "FrontEndMentor challenge",
-		tools: "Tailwind Css",
+		tools: "Tailwind Css, Javascript",
 		linkRepo: "https://github.com/dornescum/frontEndMentor-timeTracking",
 		linkPage: "https://frontendm-timetracking.web.app/",
 		img: "@../../src/img/projects/timeTracking.webp",

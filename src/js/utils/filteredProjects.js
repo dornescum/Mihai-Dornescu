@@ -8,7 +8,9 @@ export const filteredProjects = (access, itemProjects) => {
                         <img alt="picture"
                              src=${item?.img} class="h-60 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md
                 shadow-sm hover:shadow-lg cursor-pointer transition duration:300 cursor-not-allowed 
-                contrast-50 grayscale hover:contrast-100 hover:grayscale-0">
+                brightness-50 hover:brightness-100
+               ">
+<!--                contrast-50 grayscale hover:contrast-100 hover:grayscale-0-->
                     </div>
                     <div class="bg-slate-50 border p-1 rounded-br-md rounded-bl-md h-80 md:h-90 lg:h-72 relative">
                         <article class="text-stone-500" data-testid=${item?.title.slice(0, 3)}>
@@ -44,7 +46,7 @@ export const filteredProjects = (access, itemProjects) => {
                     <img alt="picture"
                              src=${item?.img} class="h-60 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md
                 shadow-sm hover:shadow-lg cursor-pointer transition duration:300
-                contrast-50 grayscale hover:contrast-100 hover:grayscale-0">
+                brigthness-100  md:brightness-95 md:hover:brightness-100 ">
                     </a>
                         
                     </div>
