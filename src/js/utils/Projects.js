@@ -71,6 +71,18 @@ export const projects = [{
 		tagTutorial: false
 	},
 	{
+		id: 3-9,
+		title: "Challenge accordion",
+		description: "FrontEndMentor challenge",
+		tools: "Tailwind Css, React js",
+		linkRepo: "https://github.com/dornescum/frontEndMentor-accordionCard",
+		linkPage: "https://frontendmentor-accordion.web.app//",
+		img: "@../../src/img/projects/accordion.webp",
+		tagJs: "React js",
+		tagCss: "Tailwind",
+		tagTutorial: false
+	},
+	{
 		id: 3,
 		title: "Admin Panel",
 		description: "An admin panel in which I tested Cypress together with React js.",

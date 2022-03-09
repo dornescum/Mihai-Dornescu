@@ -12,10 +12,11 @@ const sidebar = getElement('#sidebar');
 const projectsGrid = getElement('#grid-projects');
 const footer = getElement('#footer-year');
 
-
+const noTutorials = projects.filter(item =>!item.tagTutorial)
+console.log(noTutorials);
 
 handleSidebar(btnNavbar, sidebar);
-filteredProjects(projectsGrid, projects);
+filteredProjects(projectsGrid, noTutorials);
 
 // loading
 const loading = getElement('.loading');
