@@ -23,10 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix error svg">
-      <change afterPath="$PROJECT_DIR$/src/img/projects/accordion.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/utils/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/Projects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,7 +392,7 @@
       <workItem from="1646379157660" duration="2170000" />
       <workItem from="1646404770875" duration="925000" />
       <workItem from="1646721229519" duration="3697000" />
-      <workItem from="1646844481933" duration="309000" />
+      <workItem from="1646844481933" duration="1086000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>

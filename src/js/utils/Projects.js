@@ -83,6 +83,18 @@ export const projects = [{
 		tagTutorial: false
 	},
 	{
+		id: 3-13,
+		title: "Challenge testimonial bootCamp",
+		description: "FrontEndMentor challenge",
+		tools: "Tailwind Css, Javascript",
+		linkRepo: "https://github.com/dornescum/codingBootCamp-FEMentor",
+		linkPage: "https://fem-bootcamptestimonials2.web.app/",
+		img: "@../../src/img/projects/bootcamp.webp",
+		tagJs: "Javascript",
+		tagCss: "Tailwind",
+		tagTutorial: false
+	},
+	{
 		id: 3,
 		title: "Admin Panel",
 		description: "An admin panel in which I tested Cypress together with React js.",
