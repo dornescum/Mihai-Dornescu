@@ -95,6 +95,18 @@ export const projects = [{
 		tagTutorial: false
 	},
 	{
+		id: 3-25,
+		title: "Challenge count down timer",
+		description: "FrontEndMentor challenge",
+		tools: "Tailwind Css, Javascript",
+		linkRepo: "https://github.com/dornescum/frontendMentor-countDownTimer",
+		linkPage: "https://spiffy-cranachan-47ef3c.netlify.app/",
+		img: "@../../src/img/projects/count_down_timer.webp",
+		tagJs: "Javascript",
+		tagCss: "Tailwind",
+		tagTutorial: false
+	},
+	{
 		id: 3,
 		title: "Admin Panel",
 		description: "An admin panel in which I tested Cypress together with React js.",
