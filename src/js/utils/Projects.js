@@ -261,6 +261,18 @@ export const projects = [{
 		tagTs: "Typescript",
 		tagTutorial: true
 	},
-
+	{
+		id: 4-15,
+		title: "Weather app",
+		description: "Fetch from AccuWeather <b>Shaun Pelling</b>",
+		tools: "Vanilla js, Bootstrap 4",
+		linkRepo: "https://github.com/dornescum/weatherApp",
+		linkPage: "",
+		img: "@../../src/img/projects/javascript.webp",
+		tagJs: "Javascript",
+		tagCss: "Bootstrap",
+		tagTs: "",
+		tagTutorial: true
+	},
 
 ];
