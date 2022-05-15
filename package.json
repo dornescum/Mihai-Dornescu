@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "tailwind build src/css/style.css"
+    "build:css": "tailwind build src/css/style.css",
+    "start": "node_modules/serve/bin/serve.js"
   },
   "repository": {
     "type": "git",
