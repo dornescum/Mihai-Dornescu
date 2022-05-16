@@ -3,7 +3,7 @@ export const handleSidebar = (access, sidebar) => {
 		sidebar.classList.toggle("sidebar");
 		sidebar.classList.toggle("show");
 		sidebar.innerHTML= `
-		<ul class="w-48 rounded-br-md h-full md:h-[700px] bg-stone-50 pt-8">
+		<ul class="w-48 rounded-br-md h-full md:h-[700px] bg-stone-50 pt-8 overflow-auto">
                 <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
                     <a href="index.html" class="py-2 md:py-4">
                         Home
@@ -54,13 +54,13 @@ export const handleSidebar = (access, sidebar) => {
                         Tailwind
                     </a>
                 </li>
-                <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="cypress.html" class="py-4">
+                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
+                    <a href="cypress.html" class="py-2 md:py-4">
                         Cypress
                     </a>
                 </li>
-                <li class="block py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="tutorials.html" class="py-4">
+                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
+                    <a href="tutorials.html" class="py-2 md:py-4">
                         Tutorials
                     </a>
                 </li>

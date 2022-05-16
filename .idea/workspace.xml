@@ -24,10 +24,16 @@
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix error svg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/tailwind.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/tailwind.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.html" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css.html" beforeDir="false" afterPath="$PROJECT_DIR$/css.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.html" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextJs.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextJs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactJs.html" beforeDir="false" afterPath="$PROJECT_DIR$/reactJs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss.html" beforeDir="false" afterPath="$PROJECT_DIR$/scss.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript.html" beforeDir="false" afterPath="$PROJECT_DIR$/typescript.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,20 +78,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/ubuntu-20-04/Documents/GitHub/MD/Mihai-Dornescu",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ubuntu-20-04/Documents/GitHub/MD/Mihai-Dornescu&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/js/utils" />
@@ -396,7 +402,6 @@
       <workItem from="1648234490280" duration="593000" />
       <workItem from="1648467338862" duration="33000" />
       <workItem from="1650007685380" duration="537000" />
-      <workItem from="1652589914490" duration="795000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
