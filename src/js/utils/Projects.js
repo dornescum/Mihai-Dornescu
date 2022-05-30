@@ -274,5 +274,17 @@ export const projects = [{
 		tagTs: "",
 		tagTutorial: true
 	},
+	{
+		id: 1-2,
+		title: "My version of a resume",
+		description: "Minimalist Resume",
+		tools: "Scss, Javascript",
+		linkRepo: "https://github.com/dornescum/cv-spa",
+		linkPage: "https://dornescu.ro/",
+		img: "@../../src/img/projects/dornescu-ro.webp",
+		tagJs: "Javascript",
+		tagCss: "Scss",
+		tagTutorial: false
+	}
 
 ];
