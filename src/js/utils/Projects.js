@@ -285,6 +285,20 @@ export const projects = [{
 		tagJs: "Javascript",
 		tagCss: "Scss",
 		tagTutorial: false
+	},
+	{
+		id: 4-15,
+		title: "Basic Angular",
+		description: "Angular essential by <b>Maximilian Schwarzmuller</b>, data binding with custom properties and events," +
+			" how to pass data around, how to acces elemts in DOM, use local refernces, lifecycle hooks",
+		tools: "Angular, Bootstrap",
+		linkRepo: "https://github.com/dornescum/AngularBasics",
+		linkPage: "",
+		img: "@../../src/img/projects/angular-logo.webp",
+		tagJs: "Angular",
+		tagCss: "Bootstrap",
+		tagTs: "",
+		tagTutorial: true
 	}
 
 ];
