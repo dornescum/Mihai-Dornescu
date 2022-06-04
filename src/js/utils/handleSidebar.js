@@ -29,26 +29,13 @@ export const handleSidebar = (access, sidebar) => {
                         Typescript
                     </a>
                 </li>
-                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="vue.html" class="py-2 md:py-4">
-                        Vue js
-                    </a>
-                </li>
-                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="css.html" class="py-2 md:py-4">
-                        Css
-                    </a>
-                </li>
-                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="scss.html" class="py-2 md:py-4">
-                        Scss
-                    </a>
-                </li>
-                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="javascript:;" class="py-4 hover:text-stone-50">
-                        Bootstrap
-                    </a>
-                </li>
+             
+<!--                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">-->
+<!--                    <a href="css.html" class="py-2 md:py-4">-->
+<!--                        Css-->
+<!--                    </a>-->
+<!--                </li>-->
+            
                 <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
                     <a href="tailwind.html" class="py-2 md:py-4">
                         Tailwind
@@ -59,9 +46,30 @@ export const handleSidebar = (access, sidebar) => {
                         Cypress
                     </a>
                 </li>
+                 <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
+                    <a href="node.html" class="py-2 md:py-4">
+                        Node js
+                    </a>
+                </li>
                 <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
                     <a href="tutorials.html" class="py-2 md:py-4">
                         Tutorials
+                    </a>
+                </li>
+                   <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
+                    <a href="vue.html" class="py-2 md:py-4 text-zinc-300">
+                        Vue js
+                    </a>
+                </li>
+                    <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
+                    <a href="scss.html" class="py-2 md:py-4 text-zinc-300">
+                        Scss
+                    </a>
+                </li>
+                
+                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
+                    <a href="javascript:;" class="py-4 hover:text-stone-50">
+                        Bootstrap
                     </a>
                 </li>
             </ul>

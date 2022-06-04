@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4LTQKH0FZ7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-4LTQKH0FZ7');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="Junior front end developer, Javascript, Html5, Css3, Sccs, React js, Vue js" name="description"/>
+  <meta content="Vanilla Javascript " name="keywords"/>
+  <meta content="Mihai Dornescu" name="author"/>
+  <meta content="telephone=no" name="format-detection">
+  <!--    favicon-->
+  <link href="src/img/favicon/favicon.ico" rel="shortcut icon">
+  <!--google fonts-->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;800&display=swap" rel="stylesheet">
+  <!--tailwind-->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="/dist/style.css" rel="stylesheet">
+  <title>Vue </title>
+  <!--    fixme add to main tailwind-->
+  <style>
+    .loading {
+      min-height: 20vh;
+      min-width: 20vw;
+      display: grid;
+      justify-content: center;
+      position: absolute;
+      object-fit: fill;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: var(--clr-grey-10);
+      padding-top: 5rem;
+      z-index: 999;
+    }
+
+    .hide-loading {
+      display: none;
+    }
+    @keyframes anim-left {
+      0% {
+        opacity: 0;
+        transform: translateX(-100px);
+      }
+      50% {
+        opacity: 0.5;
+      }
+      100% {
+        opacity: 1;
+      }
+
+    }
+    .show {
+      display: block;
+      animation: anim-left .2s ease-in-out;
+      position: absolute;
+      z-index: 1;
+    }
+
+
+    .sidebar {
+      display: none;
+    }
+
+    .clip{
+      clip-path: polygon(2% 0, 100% 0%, 100% 100%, 0 100%, 0 2%);
+    }
+  </style>
+</head>
+<body>
+
+<main class="font-dosis relative">
+  <!--    navbar-->
+  <nav class="relative pb-12 z-10">
+    <ul class="flex justify-between py-4 px-4 md:px-8 lg:px-12 fixed w-full bg-slate-50">
+      <li>
+        <div class="flex">
+          <a href="index.html" class="flex items-center justify-center">
+            <img src="./src/img/svg/home.svg" alt="home button">
+          </a>
+
+          <a href="javascript:;" itemprop="author"  class="text-xl pl-4">
+            Mihai Dornescu
+          </a>
+        </div>
+      </li>
+      <li>
+        <button id="access-sidebar" style="padding: 3px 0 0 0">
+          <img src="./src/img/svg/hamburger.svg" alt="hamburger menu">
+        </button>
+      </li>
+    </ul>
+
+  </nav>
+
+  <!--    sidebar-->
+  <div class="relative">
+    <aside class="z-20 fixed top-10 left-0 h-full  sidebar" id="sidebar-node">
+    </aside>
+  </div>
+  <!--  end sidebar  -->
+  <!--hero-->
+  <section class="mx-0 md:mx-4 lg:mx-10 mb-4 md:mb-8 text-center text-red-300 py-4">
+    <p class="text-center mx-4 py-4 text-2xl text-stone-600">
+      Projects where I used <span class="text-stone-900 underline decoration-double">Node js</span>
+    </p>
+  </section>
+
+  <!--projects-->
+  <section class="mx-4 my-4" data-testid="projects" id="node-projects">
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4" data-testid="projects-node"
+         id="grid-node">
+    </div>
+  </section>
+
+  <!--========================cookie consent-->
+  <div class="cookie-container bg-slate-100 hidden mx-4 md:mx-8 lg:mx-10 py-8 relative z-10
+   left-0 bottom-10 m-auto">
+    <p class="text-stone-500 px-8 py-2 " id="cookie">
+      We use cookies in this website to give you the best experience on our
+      site and show you relevant ads. To find out more, read our
+      <a href="#">privacy policy</a> and <a href="#">cookie policy</a>.
+    </p>
+    <button class="cookie-btn  p-1 rounded-md absolute top-2 right-2">
+      <img alt="close btn" class="" src="./src/img/svg/close.svg">
+    </button>
+  </div>
+  <!--========================cookie consent-->
+</main>
+
+
+<footer id="footer">
+  <ul class="flex pl-6 md:pl-12 py-4">
+    <li class="p-1">
+      <div id="footer-year"></div>
+    </li>
+    <li class="p-1 flex justify-center items-center">
+      <a href="https://github.com/dornescum" rel="noopener" target="_blank">
+        <img alt="github action" src="./src/img/svg/github.svg">
+      </a>
+    </li>
+    <li class="p-1 flex justify-center items-center">
+      <a href="https://www.linkedin.com/in/mihai-dornescu-21b35a94/" rel="noopener" target="_blank">
+        <img alt="linkedIn action" src="./src/img/svg/linkedIn.svg">
+      </a>
+    </li>
+    <li class="p-1 flex justify-center items-center">
+      <a href="https://dornescu.ro/" itemprop="author" rel="noopener" target="_blank">
+        <img alt="dornescu.ro" src="./src/img/svg/blog.svg">
+      </a>
+    </li>
+  </ul>
+</footer>
+
+<!-- js -->
+<script src="src/js/node.js" type="module"></script>
+
+
+</body>
+</html>
