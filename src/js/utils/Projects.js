@@ -292,7 +292,7 @@ export const projects = [{
 		tagTutorial: true
 	},{
 	id: 6 - 4,
-	title: "Basic Angular",
+	title: "Data binding",
 	description: "Angular essential by <b>Maximilian Schwarzmuller</b>, data binding",
 	tools: "Angular, Bootstrap",
 	linkRepo: "https://github.com/dornescum/angularDataBinding",
