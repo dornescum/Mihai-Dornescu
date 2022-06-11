@@ -302,6 +302,19 @@ export const projects = [{
 	tagCss: "Bootstrap",
 	tagTs: "Typescript",
 	tagTutorial: true
+},
+{
+	id: 6 - 11,
+	title: "Communication between components",
+	description: "Angular project by <b>WebTechTalk</b>, Components Data Binding Structural and Attribute Directives Communication between components Services & Dependency Injection Life Cycle Hooks",
+	tools: "Angular, Bootstrap",
+	linkRepo: "https://github.com/dornescum/angularDataBinding",
+	linkPage: "",
+	img: "@../../src/img/projects/angular.webp",
+	tagJs: "Angular",
+	tagCss: "",
+	tagTs: "Typescript",
+	tagTutorial: true
 }
 
 ];
