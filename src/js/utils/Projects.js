@@ -308,7 +308,7 @@ export const projects = [{
 	title: "Communication between components",
 	description: "Angular project by <b>WebTechTalk</b>, Components Data Binding Structural and Attribute Directives Communication between components Services & Dependency Injection Life Cycle Hooks",
 	tools: "Angular, Bootstrap",
-	linkRepo: "https://github.com/dornescum/angularDataBinding",
+	linkRepo: "https://github.com/dornescum/movie-reviews",
 	linkPage: "",
 	img: "@../../src/img/projects/angular.webp",
 	tagJs: "Angular",
