@@ -315,6 +315,32 @@ export const projects = [{
 	tagCss: "",
 	tagTs: "Typescript",
 	tagTutorial: true
-}
+},
+	{
+		id: 6 - 12,
+		title: "Parent child communication",
+		description: "Angular project by <b>WebTechTalk</b>, Communication between components",
+		tools: "Angular",
+		linkRepo: "https://github.com/dornescum/parrentChild-angular",
+		linkPage: "",
+		img: "@../../src/img/projects/angular.webp",
+		tagJs: "Angular",
+		tagCss: "Scss",
+		tagTs: "Typescript",
+		tagTutorial: true
+	},
+	{
+		id: 6 - 13,
+		title: "Parent child communication",
+		description: "Angular project by <b>WebTechTalk</b>, Communication between components",
+		tools: "Angular",
+		linkRepo: "https://github.com/dornescum/parrentChild-angular",
+		linkPage: "",
+		img: "@../../src/img/projects/angular.webp",
+		tagJs: "Angular",
+		tagCss: "Scss",
+		tagTs: "Typescript",
+		tagTutorial: true
+	}
 
 ];
