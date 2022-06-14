@@ -318,8 +318,9 @@ export const projects = [{
 },
 	{
 		id: 6 - 12,
+
 		title: "Parent child communication",
-		description: "Angular project by <b>WebTechTalk</b>, Communication between components",
+		description: "Angular project by <b>WebTechTalk</b>",
 		tools: "Angular",
 		linkRepo: "https://github.com/dornescum/parrentChild-angular",
 		linkPage: "",
@@ -331,10 +332,10 @@ export const projects = [{
 	},
 	{
 		id: 6 - 13,
-		title: "Parent child communication",
-		description: "Angular project by <b>WebTechTalk</b>, Communication between components",
+		title: "Parent child filter base",
+		description: "Angular project by <b>WebTechTalk</b>, EventEmitter, @Input, @Output",
 		tools: "Angular",
-		linkRepo: "https://github.com/dornescum/parrentChild-angular",
+		linkRepo: "https://github.com/dornescum/parrentChild-Filter",
 		linkPage: "",
 		img: "@../../src/img/projects/angular.webp",
 		tagJs: "Angular",
