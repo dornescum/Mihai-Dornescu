@@ -322,7 +322,7 @@ export const projects = [{
 		title: "Parent child communication",
 		description: "Angular project by <b>WebTechTalk</b>",
 		tools: "Angular",
-		linkRepo: "https://github.com/dornescum/parrentChild-angular",
+		linkRepo: "https://github.com/dornescum/parrentChild-EventEmitter",
 		linkPage: "",
 		img: "@../../src/img/projects/angular.webp",
 		tagJs: "Angular",
