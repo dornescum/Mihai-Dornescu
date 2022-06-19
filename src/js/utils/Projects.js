@@ -342,6 +342,18 @@ export const projects = [{
 		tagCss: "Scss",
 		tagTs: "Typescript",
 		tagTutorial: true
+	},{
+		id: 6 - 19,
+		title: "Fetch data",
+		description: "Angular project by <b>WebTechTalk</b>, httpClient",
+		tools: "Angular",
+		linkRepo: "https://github.com/dornescum/angularHttpClient",
+		linkPage: "",
+		img: "@../../src/img/projects/angular.webp",
+		tagJs: "Angular",
+		tagCss: "Scss",
+		tagTs: "Typescript",
+		tagTutorial: true
 	}
 
 ];
