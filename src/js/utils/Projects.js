@@ -354,6 +354,18 @@ export const projects = [{
 		tagCss: "Scss",
 		tagTs: "Typescript",
 		tagTutorial: true
+	},{
+		id: 6 - 20,
+		title: "Pipe, Services",
+		description: "Angular project by <b> Let's Program</b>, fetch data and filter",
+		tools: "Angular",
+		linkRepo: "https://github.com/dornescum/angular-addToCart",
+		linkPage: "",
+		img: "@../../src/img/projects/angular.webp",
+		tagJs: "Angular",
+		tagCss: "Scss",
+		tagTs: "Typescript",
+		tagTutorial: true
 	}
 
 ];
