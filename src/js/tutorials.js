@@ -14,7 +14,7 @@ const footer = getElement('#footer-year');
 handleSidebar(btnNavbar, sidebar);
 
 const tutorialsProjects = projects.filter((item) => {
-	console.log(item);
+	// console.log(item);
 	if (item.tagTutorial === true){
 		return item
 	}

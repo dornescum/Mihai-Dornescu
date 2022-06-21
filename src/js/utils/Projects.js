@@ -366,6 +366,19 @@ export const projects = [{
 		tagCss: "Scss",
 		tagTs: "Typescript",
 		tagTutorial: true
+	},
+{
+		id: 6 - 21,
+		title: " Services, FormModules",
+		description: "Angular project by <b>Sameer Saini</b>, open weather api, fetch data",
+		tools: "Angular",
+		linkRepo: "https://github.com/dornescum/angular-WeatherApp",
+		linkPage: "",
+		img: "@../../src/img/projects/angular.webp",
+		tagJs: "Angular",
+		tagCss: "Scss",
+		tagTs: "Typescript",
+		tagTutorial: true
 	}
 
 ];
