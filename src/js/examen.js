@@ -120,7 +120,8 @@ $(document).ready(function () {
 				 <span class=${twBudget.val() === "100$" || twBudget.val() === "500$" ? `sarac` : " "}>
 				${twBudget.val() === "100$" || twBudget.val() === "500$" ? "De Sarac !" : twBudget.val() }</span> </p>
 	 		
- 				<p>We may contact him at <span class="email-validate">${twEmail.val()} or ${twPhone.val()}</span></p>
+ 				<p>We may contact him at <span class="email-validate">this email :${twEmail.val()}
+				 or phone: ${twPhone.val()}</span></p>
 			</div>
 	`)
 		clientInfo.addClass('clientInfo')
