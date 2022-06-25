@@ -23,12 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix error svg">
-      <change afterPath="$PROJECT_DIR$/examen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/examen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/examen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/utils/slides.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/5animeText.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/5animeText.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen.html" beforeDir="false" afterPath="$PROJECT_DIR$/examen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/examen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/examen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/examen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/examen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +86,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "JavaScript.Libraries",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -417,7 +418,9 @@
       <workItem from="1655823497178" duration="899000" />
       <workItem from="1655909235442" duration="33000" />
       <workItem from="1656076142957" duration="1136000" />
-      <workItem from="1656077425049" duration="4157000" />
+      <workItem from="1656077425049" duration="4599000" />
+      <workItem from="1656096488849" duration="2488000" />
+      <workItem from="1656140597890" duration="5148000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
