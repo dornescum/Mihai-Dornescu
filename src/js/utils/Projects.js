@@ -379,6 +379,19 @@ export const projects = [{
 		tagCss: "Scss",
 		tagTs: "Typescript",
 		tagTutorial: true
+	},
+{
+		id: 6 - 27,
+		title: " Routing",
+		description: "Angular project by <b>Academind</b>, routerLink, routerLinkActive, bootstrap",
+		tools: "Angular",
+		linkRepo: "https://github.com/dornescum/angularRouting-Academind",
+		linkPage: "",
+		img: "@../../src/img/projects/angular.webp",
+		tagJs: "Angular",
+		tagCss: "Bootstrap",
+		tagTs: "Typescript",
+		tagTutorial: true
 	}
 
 ];
