@@ -392,6 +392,19 @@ export const projects = [{
 		tagCss: "Bootstrap",
 		tagTs: "Typescript",
 		tagTutorial: true
+	},
+{
+		id: 6 - 30,
+		title: " Task Tracker",
+		description: "Angular project by <b>Traversy Media</b>, pass data, update mock server, ngClass, ngStyle, routing",
+		tools: "Angular",
+		linkRepo: "https://github.com/dornescum/angular_taskTracker",
+		linkPage: "",
+		img: "@../../src/img/projects/angular.webp",
+		tagJs: "Angular",
+		tagCss: "Css",
+		tagTs: "Typescript",
+		tagTutorial: true
 	}
 
 ];
