@@ -92,21 +92,21 @@ $(document).ready(function () {
 				}
 
 				if (twPassword.val().length <3 || twPassword.val().length >10){
-					return alert("min > 4 & max < 10")
+					return alert("min 4 characters & max < 10")
 				}
 				if (twEmail.val().indexOf("@")=== -1){
 					return alert('must have @')
 				}
 				let filter ="^[0-9]*$";
 				if (!twPhone.val().match(filter)) {
-					return alert('error')
+					return alert('numbers only pls')
 				}
 
 
 		const clientInfo = $("#clientInfo");
 			clientInfo.html(`
 			<div class="inner-client">
-				<h1>The client : ${twFirstName.val()} ${twLastName.val()}</h1>
+				<h1>The client : <b>${twFirstName.val().toUpperCase()} ${twLastName.val().toUpperCase()}</b></h1>
 				<p> Wants to go to ${chosenDestination.val()} and has a budget of
 				 <span class=${twBudget.val() === "100$" || twBudget.val() === "500$" ? `sarac` : " "}>
 				${twBudget.val() === "100$" || twBudget.val() === "500$" ? "De Sarac !" : twBudget.val() }</span> </p>
