@@ -277,20 +277,19 @@ export const projects = [{
 	tagCss: "Bootstrap",
 	tagTs: "Typescript",
 	tagTutorial: true
-},
-	{
-		id: 6 - 3,
-		title: "Node js crud",
-		description: "Nodejs /sqlite3",
-		tools: "Node js, Sqlite3",
-		linkRepo: "https://github.com/dornescum/node-sqlite3",
-		linkPage: "",
-		img: "@../../src/img/projects/nodejs.webp",
-		tagJs: "Nodejs",
-		tagCss: "",
-		tagTs: "",
-		tagTutorial: true
-	},{
+}, {
+	id: 6 - 3,
+	title: "Node js crud",
+	description: "Nodejs /sqlite3",
+	tools: "Node js, Sqlite3",
+	linkRepo: "https://github.com/dornescum/node-sqlite3",
+	linkPage: "",
+	img: "@../../src/img/projects/nodejs.webp",
+	tagJs: "Nodejs",
+	tagCss: "",
+	tagTs: "",
+	tagTutorial: true
+}, {
 	id: 6 - 4,
 	title: "Data binding",
 	description: "Angular essential by <b>Maximilian Schwarzmuller</b>, data binding",
@@ -302,8 +301,7 @@ export const projects = [{
 	tagCss: "Bootstrap",
 	tagTs: "Typescript",
 	tagTutorial: true
-},
-{
+}, {
 	id: 6 - 11,
 	title: "Communication between components",
 	description: "Angular project by <b>WebTechTalk</b>, Components Data Binding Structural and Attribute Directives Communication between components Services & Dependency Injection Life Cycle Hooks",
@@ -315,96 +313,102 @@ export const projects = [{
 	tagCss: "",
 	tagTs: "Typescript",
 	tagTutorial: true
-},
-	{
-		id: 6 - 12,
+}, {
+	id: 6 - 12,
 
-		title: "Parent child communication",
-		description: "Angular project by <b>WebTechTalk</b>",
-		tools: "Angular",
-		linkRepo: "https://github.com/dornescum/parrentChild-EventEmitter",
-		linkPage: "",
-		img: "@../../src/img/projects/angular.webp",
-		tagJs: "Angular",
-		tagCss: "Scss",
-		tagTs: "Typescript",
-		tagTutorial: true
-	},
-	{
-		id: 6 - 13,
-		title: "Parent child filter base",
-		description: "Angular project by <b>WebTechTalk</b>, EventEmitter, @Input, @Output",
-		tools: "Angular",
-		linkRepo: "https://github.com/dornescum/parrentChild-Filter",
-		linkPage: "",
-		img: "@../../src/img/projects/angular.webp",
-		tagJs: "Angular",
-		tagCss: "Scss",
-		tagTs: "Typescript",
-		tagTutorial: true
-	},{
-		id: 6 - 19,
-		title: "Fetch data",
-		description: "Angular project by <b>WebTechTalk</b>, httpClient",
-		tools: "Angular",
-		linkRepo: "https://github.com/dornescum/angularHttpClient",
-		linkPage: "",
-		img: "@../../src/img/projects/angular.webp",
-		tagJs: "Angular",
-		tagCss: "Scss",
-		tagTs: "Typescript",
-		tagTutorial: true
-	},{
-		id: 6 - 20,
-		title: "Pipe, Services",
-		description: "Angular project by <b> Let's Program</b>, fetch data and filter",
-		tools: "Angular",
-		linkRepo: "https://github.com/dornescum/angular-addToCart",
-		linkPage: "",
-		img: "@../../src/img/projects/angular.webp",
-		tagJs: "Angular",
-		tagCss: "Scss",
-		tagTs: "Typescript",
-		tagTutorial: true
-	},
-{
-		id: 6 - 21,
-		title: " Services, FormModules",
-		description: "Angular project by <b>Sameer Saini</b>, open weather api, fetch data",
-		tools: "Angular",
-		linkRepo: "https://github.com/dornescum/angular-WeatherApp",
-		linkPage: "",
-		img: "@../../src/img/projects/angular.webp",
-		tagJs: "Angular",
-		tagCss: "Scss",
-		tagTs: "Typescript",
-		tagTutorial: true
-	},
-{
-		id: 6 - 27,
-		title: " Routing",
-		description: "Angular project by <b>Academind</b>, routerLink, routerLinkActive, bootstrap",
-		tools: "Angular",
-		linkRepo: "https://github.com/dornescum/angularRouting-Academind",
-		linkPage: "",
-		img: "@../../src/img/projects/angular.webp",
-		tagJs: "Angular",
-		tagCss: "Bootstrap",
-		tagTs: "Typescript",
-		tagTutorial: true
-	},
-{
-		id: 6 - 30,
-		title: " Task Tracker",
-		description: "Angular project by <b>Traversy Media</b>, pass data, update mock server, ngClass, ngStyle, routing",
-		tools: "Angular",
-		linkRepo: "https://github.com/dornescum/angular_taskTracker",
-		linkPage: "",
-		img: "@../../src/img/projects/angular.webp",
-		tagJs: "Angular",
-		tagCss: "Css",
-		tagTs: "Typescript",
-		tagTutorial: true
-	}
+	title: "Parent child communication",
+	description: "Angular project by <b>WebTechTalk</b>",
+	tools: "Angular",
+	linkRepo: "https://github.com/dornescum/parrentChild-EventEmitter",
+	linkPage: "",
+	img: "@../../src/img/projects/angular.webp",
+	tagJs: "Angular",
+	tagCss: "Scss",
+	tagTs: "Typescript",
+	tagTutorial: true
+}, {
+	id: 6 - 13,
+	title: "Parent child filter base",
+	description: "Angular project by <b>WebTechTalk</b>, EventEmitter, @Input, @Output",
+	tools: "Angular",
+	linkRepo: "https://github.com/dornescum/parrentChild-Filter",
+	linkPage: "",
+	img: "@../../src/img/projects/angular.webp",
+	tagJs: "Angular",
+	tagCss: "Scss",
+	tagTs: "Typescript",
+	tagTutorial: true
+}, {
+	id: 6 - 19,
+	title: "Fetch data",
+	description: "Angular project by <b>WebTechTalk</b>, httpClient",
+	tools: "Angular",
+	linkRepo: "https://github.com/dornescum/angularHttpClient",
+	linkPage: "",
+	img: "@../../src/img/projects/angular.webp",
+	tagJs: "Angular",
+	tagCss: "Scss",
+	tagTs: "Typescript",
+	tagTutorial: true
+}, {
+	id: 6 - 20,
+	title: "Pipe, Services",
+	description: "Angular project by <b> Let's Program</b>, fetch data and filter",
+	tools: "Angular",
+	linkRepo: "https://github.com/dornescum/angular-addToCart",
+	linkPage: "",
+	img: "@../../src/img/projects/angular.webp",
+	tagJs: "Angular",
+	tagCss: "Scss",
+	tagTs: "Typescript",
+	tagTutorial: true
+}, {
+	id: 6 - 21,
+	title: " Services, FormModules",
+	description: "Angular project by <b>Sameer Saini</b>, open weather api, fetch data",
+	tools: "Angular",
+	linkRepo: "https://github.com/dornescum/angular-WeatherApp",
+	linkPage: "",
+	img: "@../../src/img/projects/angular.webp",
+	tagJs: "Angular",
+	tagCss: "Scss",
+	tagTs: "Typescript",
+	tagTutorial: true
+}, {
+	id: 6 - 27,
+	title: " Routing",
+	description: "Angular project by <b>Academind</b>, routerLink, routerLinkActive, bootstrap",
+	tools: "Angular",
+	linkRepo: "https://github.com/dornescum/angularRouting-Academind",
+	linkPage: "",
+	img: "@../../src/img/projects/angular.webp",
+	tagJs: "Angular",
+	tagCss: "Bootstrap",
+	tagTs: "Typescript",
+	tagTutorial: true
+}, {
+	id: 6 - 30,
+	title: " Task Tracker",
+	description: "Angular project by <b>Traversy Media</b>, pass data, update mock server, ngClass, ngStyle, routing",
+	tools: "Angular",
+	linkRepo: "https://github.com/dornescum/angular_taskTracker",
+	linkPage: "",
+	img: "@../../src/img/projects/angular.webp",
+	tagJs: "Angular",
+	tagCss: "Css",
+	tagTs: "Typescript",
+	tagTutorial: true
+}, {
+	id: 7 - 5,
+	title: " <span style='color: #dc0c14; font-style: italic'>Basic Angular <b style='font-size: 20px'>Js</b> </span>",
+	description: "Angular project by <b>Shaun Pelling</b>,ng-app\n" + "ng-include\n" + "ng-controller\n" + "ng-click\n" + "ng-repeat\n" + "ng-show\n" + "ng-hide\n" + "ng-src ",
+	tools: "Angular",
+	linkRepo: "https://github.com/dornescum/angularJs-",
+	linkPage: "",
+	img: "@../../src/img/projects/angular.webp",
+	tagJs: "Angular",
+	tagCss: "Css",
+	tagTutorial: true
+}
 
 ];
