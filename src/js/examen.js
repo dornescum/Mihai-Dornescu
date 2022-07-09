@@ -13,10 +13,21 @@ const form = $('form');
 let formBudget = $("#budget");
 formBudget.prop("disabled", "disabled");
 
+
+const twForm = $('#form-tailwind');
+// const twDestinations = $("#grid-destination option:selected");
+const chosenDestination = $("#grid-destination");
+const twFirstName = $("#grid-first-name");
+const twLastName = $("#grid-last-name");
+const twPassword = $("#grid-password");
+const twEmail = $("#grid-email");
+const twPhone = $("#grid-phone");
+const twBudget = $("#grid-budget");
+twBudget.prop("disabled", "disabled");
+
 $(document).ready(function () {
 	const carousel = $('#carousel');
 	const imgCarousel = document.getElementById('carousel-image');
-
 
 	imgCarousel.innerHTML = slides.map(item => {
 		const {background: {backgroundImage, backgroundColor}, title, description, id} = item;
@@ -63,77 +74,51 @@ $(document).ready(function () {
 	});
 
 
-// form
-	let formDestinations = $("#destinations option:selected");
-	let chosenDestination = $("#destinations");
-	const destinationValid = $("#destinationValid");
-// destination validation
-	$('#destinations').change(function(e){
-		// console.log(e);
-		console.log($(this).val());
+
+	// ===== form tailwind
+	$('#grid-destination').change(function(e){
 		if ($(this).val() === "Select") {
-			destinationValid.removeClass('valid-feedback')
-			destinationValid.addClass('invalid')
+			twBudget.removeClass('bg-red-300')
 		}
 		else {
-			destinationValid.addClass('valid-feedback')
-			destinationValid.removeClass('invalid')
-			formBudget.removeAttr("disabled");
+			twBudget.removeClass('bg-red-300')
+			twBudget.removeAttr("disabled");
 		}
 	});
+	twForm.on('submit',(e)=>{
+			e.preventDefault();
+				if (twFirstName.val().length <3 || twLastName.val().length<=5){
+					return alert('check length')
+				}
 
-	form.on('submit', (e) => {
-		e.preventDefault();
-		let firstName = $("#firstName");
-		let lastName = $("#lastName");
-		let formEmail = $("#email");
-		let formMessage = $("#textarea");
+				if (twPassword.val().length <3 || twPassword.val().length >10){
+					return alert("min > 4 & max < 10")
+				}
+				if (twEmail.val().indexOf("@")=== -1){
+					return alert('must have @')
+				}
+				let filter ="^[0-9]*$";
+				if (!twPhone.val().match(filter)) {
+					return alert('error')
+				}
+
+
 		const clientInfo = $("#clientInfo");
-		const emailPattern = "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$";
-		const showInfo =()=>{
-			// destination validation
-			if (formDestinations.text() === "Select"){
-				destinationValid.removeClass('valid-feedback')
-				destinationValid.addClass('invalid')
-			} else {
-				formBudget.removeAttr("disabled");
-			}
-
-			// name validation
-			if (firstName.val().length <3 || lastName.val().length<=5){
-				return alert('First and last name are a must')
-			}
-			clientInfo.removeAttr("id", "clientInfo")
 			clientInfo.html(`
-				<div class="inner-client">
-					<h1>${firstName.val()} ${lastName.val()}</h1>
-					<p> Wants to go to ${chosenDestination.val()} and has
-					 a budget of
-					 <span class=${formBudget.val() === "100$" || formBudget.val() === "500$" ? "sarac" : " "}>
-					${formBudget.val() === "100$" || formBudget.val() === "500$" ? "De Sarac !" : formBudget.val() }</span> </p>
-		 			<p>He left us this message : <span>${formMessage.val()}</span></p>
-					 <p>We may contact him at <span class="email-validate">${formEmail.val()}</span></p>
-				</div>
-		`)
-			clientInfo.addClass('clientInfo')
+			<div class="inner-client">
+				<h1>The client : ${twFirstName.val()} ${twLastName.val()}</h1>
+				<p> Wants to go to ${chosenDestination.val()} and has a budget of
+				 <span class=${twBudget.val() === "100$" || twBudget.val() === "500$" ? `sarac` : " "}>
+				${twBudget.val() === "100$" || twBudget.val() === "500$" ? "De Sarac !" : twBudget.val() }</span> </p>
+	 		
+ 				<p>We may contact him at <span class="email-validate">this email :${twEmail.val()}
+				 or phone: ${twPhone.val()}</span></p>
+			</div>
+	`)
+		clientInfo.addClass('clientInfo')
 
-		}
-		showInfo();
-		const checkEmail=()=>{
-			if (formEmail.val().indexOf('@')===-1){
-				alert('no @')
-			}
-			// if (formEmail.val() !== emailPattern){
-			// 	alert('no')
-			// }
 
-		}
-		checkEmail()
-		form.trigger('reset')
-		destinationValid.addClass('valid-feedback')
-		destinationValid.removeClass('invalid')
-
-	});
+	})
 
 });
 
