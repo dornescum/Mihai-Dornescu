@@ -55,10 +55,16 @@ export const handleSidebar = (access, sidebar) => {
                     <a href="tutorials.html" class="py-2 md:py-4">
                         Tutorials
                     </a>
-                </li>
-                   <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="vue.html" class="py-2 md:py-4 text-zinc-300">
-                        Vue js
+<!--                </li>-->
+<!--                   <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">-->
+<!--                    <a href="vue.html" class="py-2 md:py-4 text-zinc-300">-->
+<!--                        Vue js-->
+<!--                    </a>-->
+<!--                </li>-->
+                 </li>
+                   <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12 bg-zinc-400">
+                    <a href="examen.html" class="py-2 md:py-4 text-amber-700">
+                       Examen 
                     </a>
                 </li>
                     <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">

@@ -23,8 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix error svg">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_07_2022,_17_29_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_07_2022__17_29__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/examen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/examen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/utils/slides.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/slides.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -414,7 +417,8 @@
       <workItem from="1655909235442" duration="33000" />
       <workItem from="1656076142957" duration="1136000" />
       <workItem from="1656077425049" duration="4157000" />
-      <workItem from="1657376146566" duration="1340000" />
+      <workItem from="1657376146566" duration="1769000" />
+      <workItem from="1658048796479" duration="1327000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
