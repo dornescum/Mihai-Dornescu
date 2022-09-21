@@ -10,7 +10,7 @@ const btnNavbar = getElement('#access-sidebar');
 const sidebar = getElement('#sidebar-tailwind');
 const footer = getElement('#footer-year');
 const sidebarMenu = getElement('.sidebar');
-console.log(sidebarMenu)
+// console.log(sidebarMenu)
 
 handleSidebar(btnNavbar, sidebar);
 const tailwindProjects = projects.filter((item) => {
