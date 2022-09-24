@@ -64,7 +64,7 @@ export const handleSidebar = (access, sidebar) => {
                  </li>
                    <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12 bg-zinc-400">
                     <a href="examen.html" class="py-2 md:py-4 text-amber-700">
-                       Examen 
+                       Examen JQuery
                     </a>
                 </li>
                     <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
@@ -74,8 +74,8 @@ export const handleSidebar = (access, sidebar) => {
                 </li>
                 
                 <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="javascript:;" class="py-4 hover:text-stone-50">
-                        Bootstrap
+                    <a href="sql.html" class="py-4 hover:text-stone-50">
+                        SQL
                     </a>
                 </li>
             </ul>
