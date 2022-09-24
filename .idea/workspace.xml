@@ -26,7 +26,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix error svg">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/sql.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/sql.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -425,7 +424,7 @@
       <workItem from="1658048796479" duration="1913000" />
       <workItem from="1663739905744" duration="1766000" />
       <workItem from="1664018347314" duration="4966000" />
-      <workItem from="1664023679325" duration="15044000" />
+      <workItem from="1664023679325" duration="15383000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
