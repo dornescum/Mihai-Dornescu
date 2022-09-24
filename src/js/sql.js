@@ -33,8 +33,8 @@ function populateList(arg) {
 	<div class="flex flex-col mx-0 md:mx-6 lg:mx-8" data-testid=${item?.id}>
                 <div class="clip">
                     <div class="bg-slate-50">
-                        <img alt="picture" loading="lazy"
-                             src='../../src/img/projects/sql.svg' class="h-60 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md
+                        <img alt="${item?.name} course" loading="lazy"
+                             src='../img/projects/sql.svg' class="h-60 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md
                 shadow-sm hover:shadow-lg cursor-pointer transition duration:300 cursor-not-allowed 
                 brightness-50 hover:brightness-100
                ">

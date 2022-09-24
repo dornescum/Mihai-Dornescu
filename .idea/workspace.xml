@@ -26,21 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix error svg">
-      <change afterPath="$PROJECT_DIR$/src/img/projects/sql.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/sql.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css.html" beforeDir="false" afterPath="$PROJECT_DIR$/css.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress.html" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextJs.html" beforeDir="false" afterPath="$PROJECT_DIR$/nextJs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactJs.html" beforeDir="false" afterPath="$PROJECT_DIR$/reactJs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss.html" beforeDir="false" afterPath="$PROJECT_DIR$/scss.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/tailwind.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/tailwind.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.html" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript.html" beforeDir="false" afterPath="$PROJECT_DIR$/typescript.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue.html" beforeDir="false" afterPath="$PROJECT_DIR$/sql.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/sql.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/sql.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -438,7 +425,7 @@
       <workItem from="1658048796479" duration="1913000" />
       <workItem from="1663739905744" duration="1766000" />
       <workItem from="1664018347314" duration="4966000" />
-      <workItem from="1664023679325" duration="14349000" />
+      <workItem from="1664023679325" duration="15044000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
