@@ -9,6 +9,8 @@ let gridVue = getElement('#grid-vue');
 const btnNavbar = getElement('#access-sidebar');
 const sidebar = getElement('#sidebar-vue');
 const footer = getElement('#footer-year');
+const modal = getElement('#modalSql');
+const closeModal = getElement('#closeModal');
 
 let dataProjects = [];
 handleSidebar(btnNavbar, sidebar);
@@ -60,30 +62,15 @@ ${item?.language === "html" ? "Hyper Text MarkUp Language" : item?.language && i
 	}).join(' ');
 }
 
-
-
-const targetEl = document.getElementById('modalId');
-// options with default values
-const options = {
-	placement: 'bottom-right',
-	backdropClasses: 'bg-gray-900 bg-opacity-50 dark:bg-opacity-80 fixed inset-0 z-40',
-	onHide: () => {
-		console.log('modal is hidden');
-	},
-	onShow: () => {
-		console.log('modal is shown');
-	},
-	onToggle: () => {
-		console.log('modal has been toggled');
+closeModal.addEventListener('click', ()=>{
+	console.log('click');
+	if(modal.classList.contains('modal')){
+		modal.classList.remove('modal')
+		modal.classList.add('no-modal')
+		// modal.classList.toggle('no-modal')
 	}
-};
-const modal = new Modal(targetEl, options);
+})
 
-// show the modal
-targetEl.addEventListener('click', modal.show)
-modal.show();
 
-// hide the modal
-modal.hide();
 
 footer.innerHTML = `<p>&copy; ${YEAR}</p>`;

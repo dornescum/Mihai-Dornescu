@@ -81,6 +81,12 @@
         .clip{
             clip-path: polygon(2% 0, 100% 0%, 100% 100%, 0 100%, 0 2%);
         }
+        .modal {
+            display: block;
+        }
+        .no-modal{
+            display: none !important;
+        }
     </style>
 </head>
 <body>
@@ -173,7 +179,26 @@
 
 
 <!--=============== modal-->
-
+<!--<div class="relative">-->
+<!-- -left-8 md:left-8 lg:left-96-->
+    <div class="absolute top-10 md:top-20 lg:top-48 left-8 md:left-8 lg:left-96
+     w-56 md:w-44 lg:w-96 h-48 lg:h-96 flex items-center justify-center flex-row
+					rounded-md bg-zinc-50 shadow-2xl border transition
+					duration-700 ease-out  translate-y-2 modal" id="modalSql">
+    <ul>
+        <li class='flex justify-center items-center flex-col'>
+            <span class="hidden-message font-bold leading-9 p-4">
+                Because is a free service for Node js activation takes up to 7s
+                ...</span>
+        </li>
+        <li>
+            <button   aria-label="show-modal" id="closeModal">
+            <span class=" border absolute bottom-4 right-4" aria-label="close-modal" > Close</span>
+            </button>
+        </li>
+    </ul>
+</div>
+<!--</div>-->
 
 
 <!--===============-->
