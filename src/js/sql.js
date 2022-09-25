@@ -42,7 +42,7 @@ ${item?.language === "html" ? "Hyper Text MarkUp Language" : item?.language && i
                                 <li class="py-2 px-2 hover:text-red-300 cursor-pointer">Use case for  : ${item?.useCase === 'client' ? "FrontEnd" : "<span class='text-2xl text-green-500'>Backend</span>"}</li>
                                 <li class="py-2 px-2 hover:text-red-300 cursor-pointer ">
                                 <div class="flex justify-between">
-                                <span> Framework: ${item?.framework === 'no' ? "NO" : item?.framework}</span>
+                                <span class="capitalize"> Framework: ${item?.framework === 'no' ? "NO" : item?.framework}</span>
                                <span class="mr-2">    Date: ${item?.learningDate}</span>
                                 </div>
                                 </li>
@@ -60,5 +60,30 @@ ${item?.language === "html" ? "Hyper Text MarkUp Language" : item?.language && i
 	}).join(' ');
 }
 
+
+
+const targetEl = document.getElementById('modalId');
+// options with default values
+const options = {
+	placement: 'bottom-right',
+	backdropClasses: 'bg-gray-900 bg-opacity-50 dark:bg-opacity-80 fixed inset-0 z-40',
+	onHide: () => {
+		console.log('modal is hidden');
+	},
+	onShow: () => {
+		console.log('modal is shown');
+	},
+	onToggle: () => {
+		console.log('modal has been toggled');
+	}
+};
+const modal = new Modal(targetEl, options);
+
+// show the modal
+targetEl.addEventListener('click', modal.show)
+modal.show();
+
+// hide the modal
+modal.hide();
 
 footer.innerHTML = `<p>&copy; ${YEAR}</p>`;
