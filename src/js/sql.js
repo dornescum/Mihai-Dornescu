@@ -26,14 +26,14 @@ formBtn.addEventListener("click", (e) => {
 
   if (courses.length > 0) {
     url += `courses=${courses}`;
-	console.log(url)
+	// console.log(url)
   }
-  console.log(courses);
+  // console.log(courses);
   // fetch('https://courses-node-api.onrender.com/')
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
+      // console.log(data);
         populateList(data);
     });
 });
