@@ -26,6 +26,7 @@ formBtn.addEventListener("click", (e) => {
 
   if (courses.length > 0) {
     url += `courses=${courses}`;
+	console.log(url)
   }
   console.log(courses);
   // fetch('https://courses-node-api.onrender.com/')
@@ -33,13 +34,14 @@ formBtn.addEventListener("click", (e) => {
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
-        populateList(data.queryFilter);
+        populateList(data);
     });
 });
 
-function populateList(arg) {
+function populateList(el) {
   const value = [];
-  arg.map((item) => {
+  const someValue = el.queryFilter;
+ someValue.map((item) => {
     return value.push(item);
   });
   gridVue.innerHTML = value
