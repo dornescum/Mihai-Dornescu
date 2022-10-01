@@ -120,28 +120,33 @@
     </nav>
 
     <!--    sidebar-->
-    <div class="relative">
+    <p class="relative">
         <aside class="z-20 fixed top-10 left-0 h-full  sidebar" id="sidebar-vue">
 
         </aside>
-    </div>
+    </p>
     <!--  end sidebar  -->
     <!--hero-->
     <section class="mx-0 md:mx-4 lg:mx-10 mb-4 md:mb-8 text-center text-red-300 py-4">
-        <p class="text-center mx-4 py-4 text-2xl text-stone-600">
+        <div class="text-center mx-4 py-4 text-2xl text-stone-600">
             Courses list from a node js api with <span class="text-stone-900 underline decoration-double">Sqlite</span>
-        </p>
+        </div>
 
     </section>
 
     <section>
-<!--        <form action="http://localhost:3000/" method="POST">-->
-        <form action="https://courses-node-api.onrender.com/" method="POST">
 
-            <label for="courses">Favorite Course:</label>
-
-            <select name="courses" id="courses">
-                     <option value="html">html</option>
+        <div class="grid place-items-center mx-8 md:mx-40 lg:mx-8">
+            <!--        <form action="http://localhost:3000/" method="POST">-->
+            <form action="https://courses-node-api.onrender.com/" method="POST" class="relative flex w-96">
+                <label for="courses" class="w-20 md:w-60  flex items-center align-middle">Courses : </label>
+                <select name="courses" id="courses"
+                        class=" md:block appearance-none w-full bg-gray-100 border
+                         border-gray-200 text-gray-700
+                        py-1  md:py-3 md:px-4 px-1
+                        rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 w-32 md:w-full"
+                >
+                    <option value="html">html</option>
                     <option value="javascript">javascript</option>
                     <option value="react">react</option>
                     <option value="angular">angular</option>
@@ -154,13 +159,16 @@
                     <option value="git">git</option>
                     <option value="rxjs">rxjs</option>
                     <option value="ionic">ionic</option>
-            </select>
-            <!-- <button type="submit">Send to backend</button> -->
-            <!-- <button type="submit">Send to backend</button> -->
-            <button type="submit" id="formBtn" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4
-            focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2
+                </select>
+                <!-- <button type="submit">Send to backend</button> -->
+                <!-- <button type="submit">Send to backend</button> -->
+                <button type="submit" id="formBtn" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none
+                 focus:ring-4
+            focus:ring-gray-300 font-medium rounded md:rounded-lg text-sm  px-1 md:px-5 py-1 md:py-2.5
             dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Submit</button>
-        </form>
+            </form>
+        </div>
+
 
     </section>
     <!--projects-->
@@ -221,7 +229,7 @@
     <ul>
         <li class='flex justify-center items-center flex-col'>
             <span class="hidden-message font-bold leading-9 p-4">
-                Because is a free service for Node js activation takes up to 7s
+                Because is a free service for Node js activation takes up to 15s
                 ...</span>
         </li>
         <li>
