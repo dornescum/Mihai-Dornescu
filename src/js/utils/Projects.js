@@ -424,6 +424,32 @@ export const projects = [{
 		tagJs: "Angular",
 		tagCss: "Css",
 		tagTutorial: true
-	}
-
+	},
+	{
+		id: 11 - 13 - 2022,
+		title: "CRUD",
+		description: "Node js, MVC ",
+		tools: "Simple node js. POST, PUT, GET, DELETE and use of <b  style='color: #6b9e11;'>sqlite</b> for database",
+		linkRepo: "https://github.com/dornescum/coursesHOME",
+		linkPage: "",
+		img: "@../../src/img/projects/nodejs.webp",
+		tagJs: "Nodejs",
+		tagCss: "",
+		tagTs: "",
+		tagTutorial: false
+	},
+	{
+		id: 11 - 16 - 2022,
+		title: "CRUD MONGO Db",
+		description: "Node js, MVC ",
+		tools: "Simple node js. POST, PUT, GET, DELETE with Mongo Db & dynamic id, " +
+			"(FREECODECAMP <a target='_blank' href='https://www.youtube.com/watch?v=qwfE7fSVaZM&t=8389s' style='color: #6b9e11; font-weight: bolder'>John Smilga</a>)",
+		linkRepo: "https://github.com/dornescum/coursesHOME",
+		linkPage: "",
+		img: "@../../src/img/projects/nodejs.webp",
+		tagJs: "Nodejs",
+		tagCss: "",
+		tagTs: "",
+		tagTutorial: true
+	},
 ];
