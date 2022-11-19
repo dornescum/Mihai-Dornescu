@@ -428,8 +428,8 @@ export const projects = [{
 	{
 		id: 11 - 13 - 2022,
 		title: "CRUD",
-		description: "Node js, MVC ",
-		tools: "Simple node js. POST, PUT, GET, DELETE and use of <b  style='color: #6b9e11;'>sqlite</b> for database",
+		description: "Simple node js. POST, PUT, GET, DELETE and use of <b  style='color: #6b9e11;'>sqlite</b> for database",
+		tools: "Node js, Sqlite3 ",
 		linkRepo: "https://github.com/dornescum/coursesHOME",
 		linkPage: "",
 		img: "@../../src/img/projects/nodejs.webp",
@@ -440,11 +440,25 @@ export const projects = [{
 	},
 	{
 		id: 11 - 16 - 2022,
-		title: "CRUD MONGO Db",
-		description: "Node js, MVC ",
-		tools: "Simple node js. POST, PUT, GET, DELETE with Mongo Db & dynamic id, " +
+		title: "Task-Manger",
+		description: "Simple node js. POST, PUT, GET, DELETE with Mongo Db & dynamic id, " +
 			"(FREECODECAMP <a target='_blank' href='https://www.youtube.com/watch?v=qwfE7fSVaZM&t=8389s' style='color: #6b9e11; font-weight: bolder'>John Smilga</a>)",
-		linkRepo: "https://github.com/dornescum/coursesHOME",
+		tools: "Node js, CRUD MONGO Db ",
+		linkRepo: "https://github.com/dornescum/node-JohnSmiga",
+		linkPage: "",
+		img: "@../../src/img/projects/nodejs.webp",
+		tagJs: "Nodejs",
+		tagCss: "",
+		tagTs: "",
+		tagTutorial: true
+	}, {
+		id: 11 - 19 - 2022,
+		title: "MongoDb",
+		description:  "node js. with MongoDb " +
+			"(FREECODECAMP <a target='_blank' href='https://www.youtube.com/watch?v=qwfE7fSVaZM&t=8389s' style='color: #6b9e11; font-weight: bolder'>John Smilga</a>), MVC, filter by (rating, price, ), Mongo Schema, pagination ",
+
+		tools:"Node js",
+		linkRepo: "https://github.com/dornescum/Node_api_Products",
 		linkPage: "",
 		img: "@../../src/img/projects/nodejs.webp",
 		tagJs: "Nodejs",
