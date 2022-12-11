@@ -466,4 +466,21 @@ export const projects = [{
 		tagTs: "",
 		tagTutorial: true
 	},
+
+	{
+		id: 12 - 3 - 2022,
+		title: "TypeOrm Node",
+		description:  "node js. with MongoDb " +
+			"(Udemy <a target='_blank' href='https://www.udemy.com/share/105EM43@ArSK86wpgZMNN4nxI_8aJPa4sk_-BxHqoAlX5mvRQYVHn1lKAquA6yjvJPvEUkPx/',>Antonio Papa</a>), " +
+			"Generate Jwt Token , Use NodeJS with Typescript, TypeORM with MySQL, Login with HttpOnly Cookies, Upload Images, Export CSV files",
+
+		tools:"Node js, Express, Mysql, TypeOrm",
+		linkRepo: "https://github.com/dornescum/myVersion_node_admin",
+		linkPage: "",
+		img: "@../../src/img/projects/nodejs.webp",
+		tagJs: "Nodejs",
+		tagCss: "",
+		tagTs: "",
+		tagTutorial: true
+	},
 ];
