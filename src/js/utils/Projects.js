@@ -483,4 +483,30 @@ export const projects = [{
 		tagTs: "",
 		tagTutorial: true
 	},
+	{
+		id: 12 - 26 - 2022,
+		title: "Node js setup",
+		description:  "node js express, sequelize, sqlite",
+		tools:"Node js, Express, Sequelize, Sqlite",
+		linkRepo: "https://github.com/dornescum/node_sequelize_setup",
+		linkPage: "",
+		img: "@../../src/img/projects/nodejs.webp",
+		tagJs: "Nodejs",
+		tagCss: "",
+		tagTs: "",
+		tagTutorial: true
+	},
+	{
+		id: 12 - 28 - 2022,
+		title: "Nestjs typeorm",
+		description:  "nestjs express, typeorm, sqlite",
+		tools:"Node js, Express, Sqlite, TypeOrm",
+		linkRepo: "https://github.com/dornescum/nestjs_typeorm_setup",
+		linkPage: "",
+		img: "@../../src/img/projects/nestjs.webp",
+		tagJs: "Nodejs",
+		tagCss: "",
+		tagTs: "",
+		tagTutorial: true
+	},
 ];
