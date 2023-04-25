@@ -1,4 +1,4 @@
-export const filteredProjects = (access, itemProjects) => {
+export const filteredProjects = (access, itemProjects, page = 0) => {
 	access.innerHTML = itemProjects.map((item) => {
 		if (item.linkPage === '') {
 			return `
