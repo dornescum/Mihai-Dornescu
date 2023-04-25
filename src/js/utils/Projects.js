@@ -508,5 +508,16 @@ export const projects = [{
 		tagCss: "",
 		tagTs: "",
 		tagTutorial: true
-	},
+	},{
+		id: 25-04-23,
+		title: "Math calculator",
+		description: "I used Angular 14 to create a small math calculator with 3 levels of difficulty and a timer with a score that decreases with a mistake or increases with a correct answer",
+		tools: "Angular 14, Tailwind Css",
+		linkRepo: "https://github.com/dornescum/CalculatorAngular",
+		linkPage: "",
+		img: "@../../src/img/projects/angular.webp",
+		tagJs: "Javascript",
+		tagCss: "Tailwind",
+		tagTutorial: false
+	}
 ];
