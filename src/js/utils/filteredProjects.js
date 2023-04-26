@@ -10,7 +10,6 @@ export const filteredProjects = (access, itemProjects, page = 0) => {
                 shadow-sm hover:shadow-lg cursor-pointer transition duration:300 cursor-not-allowed 
                 brightness-50 hover:brightness-100
                ">
-<!--                contrast-50 grayscale hover:contrast-100 hover:grayscale-0-->
                     </div>
                     <div class="bg-slate-50 border p-1 rounded-br-md rounded-bl-md h-80 md:h-90 lg:h-72 relative">
                         <article class="text-stone-500" data-testid=${item?.title.slice(0, 3)}>

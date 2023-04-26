@@ -68,8 +68,8 @@ export const handleSidebar = (access, sidebar) => {
                     </a>
                 </li>
                     <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="scss.html" class="py-2 md:py-4 text-zinc-300">
-                        Scss
+                    <a href="scss.html" class="py-2 md:py-4">
+                        Angular
                     </a>
                 </li>
                 
