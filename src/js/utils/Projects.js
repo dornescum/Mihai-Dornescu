@@ -3,7 +3,7 @@ export const projects = [
     id: 2 - 23,
     title: "Mockup Ecommerce, context api",
     description:
-      "Ecommerce, Next js, Node js <span style='color: FF0000FF'><b>Because is a free service of node, it will take 15 sec to be online</b></span>",
+      "Ecommerce, Next js, Node js <span style='color: #FF0000'><b>Because is a free service of node, it will take 15 sec to be online</b></span>",
     tools: "Next js, Tailwind Css",
     linkRepo: "",
     linkPage: "https://electronic-store-next-js.vercel.app/",
