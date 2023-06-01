@@ -26,7 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix error svg">
-      <change afterPath="$PROJECT_DIR$/src/img/projects/nestjs.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/projects/adminPanel.GIF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/utils/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/Projects.js" afterDir="false" />
     </list>
@@ -443,7 +443,8 @@
       <workItem from="1669798447184" duration="126000" />
       <workItem from="1669798583885" duration="323000" />
       <workItem from="1670763853159" duration="1571000" />
-      <workItem from="1672238674996" duration="1032000" />
+      <workItem from="1672238674996" duration="1127000" />
+      <workItem from="1685606575312" duration="658000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
