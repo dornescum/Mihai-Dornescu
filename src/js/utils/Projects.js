@@ -25,9 +25,9 @@ export const projects = [{
 	{
 		id: 1 - 5 - 2023,
 		title: "Full stack admin panel",
-		description:  "node js express, jsonwebtoken, md5, joi, mysql, angular form, typescript, tailwind css .",
+		description:  "node js express, jsonwebtoken, md5, joi, sqlite, angular form, typescript, tailwind css .",
 		tools:"Node js, Express, Sqlite, TypeOrm",
-		linkRepo: "https://github.com/dornescum/angular-ecommerce",
+		linkRepo: "https://github.com/dornescum/sqliteAdminPanel",
 		linkPage: "",
 		img: "@../../src/img/projects/adminPanel.GIF",
 		tagJs: "Nodejs, Angular",
