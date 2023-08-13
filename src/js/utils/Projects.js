@@ -48,6 +48,18 @@ export const projects = [{
 		tagTutorial: false
 	},
 	{
+		id: 15 - 7,
+		title: "Resume parser",
+		description: "Jest testing api, Supertest",
+		tools: "Flask spacy pdfminer.six pytest",
+		linkRepo: "https://github.com/dornescum/resume_parser_py",
+		linkPage: "",
+		img: "@../../src/img/projects/resume_parser.webp",
+		tagJs: "Python",
+		tagCss: "Css",
+		tagTutorial: false
+	},
+	{
 		id: 2 - 15,
 		title: "Movie search",
 		description: "Fetching movies from DB and search for the movies",
