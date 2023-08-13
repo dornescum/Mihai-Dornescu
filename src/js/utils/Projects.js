@@ -36,6 +36,18 @@ export const projects = [{
 		tagTutorial: false
 	},
 	{
+		id: 13 - 8,
+		title: "Todo App Jest testing",
+		description: "Jest testing api, Supertest",
+		tools: "Jest,SuperTest, Express, Sqlite",
+		linkRepo: "https://github.com/dornescum/nodeJestTodo",
+		linkPage: "",
+		img: "@../../src/img/projects/jestTodo.webp",
+		tagJs: "Jest, Supertest, Express, Sqlite",
+		tagCss: "Css",
+		tagTutorial: false
+	},
+	{
 		id: 2 - 15,
 		title: "Movie search",
 		description: "Fetching movies from DB and search for the movies",
