@@ -50,8 +50,8 @@ export const projects = [{
 	{
 		id: 15 - 7,
 		title: "Resume parser",
-		description: "Jest testing api, Supertest",
-		tools: "Flask spacy pdfminer.six pytest",
+		description: "Pdf parser for certain words",
+		tools: "Flask, spacy, pdfminer.six, pytest",
 		linkRepo: "https://github.com/dornescum/resume_parser_py",
 		linkPage: "",
 		img: "@../../src/img/projects/resume_parser.webp",
