@@ -11,18 +11,6 @@ export const projects = [{
 	tagTutorial: false
 },
 	{
-		id: 8 - 25,
-		title: " Ionic ecommerce simulator",
-		description: "Ionic, Angular, Capacitor, @ngrx/store",
-		tools: "Angular, Ionic, typescript",
-		linkRepo: "https://github.com/dornescum",
-		linkPage: "https://ionic-lecommerce.web.app/login",
-		img: "@../../src/img/projects/ionic-angular.webp",
-		tagJs: "Typescript",
-		tagCss: "Css",
-		tagTutorial: false
-	},
-	{
 		id: 1 - 5 - 2023,
 		title: "Full stack admin panel",
 		description:  "node js express, jsonwebtoken, md5, joi, sqlite, angular form, typescript, tailwind css .",
@@ -36,7 +24,31 @@ export const projects = [{
 		tagTutorial: false
 	},
 	{
-		id: 13 - 8,
+		id: 8 - 25,
+		title: "FastApi Todo",
+		description: "CRUD app",
+		tools: "FastApi, Sqlite, React",
+		linkRepo: "https://github.com/dornescum/fastApi_Todo_React_Sqlite",
+		linkPage: "",
+		img: "@../../src/img/projects/todo_fastApi.webp",
+		tagJs: "React, Python, Sqlite",
+		tagCss: "Bootstrap",
+		tagTutorial: false
+	},
+	{
+		id: 15 - 8,
+		title: " Ionic ecommerce simulator",
+		description: "Ionic, Angular, Capacitor, @ngrx/store",
+		tools: "Angular, Ionic, typescript",
+		linkRepo: "https://github.com/dornescum",
+		linkPage: "https://ionic-lecommerce.web.app/login",
+		img: "@../../src/img/projects/ionic-angular.webp",
+		tagJs: "Typescript",
+		tagCss: "Css",
+		tagTutorial: false
+	},
+	{
+		id: 7 - 8,
 		title: "Todo App Jest testing",
 		description: "Jest testing api, Supertest",
 		tools: "Jest,SuperTest, Express, Sqlite",
