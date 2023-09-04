@@ -7,7 +7,7 @@ export const filteredProjects = (access, itemProjects, page = 0) => {
                     <div class="bg-slate-50">
                         <img alt="picture" loading="lazy"
                              src=${item?.img} class="h-60 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md
-                shadow-sm hover:shadow-lg cursor-pointer transition duration:300 cursor-not-allowed 
+                shadow-sm hover:shadow-lg transition duration:300 cursor-not-allowed 
                 brightness-50 hover:brightness-100
                ">
                     </div>

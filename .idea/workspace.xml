@@ -26,9 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix error svg">
-      <change afterPath="$PROJECT_DIR$/src/img/projects/todo_fastApi.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/sccs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/sccs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/tutorials.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/tutorials.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/utils/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/utils/filteredProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/filteredProjects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +72,10 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="1jBII24XkkGGVq0pYhvnNplwNag" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -449,7 +457,8 @@
       <workItem from="1687353640258" duration="707000" />
       <workItem from="1688057951671" duration="310000" />
       <workItem from="1691916163221" duration="3548000" />
-      <workItem from="1692086677429" duration="364000" />
+      <workItem from="1692086677429" duration="1661000" />
+      <workItem from="1693842695730" duration="3673000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>

@@ -12,7 +12,7 @@ const footer = getElement('#footer-year');
 handleSidebar(btnNavbar, sidebar);
 
 const nodeProjects =projects.filter((item)=>{
-	return item.tagJs ==='Nodejs'
+	return item.tagNode === true ;
 });
 
 filteredProjects(gridNext, nodeProjects);

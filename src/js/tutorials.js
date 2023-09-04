@@ -15,7 +15,7 @@ handleSidebar(btnNavbar, sidebar);
 
 const tutorialsProjects = projects.filter((item) => {
 	// console.log(item);
-	if (item.tagTutorial === true){
+	if (item.tagPy === true){
 		return item
 	}
 

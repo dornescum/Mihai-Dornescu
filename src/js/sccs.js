@@ -19,12 +19,13 @@ const pageTile = getElement('#page-title');
 
 handleSidebar(btnNavbar, sidebar);
 const scssProjects = projects.filter((item) => {
-	return item.tagJs==="Angular";
+	// console.log('item angular ', item)
+	return item.tagJs === 'Angular';
 });
 
 //! REVERSE 
 scssProjects.reverse();
-
+console.log('projects ang', scssProjects)
 filteredProjects(gridScss, scssProjects);
 
 document.title = "Angular";

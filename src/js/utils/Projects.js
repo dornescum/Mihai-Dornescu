@@ -1,3 +1,7 @@
+// tagDB: 'Sqlite',
+// 	tagNode: true
+// tagPy: 'Python'
+
 export const projects = [{
 	id: 2 - 23,
 	title: "Mockup Ecommerce, context api",
@@ -14,36 +18,40 @@ export const projects = [{
 		id: 1 - 5 - 2023,
 		title: "Full stack admin panel",
 		description:  "node js express, jsonwebtoken, md5, joi, sqlite, angular form, typescript, tailwind css .",
-		tools:"Node js, Express, Sqlite, TypeOrm",
+		tools:"Node js, <span  style='color: #000000;'>Express</span>, Sqlite, <span  style='color: #ef3333;'>Angular</span>, Typescript",
 		linkRepo: "https://github.com/dornescum/sqliteAdminPanel",
 		linkPage: "http://167.86.87.179:4200/client/#/",
 		img: "@../../src/img/projects/adminPanel.GIF",
-		tagJs: "Nodejs, Angular",
+		tagJs: "Angular",
 		tagCss: "Tailwind",
 		tagTs: "Typescript",
-		tagTutorial: false
+		tagTutorial: false,
+		tagDB: 'Sqlite',
+		tagNode: true
 	},
 	{
 		id: 8 - 25,
 		title: "FastApi Todo",
 		description: "CRUD app",
-		tools: "FastApi, Sqlite, React",
+		tools: "FastApi, <span  style='color: #6b9e11;'>Python</span>, Sqlite, React",
 		linkRepo: "https://github.com/dornescum/fastApi_Todo_React_Sqlite",
 		linkPage: "",
 		img: "@../../src/img/projects/todo_fastApi.webp",
-		tagJs: "React, Python, Sqlite",
+		tagJs: "React",
 		tagCss: "Bootstrap",
-		tagTutorial: false
+		tagTutorial: false,
+		tagDB: 'Sqlite',
+		tagPy: true
 	},
 	{
 		id: 15 - 8,
 		title: " Ionic ecommerce simulator",
-		description: "Ionic, Angular, Capacitor, @ngrx/store",
-		tools: "Angular, Ionic, typescript",
+		description: "Ionic,Angular, Capacitor, @ngrx/store",
+		tools: "<span  style='color: #ef3333;'>Angular</span>, Ionic, Typescript",
 		linkRepo: "https://github.com/dornescum",
 		linkPage: "https://ionic-lecommerce.web.app/login",
 		img: "@../../src/img/projects/ionic-angular.webp",
-		tagJs: "Typescript",
+		tagJs: "Angular",
 		tagCss: "Css",
 		tagTutorial: false
 	},
@@ -51,25 +59,27 @@ export const projects = [{
 		id: 7 - 8,
 		title: "Todo App Jest testing",
 		description: "Jest testing api, Supertest",
-		tools: "Jest,SuperTest, Express, Sqlite",
+		tools: "Jest,SuperTest, <span  style='color: #000000;'>Express</span>, Sqlite",
 		linkRepo: "https://github.com/dornescum/nodeJestTodo",
 		linkPage: "",
 		img: "@../../src/img/projects/jestTodo.webp",
-		tagJs: "Jest, Supertest, Express, Sqlite",
+		tagJs: "Express",
 		tagCss: "Css",
-		tagTutorial: false
+		tagTutorial: false,
+		tagDB: 'Sqlite',
+		tagNode: true
 	},
 	{
 		id: 15 - 7,
-		title: "Resume parser",
+		title: "Resume parser with python",
 		description: "Pdf parser for certain words",
-		tools: "Flask, spacy, pdfminer.six, pytest",
+		tools: "Flask, spacy, pdfminer.six, pytest, <span  style='color: #6b9e11;'>Python</span>",
 		linkRepo: "https://github.com/dornescum/resume_parser_py",
 		linkPage: "",
 		img: "@../../src/img/projects/resume_parser.webp",
-		tagJs: "Python",
 		tagCss: "Css",
-		tagTutorial: false
+		tagTutorial: false,
+		tagPy: true
 	},
 	{
 		id: 2 - 15,
@@ -93,6 +103,20 @@ export const projects = [{
 		tagJs: "Next",
 		tagCss: "Tailwind",
 		tagTutorial: false
+	},
+	{
+		id: '8-04-23',
+		title: "Express server for Ecommerce",
+		description: "Express routes for an ecommerce, on render",
+		tools: "<span  style='color: #000000;'>Express</span>, Sqlite",
+		linkRepo: "https://github.com/dornescum/node_Ecommerce_NextJs",
+		linkPage: "",
+		img: "@../../src/img/projects/nodejs.webp",
+		tagJs: "Javascript",
+		tagCss: "Css",
+		tagTutorial: false,
+		tagDB: 'Sqlite',
+		tagNode: true
 	},
 
 	{
@@ -136,7 +160,7 @@ export const projects = [{
 		linkRepo: "https://github.com/dornescum/frontEndMentor-accordionCard",
 		linkPage: "https://frontendmentor-accordion.web.app//",
 		img: "@../../src/img/projects/accordion.webp",
-		tagJs: "React js",
+		tagJs: "React",
 		tagCss: "Tailwind",
 		tagTutorial: false
 	}, {
@@ -205,19 +229,21 @@ export const projects = [{
 		tagJs: "React",
 		tagCss: "Tailwind",
 		tagTutorial: false
-	}, {
-		id: 5,
-		title: "Todo App",
-		description: "A simple todo app with typescript , from freeCodeCamp.org.",
-		tools: "Typescript",
-		linkRepo: "https://github.com/dornescum/Todo-tsx",
-		linkPage: "https://todo-app-cc92d.web.app/",
-		img: "@../../src/img/projects/typescript.webp",
-		tagJs: "React",
-		tagCss: "Css",
-		tagTs: "Typescript",
-		tagTutorial: true
-	}, {
+	},
+	// {
+	// 	id: 5,
+	// 	title: "Todo App",
+	// 	description: "A simple todo app with typescript , from freeCodeCamp.org.",
+	// 	tools: "Typescript",
+	// 	linkRepo: "https://github.com/dornescum/Todo-tsx",
+	// 	linkPage: "https://todo-app-cc92d.web.app/",
+	// 	img: "@../../src/img/projects/typescript.webp",
+	// 	tagJs: "React",
+	// 	tagCss: "Css",
+	// 	tagTs: "Typescript",
+	// 	tagTutorial: true
+	// },
+	{
 		id: 6,
 		title: "Card",
 		description: "Basic article card, challenge from FrontEndMentor.io.",
@@ -250,18 +276,20 @@ export const projects = [{
 		tagJs: "",
 		tagCss: "Tailwind",
 		tagTutorial: false
-	}, {
-		id: 8,
-		title: "Google Clone",
-		description: "Google clone exercise from <b>JavaScriptSMastery</b>, Context Api, useDebounce,Tailwind darkMode.",
-		tools: "React js, Tailwind Css",
-		linkRepo: "https://github.com/dornescum/google-clone-jsMastery",
-		linkPage: "",
-		img: "@../../src/img/projects/googl.webp",
-		tagJs: "React",
-		tagCss: "Tailwind",
-		tagTutorial: true
-	}, {
+	},
+	// {
+	// 	id: 8,
+	// 	title: "Google Clone",
+	// 	description: "Google clone exercise from <b>JavaScriptSMastery</b>, Context Api, useDebounce,Tailwind darkMode.",
+	// 	tools: "React js, Tailwind Css",
+	// 	linkRepo: "https://github.com/dornescum/google-clone-jsMastery",
+	// 	linkPage: "",
+	// 	img: "@../../src/img/projects/googl.webp",
+	// 	tagJs: "React",
+	// 	tagCss: "Tailwind",
+	// 	tagTutorial: true
+	// },
+	{
 		id: 10,
 		title: "Vuetify",
 		description: "Vue js and Vuetify, a Material Design Framework",
@@ -283,42 +311,46 @@ export const projects = [{
 		tagJs: "Javascript",
 		tagCss: "Tailwind",
 		tagTutorial: false
-	}, {
-		id: 11,
-		title: "Shopping Cart",
-		description: "Context Api & useReducer for state management from <b>RoadsideCoder</b>",
-		tools: "React js, React-Bootstrap",
-		linkRepo: "https://github.com/dornescum/shoppingCart",
-		linkPage: "",
-		img: "@../../src/img/projects/shoppingCart.webp",
-		tagJs: "React",
-		tagCss: "Bootstrap",
-		tagTutorial: true
-	}, {
-		id: 13,
-		title: "Add List",
-		description: "React Typescript passing props, interface exercise from <b>Laith Harb</b>",
-		tools: "React js",
-		linkRepo: "https://github.com/dornescum/react-props-typescript",
-		linkPage: "",
-		img: "@../../src/img/projects/typescript.webp",
-		tagJs: "React",
-		tagCss: "Tailwind",
-		tagTs: "Typescript",
-		tagTutorial: true
-	}, {
-		id: 4 - 15,
-		title: "Weather app",
-		description: "Fetch from AccuWeather <b>Shaun Pelling</b>",
-		tools: "Vanilla js, Bootstrap 4",
-		linkRepo: "https://github.com/dornescum/weatherApp",
-		linkPage: "",
-		img: "@../../src/img/projects/javascript.webp",
-		tagJs: "Javascript",
-		tagCss: "Bootstrap",
-		tagTs: "",
-		tagTutorial: true
-	}, {
+	},
+	// {
+	// 	id: 11,
+	// 	title: "Shopping Cart",
+	// 	description: "Context Api & useReducer for state management from <b>RoadsideCoder</b>",
+	// 	tools: "React js, React-Bootstrap",
+	// 	linkRepo: "https://github.com/dornescum/shoppingCart",
+	// 	linkPage: "",
+	// 	img: "@../../src/img/projects/shoppingCart.webp",
+	// 	tagJs: "React",
+	// 	tagCss: "Bootstrap",
+	// 	tagTutorial: true
+	// },
+	// {
+	// 	id: 13,
+	// 	title: "Add List",
+	// 	description: "React Typescript passing props, interface exercise from <b>Laith Harb</b>",
+	// 	tools: "React js",
+	// 	linkRepo: "https://github.com/dornescum/react-props-typescript",
+	// 	linkPage: "",
+	// 	img: "@../../src/img/projects/typescript.webp",
+	// 	tagJs: "React",
+	// 	tagCss: "Tailwind",
+	// 	tagTs: "Typescript",
+	// 	tagTutorial: true
+	// },
+	// {
+	// 	id: 4 - 15,
+	// 	title: "Weather app",
+	// 	description: "Fetch from AccuWeather <b>Shaun Pelling</b>",
+	// 	tools: "Vanilla js, Bootstrap 4",
+	// 	linkRepo: "https://github.com/dornescum/weatherApp",
+	// 	linkPage: "",
+	// 	img: "@../../src/img/projects/javascript.webp",
+	// 	tagJs: "Javascript",
+	// 	tagCss: "Bootstrap",
+	// 	tagTs: "",
+	// 	tagTutorial: true
+	// },
+	{
 		id: 1 - 2,
 		title: "My version of a resume",
 		description: "Minimalist Resume",
@@ -329,151 +361,155 @@ export const projects = [{
 		tagJs: "Javascript",
 		tagCss: "Scss",
 		tagTutorial: false
-	}, {
-		id: 6 - 2,
-		title: "Basic Angular",
-		description: "Angular essential by <b>Maximilian Schwarzmuller</b>, data binding with custom properties and events," + " how to pass data around, how to acces elemts in DOM, use local refernces, lifecycle hooks",
-		tools: "Angular, Bootstrap",
-		linkRepo: "https://github.com/dornescum/AngularBasics",
-		linkPage: "",
-		img: "@../../src/img/projects/angular.webp",
-		tagJs: "Angular",
-		tagCss: "Bootstrap",
-		tagTs: "Typescript",
-		tagTutorial: true
-	}, {
-		id: 6 - 3,
-		title: "Node js crud",
-		description: "Nodejs /sqlite3",
-		tools: "Node js, Sqlite3",
-		linkRepo: "https://github.com/dornescum/node-sqlite3",
-		linkPage: "",
-		img: "@../../src/img/projects/nodejs.webp",
-		tagJs: "Nodejs",
-		tagCss: "",
-		tagTs: "",
-		tagTutorial: true
-	}, {
-		id: 6 - 4,
-		title: "Data binding",
-		description: "Angular essential by <b>Maximilian Schwarzmuller</b>, data binding",
-		tools: "Angular, Bootstrap",
-		linkRepo: "https://github.com/dornescum/angularDataBinding",
-		linkPage: "",
-		img: "@../../src/img/projects/angular.webp",
-		tagJs: "Angular",
-		tagCss: "Bootstrap",
-		tagTs: "Typescript",
-		tagTutorial: true
-	}, {
-		id: 6 - 11,
-		title: "Communication between components",
-		description: "Angular project by <b>WebTechTalk</b>, Components Data Binding Structural and Attribute Directives Communication between components Services & Dependency Injection Life Cycle Hooks",
-		tools: "Angular, Bootstrap",
-		linkRepo: "https://github.com/dornescum/movie-reviews",
-		linkPage: "",
-		img: "@../../src/img/projects/angular.webp",
-		tagJs: "Angular",
-		tagCss: "",
-		tagTs: "Typescript",
-		tagTutorial: true
-	}, {
-		id: 6 - 12,
-
-		title: "Parent child communication",
-		description: "Angular project by <b>WebTechTalk</b>",
-		tools: "Angular",
-		linkRepo: "https://github.com/dornescum/parrentChild-EventEmitter",
-		linkPage: "",
-		img: "@../../src/img/projects/angular.webp",
-		tagJs: "Angular",
-		tagCss: "Scss",
-		tagTs: "Typescript",
-		tagTutorial: true
-	}, {
-		id: 6 - 13,
-		title: "Parent child filter base",
-		description: "Angular project by <b>WebTechTalk</b>, EventEmitter, @Input, @Output",
-		tools: "Angular",
-		linkRepo: "https://github.com/dornescum/parrentChild-Filter",
-		linkPage: "",
-		img: "@../../src/img/projects/angular.webp",
-		tagJs: "Angular",
-		tagCss: "Scss",
-		tagTs: "Typescript",
-		tagTutorial: true
-	}, {
-		id: 6 - 19,
-		title: "Fetch data",
-		description: "Angular project by <b>WebTechTalk</b>, httpClient",
-		tools: "Angular",
-		linkRepo: "https://github.com/dornescum/angularHttpClient",
-		linkPage: "",
-		img: "@../../src/img/projects/angular.webp",
-		tagJs: "Angular",
-		tagCss: "Scss",
-		tagTs: "Typescript",
-		tagTutorial: true
-	}, {
-		id: 6 - 20,
-		title: "Pipe, Services",
-		description: "Angular project by <b> Let's Program</b>, fetch data and filter",
-		tools: "Angular",
-		linkRepo: "https://github.com/dornescum/angular-addToCart",
-		linkPage: "",
-		img: "@../../src/img/projects/angular.webp",
-		tagJs: "Angular",
-		tagCss: "Scss",
-		tagTs: "Typescript",
-		tagTutorial: true
-	}, {
-		id: 6 - 21,
-		title: " Services, FormModules",
-		description: "Angular project by <b>Sameer Saini</b>, open weather api, fetch data",
-		tools: "Angular",
-		linkRepo: "https://github.com/dornescum/angular-WeatherApp",
-		linkPage: "",
-		img: "@../../src/img/projects/angular.webp",
-		tagJs: "Angular",
-		tagCss: "Scss",
-		tagTs: "Typescript",
-		tagTutorial: true
-	}, {
-		id: 6 - 27,
-		title: " Routing",
-		description: "Angular project by <b>Academind</b>, routerLink, routerLinkActive, bootstrap",
-		tools: "Angular",
-		linkRepo: "https://github.com/dornescum/angularRouting-Academind",
-		linkPage: "",
-		img: "@../../src/img/projects/angular.webp",
-		tagJs: "Angular",
-		tagCss: "Bootstrap",
-		tagTs: "Typescript",
-		tagTutorial: true
-	}, {
-		id: 6 - 30,
-		title: " Task Tracker",
-		description: "Angular project by <b>Traversy Media</b>, pass data, update mock server, ngClass, ngStyle, routing",
-		tools: "Angular",
-		linkRepo: "https://github.com/dornescum/angular_taskTracker",
-		linkPage: "",
-		img: "@../../src/img/projects/angular.webp",
-		tagJs: "Angular",
-		tagCss: "Css",
-		tagTs: "Typescript",
-		tagTutorial: true
-	}, {
-		id: 7 - 5,
-		title: " <span style='color: #dc0c14; font-style: italic'>Basic Angular <b style='font-size: 20px'>Js</b> </span>",
-		description: "Angular project by <b>Shaun Pelling</b>,ng-app\n" + "ng-include\n" + "ng-controller\n" + "ng-click\n" + "ng-repeat\n" + "ng-show\n" + "ng-hide\n" + "ng-src ",
-		tools: "Angular",
-		linkRepo: "https://github.com/dornescum/angularJs-",
-		linkPage: "",
-		img: "@../../src/img/projects/angular.webp",
-		tagJs: "Angular",
-		tagCss: "Css",
-		tagTutorial: true
 	},
+	// {
+	// 	id: 6 - 2,
+	// 	title: "Basic Angular",
+	// 	description: "Angular essential by <b>Maximilian Schwarzmuller</b>, data binding with custom properties and events," + " how to pass data around, how to acces elemts in DOM, use local refernces, lifecycle hooks",
+	// 	tools: "Angular, Bootstrap",
+	// 	linkRepo: "https://github.com/dornescum/AngularBasics",
+	// 	linkPage: "",
+	// 	img: "@../../src/img/projects/angular.webp",
+	// 	tagJs: "Angular",
+	// 	tagCss: "Bootstrap",
+	// 	tagTs: "Typescript",
+	// 	tagTutorial: true
+	// },
+	// {
+	// 	id: 6 - 3,
+	// 	title: "Node js crud",
+	// 	description: "Nodejs /sqlite3",
+	// 	tools: "Node js, Sqlite3",
+	// 	linkRepo: "https://github.com/dornescum/node-sqlite3",
+	// 	linkPage: "",
+	// 	img: "@../../src/img/projects/nodejs.webp",
+	// 	tagJs: "Nodejs",
+	// 	tagCss: "",
+	// 	tagTs: "",
+	// 	tagTutorial: true
+	// }, {
+	// 	id: 6 - 4,
+	// 	title: "Data binding",
+	// 	description: "Angular essential by <b>Maximilian Schwarzmuller</b>, data binding",
+	// 	tools: "Angular, Bootstrap",
+	// 	linkRepo: "https://github.com/dornescum/angularDataBinding",
+	// 	linkPage: "",
+	// 	img: "@../../src/img/projects/angular.webp",
+	// 	tagJs: "Angular",
+	// 	tagCss: "Bootstrap",
+	// 	tagTs: "Typescript",
+	// 	tagTutorial: true
+	// }, {
+	// 	id: 6 - 11,
+	// 	title: "Communication between components",
+	// 	description: "Angular project by <b>WebTechTalk</b>, Components Data Binding Structural and Attribute Directives Communication between components Services & Dependency Injection Life Cycle Hooks",
+	// 	tools: "Angular, Bootstrap",
+	// 	linkRepo: "https://github.com/dornescum/movie-reviews",
+	// 	linkPage: "",
+	// 	img: "@../../src/img/projects/angular.webp",
+	// 	tagJs: "Angular",
+	// 	tagCss: "",
+	// 	tagTs: "Typescript",
+	// 	tagTutorial: true
+	// },
+// {
+// 		id: 6 - 12,
+//
+// 		title: "Parent child communication",
+// 		description: "Angular project by <b>WebTechTalk</b>",
+// 		tools: "Angular",
+// 		linkRepo: "https://github.com/dornescum/parrentChild-EventEmitter",
+// 		linkPage: "",
+// 		img: "@../../src/img/projects/angular.webp",
+// 		tagJs: "Angular",
+// 		tagCss: "Scss",
+// 		tagTs: "Typescript",
+// 		tagTutorial: true
+// 	}, {
+// 		id: 6 - 13,
+// 		title: "Parent child filter base",
+// 		description: "Angular project by <b>WebTechTalk</b>, EventEmitter, @Input, @Output",
+// 		tools: "Angular",
+// 		linkRepo: "https://github.com/dornescum/parrentChild-Filter",
+// 		linkPage: "",
+// 		img: "@../../src/img/projects/angular.webp",
+// 		tagJs: "Angular",
+// 		tagCss: "Scss",
+// 		tagTs: "Typescript",
+// 		tagTutorial: true
+// 	},
+// 	{
+// 		id: 6 - 19,
+// 		title: "Fetch data",
+// 		description: "Angular project by <b>WebTechTalk</b>, httpClient",
+// 		tools: "Angular",
+// 		linkRepo: "https://github.com/dornescum/angularHttpClient",
+// 		linkPage: "",
+// 		img: "@../../src/img/projects/angular.webp",
+// 		tagJs: "Angular",
+// 		tagCss: "Scss",
+// 		tagTs: "Typescript",
+// 		tagTutorial: true
+// 	}, {
+// 		id: 6 - 20,
+// 		title: "Pipe, Services",
+// 		description: "Angular project by <b> Let's Program</b>, fetch data and filter",
+// 		tools: "Angular",
+// 		linkRepo: "https://github.com/dornescum/angular-addToCart",
+// 		linkPage: "",
+// 		img: "@../../src/img/projects/angular.webp",
+// 		tagJs: "Angular",
+// 		tagCss: "Scss",
+// 		tagTs: "Typescript",
+// 		tagTutorial: true
+// 	}, {
+// 		id: 6 - 21,
+// 		title: " Services, FormModules",
+// 		description: "Angular project by <b>Sameer Saini</b>, open weather api, fetch data",
+// 		tools: "Angular",
+// 		linkRepo: "https://github.com/dornescum/angular-WeatherApp",
+// 		linkPage: "",
+// 		img: "@../../src/img/projects/angular.webp",
+// 		tagJs: "Angular",
+// 		tagCss: "Scss",
+// 		tagTs: "Typescript",
+// 		tagTutorial: true
+// 	}, {
+// 		id: 6 - 27,
+// 		title: " Routing",
+// 		description: "Angular project by <b>Academind</b>, routerLink, routerLinkActive, bootstrap",
+// 		tools: "Angular",
+// 		linkRepo: "https://github.com/dornescum/angularRouting-Academind",
+// 		linkPage: "",
+// 		img: "@../../src/img/projects/angular.webp",
+// 		tagJs: "Angular",
+// 		tagCss: "Bootstrap",
+// 		tagTs: "Typescript",
+// 		tagTutorial: true
+// 	}, {
+// 		id: 6 - 30,
+// 		title: " Task Tracker",
+// 		description: "Angular project by <b>Traversy Media</b>, pass data, update mock server, ngClass, ngStyle, routing",
+// 		tools: "Angular",
+// 		linkRepo: "https://github.com/dornescum/angular_taskTracker",
+// 		linkPage: "",
+// 		img: "@../../src/img/projects/angular.webp",
+// 		tagJs: "Angular",
+// 		tagCss: "Css",
+// 		tagTs: "Typescript",
+// 		tagTutorial: true
+// 	}, {
+// 		id: 7 - 5,
+// 		title: " <span style='color: #dc0c14; font-style: italic'>Basic Angular <b style='font-size: 20px'>Js</b> </span>",
+// 		description: "Angular project by <b>Shaun Pelling</b>,ng-app\n" + "ng-include\n" + "ng-controller\n" + "ng-click\n" + "ng-repeat\n" + "ng-show\n" + "ng-hide\n" + "ng-src ",
+// 		tools: "Angular",
+// 		linkRepo: "https://github.com/dornescum/angularJs-",
+// 		linkPage: "",
+// 		img: "@../../src/img/projects/angular.webp",
+// 		tagJs: "Angular",
+// 		tagCss: "Css",
+// 		tagTutorial: true
+// 	},
 	{
 		id: 11 - 13 - 2022,
 		title: "CRUD",
@@ -487,77 +523,78 @@ export const projects = [{
 		tagTs: "",
 		tagTutorial: false
 	},
-	{
-		id: 11 - 16 - 2022,
-		title: "Task-Manger",
-		description: "Simple node js. POST, PUT, GET, DELETE with Mongo Db & dynamic id, " +
-			"(FREECODECAMP <a target='_blank' href='https://www.youtube.com/watch?v=qwfE7fSVaZM&t=8389s' style='color: #6b9e11; font-weight: bolder'>John Smilga</a>)",
-		tools: "Node js, CRUD MONGO Db ",
-		linkRepo: "https://github.com/dornescum/node-JohnSmiga",
-		linkPage: "",
-		img: "@../../src/img/projects/nodejs.webp",
-		tagJs: "Nodejs",
-		tagCss: "",
-		tagTs: "",
-		tagTutorial: true
-	}, {
-		id: 11 - 19 - 2022,
-		title: "MongoDb",
-		description:  "node js. with MongoDb " +
-			"(FREECODECAMP <a target='_blank' href='https://www.youtube.com/watch?v=qwfE7fSVaZM&t=8389s' style='color: #6b9e11; font-weight: bolder'>John Smilga</a>), MVC, filter by (rating, price, ), Mongo Schema, pagination ",
+	// {
+	// 	id: 11 - 16 - 2022,
+	// 	title: "Task-Manger",
+	// 	description: "Simple node js. POST, PUT, GET, DELETE with Mongo Db & dynamic id, " +
+	// 		"(FREECODECAMP <a target='_blank' href='https://www.youtube.com/watch?v=qwfE7fSVaZM&t=8389s' style='color: #6b9e11; font-weight: bolder'>John Smilga</a>)",
+	// 	tools: "Node js, CRUD MONGO Db ",
+	// 	linkRepo: "https://github.com/dornescum/node-JohnSmiga",
+	// 	linkPage: "",
+	// 	img: "@../../src/img/projects/nodejs.webp",
+	// 	tagJs: "Nodejs",
+	// 	tagCss: "",
+	// 	tagTs: "",
+	// 	tagTutorial: true
+	// },
+	// {
+	// 	id: 11 - 19 - 2022,
+	// 	title: "MongoDb",
+	// 	description:  "node js. with MongoDb " +
+	// 		"(FREECODECAMP <a target='_blank' href='https://www.youtube.com/watch?v=qwfE7fSVaZM&t=8389s' style='color: #6b9e11; font-weight: bolder'>John Smilga</a>), MVC, filter by (rating, price, ), Mongo Schema, pagination ",
+	//
+	// 	tools:"Node js",
+	// 	linkRepo: "https://github.com/dornescum/Node_api_Products",
+	// 	linkPage: "",
+	// 	img: "@../../src/img/projects/nodejs.webp",
+	// 	tagJs: "Nodejs",
+	// 	tagCss: "",
+	// 	tagTs: "",
+	// 	tagTutorial: true
+	// },
 
-		tools:"Node js",
-		linkRepo: "https://github.com/dornescum/Node_api_Products",
-		linkPage: "",
-		img: "@../../src/img/projects/nodejs.webp",
-		tagJs: "Nodejs",
-		tagCss: "",
-		tagTs: "",
-		tagTutorial: true
-	},
-
-	{
-		id: 12 - 3 - 2022,
-		title: "TypeOrm Node",
-		description:  "node js express, " +
-			"(Udemy <a target='_blank' href='https://www.udemy.com/share/105EM43@ArSK86wpgZMNN4nxI_8aJPa4sk_-BxHqoAlX5mvRQYVHn1lKAquA6yjvJPvEUkPx/',>Antonio Papa</a>), " +
-			"Generate Jwt Token , Use NodeJS with Typescript, TypeORM with MySQL, Login with HttpOnly Cookies, Upload Images, Export CSV files",
-
-		tools:"Node js, Express, Mysql, TypeOrm",
-		linkRepo: "https://github.com/dornescum/myVersion_node_admin",
-		linkPage: "",
-		img: "@../../src/img/projects/nodejs.webp",
-		tagJs: "Nodejs",
-		tagCss: "",
-		tagTs: "",
-		tagTutorial: true
-	},
-	{
-		id: 12 - 26 - 2022,
-		title: "Node js setup",
-		description:  "node js express, sequelize, sqlite",
-		tools:"Node js, Express, Sequelize, Sqlite",
-		linkRepo: "https://github.com/dornescum/node_sequelize_setup",
-		linkPage: "",
-		img: "@../../src/img/projects/nodejs.webp",
-		tagJs: "Nodejs",
-		tagCss: "",
-		tagTs: "",
-		tagTutorial: true
-	},
-	{
-		id: 12 - 28 - 2022,
-		title: "Nestjs typeorm",
-		description:  "nestjs express, typeorm, sqlite",
-		tools:"Node js, Express, Sqlite, TypeOrm",
-		linkRepo: "https://github.com/dornescum/nestjs_typeorm_setup",
-		linkPage: "",
-		img: "@../../src/img/projects/nestjs.webp",
-		tagJs: "Nodejs",
-		tagCss: "",
-		tagTs: "",
-		tagTutorial: true
-	}
+	// {
+	// 	id: 12 - 3 - 2022,
+	// 	title: "TypeOrm Node",
+	// 	description:  "node js express, " +
+	// 		"(Udemy <a target='_blank' href='https://www.udemy.com/share/105EM43@ArSK86wpgZMNN4nxI_8aJPa4sk_-BxHqoAlX5mvRQYVHn1lKAquA6yjvJPvEUkPx/',>Antonio Papa</a>), " +
+	// 		"Generate Jwt Token , Use NodeJS with Typescript, TypeORM with MySQL, Login with HttpOnly Cookies, Upload Images, Export CSV files",
+	//
+	// 	tools:"Node js, Express, Mysql, TypeOrm",
+	// 	linkRepo: "https://github.com/dornescum/myVersion_node_admin",
+	// 	linkPage: "",
+	// 	img: "@../../src/img/projects/nodejs.webp",
+	// 	tagJs: "Nodejs",
+	// 	tagCss: "",
+	// 	tagTs: "",
+	// 	tagTutorial: true
+	// },
+	// {
+	// 	id: 12 - 26 - 2022,
+	// 	title: "Node js setup",
+	// 	description:  "node js express, sequelize, sqlite",
+	// 	tools:"Node js, Express, Sequelize, Sqlite",
+	// 	linkRepo: "https://github.com/dornescum/node_sequelize_setup",
+	// 	linkPage: "",
+	// 	img: "@../../src/img/projects/nodejs.webp",
+	// 	tagJs: "Nodejs",
+	// 	tagCss: "",
+	// 	tagTs: "",
+	// 	tagTutorial: true
+	// },
+	// {
+	// 	id: 12 - 28 - 2022,
+	// 	title: "Nestjs typeorm",
+	// 	description:  "nestjs express, typeorm, sqlite",
+	// 	tools:"Node js, Express, Sqlite, TypeOrm",
+	// 	linkRepo: "https://github.com/dornescum/nestjs_typeorm_setup",
+	// 	linkPage: "",
+	// 	img: "@../../src/img/projects/nestjs.webp",
+	// 	tagJs: "Nodejs",
+	// 	tagCss: "",
+	// 	tagTs: "",
+	// 	tagTutorial: true
+	// }
 
 
 ];
