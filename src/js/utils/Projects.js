@@ -15,9 +15,9 @@ export const projects = [{
 	tagTutorial: false
 },
 	{
-		id: 1 - 5 - 2023,
+		id: 1/5/2023,
 		title: "Full stack admin panel",
-		description:  "node js express, jsonwebtoken, md5, joi, sqlite, angular form, typescript, tailwind css .",
+		description:  "node js express, jsonwebtoken, md5, joi, sqlite, angular form, typescript, tailwind css",
 		tools:"Node js, <span  style='color: #000000;'>Express</span>, Sqlite, <span  style='color: #ef3333;'>Angular</span>, Typescript",
 		linkRepo: "https://github.com/dornescum/sqliteAdminPanel",
 		linkPage: "http://167.86.87.179:4200/client/#/",
@@ -44,7 +44,7 @@ export const projects = [{
 		tagPy: true
 	},
 	{
-		id: 15 - 8,
+		id: 15/8,
 		title: " Ionic ecommerce simulator",
 		description: "Ionic,Angular, Capacitor, @ngrx/store",
 		tools: "<span  style='color: #ef3333;'>Angular</span>, Ionic, Typescript",
@@ -92,10 +92,27 @@ export const projects = [{
 		tagJs: "React",
 		tagCss: "Tailwind",
 		tagTutorial: false
-	}, {
+	},
+	{
+		id: "09-08-23",
+		title: "Admin panel ecommerce",
+		description:  "node js express, jsonwebtoken, md5, express-validator, express-rate-limit, helmet, mysql, angular, primeng",
+		tools:" <span  style='color: #000000;'>Express</span>, <span  style='color: #ef3333;'>Angular</span>, Mysql",
+		linkRepo: "https://github.com/dornescum/quizExpressMysqlAngular",
+		linkPage: "",
+		img: "@../../src/img/projects/primeng-admin.gif",
+		tagJs: "Angular",
+		tagCss: "Primeng",
+		tagTs: "Typescript",
+		tagTutorial: false,
+		tagDB: "Mysql",
+		tagNode: true
+	},
+
+	{
 		id: 1,
 		title: "Mock Up Delivery Website",
-		description: "An exercise in which I used Next js and Tailwind Css to create a website for an imaginary company that produces and processes food. Using ISR & SSR, hybrid.",
+		description: " Next js and Tailwind Css to create a website for an imaginary company that produces and processes food. Using ISR & SSR, hybrid",
 		tools: "Next js, Tailwind Css",
 		linkRepo: "https://github.com/dornescum/tailwind-nextJs-setup",
 		linkPage: "https://tailwind-next-js-menu.vercel.app/",
@@ -122,7 +139,7 @@ export const projects = [{
 	{
 		id: 12,
 		title: "Menu cart",
-		description: "Context Api for state management.",
+		description: "Context Api for state management",
 		tools: "React js, Tailwind Css",
 		linkRepo: "https://github.com/dornescum/menu-cart",
 		linkPage: "https://menu-cart-21724.web.app/",
@@ -188,7 +205,7 @@ export const projects = [{
 	}, {
 		id: 3,
 		title: "Admin Panel",
-		description: "An admin panel in which I tested Cypress together with React js.",
+		description: "An admin panel in which I tested Cypress together with React js",
 		tools: "React js, Styled-Components, Cypress, Context Api",
 		linkRepo: "https://github.com/dornescum/adminPannel",
 		linkPage: "",
@@ -210,7 +227,7 @@ export const projects = [{
 	}, {
 		id: 2,
 		title: "Best Car Ever",
-		description: "An exercise in which I used Next js and Scss to create a website where I sell a car.",
+		description: "An exercise in which I used Next js and Scss to create a website where I sell a car",
 		tools: "Next js, Scss, Simple-react-lightbox, React Icons",
 		linkRepo: "https://github.com/dornescum/car_next",
 		linkPage: "https://car-next.vercel.app/",
@@ -246,7 +263,7 @@ export const projects = [{
 	{
 		id: 6,
 		title: "Card",
-		description: "Basic article card, challenge from FrontEndMentor.io.",
+		description: "Basic article card, challenge from FrontEndMentor.io",
 		tools: "Html, Scss",
 		linkRepo: "https://github.com/dornescum/FrontEndMentor-article",
 		linkPage: "https://front-end-mentor-article.vercel.app/",
@@ -257,7 +274,7 @@ export const projects = [{
 	}, {
 		id: 7,
 		title: "Card",
-		description: "Equilibrium card, challenge from FrontEndMentor.io.",
+		description: "Equilibrium card, challenge from FrontEndMentor.io",
 		tools: "Html, Scss",
 		linkRepo: "https://github.com/dornescum/Frontend-mentor-NFT",
 		linkPage: "https://nft-beige.vercel.app/",
@@ -303,7 +320,7 @@ export const projects = [{
 	}, {
 		id: 9,
 		title: "You are looking at it 😃",
-		description: "I am using Vanilla Js, ES6 modules with Tailwind Css.",
+		description: "I am using Vanilla Js, ES6 modules with Tailwind Css",
 		tools: "Vanilla Js, Tailwind Css",
 		linkRepo: "https://github.com/dornescum/Mihai-Dornescu",
 		linkPage: "https://dornescum.github.io/Mihai-Dornescu/",
