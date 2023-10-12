@@ -543,7 +543,7 @@ export const projects = [{
 	{
 		id: 12/10/23,
 		title: " Simple image recognition",
-		description: "Image recognition with FaceApi.js",
+		description: "For good accuracy, use a photo with a face and good light.",
 		tools: "<span  style='color: #ef3333;'>Angular</span>, Typescript, FaceApi.js",
 		linkRepo: "https://github.com/dornescum/faceApiAngular",
 		linkPage: "",
