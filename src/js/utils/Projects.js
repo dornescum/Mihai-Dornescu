@@ -540,6 +540,18 @@ export const projects = [{
 		tagTs: "",
 		tagTutorial: false
 	},
+	{
+		id: 12/10/23,
+		title: " Simple image recognition",
+		description: "Image recognition with FaceApi.js",
+		tools: "<span  style='color: #ef3333;'>Angular</span>, Typescript, FaceApi.js",
+		linkRepo: "https://github.com/dornescum/faceApiAngular",
+		linkPage: "",
+		img: "@../../src/img/projects/angular2.webp",
+		tagJs: "Angular",
+		tagCss: "Css",
+		tagTutorial: false
+	},
 	// {
 	// 	id: 11 - 16 - 2022,
 	// 	title: "Task-Manger",
