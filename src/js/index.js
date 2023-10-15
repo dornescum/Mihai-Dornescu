@@ -42,12 +42,12 @@ function displayData() {
 		<div class="flex flex-col mx-0 md:mx-6 lg:mx-8" data-testid=${item?.id}>
 		<div class="clip">
 			<div class="bg-slate-50">
-				<img alt="picture" loading="lazy"
-					 src=${
-             item?.img
-           } class="h-60 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md
+				<img alt=${item.title } loading="lazy"
+					 src=${item?.img} title=${item?.desc ? item?.desc: ''} data-testid=${item?.id} id=${item?.id}
+					 
+					 class="h-60 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md
 		shadow-sm hover:shadow-lg cursor-pointer transition duration:300 cursor-not-allowed 
-		brightness-50 hover:brightness-100
+		brightness-50 hover:brightness-100 image
 	   ">
 			</div>
 			<div class="bg-slate-50 border p-1 rounded-br-md rounded-bl-md h-80 md:h-90 lg:h-72 relative">
@@ -87,12 +87,13 @@ function displayData() {
 		<div class="">
 			<div>
 			<a href=${item?.linkPage} target="_blank">
-			<img alt="picture" loading="lazy"
+			<img alt=${item?.title} loading="lazy"
 					 src=${
              item?.img
-           } class="h-60 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md
+           } title=${item?.desc ? item?.desc: ''} data-testid=${item?.id} id=${item?.id}
+					 class="h-60 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md
 		shadow-sm hover:shadow-lg cursor-pointer transition duration:300
-		brigthness-100  md:brightness-95 md:hover:brightness-100 ">
+		brigthness-100  md:brightness-95 md:hover:brightness-100 image">
 			</a>
 				
 			</div>

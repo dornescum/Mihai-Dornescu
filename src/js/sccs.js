@@ -25,7 +25,7 @@ const scssProjects = projects.filter((item) => {
 
 //! REVERSE 
 scssProjects.reverse();
-console.log('projects ang', scssProjects)
+// console.log('projects ang', scssProjects)
 filteredProjects(gridScss, scssProjects);
 
 document.title = "Angular";
