@@ -1,6 +1,20 @@
 
 
-export const projects = [{
+export const projects = [
+	{
+		id: 2 - 23,
+		title: "Meseriasi website",
+		description:  "A full stack with seo",
+		tools: "Angular 16, Universal Engine, Express js, Tailwind Css",
+		linkRepo: "",
+		linkPage: "http://62.171.167.229:4000/home",
+		img: "@../../src/img/projects/angular2.webp",
+		tagJs: "Angular",
+		tagCss: "Tailwind",
+		tagTutorial: false,
+		desc: "Angular",
+	},
+	{
 	id: 2 - 23,
 	title: "Mockup Ecommerce, context api",
 	description:  "Ecommerce, Next js, Node js <span style='color: #FF0000FF'><b>Because is a free service of node, it will take 15 sec to be online</b></span>",
