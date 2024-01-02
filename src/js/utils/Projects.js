@@ -2,10 +2,10 @@
 
 export const projects = [
 	{
-		id: 2 - 23,
-		title: "Meseriasi website",
-		description:  "A full stack with seo",
-		tools: "Angular 16, Universal Engine, Express js, Tailwind Css",
+		id: 12 - 30,
+		title: "Meseriasi POC",
+		description:  "A full stack with ssr for seo",
+		tools: " <span  style='color: #ef3333;'>Angular 16</span>, Universal Engine, <span  style='color: #000000;'>Express</span>, Tailwind Css",
 		linkRepo: "",
 		linkPage: "http://62.171.167.229:4000/home",
 		img: "@../../src/img/projects/angular2.webp",
@@ -13,6 +13,8 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "Angular",
+		extra: "This full-stack web application,  <span style='color: #ef3333; font-weight: bold'> POC Meseriași </span> , showcases a robust frontend built with Angular, employing the latest features for dynamic content rendering and interactive user experiences. Key frontend technologies include <span style='color: #000000; font-weight: bold'>Angular Universal</span>  for server-side rendering, enhancing <span  style='color: #000000; font-weight: bold'>SEO </span> and performance, and Tailwind CSS for sleek, responsive designs. The inclusion of custom directives and services in Angular ensures a modular and efficient frontend architecture. On the backend, <span  style='color: #000000; font-weight: bold'>Express </span>serves as the backbone, providing a lightweight yet powerful framework for handling server-side logic. The use of middleware like <span style='color: #000000; font-weight: bold'>Bcrypt</span>  for secure password handling, CORS for cross-origin resource sharing, and <span style='color: #000000; font-weight: bold'>Helmet</span>  for security headers, together with <span style='color: #000000; font-weight: bold'>JWT</span>  for authentication, ensures a secure and scalable environment. The application is further augmented with <span  style='color: #f29221; font-weight: bolder'>MySql</span> for reliable data storage and <span  style='color: #000000; font-weight: bold'>Sequelize ORM</span>  for efficient database interactions, making it an exemplary demonstration of full-stack capabilities in a modern web application."
+
 	},
 	{
 	id: 2 - 23,
@@ -26,6 +28,7 @@ export const projects = [
 	tagCss: "Tailwind",
 	tagTutorial: false,
 	desc: "Next js",
+		extra: "extra description"
 },
 	{
 		id: 1/5/2023,
@@ -42,6 +45,8 @@ export const projects = [
 		tagDB: 'Sqlite',
 		tagNode: true,
 		desc: "Node js , Express, Sqlite, Angular",
+		extra: "testing2"
+
 	},
 	{
 		id: 8 - 25,
@@ -57,6 +62,8 @@ export const projects = [
 		tagDB: 'Sqlite',
 		tagPy: true,
 		desc: "FastApi  Python, Sqlite, React",
+		extra: "extra description"
+
 	},
 	{
 		id: 15/8,
@@ -70,6 +77,7 @@ export const projects = [
 		tagCss: "Css",
 		tagTutorial: false,
 		desc: "Ionic Angular",
+		extra: "extra description"
 
 	},
 	{
@@ -86,6 +94,8 @@ export const projects = [
 		tagDB: 'Sqlite',
 		tagNode: true,
 		desc: "Node js  Express Sqlite",
+		extra: "extra description"
+
 	},
 	{
 		id: 15 - 7,
@@ -99,6 +109,8 @@ export const projects = [
 		tagTutorial: false,
 		tagPy: true,
 		desc: "Flask  spacy, pdfminer.six, pytest, Python",
+		extra: "extra description"
+
 	},
 	{
 		id: 2 - 15,
@@ -112,6 +124,8 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "React js  Tailwind Css",
+		extra: "extra description"
+
 	},
 	{
 		id: "09-08-23",
@@ -128,6 +142,8 @@ export const projects = [
 		tagDB: "Mysql",
 		tagNode: true,
 		desc: "Node js  Express, Mysql, Angular",
+		extra: "extra description"
+
 	},
 
 	{
@@ -142,6 +158,8 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "Next js  React",
+		extra: "extra description"
+
 	},
 	{
 		id: '8-04-23',
@@ -157,6 +175,8 @@ export const projects = [
 		tagDB: 'Sqlite',
 		tagNode: true,
 		desc: "Node js  Express, Sqlite",
+		extra: "extra description"
+
 	},
 
 	{
@@ -171,6 +191,8 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "React js  Tailwind Css",
+		extra: "extra description"
+
 	}, {
 		id: 3 - 3,
 		title: "Challenge",
@@ -183,6 +205,8 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "React js  Tailwind Css",
+		extra: "extra description"
+
 	}, {
 		id: 3 - 8,
 		title: "Challenge time-tracking",
@@ -195,6 +219,8 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "Javascript  Tailwind Css",
+		extra: "extra description"
+
 	}, {
 		id: 3 - 9,
 		title: "Challenge accordion",
@@ -207,6 +233,8 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "React js  Tailwind Css",
+		extra: "extra description"
+
 	}, {
 		id: 3 - 13,
 		title: "Challenge testimonial bootCamp",
@@ -219,6 +247,8 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "Javascript  Tailwind Css",
+		extra: "extra description"
+
 	}, {
 		id: 3 - 25,
 		title: "Challenge count down timer",
@@ -231,6 +261,8 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "Javascript  Tailwind Css",
+		extra: "extra description"
+
 	}, {
 		id: 3,
 		title: "Admin Panel",
@@ -243,6 +275,8 @@ export const projects = [
 		tagCss: "Styled-Components",
 		tagTutorial: false,
 		desc: "React js Styled-Components, Cypress, Context Api",
+		extra: "extra description"
+
 	}, {
 		id: 4,
 		title: "Cypress testing FirmeCadastru.ro",
@@ -255,6 +289,8 @@ export const projects = [
 		tagCss: "",
 		tagTutorial: false,
 		desc: "Cypress",
+		extra: "extra description"
+
 	}, {
 		id: 2,
 		title: "Best Car Ever",
@@ -267,6 +303,8 @@ export const projects = [
 		tagCss: "Scss",
 		tagTutorial: false,
 		desc: "Next js  Scss, Simple-react-lightbox, React Icons",
+		extra: "extra description"
+
 	}, {
 		id: 2 - 17,
 		title: "Search for images",
@@ -279,6 +317,8 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "React js  React-Icons, Tailwind css",
+		extra: "extra description"
+
 	},
 	{
 		id: 6,
@@ -292,6 +332,8 @@ export const projects = [
 		tagCss: "Scss",
 		tagTutorial: false,
 		desc: "Html Scss",
+		extra: "extra description"
+
 	}, {
 		id: 7,
 		title: "Card",
@@ -304,6 +346,8 @@ export const projects = [
 		tagCss: "Scss",
 		tagTutorial: false,
 		desc: "Html Scss",
+		extra: "extra description"
+
 	}, {
 		id: 3 - 4,
 		title: "Challenge testimonials",
@@ -316,6 +360,8 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "Tailwind Css",
+		extra: "extra description"
+
 	},
 	{
 		id: 10,
@@ -329,6 +375,8 @@ export const projects = [
 		tagCss: "Vuetify",
 		tagTutorial: false,
 		desc: "Vue  and Vuetify, a Material Design Framework",
+		extra: "extra description"
+
 	}, {
 		id: 9,
 		title: "You are looking at it 😃",
@@ -341,6 +389,8 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "Javascript , Tailwind Css",
+		extra: "extra description"
+
 	},
 	{
 		id: 1 - 2,
@@ -354,6 +404,8 @@ export const projects = [
 		tagCss: "Scss",
 		tagTutorial: false,
 		desc: "Javascript",
+		extra: "extra description"
+
 	},
 	{
 		id: 11 - 13 - 2022,
@@ -368,6 +420,8 @@ export const projects = [
 		tagTs: "",
 		tagTutorial: false,
 		desc: "Node js , Sqlite3 ",
+		extra: "extra description"
+
 	},
 	{
 		id: 12/10/23,
@@ -381,6 +435,8 @@ export const projects = [
 		tagCss: "Css",
 		tagTutorial: false,
 		desc: "Angular FaceApi.js , Typescript",
+		extra: "extra description"
+
 
 	}
 ];

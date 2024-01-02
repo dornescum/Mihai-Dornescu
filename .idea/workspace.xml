@@ -25,7 +25,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="fix error svg" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="update projects">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/utils/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/Projects.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,6 +112,13 @@
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/js" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-c44b541a36ca-JavaScript-WS-233.13135.92" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -459,6 +471,8 @@
       <workItem from="1697128095444" duration="756000" />
       <workItem from="1697301625302" duration="3496000" />
       <workItem from="1697342188225" duration="3626000" />
+      <workItem from="1703687745678" duration="765000" />
+      <workItem from="1704209350825" duration="7000000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
@@ -803,7 +817,7 @@
       <option name="project" value="LOCAL" />
       <updated>1643555823321</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -838,7 +852,6 @@
     <MESSAGE value="link mirage" />
     <MESSAGE value="alte poze" />
     <MESSAGE value="fix 992px" />
-    <MESSAGE value="update projects" />
     <MESSAGE value="poze refacute" />
     <MESSAGE value="seo &amp; next js" />
     <MESSAGE value="rezervatie web" />
@@ -847,7 +860,8 @@
     <MESSAGE value="refactor tailwind" />
     <MESSAGE value="refactor cdn" />
     <MESSAGE value="fix error svg" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix error svg" />
+    <MESSAGE value="update projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="update projects" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
