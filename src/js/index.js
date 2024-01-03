@@ -46,7 +46,7 @@ function displayData() {
 					 src=${item?.img} title=${item?.desc ? item?.desc : ''} data-testid=${item?.id} id=${item?.id}
 					 
 					 class="h-60 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md
-		shadow-sm hover:shadow-lg cursor-pointer transition duration:300 cursor-not-allowed 
+		shadow-sm hover:shadow-lg transition duration:300 cursor-not-allowed 
 		brightness-50 hover:brightness-100 image
 	   ">
 			</div>
@@ -138,12 +138,8 @@ function displayData() {
         const project = projects.find(item => item.id === projectId);
 
         description.innerHTML = `<h2>${project.title}</h2>
-<!--                           <p>${project.description}</p>-->
-<br>
-                           <p>${project.extra.split('.').join('.<br><br>')}</p>
-`;
-
-
+                            <br>
+                           <p>${project.extra.split('.').join('.<br><br>')}</p>`;
         modal.style.display = 'block';
     };
 

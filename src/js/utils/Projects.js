@@ -1,10 +1,9 @@
-
-
+// <span style='color: #000000; font-weight: bold'></span>
 export const projects = [
 	{
 		id: 12 - 30,
 		title: "Meseriasi POC",
-		description:  "A full stack with ssr for seo",
+		description: "A full stack with ssr for seo",
 		tools: " <span  style='color: #ef3333;'>Angular 16</span>, Universal Engine, <span  style='color: #000000;'>Express</span>, Tailwind Css",
 		linkRepo: "",
 		linkPage: "http://62.171.167.229:4000/home",
@@ -17,24 +16,24 @@ export const projects = [
 
 	},
 	{
-	id: 2 - 23,
-	title: "Mockup Ecommerce, context api",
-	description:  "Ecommerce, Next js, Node js <span style='color: #FF0000FF'><b>Because is a free service of node, it will take 15 sec to be online</b></span>",
-	tools: "Next js, Tailwind Css",
-	linkRepo: "",
-	linkPage: "https://electronic-store-next-js.vercel.app/",
-	img: "@../../src/img/projects/ecommerce.webp",
-	tagJs: "Next",
-	tagCss: "Tailwind",
-	tagTutorial: false,
-	desc: "Next js",
-		extra: "extra description"
-},
+		id: 2 - 23,
+		title: "Mockup Ecommerce, context api",
+		description: "Ecommerce, Next js, Node js <span style='color: #FF0000FF'><b>Because is a free service of node, it will take 15 sec to be online</b></span>",
+		tools: "Next js, Tailwind Css",
+		linkRepo: "",
+		linkPage: "https://electronic-store-next-js.vercel.app/",
+		img: "@../../src/img/projects/ecommerce.webp",
+		tagJs: "Next",
+		tagCss: "Tailwind",
+		tagTutorial: false,
+		desc: "Next js",
+		extra: "This e-commerce mockup project, developed as an online electronic store platform, leverages <span style='color: #000000; font-weight: bold'>Next js</span> , a formidable framework for server-rendered React applications. Emphasizing a mobile-first design approach, the platform ensures optimal usability and aesthetics on smaller screens, progressively enhancing the experience for larger devices. This strategy is pivotal in today's mobile-centric world, ensuring a broad reach and user satisfaction. The project capitalizes on Next js's strengths in efficient page rendering and routing, contributing to an exceptionally performant user experience. Interactive charts powered by <span style='color: #000000; font-weight: bold'>Chart js</span> , and engaging visual elements like  <span style='color: #000000; font-weight: bold'>React Icons</span> and <span style='color: #000000; font-weight: bold'>Slick Carousel</span> , are seamlessly integrated to enrich the interface. React Popup enhances interactivity, offering intuitive modal and dialogue display. Frontend styling with <span style='color: #000000; font-weight: bold'>Tailwind CSS</span>  guarantees a modern, responsive design that elegantly adapts across various devices. The application's robust setup includes dotenv for environment variable management and ESLint for code quality assurance, embodying best practices in configuration and development. This project stands out as a state-of-the-art e-commerce solution, with its focus on interactivity, mobile-first user engagement, and compelling aesthetic appeal."
+	},
 	{
-		id: 1/5/2023,
+		id: 1 / 5 / 2023,
 		title: "Full stack admin panel",
-		description:  "node js express, jsonwebtoken, md5, joi, sqlite, angular form, typescript, tailwind css",
-		tools:"Node js, <span  style='color: #000000;'>Express</span>, Sqlite, <span  style='color: #ef3333;'>Angular</span>, Typescript",
+		description: "node js express, jsonwebtoken, md5, joi, sqlite, angular form, typescript, tailwind css",
+		tools: "Node js, <span  style='color: #000000;'>Express</span>, Sqlite, <span  style='color: #ef3333;'>Angular</span>, Typescript",
 		linkRepo: "https://github.com/dornescum/sqliteAdminPanel",
 		linkPage: "http://62.171.167.229:4200/client/#/login",
 		img: "@../../src/img/projects/adminPanel.GIF",
@@ -45,7 +44,8 @@ export const projects = [
 		tagDB: 'Sqlite',
 		tagNode: true,
 		desc: "Node js , Express, Sqlite, Angular",
-		extra: "testing2"
+		extra: "This full-stack SaaS project is an  electronic warehouse simulation platform where users, after account creation, can manage a plethora of electronic products across various categories and brands. Embracing a mobile-first design philosophy, the client-side is crafted using <span style='color: #000000; font-weight: bold'>Angular</span> , ensuring an optimal and responsive experience across devices. The system facilitates full CRUD operations, allowing for the addition, modification, and movement of inventory items between virtual storages. A key feature is the real-time transactional database management powered by <span style='color: #000000; font-weight: bold'>SQLite</span> , ensuring data integrity as items are transferred across storages. The backend, constructed with Express, delivers robust MVC architecture for efficient data filtering by brand, category, and price, as well as search functionality for product names and fallback brand searches. Each product is uniquely identified by a barcode, incorporating storage, category, brand, and owner details. <span style='color: #000000; font-weight: bold'>Chart js</span>  integration provides insightful visualizations of storage metrics. Moreover, users can download complete SQL product lists, enabling easy data portability and backup. This platform exemplifies a comprehensive warehouse management solution with a keen focus on user-centric design, data accuracy, and operational efficiency."
+
 
 	},
 	{
@@ -62,11 +62,12 @@ export const projects = [
 		tagDB: 'Sqlite',
 		tagPy: true,
 		desc: "FastApi  Python, Sqlite, React",
-		extra: "extra description"
+		extra: "A simple task management  with FastAPI_Todo_React_Sqlite, a full-stack to-do application fusing the swift and efficient <span style='color: #000000; font-weight: bold'>FastAPI</span> with the dynamic interactivity of <span style='color: #000000; font-weight: bold'>React</span> , all underpinned by the robustness of <span style='color: #000000; font-weight: bold'>SQLite</span> . This project represents a harmonious blend of a Python-powered backend and a JavaScript-driven frontend, encapsulating the ease of <span style='color: #000000; font-weight: bold'>Python</span> programming with the seamless user interface design of React. It offers a straightforward installation process, requiring Python and Node.js environments, followed by <span style='color: #000000; font-weight: bold'>FastAPI and Uvicorn</span>  setup. With a minimalist yet powerful <span style='color: #000000; font-weight: bold'> React</span> frontend, this application has been intricately tailored to accommodate the backend integration, providing a comprehensive CRUD interface for to-do list items. The backend's <span style='color: #000000; font-weight: bold'>SQLite</span>  database ensures durable and transactional data storage, while FastAPI endows the application with high performance and swift response times. Coupled with <span style='color: #000000; font-weight: bold'>Swagger </span> documentation, the app promises an intuitive API exploration experience."
+
 
 	},
 	{
-		id: 15/8,
+		id: 15 / 8,
 		title: " Ionic ecommerce simulator",
 		description: "Ionic,Angular, Capacitor, @ngrx/store",
 		tools: "<span  style='color: #ef3333;'>Angular</span>, Ionic, Typescript",
@@ -77,7 +78,8 @@ export const projects = [
 		tagCss: "Css",
 		tagTutorial: false,
 		desc: "Ionic Angular",
-		extra: "extra description"
+		extra: "Dive into the world of mobile commerce with this <span style='color: #000000; font-weight: bold'>Ionic</span> -based e-commerce simulation app, designed to deliver a complete shopping experience on both <span style='color: #000000; font-weight: bold'>Android </span> devices and web platforms. The app encapsulates the essence of e-commerce, allowing customers to seamlessly add products to their cart, update quantities, and manage their selections with ease. Developed with a mobile-first approach, the app is rigorously tested on Android to ensure a flawless user experience, while maintaining full functionality on web browsers for a broader reach. Built upon the robust foundations of <span style='color: #000000; font-weight: bold'> Angular </span>and the latest version of Ionic, the app promises high performance and a native-like feel. Leveraging <span style='color: #000000; font-weight: bold'>Capacitor's</span>  cross-platform APIs, the application offers a range of device features and integrations, such as haptics feedback, status bar customization, and secure storage preferences. With state management powered by <span style='color: #000000; font-weight: bold'>NgRx</span> , the app ensures predictability in state transitions, immutability, and performance. "
+
 
 	},
 	{
@@ -94,7 +96,7 @@ export const projects = [
 		tagDB: 'Sqlite',
 		tagNode: true,
 		desc: "Node js  Express Sqlite",
-		extra: "extra description"
+		extra: ""
 
 	},
 	{
@@ -109,7 +111,7 @@ export const projects = [
 		tagTutorial: false,
 		tagPy: true,
 		desc: "Flask  spacy, pdfminer.six, pytest, Python",
-		extra: "extra description"
+		extra: "Search for different words inside a pdf ."
 
 	},
 	{
@@ -124,14 +126,14 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "React js  Tailwind Css",
-		extra: "extra description"
+		extra: ""
 
 	},
 	{
 		id: "09-08-23",
 		title: "Admin panel ecommerce",
-		description:  "node js express, jsonwebtoken, md5, express-validator, express-rate-limit, helmet, mysql, angular, primeng",
-		tools:" <span  style='color: #000000;'>Express</span>, <span  style='color: #ef3333;'>Angular</span>, Mysql",
+		description: "node js express, jsonwebtoken, md5, express-validator, express-rate-limit, helmet, mysql, angular, primeng",
+		tools: " <span  style='color: #000000;'>Express</span>, <span  style='color: #ef3333;'>Angular</span>, Mysql",
 		linkRepo: "https://github.com/dornescum/quizExpressMysqlAngular",
 		linkPage: "",
 		img: "@../../src/img/projects/primeng-admin.gif",
@@ -142,7 +144,7 @@ export const projects = [
 		tagDB: "Mysql",
 		tagNode: true,
 		desc: "Node js  Express, Mysql, Angular",
-		extra: "extra description"
+		extra: ""
 
 	},
 
@@ -158,7 +160,7 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "Next js  React",
-		extra: "extra description"
+		extra: ""
 
 	},
 	{
@@ -175,7 +177,7 @@ export const projects = [
 		tagDB: 'Sqlite',
 		tagNode: true,
 		desc: "Node js  Express, Sqlite",
-		extra: "extra description"
+		extra: ""
 
 	},
 
@@ -191,7 +193,7 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "React js  Tailwind Css",
-		extra: "extra description"
+		extra: ""
 
 	}, {
 		id: 3 - 3,
@@ -205,7 +207,7 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "React js  Tailwind Css",
-		extra: "extra description"
+		extra: ""
 
 	}, {
 		id: 3 - 8,
@@ -219,7 +221,7 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "Javascript  Tailwind Css",
-		extra: "extra description"
+		extra: ""
 
 	}, {
 		id: 3 - 9,
@@ -233,7 +235,7 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "React js  Tailwind Css",
-		extra: "extra description"
+		extra: ""
 
 	}, {
 		id: 3 - 13,
@@ -247,7 +249,7 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "Javascript  Tailwind Css",
-		extra: "extra description"
+		extra: ""
 
 	}, {
 		id: 3 - 25,
@@ -261,7 +263,7 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "Javascript  Tailwind Css",
-		extra: "extra description"
+		extra: ""
 
 	}, {
 		id: 3,
@@ -275,7 +277,7 @@ export const projects = [
 		tagCss: "Styled-Components",
 		tagTutorial: false,
 		desc: "React js Styled-Components, Cypress, Context Api",
-		extra: "extra description"
+		extra: ""
 
 	}, {
 		id: 4,
@@ -289,7 +291,7 @@ export const projects = [
 		tagCss: "",
 		tagTutorial: false,
 		desc: "Cypress",
-		extra: "extra description"
+		extra: ""
 
 	}, {
 		id: 2,
@@ -303,7 +305,7 @@ export const projects = [
 		tagCss: "Scss",
 		tagTutorial: false,
 		desc: "Next js  Scss, Simple-react-lightbox, React Icons",
-		extra: "extra description"
+		extra: ""
 
 	}, {
 		id: 2 - 17,
@@ -317,7 +319,7 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "React js  React-Icons, Tailwind css",
-		extra: "extra description"
+		extra: ""
 
 	},
 	{
@@ -332,7 +334,7 @@ export const projects = [
 		tagCss: "Scss",
 		tagTutorial: false,
 		desc: "Html Scss",
-		extra: "extra description"
+		extra: ""
 
 	}, {
 		id: 7,
@@ -346,7 +348,7 @@ export const projects = [
 		tagCss: "Scss",
 		tagTutorial: false,
 		desc: "Html Scss",
-		extra: "extra description"
+		extra: ""
 
 	}, {
 		id: 3 - 4,
@@ -360,7 +362,7 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "Tailwind Css",
-		extra: "extra description"
+		extra: ""
 
 	},
 	{
@@ -375,7 +377,7 @@ export const projects = [
 		tagCss: "Vuetify",
 		tagTutorial: false,
 		desc: "Vue  and Vuetify, a Material Design Framework",
-		extra: "extra description"
+		extra: ""
 
 	}, {
 		id: 9,
@@ -389,7 +391,7 @@ export const projects = [
 		tagCss: "Tailwind",
 		tagTutorial: false,
 		desc: "Javascript , Tailwind Css",
-		extra: "extra description"
+		extra: ""
 
 	},
 	{
@@ -404,7 +406,7 @@ export const projects = [
 		tagCss: "Scss",
 		tagTutorial: false,
 		desc: "Javascript",
-		extra: "extra description"
+		extra: ""
 
 	},
 	{
@@ -420,11 +422,11 @@ export const projects = [
 		tagTs: "",
 		tagTutorial: false,
 		desc: "Node js , Sqlite3 ",
-		extra: "extra description"
+		extra: ""
 
 	},
 	{
-		id: 12/10/23,
+		id: 12 / 10 / 23,
 		title: " Simple image recognition",
 		description: "For good accuracy, use a photo with a face and good light.",
 		tools: "<span  style='color: #ef3333;'>Angular</span>, Typescript, FaceApi.js",
@@ -435,7 +437,7 @@ export const projects = [
 		tagCss: "Css",
 		tagTutorial: false,
 		desc: "Angular FaceApi.js , Typescript",
-		extra: "extra description"
+		extra: ""
 
 
 	}
