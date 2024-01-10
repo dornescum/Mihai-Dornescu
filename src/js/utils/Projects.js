@@ -6,7 +6,7 @@ export const projects = [
 		description: "A full stack with ssr for seo",
 		tools: " <span  style='color: #ef3333;'>Angular 16</span>, Universal Engine, <span  style='color: #000000;'>Express</span>, Tailwind Css",
 		linkRepo: "",
-		linkPage: "http://62.171.167.229:4000/home",
+		linkPage: "https://mp.dornescu.ro/home",
 		img: "@../../src/img/projects/angular2.webp",
 		tagJs: "Angular",
 		tagCss: "Tailwind",
