@@ -73,7 +73,7 @@ function displayData() {
 				</article>
         
 				<div class="absolute bottom-0 right-0">
-				 <button onclick="openModal(${item?.id}, event)" class="more-info-button p-1 bg-zinc-300 rounded-sm text-white">More Info</button>
+				 <button onclick="openModal(${item?.id}, event)" class="more-info-button p-1 bg-zinc-600 rounded-sm text-white">More Info</button>
                 </div>
 			</div>
 		</div>
@@ -115,7 +115,7 @@ function displayData() {
 					</ul>
 				</article>
 				<div class="absolute bottom-0 right-0">
-				 <button onclick="openModal(${item?.id}, event)" class="more-info-button p-1 bg-zinc-300 rounded-sm text-white">More Info</button>
+				 <button onclick="openModal(${item?.id}, event)" class="more-info-button p-1 bg-zinc-600 rounded-sm text-white "> <span class="animate-ping">More Info</span></button>
                 </div>
 				 
 			</div>

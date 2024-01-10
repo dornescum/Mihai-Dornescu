@@ -21,18 +21,18 @@ export const projects = [
 
 	},
 	{
-		id: 2 - 23,
-		title: "Mockup Ecommerce, context api",
-		description: "Ecommerce, Next js, Node js <span style='color: #FF0000FF'><b>Because is a free service of node, it will take 15 sec to be online</b></span>",
-		tools: "Next js, Tailwind Css",
-		linkRepo: "",
-		linkPage: "https://electronic-store-next-js.vercel.app/",
-		img: "@../../src/img/projects/ecommerce.webp",
-		tagJs: "Next",
+		id: 1/10/24,
+		title: "Statistics ",
+		description: "Analyzing statistics for <span style='color: #000000'><b><a href='https://mp.dornescu.ro' target='_blank'>Handymen Proof Of Concept</a> </b></span>",
+		tools: "<span  style='color: #ef3333;'>Angular 16</span>, Tailwind Css",
+		linkRepo: "https://github.com/dornescum/admin-dashboard",
+		linkPage: "https://mp.dornescu.ro",
+		img: "@../../src/img/projects/devices.webp",
+		tagJs: "Angular",
 		tagCss: "Tailwind",
 		tagTutorial: false,
-		desc: "Next js",
-		extra: "This e-commerce mockup project, developed as an online electronic store platform, leverages <span style='color: #000000; font-weight: bold'>Next js</span> , a formidable framework for server-rendered React applications. Emphasizing a mobile-first design approach, the platform ensures optimal usability and aesthetics on smaller screens, progressively enhancing the experience for larger devices. This strategy is pivotal in today's mobile-centric world, ensuring a broad reach and user satisfaction. The project capitalizes on Next js's strengths in efficient page rendering and routing, contributing to an exceptionally performant user experience. Interactive charts powered by <span style='color: #000000; font-weight: bold'>Chart js</span> , and engaging visual elements like  <span style='color: #000000; font-weight: bold'>React Icons</span> and <span style='color: #000000; font-weight: bold'>Slick Carousel</span> , are seamlessly integrated to enrich the interface. React Popup enhances interactivity, offering intuitive modal and dialogue display. Frontend styling with <span style='color: #000000; font-weight: bold'>Tailwind CSS</span>  guarantees a modern, responsive design that elegantly adapts across various devices. The application's robust setup includes dotenv for environment variable management and ESLint for code quality assurance, embodying best practices in configuration and development. This project stands out as a state-of-the-art e-commerce solution, with its focus on interactivity, mobile-first user engagement, and compelling aesthetic appeal."
+		desc: "Angular",
+		extra: "This project is built for displaying and analyzing statistics, specifically focused on client search data. It is designed to provide insights into various metrics such as device type, operating system, brand, and IP location details (country and town)"
 	},
 	{
 		id: 1 / 5 / 2023,
@@ -50,8 +50,20 @@ export const projects = [
 		tagNode: true,
 		desc: "Node js , Express, Sqlite, Angular",
 		extra: "This full-stack SaaS project is an  electronic warehouse simulation platform where users, after account creation, can manage a plethora of electronic products across various categories and brands. Embracing a mobile-first design philosophy, the client-side is crafted using <span style='color: #000000; font-weight: bold'>Angular</span> , ensuring an optimal and responsive experience across devices. The system facilitates full CRUD operations, allowing for the addition, modification, and movement of inventory items between virtual storages. A key feature is the real-time transactional database management powered by <span style='color: #000000; font-weight: bold'>SQLite</span> , ensuring data integrity as items are transferred across storages. The backend, constructed with Express, delivers robust MVC architecture for efficient data filtering by brand, category, and price, as well as search functionality for product names and fallback brand searches. Each product is uniquely identified by a barcode, incorporating storage, category, brand, and owner details. <span style='color: #000000; font-weight: bold'>Chart js</span>  integration provides insightful visualizations of storage metrics. Moreover, users can download complete SQL product lists, enabling easy data portability and backup. This platform exemplifies a comprehensive warehouse management solution with a keen focus on user-centric design, data accuracy, and operational efficiency."
-
-
+	},
+	{
+		id: 2 - 23,
+		title: "Mockup Ecommerce, context api",
+		description: "Ecommerce, Next js, Node js <span style='color: #FF0000FF'><b>Because is a free service of node, it will take 15 sec to be online</b></span>",
+		tools: "Next js, Tailwind Css",
+		linkRepo: "",
+		linkPage: "https://electronic-store-next-js.vercel.app/",
+		img: "@../../src/img/projects/ecommerce.webp",
+		tagJs: "Next",
+		tagCss: "Tailwind",
+		tagTutorial: false,
+		desc: "Next js",
+		extra: "This e-commerce mockup project, developed as an online electronic store platform, leverages <span style='color: #000000; font-weight: bold'>Next js</span> , a formidable framework for server-rendered React applications. Emphasizing a mobile-first design approach, the platform ensures optimal usability and aesthetics on smaller screens, progressively enhancing the experience for larger devices. This strategy is pivotal in today's mobile-centric world, ensuring a broad reach and user satisfaction. The project capitalizes on Next js's strengths in efficient page rendering and routing, contributing to an exceptionally performant user experience. Interactive charts powered by <span style='color: #000000; font-weight: bold'>Chart js</span> , and engaging visual elements like  <span style='color: #000000; font-weight: bold'>React Icons</span> and <span style='color: #000000; font-weight: bold'>Slick Carousel</span> , are seamlessly integrated to enrich the interface. React Popup enhances interactivity, offering intuitive modal and dialogue display. Frontend styling with <span style='color: #000000; font-weight: bold'>Tailwind CSS</span>  guarantees a modern, responsive design that elegantly adapts across various devices. The application's robust setup includes dotenv for environment variable management and ESLint for code quality assurance, embodying best practices in configuration and development. This project stands out as a state-of-the-art e-commerce solution, with its focus on interactivity, mobile-first user engagement, and compelling aesthetic appeal."
 	},
 	{
 		id: 8 - 25,
