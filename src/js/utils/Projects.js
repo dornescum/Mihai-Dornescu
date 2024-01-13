@@ -26,7 +26,7 @@ export const projects = [
 		description: "Analyzing statistics for <span style='color: #000000'><b><a href='https://mp.dornescu.ro' target='_blank'>Handymen Proof Of Concept</a> </b></span>",
 		tools: "<span  style='color: #ef3333;'>Angular 16</span>, Tailwind Css",
 		linkRepo: "https://github.com/dornescum/admin-dashboard",
-		linkPage: "https://mp.dornescu.ro",
+		linkPage: "https://statistics-api-414df.web.app/browsers",
 		img: "@../../src/img/projects/devices.webp",
 		tagJs: "Angular",
 		tagCss: "Tailwind",
