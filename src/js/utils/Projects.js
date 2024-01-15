@@ -52,6 +52,41 @@ export const projects = [
 		extra: "This full-stack SaaS project is an  electronic warehouse simulation platform where users, after account creation, can manage a plethora of electronic products across various categories and brands. Embracing a mobile-first design philosophy, the client-side is crafted using <span style='color: #000000; font-weight: bold'>Angular</span> , ensuring an optimal and responsive experience across devices. The system facilitates full CRUD operations, allowing for the addition, modification, and movement of inventory items between virtual storages. A key feature is the real-time transactional database management powered by <span style='color: #000000; font-weight: bold'>SQLite</span> , ensuring data integrity as items are transferred across storages. The backend, constructed with Express, delivers robust MVC architecture for efficient data filtering by brand, category, and price, as well as search functionality for product names and fallback brand searches. Each product is uniquely identified by a barcode, incorporating storage, category, brand, and owner details. <span style='color: #000000; font-weight: bold'>Chart js</span>  integration provides insightful visualizations of storage metrics. Moreover, users can download complete SQL product lists, enabling easy data portability and backup. This platform exemplifies a comprehensive warehouse management solution with a keen focus on user-centric design, data accuracy, and operational efficiency."
 	},
 	{
+		id: 15 / 8,
+		title: " Ionic ecommerce simulator",
+		description: "Ionic,Angular, Capacitor, @ngrx/store",
+		tools: " <span  style='color: #ef3333;'>Angular 14</span>, Typescript, Ionic, Capacitor",
+		linkRepo: "https://github.com/dornescum/angularIonic-store",
+		linkPage: "https://ionic-lecommerce.web.app/login",
+		img: "@../../src/img/projects/ionic-angular.webp",
+		tagJs: "Angular",
+		tagCss: "Css",
+		tagTutorial: false,
+		desc: "Ionic Angular",
+		extra: "Dive into the world of mobile commerce with this <span style='color: #000000; font-weight: bold'>Ionic</span> -based e-commerce simulation app, designed to deliver a complete shopping experience on both <span style='color: #000000; font-weight: bold'>Android </span> devices and web platforms. The app encapsulates the essence of e-commerce, allowing customers to seamlessly add products to their cart, update quantities, and manage their selections with ease. Developed with a mobile-first approach, the app is rigorously tested on Android to ensure a flawless user experience, while maintaining full functionality on web browsers for a broader reach. Built upon the robust foundations of <span style='color: #000000; font-weight: bold'> Angular </span>and the latest version of Ionic, the app promises high performance and a native-like feel. Leveraging <span style='color: #000000; font-weight: bold'>Capacitor's</span>  cross-platform APIs, the application offers a range of device features and integrations, such as haptics feedback, status bar customization, and secure storage preferences. With state management powered by <span style='color: #000000; font-weight: bold'>NgRx</span> , the app ensures predictability in state transitions, immutability, and performance. "
+		// extra: `This mockup e-commerce project is designed to cater to both Android and web platforms, offering a seamless and responsive user experience. Utilizing the robust Angular framework (v14), the application ensures a dynamic and interactive frontend, suitable for modern retail needs
+		// 	The project leverages the latest Ionic technologies (v6) for mobile-first design, ensuring optimal performance and a native-like experience on Android devices. Enhanced by Capacitor (v4) plugins, the application integrates native functionalities like haptics, keyboard interactions, and efficient app preferences management
+		// 	At its core, the application connects to a reliable back-end service built with Express and MySQL. This backend integration ensures robust data handling, secure transactions, and dynamic content management, making the platform ideal for real-time e-commerce operations`
+
+
+	},
+	{
+		id: 1 /15/ 24,
+		title: " Ionic node mysql docker",
+		description: "Simple express with docker mysql, for <b><i>Ionic ecommerce simulator</i></b> ",
+		tools: " <span  style='color: #000000;'>Express</span>, Ionic, Typescript, <b>Docker</b>",
+		linkRepo: "https://github.com/dornescum",
+		linkPage: "https://ionic-lecommerce.web.app/login",
+		img: "@../../src/img/projects/nodejs.webp",
+		tagJs: "Express",
+		tagCss: "",
+		tagTutorial: false,
+		desc: "Express",
+		// extra: "Dive into the world of mobile commerce with this <span style='color: #000000; font-weight: bold'>Ionic</span> -based e-commerce simulation app, designed to deliver a complete shopping experience on both <span style='color: #000000; font-weight: bold'>Android </span> devices and web platforms. The app encapsulates the essence of e-commerce, allowing customers to seamlessly add products to their cart, update quantities, and manage their selections with ease. Developed with a mobile-first approach, the app is rigorously tested on Android to ensure a flawless user experience, while maintaining full functionality on web browsers for a broader reach. Built upon the robust foundations of <span style='color: #000000; font-weight: bold'> Angular </span>and the latest version of Ionic, the app promises high performance and a native-like feel. Leveraging <span style='color: #000000; font-weight: bold'>Capacitor's</span>  cross-platform APIs, the application offers a range of device features and integrations, such as haptics feedback, status bar customization, and secure storage preferences. With state management powered by <span style='color: #000000; font-weight: bold'>NgRx</span> , the app ensures predictability in state transitions, immutability, and performance. "
+		extra: `This Express backend integrates with MySQL, offering a powerful database solution, and is neatly containerized using Docker, ensuring consistent environments across development and production. This project is designed to complement the Ionic Angular project, which can be found here:  <a href="https://github.com/dornescum/angularIonic-store" target="_blank"><b>AngularIonic-store</b>  </a>.
+		Leveraging TypeScript, the project offers strong typing and modern JavaScript features, leading to more maintainable and error-resistant code.`
+	},
+	{
 		id: 2 - 23,
 		title: "Mockup Ecommerce, context api",
 		description: "Ecommerce, Next js, Node js <span style='color: #FF0000FF'><b>Because is a free service of node, it will take 15 sec to be online</b></span>",
@@ -83,22 +118,7 @@ export const projects = [
 
 
 	},
-	{
-		id: 15 / 8,
-		title: " Ionic ecommerce simulator",
-		description: "Ionic,Angular, Capacitor, @ngrx/store",
-		tools: "<span  style='color: #ef3333;'>Angular</span>, Ionic, Typescript",
-		linkRepo: "https://github.com/dornescum",
-		linkPage: "https://ionic-lecommerce.web.app/login",
-		img: "@../../src/img/projects/ionic-angular.webp",
-		tagJs: "Angular",
-		tagCss: "Css",
-		tagTutorial: false,
-		desc: "Ionic Angular",
-		extra: "Dive into the world of mobile commerce with this <span style='color: #000000; font-weight: bold'>Ionic</span> -based e-commerce simulation app, designed to deliver a complete shopping experience on both <span style='color: #000000; font-weight: bold'>Android </span> devices and web platforms. The app encapsulates the essence of e-commerce, allowing customers to seamlessly add products to their cart, update quantities, and manage their selections with ease. Developed with a mobile-first approach, the app is rigorously tested on Android to ensure a flawless user experience, while maintaining full functionality on web browsers for a broader reach. Built upon the robust foundations of <span style='color: #000000; font-weight: bold'> Angular </span>and the latest version of Ionic, the app promises high performance and a native-like feel. Leveraging <span style='color: #000000; font-weight: bold'>Capacitor's</span>  cross-platform APIs, the application offers a range of device features and integrations, such as haptics feedback, status bar customization, and secure storage preferences. With state management powered by <span style='color: #000000; font-weight: bold'>NgRx</span> , the app ensures predictability in state transitions, immutability, and performance. "
 
-
-	},
 	{
 		id: 7 - 8,
 		title: "Todo App Jest testing",
