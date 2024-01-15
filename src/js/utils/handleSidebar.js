@@ -9,6 +9,12 @@ export const handleSidebar = (access, sidebar) => {
                         Home
                     </a>
                 </li>
+                   </li>
+                    <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
+                    <a href="scss.html" class="py-2 md:py-4">
+                        Angular
+                    </a>
+                </li>
                 <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
                     <a href="reactJs.html" class="py-2 md:py-4">
                         React js
@@ -19,12 +25,7 @@ export const handleSidebar = (access, sidebar) => {
                         Next js
                     </a>
                 </li>
-                </li>
-                    <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="scss.html" class="py-2 md:py-4">
-                        Angular
-                    </a>
-                </li>
+             
                          <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
                     <a href="node.html" class="py-2 md:py-4">
                         Node js
