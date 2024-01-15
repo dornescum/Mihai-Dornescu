@@ -1,4 +1,5 @@
 // <span style='color: #000000; font-weight: bold'></span>
+const project= 'https://github.com/dornescum/angularIonic-store';
 export const projects = [
 	{
 		id: 12 - 30,
@@ -73,9 +74,9 @@ export const projects = [
 	{
 		id: 1 /15/ 24,
 		title: " Ionic node mysql docker",
-		description: "Simple express with docker mysql, for <b><i>Ionic ecommerce simulator</i></b> ",
+		description: "Simple express with docker mysql, for <b><i><a href='https://github.com/dornescum/angularIonic-store' target='_blank'>Ionic ecommerce simulator</a> </i></b> ",
 		tools: " <span  style='color: #000000;'>Express</span>, Ionic, Typescript, <b>Docker</b>",
-		linkRepo: "https://github.com/dornescum",
+		linkRepo: "https://github.com/dornescum/ionicNodeExpress",
 		linkPage: "https://ionic-lecommerce.web.app/login",
 		img: "@../../src/img/projects/nodejs.webp",
 		tagJs: "Express",
@@ -83,7 +84,7 @@ export const projects = [
 		tagTutorial: false,
 		desc: "Express",
 		// extra: "Dive into the world of mobile commerce with this <span style='color: #000000; font-weight: bold'>Ionic</span> -based e-commerce simulation app, designed to deliver a complete shopping experience on both <span style='color: #000000; font-weight: bold'>Android </span> devices and web platforms. The app encapsulates the essence of e-commerce, allowing customers to seamlessly add products to their cart, update quantities, and manage their selections with ease. Developed with a mobile-first approach, the app is rigorously tested on Android to ensure a flawless user experience, while maintaining full functionality on web browsers for a broader reach. Built upon the robust foundations of <span style='color: #000000; font-weight: bold'> Angular </span>and the latest version of Ionic, the app promises high performance and a native-like feel. Leveraging <span style='color: #000000; font-weight: bold'>Capacitor's</span>  cross-platform APIs, the application offers a range of device features and integrations, such as haptics feedback, status bar customization, and secure storage preferences. With state management powered by <span style='color: #000000; font-weight: bold'>NgRx</span> , the app ensures predictability in state transitions, immutability, and performance. "
-		extra: `This Express backend integrates with MySQL, offering a powerful database solution, and is neatly containerized using Docker, ensuring consistent environments across development and production. This project is designed to complement the Ionic Angular project, which can be found here:  <a href="https://github.com/dornescum/angularIonic-store" target="_blank"><b>AngularIonic-store</b>  </a>.
+		extra: `This Express backend integrates with MySQL, offering a powerful database solution, and is neatly containerized using Docker, ensuring consistent environments across development and production. This project is designed to complement the Ionic Angular project.
 		Leveraging TypeScript, the project offers strong typing and modern JavaScript features, leading to more maintainable and error-resistant code.`
 	},
 	{
