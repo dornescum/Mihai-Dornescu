@@ -2,6 +2,23 @@
 const project= 'https://github.com/dornescum/angularIonic-store';
 export const projects = [
 	{
+		id: 4-9-24,
+		title: "Laravel CRUD",
+		description: "Users add books, filter by category, title, author.",
+		tools: " <span  style='color: #ef3333;'>Laravel 11</span>,  <span  style='color: #000000;'>Php</span>, Mysql",
+		linkRepo: "https://github.com/dornescum/books-laravel11",
+		linkPage: "",
+		img: "@../../src/img/projects/laravelBooks.webp",
+		tagJs: "PHP",
+		tagCss: "Tailwind",
+		tagTutorial: false,
+		desc: "Angular",
+		extra: ` This is a simple Create, Read, Update, and Delete (CRUD) application for managing books. Each user can add their own books, 
+		and while the books added are visible to all users, only the user who added a book can update or delete it. The primary intent of this exercise was to test and showcase proficiency in Laravel and PHP, rather than focusing on the design aspects. 
+		Thus, the app may not have advanced design features or styles but has full functionality a CRUD application requires, implemented using Laravel and PHP.`
+
+	},
+	{
 		id: 12 - 30,
 		title: "Handymen Proof Of Concept",
 		description: "A full stack with ssr for seo",

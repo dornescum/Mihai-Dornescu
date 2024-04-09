@@ -47,8 +47,8 @@ export const handleSidebar = (access, sidebar) => {
                     </a>
                 </li>
                 <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="tailwind.html" class="py-2 md:py-4">
-                        Tailwind
+                    <a href="php.html" class="py-2 md:py-4">
+                        PHP
                     </a>
                 </li>
                 <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
