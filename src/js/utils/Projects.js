@@ -5,7 +5,7 @@ export const projects = [
 		id: 4-9-24,
 		title: "Laravel CRUD",
 		description: "Users add books, filter by category, title, author.",
-		tools: " <span  style='color: #ef3333;'>Laravel 11</span>,  <span  style='color: #000000;'>Php</span>, Mysql",
+		tools: " <span  style='color: #ef3333;'>Laravel 11</span>,  <span  style='color: #000000; font-weight: bolder'>Php</span>, Mysql",
 		linkRepo: "https://github.com/dornescum/books-laravel11",
 		linkPage: "",
 		img: "@../../src/img/projects/laravelBooks.webp",
