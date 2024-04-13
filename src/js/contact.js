@@ -23,27 +23,31 @@ window.onload = function () {
         const message = document.getElementById('message').value;
 
 
-        console.log(`Name: ${name}, Phone: ${phone}, Email: ${email}`);
-
         if (validateForm()) {
             fetch('https://api.mp.dornescu.ro/api/v1/agency/form', {
                 method: 'POST', headers: {
                     'Content-Type': 'application/json',
                 }, body: JSON.stringify({name: name, phone: phone, email: email, message: message}),
             })
-                .then(response => response.json())
+                .then(response => {
+                    if(response.status === 200) {
+                        return response.json();
+                    } else {
+                        throw new Error(`Request failed with status code ${response.status}`);
+                    }
+                })
                 .then(data => {
-                    console.log('Success:', data);
+                    // console.log('Success:', data);
+                    window.location.href = "index.html";
                 })
                 .catch((error) => {
                     console.error('Error:', error);
                 });
         }
-
     });
-
-
 }
+
+
 
 function validateForm() {
     const name = document.getElementById('name').value;
