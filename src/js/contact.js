@@ -29,9 +29,13 @@ window.onload = function () {
                     'Content-Type': 'application/json',
                 }, body: JSON.stringify({name: name, phone: phone, email: email, message: message}),
             })
+     
                 .then(response => {
                     if(response.status === 200) {
                         return response.json();
+                    } else if(response.status === 429) {
+                        alert('Too many requests. Please try again later.');
+                        throw new Error('Too many requests.');
                     } else {
                         throw new Error(`Request failed with status code ${response.status}`);
                     }
