@@ -9,6 +9,8 @@ const btnNavbar = getElement("#access-sidebar");
 const sidebar = getElement("#sidebar");
 const projectsGrid = getElement("#grid-projects");
 const footer = getElement("#footer-year");
+const form = document.getElementById('myForm');
+
 
 handleSidebar(btnNavbar, sidebar);
 // filteredProjects(projectsGrid, noTutorials);
@@ -212,5 +214,155 @@ function updatePagination() {
 
 displayData();
 updatePagination();
+
+
+// formular
+
+
+// window.onload = function() {
+//     setTimeout(function() {
+//         const element = document.getElementById('form-section');
+//
+//
+//         const backdrop = document.querySelector('.backdrop');
+//         const footer = document.getElementById('footer');
+//         const pagination = document.getElementById('pagination');
+//         const hero = document.getElementById('hero');
+//
+//         backdrop.classList.add('bg-gray-900', 'blur-lg', 'w-full', 'h-full', 'absolute');
+//         projectsGrid.classList.add('hidden');
+//         pagination.classList.add('hidden');
+//         footer.classList.add('hidden');
+//         hero.classList.add('hidden');
+//         // element.classList.add('w-4/5');
+//         element.classList.remove('hidden');
+//         // element.classList.remove('hidden');
+//
+//
+//         // Close button handler
+//         document.querySelector('.close-button').addEventListener('click', function() {
+//             element.classList.add('hidden');
+//             backdrop.classList.remove('bg-gray-900', 'blur-lg', 'w-full', 'h-full', 'absolute');
+//             projectsGrid.classList.remove('hidden');
+//             pagination.classList.remove('hidden');
+//             footer.classList.remove('hidden');
+//             hero.classList.remove('hidden');
+//         });
+//
+//         document.getElementById('myForm').addEventListener('submit', function(e) {
+//             e.preventDefault();
+//
+//             // Do your form submission logic here
+//             const name = document.getElementById('name').value;
+//             const phone = document.getElementById('phone').value;
+//             const email = document.getElementById('email').value;
+//             const message = document.getElementById('message').value;
+//
+//             const date = new Date()
+//             console.log('date : ',date)
+//             console.log(`Name: ${name}, Phone: ${phone}, Email: ${email}, Date: ${message}`);
+//             // start validation
+//             if (validateForm()) {
+//             fetch('https://your-endpoint.com/create', {
+//                 method: 'POST',
+//                 headers: {
+//                     'Content-Type': 'application/json',
+//                 },
+//                 body: JSON.stringify({name: name, phone: phone, email: email, message: message, date: date}),
+//             })
+//                 .then(response => response.json())
+//                 .then(data => {
+//                     console.log('Success:', data);
+//                 })
+//                 .catch((error) => {
+//                     console.error('Error:', error);
+//                 });
+//                 // close validation
+//                 // Hide the form
+//                 document.querySelector('.close-button').click();
+//         }
+//
+//         });
+//
+//
+//
+//         document.querySelector('.show-form-button').addEventListener('click', function() {
+//             element.classList.remove('hidden');
+//             backdrop.classList.add('bg-gray-900', 'blur-lg', 'w-full', 'h-full', 'absolute');
+//             projectsGrid.classList.add('hidden');
+//             pagination.classList.add('hidden');
+//             footer.classList.add('hidden');
+//             hero.classList.add('hidden');
+//         });
+//     }, 1000);
+// }
+//
+// function validateForm() {
+//     const name = document.getElementById('name').value;
+//     const phone = document.getElementById('phone').value;
+//     const email = document.getElementById('email').value;
+//     const message = document.getElementById('message').value;
+//
+//     // Name validation - should be min 3 characters
+//     if (name.length < 3) {
+//         alert('Name should be at least 3 characters long');
+//         return false;
+//     }
+//
+//     // Phone validation - should be numbers only
+//     const phoneRegexp = /^[0-9]*$/;
+//     if (!phoneRegexp.test(phone)) {
+//         alert('Invalid phone number - it should contain numbers only');
+//         return false;
+//     }
+//
+//     // Email validation
+//     const emailRegexp = /\S+@\S+\.\S+/;
+//     if (!emailRegexp.test(email)) {
+//         alert('Invalid email format');
+//         return false;
+//     }
+//
+//     // Message validation - should be min 3 and max 200 characters
+//     if (message.length < 3 || message.length > 200) {
+//         alert('Message length should be from 3 to 200 characters');
+//         return false;
+//     }
+//
+//     // All validations passed
+//     // alert('Validation passed');
+//     return true;
+// }
+// form.onsubmit = function(e) {
+//     e.preventDefault();
+
+    // get form fields
+    // const name = document.getElementById('name').value;
+    // const phone = document.getElementById('phone').value;
+    // const email = document.getElementById('email').value;
+    // const date = document.getElementById('date').value;
+
+    // console.log(`Name: ${name}, Phone: ${phone}, Email: ${email}, Date: ${date}`);
+
+    // You can now make your POST request to your create endpoint with the form values
+
+    // Example:
+    /*
+    fetch('https://your-endpoint.com/create', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({name: name, phone: phone, email: email, date: date}),
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log('Success:', data); <- your response from the server will be logged here
+    })
+    .catch((error) => {
+      console.error('Error:', error);
+    });
+    */
+// }
 
 console.timeEnd("timer");

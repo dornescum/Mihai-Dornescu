@@ -5,15 +5,15 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4LTQKH0FZ7"></script>
     <script>
-		window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
 
-		function gtag() {
-			dataLayer.push(arguments);
-		}
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-		gtag('js', new Date());
+        gtag('js', new Date());
 
-		gtag('config', 'G-4LTQKH0FZ7');
+        gtag('config', 'G-4LTQKH0FZ7');
     </script>
 
     <meta charset="UTF-8">
@@ -53,6 +53,7 @@
         .hide-loading {
             display: none;
         }
+
         @keyframes anim-left {
             0% {
                 opacity: 0;
@@ -66,6 +67,7 @@
             }
 
         }
+
         .show {
             display: block;
             animation: anim-left .2s ease-in-out;
@@ -78,12 +80,14 @@
             display: none;
         }
 
-        .clip{
+        .clip {
             clip-path: polygon(5% 0, 100% 0%, 100% 100%, 0 100%, 0 5%);
         }
-        .MyClass{
+
+        .MyClass {
             background-color: red !important;
         }
+
         /* For Webkit browsers like Chrome, Safari */
         ::-webkit-scrollbar {
             width: 22px;
@@ -108,7 +112,6 @@
         }
 
 
-
         .modal {
             display: none;
             position: fixed;
@@ -118,8 +121,8 @@
             width: 100%;
             height: 100%;
             overflow: auto;
-            background-color: rgb(0,0,0);
-            background-color: rgba(0,0,0,0.4);
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.4);
         }
 
         .modal-content {
@@ -155,18 +158,18 @@
         <ul class="flex justify-between py-4 px-4 md:px-8 lg:px-12 fixed w-full bg-slate-50">
             <li>
                 <div class="flex">
-                    <a href="index.html" class="flex items-center justify-center">
-                        <img src="./src/img/svg/home.svg" alt="home button">
+                    <a class="flex items-center justify-center" href="index.html">
+                        <img alt="home button" src="./src/img/svg/home.svg">
                     </a>
 
-                    <a href="javascript:;" itemprop="author"  class="text-xl pl-4">
+                    <a class="text-xl pl-4" href="javascript:" itemprop="author">
                         Mihai Dornescu
                     </a>
                 </div>
             </li>
             <li>
                 <button id="access-sidebar" style="padding: 3px 0 0 0">
-                    <img src="./src/img/svg/hamburger.svg" alt="hamburger menu">
+                    <img alt="hamburger menu" src="./src/img/svg/hamburger.svg">
                 </button>
             </li>
         </ul>
@@ -180,11 +183,16 @@
     </div>
     <!--  end sidebar  -->
     <!--hero-->
-    <section class="mx-0 md:mx-4 lg:mx-10 text-center text-red-300 py-4">
+    <section class="mx-0 md:mx-4 lg:mx-10 text-center text-red-300 py-4" id="hero">
         <p class="text-center mx-4 py-4 text-2xl text-stone-600">My playground</p>
-        <p class="mx-4 p-2 md:p-1 md:mx-2 text-justify text-sm md:text-2xl text-stone-500">
-            The place where I test different technologies or frameworks.
-        </p>
+        <div class="flex flex-col md:flex-row justify-around">
+            <p class="mx-4 p-2 md:p-1 md:mx-2 text-justify text-sm md:text-2xl text-stone-500">
+                The place where I test different technologies or frameworks.
+            </p>
+            <a href="/contact.html" class="flex items-center bg-gray-400 py-1 px-3 rounded-md text-white animate-pulse">
+                Send me a message</a>
+        </div>
+
     </section>
 
     <!--loading-->
@@ -200,7 +208,7 @@
     </section>
 
     <!-- Single Modal Structure -->
-    <div id="myModal" class="modal">
+    <div class="modal" id="myModal">
         <!-- Modal content -->
         <div class="modal-content" id="modalContent">
 
@@ -210,35 +218,35 @@
     </div>
 
 
-
     <section>
         <!-- component -->
-<!-- This is an example component -->
-<div class="max-w-2xl mx-auto" id="pagination">
+        <!-- This is an example component -->
+        <div class="max-w-2xl mx-auto" id="pagination">
 
-	<nav aria-label="Page navigation example">
-	<ul class="inline-flex -space-x-px" >
-			<li>
-				<a href="#"
-					class="bg-white border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 
+            <nav aria-label="Page navigation example">
+                <ul class="inline-flex -space-x-px">
+                    <li>
+                        <a class="bg-white border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700
                     ml-0 rounded-l-lg leading-tight py-2 px-3 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400
-                     dark:hover:bg-gray-700 dark:hover:text-white">Previous</a>
-			</li>
+                     dark:hover:bg-gray-700 dark:hover:text-white"
+                           href="#">Previous</a>
+                    </li>
 
-			<li>
-				<a href="#"
-					class="bg-white border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-r-lg
+                    <li>
+                        <a class="bg-white border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-r-lg
                      leading-tight py-2 px-3 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700
-                      dark:hover:text-white">Next</a>
-			</li>
-		</ul> 
-	</nav>
+                      dark:hover:text-white"
+                           href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
 
-	<p class="mt-5">This pagination component is part of a larger, open-source library of Tailwind CSS components. Learn more
-		by going to the official <a class="text-blue-600 hover:underline"
-			href="#" target="_blank">Flowbite Documentation</a>.
-	</p>
-</div>
+            <p class="mt-5">This pagination component is part of a larger, open-source library of Tailwind CSS
+                components. Learn more
+                by going to the official <a class="text-blue-600 hover:underline"
+                                            href="#" target="_blank">Flowbite Documentation</a>.
+            </p>
+        </div>
     </section>
 
     <!--========================cookie consent-->
@@ -277,9 +285,13 @@
                 <img alt="dornescu.ro" src="./src/img/svg/blog.svg">
             </a>
         </li>
+        <li class="p-1 flex justify-center items-center">
+            <a href="contact.html" itemprop="author">
+                <img alt="dornescu.ro" src="./src/img/svg/contact.svg">
+            </a>
+        </li>
     </ul>
 </footer>
-
 
 
 <!-- js -->
