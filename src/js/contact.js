@@ -29,7 +29,7 @@ window.onload = function () {
                     'Content-Type': 'application/json',
                 }, body: JSON.stringify({name: name, phone: phone, email: email, message: message}),
             })
-     
+
                 .then(response => {
                     if(response.status === 200) {
                         return response.json();
