@@ -12,7 +12,7 @@ handleSidebar(btnNavbar, sidebar);
 
 window.onload = function () {
 
-    console.log("%c Don't worry I will validate all inputs on the server  :)", 'color: red; font-size:20px');
+    console.log("%c Don't worry I will validate all inputs on the server  :) and I will limit the request per hour", 'color: red; font-size:20px');
     form.addEventListener('submit', function (e) {
         e.preventDefault();
 
@@ -34,7 +34,8 @@ window.onload = function () {
                     if(response.status === 200) {
                         return response.json();
                     } else if(response.status === 429) {
-                        alert('Too many requests. Please try again later.');
+                        // alert('Too many requests. Please try again later.');
+                        document.getElementById('denyRequest').classList.remove('hidden');
                         throw new Error('Too many requests.');
                     } else {
                         throw new Error(`Request failed with status code ${response.status}`);
@@ -42,9 +43,17 @@ window.onload = function () {
                 })
                 .then(data => {
                     // console.log('Success:', data);
-                    window.location.href = "index.html";
+                    document.getElementById('succes').classList.remove('hidden');
+                    setTimeout(()=>{
+                        window.location.href = "index.html";
+                    }, 2000)
+
                 })
                 .catch((error) => {
+                    document.getElementById('denyRequest').classList.remove('hidden');
+                    setTimeout(()=>{
+                        location.reload();
+                    }, 1000);
                     console.error('Error:', error);
                 });
         }
