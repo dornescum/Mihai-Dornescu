@@ -58,7 +58,7 @@ export const projects = [
 		description: "node js express, jsonwebtoken, md5, joi, sqlite, angular form, typescript, tailwind css",
 		tools: "Node js, <span  style='color: #000000;'>Express</span>, Sqlite, <span  style='color: #ef3333;'>Angular</span>, Typescript",
 		linkRepo: "https://github.com/dornescum/sqliteAdminPanel",
-		linkPage: "http://62.171.167.229:4200/client/#/login",
+		linkPage: "http://62.171.167.229:4200/client/#/home",
 		img: "@../../src/img/projects/admin.webp",
 		tagJs: "Angular",
 		tagCss: "Tailwind",
