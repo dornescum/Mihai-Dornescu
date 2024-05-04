@@ -181,6 +181,47 @@
 
         </aside>
     </div>
+
+    <section>
+        <!--    width="320" height="240"-->
+        <video controls   id="videoElement" loop autoplay>
+            Your browser does not support the video tag.
+        </video>
+
+
+        <script>
+            const source = 'http://62.171.167.229:8001/';
+            const video = document.querySelector('#videoElement');
+
+            fetch(source)
+                .then(response => response.body)
+                .then(rs => {
+                    const reader = rs.getReader();
+                    let chunks = new Uint8Array();
+                    console.log('chunks', chunks)
+
+                    return reader.read().then(function processStream({ done, value }) {
+                        if (done) {
+
+                            const blob = new Blob([chunks], {type: 'video/mp4'});
+                            console.log('blob', blob)
+                            const url = URL.createObjectURL(blob);
+                            console.log('url ', url)
+                            video.src = url;
+                            return;
+                        }
+
+                        let tmp = new Uint8Array(chunks.byteLength + value.byteLength);
+                        tmp.set(new Uint8Array(chunks), 0);
+                        tmp.set(new Uint8Array(value), chunks.byteLength);
+                        chunks = tmp;
+
+                        return reader.read().then(processStream);
+                    });
+                });
+        </script>
+    </section>
+
     <!--  end sidebar  -->
     <!--hero-->
     <section class="mx-0 md:mx-4 lg:mx-10 text-center text-red-300 py-4" id="hero">
