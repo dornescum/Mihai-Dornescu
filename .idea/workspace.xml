@@ -25,7 +25,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="update projects" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Update project page link and clean up workspace.xml&#10;&#10;The project page link in src/js/utils/Projects.js file has been updated to point to home instead of login. Simultaneously, unnecessary changelists have been removed from the .idea/workspace.xml to make the XML file cleaner and easier to work with.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,8 +128,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PS-241.14494.237" />
-        <option value="bundled-php-predefined-ba97393d7c68-8f0632a2a215-com.jetbrains.php.sharedIndexes-PS-241.14494.237" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PS-241.15989.102" />
+        <option value="bundled-php-predefined-ba97393d7c68-c76157a7178b-com.jetbrains.php.sharedIndexes-PS-241.15989.102" />
       </set>
     </attachedChunks>
   </component>
@@ -497,6 +499,8 @@
       <workItem from="1713004836220" duration="1066000" />
       <workItem from="1713109536636" duration="1139000" />
       <workItem from="1713157928631" duration="1574000" />
+      <workItem from="1713356144749" duration="807000" />
+      <workItem from="1714362182740" duration="21000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
@@ -841,7 +845,7 @@
       <option name="project" value="LOCAL" />
       <updated>1643555823321</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -860,7 +864,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="google analitics index" />
     <MESSAGE value="fix img past" />
     <MESSAGE value="temp card projects" />
     <MESSAGE value="fix focus btn" />
@@ -885,7 +888,8 @@
     <MESSAGE value="refactor cdn" />
     <MESSAGE value="fix error svg" />
     <MESSAGE value="update projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="update projects" />
+    <MESSAGE value="Update project page link and clean up workspace.xml&#10;&#10;The project page link in src/js/utils/Projects.js file has been updated to point to home instead of login. Simultaneously, unnecessary changelists have been removed from the .idea/workspace.xml to make the XML file cleaner and easier to work with." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update project page link and clean up workspace.xml&#10;&#10;The project page link in src/js/utils/Projects.js file has been updated to point to home instead of login. Simultaneously, unnecessary changelists have been removed from the .idea/workspace.xml to make the XML file cleaner and easier to work with." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
