@@ -25,9 +25,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Update project page link and clean up workspace.xml&#10;&#10;The project page link in src/js/utils/Projects.js file has been updated to point to home instead of login. Simultaneously, unnecessary changelists have been removed from the .idea/workspace.xml to make the XML file cleaner and easier to work with.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Remove video handling and clean workspace settings&#10;&#10;Deleted src/video.html file and removed the corresponding video handling code in index.html. In addition, cleaned up workspace.xml settings in the .idea directory. The commit helps make the project structure simpler and the workspace settings easier to manage." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,9 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -501,6 +499,7 @@
       <workItem from="1713157928631" duration="1574000" />
       <workItem from="1713356144749" duration="807000" />
       <workItem from="1714362182740" duration="21000" />
+      <workItem from="1714834150365" duration="2100000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
@@ -845,7 +844,7 @@
       <option name="project" value="LOCAL" />
       <updated>1643555823321</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -864,9 +863,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fix img past" />
-    <MESSAGE value="temp card projects" />
-    <MESSAGE value="fix focus btn" />
     <MESSAGE value="fix card text" />
     <MESSAGE value="fix card classes" />
     <MESSAGE value="fix card effects" />
@@ -889,7 +885,10 @@
     <MESSAGE value="fix error svg" />
     <MESSAGE value="update projects" />
     <MESSAGE value="Update project page link and clean up workspace.xml&#10;&#10;The project page link in src/js/utils/Projects.js file has been updated to point to home instead of login. Simultaneously, unnecessary changelists have been removed from the .idea/workspace.xml to make the XML file cleaner and easier to work with." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update project page link and clean up workspace.xml&#10;&#10;The project page link in src/js/utils/Projects.js file has been updated to point to home instead of login. Simultaneously, unnecessary changelists have been removed from the .idea/workspace.xml to make the XML file cleaner and easier to work with." />
+    <MESSAGE value="Add video page and link in sidebar&#10;&#10;A new HTML file for the video page has been created. Also, a link to the new video page has been added to the sidebar navigation in the handleSidebar.js function." />
+    <MESSAGE value="Add video player and related scripting to index.html&#10;&#10;This commit introduces a video player to the main index.html page. The additional JavaScript loads and processes a video stream, then displays it in the new player. The code also handles video file type and browser compatibility issues.&#10;after error on video.html" />
+    <MESSAGE value="Remove video handling and clean workspace settings&#10;&#10;Deleted src/video.html file and removed the corresponding video handling code in index.html. In addition, cleaned up workspace.xml settings in the .idea directory. The commit helps make the project structure simpler and the workspace settings easier to manage." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove video handling and clean workspace settings&#10;&#10;Deleted src/video.html file and removed the corresponding video handling code in index.html. In addition, cleaned up workspace.xml settings in the .idea directory. The commit helps make the project structure simpler and the workspace settings easier to manage." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
