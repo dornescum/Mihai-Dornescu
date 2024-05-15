@@ -1,23 +1,7 @@
 // <span style='color: #000000; font-weight: bold'></span>
 const project= 'https://github.com/dornescum/angularIonic-store';
 export const projects = [
-	{
-		id: 4-9-24,
-		title: "Laravel CRUD",
-		description: "Users add books, filter by category, title, author.",
-		tools: " <span  style='color: #ef3333;'>Laravel 11</span>,  <span  style='color: #000000; font-weight: bolder'>Php</span>, Mysql",
-		linkRepo: "https://github.com/dornescum/books-laravel11",
-		linkPage: "http://books.dornescu.ro/books",
-		img: "@../../src/img/projects/laravelBooks.webp",
-		tagJs: "PHP",
-		tagCss: "Tailwind",
-		tagTutorial: false,
-		desc: "Angular",
-		extra: ` This is a simple Create, Read, Update, and Delete (CRUD) application for managing books. Each user can add their own books, 
-		and while the books added are visible to all users, only the user who added a book can update or delete it. The primary intent of this exercise was to test and showcase proficiency in Laravel and PHP, rather than focusing on the design aspects. 
-		Thus, the app may not have advanced design features or styles but has full functionality a CRUD application requires, implemented using Laravel and PHP.`
 
-	},
 	{
 		id: 12 - 30,
 		title: "Handymen Proof Of Concept",
@@ -68,6 +52,23 @@ export const projects = [
 		tagNode: true,
 		desc: "Node js , Express, Sqlite, Angular",
 		extra: "This full-stack SaaS project is an  electronic warehouse simulation platform where users, after account creation, can manage a plethora of electronic products across various categories and brands. Embracing a mobile-first design philosophy, the client-side is crafted using <span style='color: #000000; font-weight: bold'>Angular</span> , ensuring an optimal and responsive experience across devices. The system facilitates full CRUD operations, allowing for the addition, modification, and movement of inventory items between virtual storages. A key feature is the real-time transactional database management powered by <span style='color: #000000; font-weight: bold'>SQLite</span> , ensuring data integrity as items are transferred across storages. The backend, constructed with Express, delivers robust MVC architecture for efficient data filtering by brand, category, and price, as well as search functionality for product names and fallback brand searches. Each product is uniquely identified by a barcode, incorporating storage, category, brand, and owner details. <span style='color: #000000; font-weight: bold'>Chart js</span>  integration provides insightful visualizations of storage metrics. Moreover, users can download complete SQL product lists, enabling easy data portability and backup. This platform exemplifies a comprehensive warehouse management solution with a keen focus on user-centric design, data accuracy, and operational efficiency."
+	},
+	{
+		id: 4-9-24,
+		title: "Laravel CRUD",
+		description: "Users add books, filter by category, title, author.",
+		tools: " <span  style='color: #ef3333;'>Laravel 11</span>,  <span  style='color: #000000; font-weight: bolder'>Php</span>, Mysql",
+		linkRepo: "https://github.com/dornescum/books-laravel11",
+		linkPage: "http://books.dornescu.ro/books",
+		img: "@../../src/img/projects/laravelBooks.webp",
+		tagJs: "PHP",
+		tagCss: "Tailwind",
+		tagTutorial: false,
+		desc: "Angular",
+		extra: ` This is a simple Create, Read, Update, and Delete (CRUD) application for managing books. Each user can add their own books, 
+		and while the books added are visible to all users, only the user who added a book can update or delete it. The primary intent of this exercise was to test and showcase proficiency in Laravel and PHP, rather than focusing on the design aspects. 
+		Thus, the app may not have advanced design features or styles but has full functionality a CRUD application requires, implemented using Laravel and PHP.`
+
 	},
 	{
 		id: 15 / 8,
