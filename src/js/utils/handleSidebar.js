@@ -62,13 +62,13 @@ export const handleSidebar = (access, sidebar) => {
                        Examen JQuery
                     </a>
                      </li>
-                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="sql.html" class="py-4 hover:text-stone-50">
-                        SQL
-                    </a>
-                </li>
+<!--                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">-->
+<!--                    <a href="sql.html" class="py-4 hover:text-stone-50">-->
+<!--                        SQL-->
+<!--                    </a>-->
+<!--                </li>-->
                  <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="sql.html" class="py-4 hover:text-stone-50">
+                    <a href="contact.html" class="py-4 hover:text-stone-50">
                         Contact
                     </a>
                 </li>
