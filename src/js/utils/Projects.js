@@ -137,7 +137,23 @@ export const projects = [
 
 
 	},
+	{
+		id: 7 - 6 - 24,
+		title: "Express EJS",
+		description: " Express.js, TypeScript, Mysql ",
+		tools: "Express validator, Express-sessions, Cookie-parser, Express-rate-limit, Express-helmet",
+		linkRepo: "https://github.com/dornescum/cleanUpAgency",
+		linkPage: "http://62.171.167.229:3003/",
+		img: "@../../src/img/projects/garden.webp",
+		tagJs: "Express",
+		tagCss: "Typescript",
+		tagTutorial: false,
+		tagDB: 'Mysql',
+		tagNode: true,
+		desc: "Node js  Express Typescript Mysql",
+		extra: "Features<br> Server Setup: Utilizes Express js for server management. Template Engine: Employs EJS for dynamic HTML generation. Security: Implements security best practices using Helmet and Express Rate Limit. Validation: Integrates Express Validator for request validation. Session Management: Manages user sessions with Express Session and Cookie Parser. Environment Variables: Uses Dotenv to manage environment variables. Database Integration: Connects to MySQL databases using MySQL2. Dependencies<br> Express: Framework for building web applications. cookie-parser: Middleware for parsing cookies. dotenv: Loads environment variables from a env file. ejs: Embedded JavaScript templates. express-rate-limit: Middleware for rate limiting. express-session: Middleware for managing sessions. express-validator: Middleware for validating requests. helmet: Security middleware. mysql2: MySQL client for Node js. ts-node: TypeScript execution environment for Node js."
 
+	},
 	{
 		id: 7 - 8,
 		title: "Todo App Jest testing",

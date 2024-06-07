@@ -25,9 +25,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Removed video link from sidebar and updated workspace settings&#10;&#10;Removed the video page link from the sidebar navigation in the handleSidebar.js file. Additionally, streamlined the order of recent templates in the workspace.xml and updated the local tasks counter. Several commit messages were also removed for simplicity.">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Removed SQL link from sidebar and updated workspace settings&#10;&#10;The SQL link was commented out from the ‘handleSidebar.js’ file, removing it from the sidebar navigation. The ‘contact.html' link was also adjusted in the same file. This commit also includes updates to the 'workspace.xml' under the .idea directory, such as rearranging the order of templates and updating the local task counter. Some old commit messages were deleted for simplicity.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/utils/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/Projects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,8 +129,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PS-241.15989.102" />
-        <option value="bundled-php-predefined-ba97393d7c68-c76157a7178b-com.jetbrains.php.sharedIndexes-PS-241.15989.102" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.17011.119" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.17011.119" />
       </set>
     </attachedChunks>
   </component>
@@ -504,7 +504,10 @@
       <workItem from="1714362182740" duration="21000" />
       <workItem from="1714834150365" duration="2100000" />
       <workItem from="1715069044450" duration="319000" />
-      <workItem from="1716559073511" duration="1107000" />
+      <workItem from="1716559073511" duration="1870000" />
+      <workItem from="1716570199192" duration="43000" />
+      <workItem from="1716606883328" duration="1442000" />
+      <workItem from="1717753487404" duration="1364000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
@@ -849,7 +852,7 @@
       <option name="project" value="LOCAL" />
       <updated>1643555823321</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -868,7 +871,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fix card classes" />
     <MESSAGE value="fix card effects" />
     <MESSAGE value="fix article heigth" />
     <MESSAGE value="fix article ipad" />
@@ -893,7 +895,8 @@
     <MESSAGE value="Add video player and related scripting to index.html&#10;&#10;This commit introduces a video player to the main index.html page. The additional JavaScript loads and processes a video stream, then displays it in the new player. The code also handles video file type and browser compatibility issues.&#10;after error on video.html" />
     <MESSAGE value="Remove video handling and clean workspace settings&#10;&#10;Deleted src/video.html file and removed the corresponding video handling code in index.html. In addition, cleaned up workspace.xml settings in the .idea directory. The commit helps make the project structure simpler and the workspace settings easier to manage." />
     <MESSAGE value="Removed video link from sidebar and updated workspace settings&#10;&#10;Removed the video page link from the sidebar navigation in the handleSidebar.js file. Additionally, streamlined the order of recent templates in the workspace.xml and updated the local tasks counter. Several commit messages were also removed for simplicity." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed video link from sidebar and updated workspace settings&#10;&#10;Removed the video page link from the sidebar navigation in the handleSidebar.js file. Additionally, streamlined the order of recent templates in the workspace.xml and updated the local tasks counter. Several commit messages were also removed for simplicity." />
+    <MESSAGE value="Removed SQL link from sidebar and updated workspace settings&#10;&#10;The SQL link was commented out from the ‘handleSidebar.js’ file, removing it from the sidebar navigation. The ‘contact.html' link was also adjusted in the same file. This commit also includes updates to the 'workspace.xml' under the .idea directory, such as rearranging the order of templates and updating the local task counter. Some old commit messages were deleted for simplicity." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed SQL link from sidebar and updated workspace settings&#10;&#10;The SQL link was commented out from the ‘handleSidebar.js’ file, removing it from the sidebar navigation. The ‘contact.html' link was also adjusted in the same file. This commit also includes updates to the 'workspace.xml' under the .idea directory, such as rearranging the order of templates and updating the local task counter. Some old commit messages were deleted for simplicity." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
