@@ -25,9 +25,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Removed SQL link from sidebar and updated workspace settings&#10;&#10;The SQL link was commented out from the ‘handleSidebar.js’ file, removing it from the sidebar navigation. The ‘contact.html' link was also adjusted in the same file. This commit also includes updates to the 'workspace.xml' under the .idea directory, such as rearranging the order of templates and updating the local task counter. Some old commit messages were deleted for simplicity.">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Added new project details and updated workspace settings&#10;&#10;Extended the project list by adding the &quot;Express EJS&quot; project with all its configuration details into the Projects.js file. In addition, updated the workspace.xml file by reordering the templates, updating the local task counter, and removing some old commit messages for simplifying the changelist.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/utils/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/Projects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -507,7 +506,7 @@
       <workItem from="1716559073511" duration="1870000" />
       <workItem from="1716570199192" duration="43000" />
       <workItem from="1716606883328" duration="1442000" />
-      <workItem from="1717753487404" duration="1364000" />
+      <workItem from="1717753487404" duration="2769000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
@@ -852,7 +851,7 @@
       <option name="project" value="LOCAL" />
       <updated>1643555823321</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -871,7 +870,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fix card effects" />
     <MESSAGE value="fix article heigth" />
     <MESSAGE value="fix article ipad" />
     <MESSAGE value="fix article ipad2" />
@@ -896,7 +894,8 @@
     <MESSAGE value="Remove video handling and clean workspace settings&#10;&#10;Deleted src/video.html file and removed the corresponding video handling code in index.html. In addition, cleaned up workspace.xml settings in the .idea directory. The commit helps make the project structure simpler and the workspace settings easier to manage." />
     <MESSAGE value="Removed video link from sidebar and updated workspace settings&#10;&#10;Removed the video page link from the sidebar navigation in the handleSidebar.js file. Additionally, streamlined the order of recent templates in the workspace.xml and updated the local tasks counter. Several commit messages were also removed for simplicity." />
     <MESSAGE value="Removed SQL link from sidebar and updated workspace settings&#10;&#10;The SQL link was commented out from the ‘handleSidebar.js’ file, removing it from the sidebar navigation. The ‘contact.html' link was also adjusted in the same file. This commit also includes updates to the 'workspace.xml' under the .idea directory, such as rearranging the order of templates and updating the local task counter. Some old commit messages were deleted for simplicity." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed SQL link from sidebar and updated workspace settings&#10;&#10;The SQL link was commented out from the ‘handleSidebar.js’ file, removing it from the sidebar navigation. The ‘contact.html' link was also adjusted in the same file. This commit also includes updates to the 'workspace.xml' under the .idea directory, such as rearranging the order of templates and updating the local task counter. Some old commit messages were deleted for simplicity." />
+    <MESSAGE value="Added new project details and updated workspace settings&#10;&#10;Extended the project list by adding the &quot;Express EJS&quot; project with all its configuration details into the Projects.js file. In addition, updated the workspace.xml file by reordering the templates, updating the local task counter, and removing some old commit messages for simplifying the changelist." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new project details and updated workspace settings&#10;&#10;Extended the project list by adding the &quot;Express EJS&quot; project with all its configuration details into the Projects.js file. In addition, updated the workspace.xml file by reordering the templates, updating the local task counter, and removing some old commit messages for simplifying the changelist." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

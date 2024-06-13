@@ -22,20 +22,7 @@ export const projects = [
 			"the server environment is tuned with essential packages, supporting Angular's dynamic capabilities and Express's efficient processing. Additionally, MySQL is seamlessly integrated, offering robust data management and storage solutions, this setup ensures optimal interaction between the server, the database, and all the applications on the server."
 
 	},
-	{
-		id: 1/10/24,
-		title: "Statistics ",
-		description: "Analyzing statistics for <span style='color: #000000'><b><a href='https://mp.dornescu.ro' target='_blank'>Handymen Proof Of Concept</a> </b></span>",
-		tools: "<span  style='color: #ef3333;'>Angular 16</span>, Tailwind Css",
-		linkRepo: "https://github.com/dornescum/admin-dashboard",
-		linkPage: "https://statistics-api-414df.web.app/browsers",
-		img: "@../../src/img/projects/devices.webp",
-		tagJs: "Angular",
-		tagCss: "Tailwind",
-		tagTutorial: false,
-		desc: "Angular",
-		extra: "This project is built for displaying and analyzing statistics, specifically focused on client search data. It is designed to provide insights into various metrics such as device type, operating system, brand, and IP location details (country and town)"
-	},
+
 	{
 		id: 1 / 5 / 2023,
 		title: "Full stack admin panel",
@@ -52,6 +39,22 @@ export const projects = [
 		tagNode: true,
 		desc: "Node js , Express, Sqlite, Angular",
 		extra: "This full-stack SaaS project is an  electronic warehouse simulation platform where users, after account creation, can manage a plethora of electronic products across various categories and brands. Embracing a mobile-first design philosophy, the client-side is crafted using <span style='color: #000000; font-weight: bold'>Angular</span> , ensuring an optimal and responsive experience across devices. The system facilitates full CRUD operations, allowing for the addition, modification, and movement of inventory items between virtual storages. A key feature is the real-time transactional database management powered by <span style='color: #000000; font-weight: bold'>SQLite</span> , ensuring data integrity as items are transferred across storages. The backend, constructed with Express, delivers robust MVC architecture for efficient data filtering by brand, category, and price, as well as search functionality for product names and fallback brand searches. Each product is uniquely identified by a barcode, incorporating storage, category, brand, and owner details. <span style='color: #000000; font-weight: bold'>Chart js</span>  integration provides insightful visualizations of storage metrics. Moreover, users can download complete SQL product lists, enabling easy data portability and backup. This platform exemplifies a comprehensive warehouse management solution with a keen focus on user-centric design, data accuracy, and operational efficiency."
+	},
+	{
+		id: 13 - 6 - 24,
+		title: "Convert image",
+		description: "Convert jpeg to webp, png. Tiff to jpeg, BMP to png. ",
+		tools: " <span  style='color: #6b9e11;'>Python</span>,Flask , Pillow, Jinja2, Mysql",
+		linkRepo: "https://github.com/dornescum",
+		linkPage: "http://62.171.167.229:5000/",
+		img: "@../../src/img/projects/python_images.webp",
+		tagJs: "Python",
+		tagCss: "Bootstrap",
+		tagTutorial: false,
+		tagDB: 'Mysql',
+		tagPy: true,
+		desc: "FastApi  Python, Sqlite, React",
+		extra: "This project is a web application that allows users to upload, process, and view various image formats, JPEG, PNG, WEBP, TIFF . It utilizes Flask as the web framework and leverages several libraries for image handling, database management, and session management. Key functionalities include: Image Processing | GeoIP Location | Session Management | Database Interaction. Integrates Geolite2 to retrieve geographic information based on the user's IP address. Implements Flask-Session for server-side session management. Uses Flask-Limiter to manage request rates and avoid abuse. Utilizes python-dotenv to load environment variables from a .env file, ensuring secure configuration management. Connects to a MySQL database using SQLAlchemy and pymysql for ORM capabilities and session management."
 	},
 	{
 		id: 4-9-24,
@@ -120,22 +123,18 @@ export const projects = [
 		extra: "This e-commerce mockup project, developed as an online electronic store platform, leverages <span style='color: #000000; font-weight: bold'>Next js</span> , a formidable framework for server-rendered React applications. Emphasizing a mobile-first design approach, the platform ensures optimal usability and aesthetics on smaller screens, progressively enhancing the experience for larger devices. This strategy is pivotal in today's mobile-centric world, ensuring a broad reach and user satisfaction. The project capitalizes on Next js's strengths in efficient page rendering and routing, contributing to an exceptionally performant user experience. Interactive charts powered by <span style='color: #000000; font-weight: bold'>Chart js</span> , and engaging visual elements like  <span style='color: #000000; font-weight: bold'>React Icons</span> and <span style='color: #000000; font-weight: bold'>Slick Carousel</span> , are seamlessly integrated to enrich the interface. React Popup enhances interactivity, offering intuitive modal and dialogue display. Frontend styling with <span style='color: #000000; font-weight: bold'>Tailwind CSS</span>  guarantees a modern, responsive design that elegantly adapts across various devices. The application's robust setup includes dotenv for environment variable management and ESLint for code quality assurance, embodying best practices in configuration and development. This project stands out as a state-of-the-art e-commerce solution, with its focus on interactivity, mobile-first user engagement, and compelling aesthetic appeal."
 	},
 	{
-		id: 8 - 25,
-		title: "FastApi Todo",
-		description: "CRUD app",
-		tools: "FastApi, <span  style='color: #6b9e11;'>Python</span>, Sqlite, React",
-		linkRepo: "https://github.com/dornescum/fastApi_Todo_React_Sqlite",
-		linkPage: "",
-		img: "@../../src/img/projects/todo_fastApi.webp",
-		tagJs: "React",
-		tagCss: "Bootstrap",
+		id: 1/10/24,
+		title: "Statistics ",
+		description: "Analyzing statistics for <span style='color: #000000'><b><a href='https://mp.dornescu.ro' target='_blank'>Handymen Proof Of Concept</a> </b></span>",
+		tools: "<span  style='color: #ef3333;'>Angular 16</span>, Tailwind Css",
+		linkRepo: "https://github.com/dornescum/admin-dashboard",
+		linkPage: "https://statistics-api-414df.web.app/browsers",
+		img: "@../../src/img/projects/devices.webp",
+		tagJs: "Angular",
+		tagCss: "Tailwind",
 		tagTutorial: false,
-		tagDB: 'Sqlite',
-		tagPy: true,
-		desc: "FastApi  Python, Sqlite, React",
-		extra: "A simple task management  with FastAPI_Todo_React_Sqlite, a full-stack to-do application fusing the swift and efficient <span style='color: #000000; font-weight: bold'>FastAPI</span> with the dynamic interactivity of <span style='color: #000000; font-weight: bold'>React</span> , all underpinned by the robustness of <span style='color: #000000; font-weight: bold'>SQLite</span> . This project represents a harmonious blend of a Python-powered backend and a JavaScript-driven frontend, encapsulating the ease of <span style='color: #000000; font-weight: bold'>Python</span> programming with the seamless user interface design of React. It offers a straightforward installation process, requiring Python and Node.js environments, followed by <span style='color: #000000; font-weight: bold'>FastAPI and Uvicorn</span>  setup. With a minimalist yet powerful <span style='color: #000000; font-weight: bold'> React</span> frontend, this application has been intricately tailored to accommodate the backend integration, providing a comprehensive CRUD interface for to-do list items. The backend's <span style='color: #000000; font-weight: bold'>SQLite</span>  database ensures durable and transactional data storage, while FastAPI endows the application with high performance and swift response times. Coupled with <span style='color: #000000; font-weight: bold'>Swagger </span> documentation, the app promises an intuitive API exploration experience."
-
-
+		desc: "Angular",
+		extra: "This project is built for displaying and analyzing statistics, specifically focused on client search data. It is designed to provide insights into various metrics such as device type, operating system, brand, and IP location details (country and town)"
 	},
 	{
 		id: 7 - 6 - 24,
@@ -154,6 +153,23 @@ export const projects = [
 		extra: "Features<br> Server Setup: Utilizes Express js for server management. Template Engine: Employs EJS for dynamic HTML generation. Security: Implements security best practices using Helmet and Express Rate Limit. Validation: Integrates Express Validator for request validation. Session Management: Manages user sessions with Express Session and Cookie Parser. Environment Variables: Uses Dotenv to manage environment variables. Database Integration: Connects to MySQL databases using MySQL2. Dependencies<br> Express: Framework for building web applications. cookie-parser: Middleware for parsing cookies. dotenv: Loads environment variables from a env file. ejs: Embedded JavaScript templates. express-rate-limit: Middleware for rate limiting. express-session: Middleware for managing sessions. express-validator: Middleware for validating requests. helmet: Security middleware. mysql2: MySQL client for Node js. ts-node: TypeScript execution environment for Node js."
 
 	},
+	{
+		id: 8 - 25,
+		title: "FastApi Todo",
+		description: "CRUD app",
+		tools: "FastApi, <span  style='color: #6b9e11;'>Python</span>, Sqlite, React",
+		linkRepo: "https://github.com/dornescum/fastApi_Todo_React_Sqlite",
+		linkPage: "",
+		img: "@../../src/img/projects/todo_fastApi.webp",
+		tagJs: "React",
+		tagCss: "Bootstrap",
+		tagTutorial: false,
+		tagDB: 'Sqlite',
+		tagPy: true,
+		desc: "FastApi  Python, Sqlite, React",
+		extra: "A simple task management  with FastAPI_Todo_React_Sqlite, a full-stack to-do application fusing the swift and efficient <span style='color: #000000; font-weight: bold'>FastAPI</span> with the dynamic interactivity of <span style='color: #000000; font-weight: bold'>React</span> , all underpinned by the robustness of <span style='color: #000000; font-weight: bold'>SQLite</span> . This project represents a harmonious blend of a Python-powered backend and a JavaScript-driven frontend, encapsulating the ease of <span style='color: #000000; font-weight: bold'>Python</span> programming with the seamless user interface design of React. It offers a straightforward installation process, requiring Python and Node.js environments, followed by <span style='color: #000000; font-weight: bold'>FastAPI and Uvicorn</span>  setup. With a minimalist yet powerful <span style='color: #000000; font-weight: bold'> React</span> frontend, this application has been intricately tailored to accommodate the backend integration, providing a comprehensive CRUD interface for to-do list items. The backend's <span style='color: #000000; font-weight: bold'>SQLite</span>  database ensures durable and transactional data storage, while FastAPI endows the application with high performance and swift response times. Coupled with <span style='color: #000000; font-weight: bold'>Swagger </span> documentation, the app promises an intuitive API exploration experience."
+	},
+
 	{
 		id: 7 - 8,
 		title: "Todo App Jest testing",
