@@ -46,7 +46,7 @@ export const projects = [
 		description: "Convert jpeg to webp, png. Tiff to jpeg, BMP to png. ",
 		tools: " <span  style='color: #6b9e11;'>Python</span>,Flask , Pillow, Jinja2, Mysql",
 		linkRepo: "https://github.com/dornescum",
-		linkPage: "http://62.171.167.229:5000/",
+		linkPage: "https://images.dornescu.ro",
 		img: "@../../src/img/projects/python_images.webp",
 		tagJs: "Python",
 		tagCss: "Bootstrap",
