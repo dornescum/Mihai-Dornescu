@@ -137,6 +137,23 @@ export const projects = [
 		extra: "This project is built for displaying and analyzing statistics, specifically focused on client search data. It is designed to provide insights into various metrics such as device type, operating system, brand, and IP location details (country and town)"
 	},
 	{
+		id: 17 - 6 - 24,
+		title: "CodeBar Generator",
+		description: " Express.js, TypeScript, Mysql, Ejs  ",
+		tools: "Express validator, Express-sessions, Cookie-parser, Express-rate-limit, Express-helmet",
+		linkRepo: "https://github.com/dornescum",
+		linkPage: "http://62.171.167.229:3004/",
+		img: "@../../src/img/projects/codebar_.webp",
+		tagJs: "Express",
+		tagCss: "Typescript",
+		tagTutorial: false,
+		tagDB: 'Mysql',
+		tagNode: true,
+		desc: "Node js  Express Typescript Mysql",
+		extra: "Features<br> Server Setup: Utilizes Express js for server management. Template Engine: Employs EJS for dynamic HTML generation. Security: Implements security best practices using Helmet and Express Rate Limit. Validation: Integrates Express Validator for request validation. Session Management: Manages user sessions with Express Session and Cookie Parser. Environment Variables: Uses Dotenv to manage environment variables. Database Integration: Connects to MySQL databases using MySQL2. Dependencies<br> Express: Framework for building web applications. cookie-parser: Middleware for parsing cookies. dotenv: Loads environment variables from a env file. ejs: Embedded JavaScript templates. express-rate-limit: Middleware for rate limiting. express-session: Middleware for managing sessions. express-validator: Middleware for validating requests. helmet: Security middleware. mysql2: MySQL client for Node js. ts-node: TypeScript execution environment for Node js."
+
+	},
+	{
 		id: 7 - 6 - 24,
 		title: "Express EJS",
 		description: " Express.js, TypeScript, Mysql ",
@@ -151,7 +168,6 @@ export const projects = [
 		tagNode: true,
 		desc: "Node js  Express Typescript Mysql",
 		extra: "Features<br> Server Setup: Utilizes Express js for server management. Template Engine: Employs EJS for dynamic HTML generation. Security: Implements security best practices using Helmet and Express Rate Limit. Validation: Integrates Express Validator for request validation. Session Management: Manages user sessions with Express Session and Cookie Parser. Environment Variables: Uses Dotenv to manage environment variables. Database Integration: Connects to MySQL databases using MySQL2. Dependencies<br> Express: Framework for building web applications. cookie-parser: Middleware for parsing cookies. dotenv: Loads environment variables from a env file. ejs: Embedded JavaScript templates. express-rate-limit: Middleware for rate limiting. express-session: Middleware for managing sessions. express-validator: Middleware for validating requests. helmet: Security middleware. mysql2: MySQL client for Node js. ts-node: TypeScript execution environment for Node js."
-
 	},
 	{
 		id: 8 - 25,
