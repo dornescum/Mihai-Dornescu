@@ -67,11 +67,7 @@ export const handleSidebar = (access, sidebar) => {
 <!--                        SQL-->
 <!--                    </a>-->
 <!--                </li>-->
-                 <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="contact.html" class="py-4 hover:text-stone-50">
-                        Contact
-                    </a>
-                </li>
+
             </ul>
 		`
     });
