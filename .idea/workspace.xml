@@ -25,7 +25,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Add CodeBar Generator project to Projects.js&#10;&#10;A new project titled &quot;CodeBar Generator&quot; has been added to the Projects.js file, containing all its related details such as title, description, tools used, repository and webpage links, and tags. In addition, minor changes have been made to the .idea/workspace.xml file, including updating settings and local task counter" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Remove Contact page and related materials&#10;&#10;The Contact.html page and its related JavaScript file have been deleted. Links to the Contact page in the navigation bar and on the Index.html page have also been removed. These changes completely eliminate references to and access points for the Contact page within the project.">
+      <change afterPath="$PROJECT_DIR$/src/img/projects/mirave.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/utils/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/Projects.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,8 +130,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.17890.8" />
-        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.17890.8" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.17011.119" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.17011.119" />
       </set>
     </attachedChunks>
   </component>
@@ -510,6 +514,8 @@
       <workItem from="1718375154254" duration="39000" />
       <workItem from="1718375217617" duration="4000" />
       <workItem from="1718633398802" duration="3206000" />
+      <workItem from="1720520731889" duration="450000" />
+      <workItem from="1722942902119" duration="641000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
@@ -854,7 +860,7 @@
       <option name="project" value="LOCAL" />
       <updated>1643555823321</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -873,7 +879,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="link apartament" />
     <MESSAGE value="link mirage" />
     <MESSAGE value="alte poze" />
     <MESSAGE value="fix 992px" />
@@ -898,7 +903,8 @@
     <MESSAGE value="Update project link in Projects.js&#10;&#10;The project link in the Projects.js file has been updated. The previous link &quot;http://62.171.167.229:5000/&quot; has been replaced with the new link &quot;https://images.dornescu.ro&quot;." />
     <MESSAGE value="Add CodeBar Generator project to Projects.js&#10;&#10;A new project titled &quot;CodeBar Generator&quot; has been added to the Projects.js" />
     <MESSAGE value="Add CodeBar Generator project to Projects.js&#10;&#10;A new project titled &quot;CodeBar Generator&quot; has been added to the Projects.js file, containing all its related details such as title, description, tools used, repository and webpage links, and tags. In addition, minor changes have been made to the .idea/workspace.xml file, including updating settings and local task counter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add CodeBar Generator project to Projects.js&#10;&#10;A new project titled &quot;CodeBar Generator&quot; has been added to the Projects.js file, containing all its related details such as title, description, tools used, repository and webpage links, and tags. In addition, minor changes have been made to the .idea/workspace.xml file, including updating settings and local task counter" />
+    <MESSAGE value="Remove Contact page and related materials&#10;&#10;The Contact.html page and its related JavaScript file have been deleted. Links to the Contact page in the navigation bar and on the Index.html page have also been removed. These changes completely eliminate references to and access points for the Contact page within the project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove Contact page and related materials&#10;&#10;The Contact.html page and its related JavaScript file have been deleted. Links to the Contact page in the navigation bar and on the Index.html page have also been removed. These changes completely eliminate references to and access points for the Contact page within the project." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

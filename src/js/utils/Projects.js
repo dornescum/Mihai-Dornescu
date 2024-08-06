@@ -20,7 +20,6 @@ export const projects = [
 			"The use of middleware like <span style='color: #000000; font-weight: bold'>Bcrypt</span>  for secure password handling, CORS for cross-origin resource sharing, and <span style='color: #000000; font-weight: bold'>Helmet</span>  for security headers, together with <span style='color: #000000; font-weight: bold'>JWT</span>  for authentication, ensures a secure and scalable environment, additionally, the integration of <span style='color: #000000; font-weight: bold'>html-es6cape</span>  fortifies the application against XSS attacks by safely escaping HTML entities, <span style='color: #000000; font-weight: bold'>Express Validator</span> and  is also employed to validate and sanitize user inputs, further enhancing the security and robustness of the application." +
 			" The application is further augmented with <span  style='color: #f29221; font-weight: bolder'>MySql</span> for reliable data storage and <span  style='color: #000000; font-weight: bold'>Sequelize ORM</span>  for efficient database interactions, making it an exemplary demonstration of full-stack capabilities in a modern web application. Hosted on a dedicated <span style='color: #000000; font-weight: bold'>Linux</span>  cloud server, " +
 			"the server environment is tuned with essential packages, supporting Angular's dynamic capabilities and Express's efficient processing. Additionally, MySQL is seamlessly integrated, offering robust data management and storage solutions, this setup ensures optimal interaction between the server, the database, and all the applications on the server."
-
 	},
 
 	{
@@ -39,6 +38,23 @@ export const projects = [
 		tagNode: true,
 		desc: "Node js , Express, Sqlite, Angular",
 		extra: "This full-stack SaaS project is an  electronic warehouse simulation platform where users, after account creation, can manage a plethora of electronic products across various categories and brands. Embracing a mobile-first design philosophy, the client-side is crafted using <span style='color: #000000; font-weight: bold'>Angular</span> , ensuring an optimal and responsive experience across devices. The system facilitates full CRUD operations, allowing for the addition, modification, and movement of inventory items between virtual storages. A key feature is the real-time transactional database management powered by <span style='color: #000000; font-weight: bold'>SQLite</span> , ensuring data integrity as items are transferred across storages. The backend, constructed with Express, delivers robust MVC architecture for efficient data filtering by brand, category, and price, as well as search functionality for product names and fallback brand searches. Each product is uniquely identified by a barcode, incorporating storage, category, brand, and owner details. <span style='color: #000000; font-weight: bold'>Chart js</span>  integration provides insightful visualizations of storage metrics. Moreover, users can download complete SQL product lists, enabling easy data portability and backup. This platform exemplifies a comprehensive warehouse management solution with a keen focus on user-centric design, data accuracy, and operational efficiency."
+	},
+	{
+		id: 17 - 6 - 24,
+		title: "Mirave Solutions",
+		description: " Express.js, TypeScript, Mysql, Ejs  ",
+		tools: "Express validator, Express-sessions, Cookie-parser, Express-rate-limit, Express-helmet",
+		linkRepo: "https://github.com/dornescum",
+		linkPage: "https://mirave.ro/",
+		img: "@../../src/img/projects/mirave.webp",
+		tagJs: "Express",
+		tagCss: "Typescript",
+		tagTutorial: false,
+		tagDB: 'Mysql',
+		tagNode: true,
+		desc: "Node js  Express Typescript Mysql",
+		extra: " <span  style='color: #000000; font-weight: bolder'>Full stack solutions for websites, testing or web scrapping</span>. We're a dynamic team of passionate technologists delivering digital excellence, we craft cutting-edge solutions that support businesses and fuel growth. Our motto is Your happiness is our success, we're driven to exceed expectations, building lasting relationships and a global network of happy, loyal clients, join us and experience the difference. <span style='font-weight: bolder'> Features :</span><br> Server Setup: Utilizes Express js for server management. Template Engine: Employs EJS for dynamic HTML generation. Security: Implements security best practices using Helmet and Express Rate Limit. Validation: Integrates Express Validator for request validation. Session Management: Manages user sessions with Express Session and Cookie Parser. Environment Variables: Uses Dotenv to manage environment variables. Database Integration: Connects to MySQL databases using MySQL2. <span style='font-weight: bolder'>Dependencies</span> <br> Express: Framework for building web applications. cookie-parser: Middleware for parsing cookies. dotenv: Loads environment variables from a env file. ejs: Embedded JavaScript templates. express-rate-limit: Middleware for rate limiting. express-session: Middleware for managing sessions. express-validator: Middleware for validating requests. helmet: Security middleware. mysql2: MySQL client for Node js. ts-node: TypeScript execution environment for Node js."
+
 	},
 	{
 		id: 13 - 6 - 24,
