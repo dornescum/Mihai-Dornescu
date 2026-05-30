@@ -2,367 +2,173 @@ console.time("timer");
 import {projects} from "./utils/Projects.js";
 import {getElement} from "./utils/getElement.js";
 import {YEAR} from "./utils/footerYear.js";
-
 import {handleSidebar} from "./utils/handleSidebar.js";
 
 const btnNavbar = getElement("#access-sidebar");
 const sidebar = getElement("#sidebar");
 const projectsGrid = getElement("#grid-projects");
 const footer = getElement("#footer-year");
-const form = document.getElementById('myForm');
-
 
 handleSidebar(btnNavbar, sidebar);
-// filteredProjects(projectsGrid, noTutorials);
 
-// loading
 const loading = getElement(".loading");
-
-const hideLoading = () => {
-    loading.classList.add("hide-loading");
-};
-
-// incarca
-window.addEventListener("DOMContentLoaded", function () {
-    setTimeout(hideLoading, 500);
-});
+const hideLoading = () => loading.classList.add("hide-loading");
+window.addEventListener("DOMContentLoaded", () => setTimeout(hideLoading, 500));
 
 footer.innerHTML = `<p>&copy; ${YEAR}</p>`;
 
-//? pagination =================
-const itemsPerPage = 9;
+const itemsPerPage = 12;
 let currentPage = 1;
-const totalPages = Math.ceil(projects.length / itemsPerPage);
+let activeTag = null;
+
+function getProjectTags(item) {
+    const tags = [];
+    if (item.tagJs) tags.push(item.tagJs);
+    if (item.tagCss && item.tagCss.trim()) tags.push(item.tagCss.trim());
+    if (item.tagTs && item.tagTs.trim()) tags.push(item.tagTs.trim());
+    if (item.tagDB) tags.push(item.tagDB);
+    if (item.tagNode) tags.push('Node.js');
+    if (item.tagPy) tags.push('Python');
+    return [...new Set(tags)];
+}
+
+function getFiltered() {
+    if (!activeTag) return projects;
+    return projects.filter(p => getProjectTags(p).includes(activeTag));
+}
+
+function renderFilters() {
+    const container = getElement('#tag-filters');
+    const allTags = [...new Set(projects.flatMap(p => getProjectTags(p)))].sort();
+
+    const btns = ['All', ...allTags].map(tag => {
+        const val = tag === 'All' ? '' : tag;
+        const active = tag === 'All' ? !activeTag : activeTag === tag;
+        return `<button class="tag-filter-btn btn btn-sm ${active ? 'btn-dark' : 'btn-outline-secondary'}" data-tag="${val}">${tag}</button>`;
+    }).join('');
+
+    container.innerHTML = btns;
+    container.querySelectorAll('.tag-filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            activeTag = btn.dataset.tag || null;
+            currentPage = 1;
+            renderFilters();
+            displayData();
+            updatePagination();
+        });
+    });
+}
 
 function displayData() {
-    const startIndex = (currentPage - 1) * itemsPerPage;
-    const endIndex = startIndex + itemsPerPage;
+    const filtered = getFiltered();
+    const start = (currentPage - 1) * itemsPerPage;
+    const pageItems = filtered.slice(start, start + itemsPerPage);
 
-    const projectsToDisplay = projects.slice(startIndex, endIndex).map((item) => {
-        if (item.linkPage === "") {
-            return `
-		<div class="flex flex-col mx-0 md:mx-6 lg:mx-8" data-testid=${item?.id}>
-		<div class="clip">
-			<div class="bg-slate-50">
-				<img alt=${item.title} loading="lazy"
-					 src=${item?.img} title=${item?.desc ? item?.desc : ''} data-testid=${item?.id} id=${item?.id}
-					 
-					 class="h-60 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md
-		shadow-sm hover:shadow-lg transition duration:300 cursor-not-allowed 
-		brightness-50 hover:brightness-100 image
-	   ">
-			</div>
-			<div class="bg-slate-50 border p-1 rounded-br-md rounded-bl-md h-80 md:h-90 lg:h-72 relative">
-				<article class="text-stone-500" data-testid=${item?.title.slice(0, 3)}>
-					<h2 class="text-center font-bold p-1">${item?.title} </h2>
-					 <p class="px-2 py-2 leading-relaxed">Description: ${item?.description}</p>
-					 <p class="px-2 py-2 text-sm">${item?.tagTutorial === true ? "Tutorial" : ""}</p>
-					<ul class="text-justify md:text-lg absolute bottom-0">
-						<li class="py-2 px-2 hover:text-red-300 cursor-pointer">Tools: ${item?.tools}</li>
-						<li class="py-2 px-2">
-							<div>
-								<p  class="inline-flex">
-									Repository:
-								</p>
-								<a href=${item?.linkRepo} target="_blank" rel="noopener" class="inline-flex">Github</a>
-							</div>
-						</li>
-						<li class="pt-2 px-2 pb-4">
-							<a href='javascript:;'  rel="noopener" class="text-stone-700 animate-pulse">
-							<span class="text-2xl font-bold text-black"> No </span>website just a repo</a>
-						</li>
-					</ul>
-				</article>
-        
-				<div class="absolute bottom-0 right-0">
-				 <button onclick="openModal(${item?.id}, event)" class="more-info-button p-1 bg-zinc-600 rounded-sm text-white">More Info</button>
-                </div>
-			</div>
-		</div>
-	</div>
-		`;
-        }
-        return `         
-	<div class="flex flex-col mx-0 md:mx-6 lg:mx-8" data-testid=${item?.id}>
-		<div class="">
-			<div>
-			<a href=${item?.linkPage} target="_blank">
-			<img alt=${item?.title} loading="lazy"
-					 src=${item?.img} title=${item?.desc ? item?.desc : ''} data-testid=${item?.id} id=${item?.id}
-					 class="h-60 md:h-48 lg:h-96 w-full object-cover rounded-tr-md rounded-tl-md
-		shadow-sm hover:shadow-lg cursor-pointer transition duration:300
-		brigthness-100  md:brightness-95 md:hover:brightness-100 image">
-			</a>
-				
-			</div>
-			<div class="border p-1 rounded-br-md rounded-bl-md h-80 md:h-90 lg:h-72 relative">
-				<article class="text-stone-500" data-testid=${item?.title.slice(0, 3)}>
-					<h2 class="text-center font-bold p-1">${item?.title}</h2>
-					<p class="px-2 py-2 leading-relaxed">Description: ${item?.description}</p>
-					<p class="px-2 py-2 text-sm">${item?.tagTutorial === true ? "Tutorial" : ""}</p>
+    projectsGrid.innerHTML = '';
 
-					<ul class="text-justify md:text-lg absolute bottom-0">
-						<li class="py-2 px-2 hover:text-red-300 cursor-pointer">Tools: ${item?.tools}</li>
-						<li class="py-2 px-2">
-							<div>
-								<p  class="inline-flex">
-									Repository:
-								</p>
-								<a href=${item?.linkRepo} target="_blank" rel="noopener" class="inline-flex">Github</a>
-							</div>
-						</li>
-						<li class="pt-2 px-2 pb-4">
-							<a href=${item?.linkPage} target="_blank" rel="noopener" class="text-stone-700 animate-pulse">Link: Visit website</a>
-						</li>
-					</ul>
-				</article>
-				<div class="absolute bottom-0 right-0">
-				 <button onclick="openModal(${item?.id}, event)" class="more-info-button p-1 bg-zinc-600 rounded-sm text-white "> <span class="animate-ping">More Info</span></button>
+    if (pageItems.length === 0) {
+        projectsGrid.innerHTML = '<li class="px-3 py-4 text-muted small">No projects match this filter.</li>';
+        return;
+    }
+
+    pageItems.forEach((item, idx) => {
+        const projectIndex = projects.indexOf(item);
+        const num = start + idx + 1;
+        const tags = getProjectTags(item);
+
+        const tagBadges = tags.map(t =>
+            `<button class="tag-badge btn btn-sm btn-outline-secondary py-0 px-2 lh-base" style="font-size:0.7rem;" data-tag="${t}">${t}</button>`
+        ).join('');
+
+        const links = [];
+        if (item.linkPage) links.push(`<a href="${item.linkPage}" target="_blank" rel="noopener" class="link-warning small">live</a>`);
+        if (item.linkRepo) links.push(`<a href="${item.linkRepo}" target="_blank" rel="noopener" class="link-secondary small">repo</a>`);
+        const linksHtml = links.join('<span class="text-muted mx-1">|</span>');
+
+        projectsGrid.insertAdjacentHTML('beforeend', `
+            <li class="project-row d-flex align-items-start gap-2 px-3 py-2 border-bottom" data-testid="${item.id}">
+                <span class="text-muted small text-end mt-1 flex-shrink-0" style="min-width:1.75rem;">${num}.</span>
+                <div class="flex-grow-1 overflow-hidden">
+                    <div class="d-flex flex-wrap align-items-center gap-1">
+                        <span class="fw-semibold small text-dark">${item.title.trim()}</span>
+                        ${tagBadges}
+                        ${linksHtml ? `<span class="text-muted mx-1">·</span>${linksHtml}` : ''}
+                    </div>
+                    <p class="small text-muted mt-1 mb-0">${item.description}</p>
                 </div>
-				 
-			</div>
-		</div>
-	</div>
-`;
+                ${item.extra ? `<button onclick="openModal(${projectIndex}, event)" class="info-btn btn btn-sm btn-link text-muted text-nowrap mt-1 flex-shrink-0 p-0">info</button>` : ''}
+            </li>
+        `);
     });
 
-    window.openModal = (projectId, event) => {
-        // event.preventDefault();
-        const modal = document.getElementById('myModal');
-        const modalContent = document.getElementById('modalContent');
-        const description = document.getElementById('modalDescription');
-
-        if (!modal || !modalContent) {
-            console.error('Modal or Modal Content not found');
-            return;
-        }
-
-        const project = projects.find(item => item.id === projectId);
-
-        description.innerHTML = `<h2>${project.title}</h2>
-                            <br>
-                           <p>${project.extra.split('.').join('.<br><br>')}</p>`;
-        modal.style.display = 'block';
-    };
-
-
-
-    projectsGrid.innerHTML = "";
-
-    projectsToDisplay.forEach((project) => {
-        projectsGrid.insertAdjacentHTML("beforeend", project);
+    projectsGrid.querySelectorAll('.tag-badge').forEach(badge => {
+        badge.addEventListener('click', () => {
+            activeTag = badge.dataset.tag;
+            currentPage = 1;
+            renderFilters();
+            displayData();
+            updatePagination();
+        });
     });
 }
 
-// // Function to close the modal
-window.closeModal = () => {
+window.openModal = (projectIndex, event) => {
     const modal = document.getElementById('myModal');
-    modal.style.display = 'none';
+    const description = document.getElementById('modalDescription');
+    if (!modal) return;
+    const project = projects[projectIndex];
+    if (!project) return;
+    description.innerHTML = `
+        <h5 class="fw-bold mb-1">${project.title.trim()}</h5>
+        <p class="small text-muted mb-3">${project.tools}</p>
+        <div class="small lh-base">${project.extra}</div>`;
+    modal.style.display = 'block';
 };
 
-
+window.closeModal = () => {
+    document.getElementById('myModal').style.display = 'none';
+};
 
 function updatePagination() {
-    const paginationContainer = getElement("#pagination");
-    paginationContainer.classList.add("px-4", "py-8");
-    paginationContainer.innerHTML = "";
+    const filtered = getFiltered();
+    const total = Math.ceil(filtered.length / itemsPerPage);
+    const container = getElement('#pagination');
+    container.innerHTML = '';
 
-    // create previous button
-    if (currentPage > 1) {
-        const prevBtn = document.createElement("button");
-        prevBtn.innerText = "Previous";
-        prevBtn.classList.add("mr-4", "ml-4");
-        prevBtn.addEventListener("click", () => {
-            currentPage--;
-            displayData();
-            updatePagination();
-        });
-        paginationContainer.appendChild(prevBtn);
-    }
+    if (total <= 1) return;
 
-    // create page buttons
-    for (let i = 1; i <= totalPages; i++) {
-        const pageBtn = document.createElement("button");
-        pageBtn.innerText = i;
-        // pageBtn.classList.add("mr-4");
-        if (i === currentPage) {
-            pageBtn.classList.add("bg-blue-500", "text-white", "hover:bg-gray-300", "px-4", "py-2");
-        } else {
-            pageBtn.classList.add("bg-gray-200", "text-gray-700", "hover:bg-gray-300", "px-4", "py-2");
-            pageBtn.addEventListener("click", () => {
-                currentPage = i;
-                displayData();
-                updatePagination();
-            });
+    const mkBtn = (label, page, active = false) => {
+        const btn = document.createElement('button');
+        btn.innerText = label;
+        btn.className = active ? 'btn btn-sm btn-dark' : 'btn btn-sm btn-outline-secondary';
+        if (!active) {
+            btn.addEventListener('click', () => { currentPage = page; displayData(); updatePagination(); });
         }
-        paginationContainer.appendChild(pageBtn);
-    }
+        return btn;
+    };
 
-    // create next button
-    if (currentPage < totalPages) {
-        const nextBtn = document.createElement("button");
-        nextBtn.innerText = "Next";
-        nextBtn.classList.add("ml-4", "mr-4", "px-4");
-        nextBtn.addEventListener("click", () => {
-            currentPage++;
-            displayData();
-            updatePagination();
-        });
-        paginationContainer.appendChild(nextBtn);
-    }
+    if (currentPage > 1) container.appendChild(mkBtn('← prev', currentPage - 1));
+    for (let i = 1; i <= total; i++) container.appendChild(mkBtn(String(i), i, i === currentPage));
+    if (currentPage < total) container.appendChild(mkBtn('next →', currentPage + 1));
 }
 
+renderFilters();
 displayData();
 updatePagination();
 
-
-// formular
-
-
-// window.onload = function() {
-//     setTimeout(function() {
-//         const element = document.getElementById('form-section');
-//
-//
-//         const backdrop = document.querySelector('.backdrop');
-//         const footer = document.getElementById('footer');
-//         const pagination = document.getElementById('pagination');
-//         const hero = document.getElementById('hero');
-//
-//         backdrop.classList.add('bg-gray-900', 'blur-lg', 'w-full', 'h-full', 'absolute');
-//         projectsGrid.classList.add('hidden');
-//         pagination.classList.add('hidden');
-//         footer.classList.add('hidden');
-//         hero.classList.add('hidden');
-//         // element.classList.add('w-4/5');
-//         element.classList.remove('hidden');
-//         // element.classList.remove('hidden');
-//
-//
-//         // Close button handler
-//         document.querySelector('.close-button').addEventListener('click', function() {
-//             element.classList.add('hidden');
-//             backdrop.classList.remove('bg-gray-900', 'blur-lg', 'w-full', 'h-full', 'absolute');
-//             projectsGrid.classList.remove('hidden');
-//             pagination.classList.remove('hidden');
-//             footer.classList.remove('hidden');
-//             hero.classList.remove('hidden');
-//         });
-//
-//         document.getElementById('myForm').addEventListener('submit', function(e) {
-//             e.preventDefault();
-//
-//             // Do your form submission logic here
-//             const name = document.getElementById('name').value;
-//             const phone = document.getElementById('phone').value;
-//             const email = document.getElementById('email').value;
-//             const message = document.getElementById('message').value;
-//
-//             const date = new Date()
-//             console.log('date : ',date)
-//             console.log(`Name: ${name}, Phone: ${phone}, Email: ${email}, Date: ${message}`);
-//             // start validation
-//             if (validateForm()) {
-//             fetch('https://your-endpoint.com/create', {
-//                 method: 'POST',
-//                 headers: {
-//                     'Content-Type': 'application/json',
-//                 },
-//                 body: JSON.stringify({name: name, phone: phone, email: email, message: message, date: date}),
-//             })
-//                 .then(response => response.json())
-//                 .then(data => {
-//                     console.log('Success:', data);
-//                 })
-//                 .catch((error) => {
-//                     console.error('Error:', error);
-//                 });
-//                 // close validation
-//                 // Hide the form
-//                 document.querySelector('.close-button').click();
-//         }
-//
-//         });
-//
-//
-//
-//         document.querySelector('.show-form-button').addEventListener('click', function() {
-//             element.classList.remove('hidden');
-//             backdrop.classList.add('bg-gray-900', 'blur-lg', 'w-full', 'h-full', 'absolute');
-//             projectsGrid.classList.add('hidden');
-//             pagination.classList.add('hidden');
-//             footer.classList.add('hidden');
-//             hero.classList.add('hidden');
-//         });
-//     }, 1000);
-// }
-//
-// function validateForm() {
-//     const name = document.getElementById('name').value;
-//     const phone = document.getElementById('phone').value;
-//     const email = document.getElementById('email').value;
-//     const message = document.getElementById('message').value;
-//
-//     // Name validation - should be min 3 characters
-//     if (name.length < 3) {
-//         alert('Name should be at least 3 characters long');
-//         return false;
-//     }
-//
-//     // Phone validation - should be numbers only
-//     const phoneRegexp = /^[0-9]*$/;
-//     if (!phoneRegexp.test(phone)) {
-//         alert('Invalid phone number - it should contain numbers only');
-//         return false;
-//     }
-//
-//     // Email validation
-//     const emailRegexp = /\S+@\S+\.\S+/;
-//     if (!emailRegexp.test(email)) {
-//         alert('Invalid email format');
-//         return false;
-//     }
-//
-//     // Message validation - should be min 3 and max 200 characters
-//     if (message.length < 3 || message.length > 200) {
-//         alert('Message length should be from 3 to 200 characters');
-//         return false;
-//     }
-//
-//     // All validations passed
-//     // alert('Validation passed');
-//     return true;
-// }
-// form.onsubmit = function(e) {
-//     e.preventDefault();
-
-    // get form fields
-    // const name = document.getElementById('name').value;
-    // const phone = document.getElementById('phone').value;
-    // const email = document.getElementById('email').value;
-    // const date = document.getElementById('date').value;
-
-    // console.log(`Name: ${name}, Phone: ${phone}, Email: ${email}, Date: ${date}`);
-
-    // You can now make your POST request to your create endpoint with the form values
-
-    // Example:
-    /*
-    fetch('https://your-endpoint.com/create', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({name: name, phone: phone, email: email, date: date}),
-    })
-    .then(response => response.json())
-    .then(data => {
-      console.log('Success:', data); <- your response from the server will be logged here
-    })
-    .catch((error) => {
-      console.error('Error:', error);
-    });
-    */
-// }
+let data = [];
+async function fetchData() {
+    const URL = 'https://news.93-115-17-160.nip.io/v1/feed';
+    try {
+        const response = await fetch(URL);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        data = await response.json();
+        return data;
+    } catch (err) {
+        console.error('fetchData failed:', err.message);
+        return [];
+    }
+}
+data = await fetchData();
 
 console.timeEnd("timer");

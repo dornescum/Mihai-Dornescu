@@ -199,7 +199,7 @@ export const projects = [
 		tagDB: 'Sqlite',
 		tagPy: true,
 		desc: "FastApi  Python, Sqlite, React",
-		extra: "A simple task management  with FastAPI_Todo_React_Sqlite, a full-stack to-do application fusing the swift and efficient <span style='color: #000000; font-weight: bold'>FastAPI</span> with the dynamic interactivity of <span style='color: #000000; font-weight: bold'>React</span> , all underpinned by the robustness of <span style='color: #000000; font-weight: bold'>SQLite</span> . This project represents a harmonious blend of a Python-powered backend and a JavaScript-driven frontend, encapsulating the ease of <span style='color: #000000; font-weight: bold'>Python</span> programming with the seamless user interface design of React. It offers a straightforward installation process, requiring Python and Node.js environments, followed by <span style='color: #000000; font-weight: bold'>FastAPI and Uvicorn</span>  setup. With a minimalist yet powerful <span style='color: #000000; font-weight: bold'> React</span> frontend, this application has been intricately tailored to accommodate the backend integration, providing a comprehensive CRUD interface for to-do list items. The backend's <span style='color: #000000; font-weight: bold'>SQLite</span>  database ensures durable and transactional data storage, while FastAPI endows the application with high performance and swift response times. Coupled with <span style='color: #000000; font-weight: bold'>Swagger </span> documentation, the app promises an intuitive API exploration experience."
+		extra: "A simple task management  with FastAPI_Todo_React_Sqlite, a full-stack to-do application fusing the swift and efficient <span style='color: #000000; font-weight: bold'>FastAPI</span> with the dynamic interactivity of <span style='color: #000000; font-weight: bold'>React</span> , all underpinned by the robustness of <span style='color: #000000; font-weight: bold'>SQLite</span> . This project represents a harmonious blend of a Python-powered backend and a JavaScript-driven frontend, encapsulating the ease of <span style='color: #000000; font-weight: bold'>Python</span> programming with the seamless user interface design of React. It offers a straightforward installation process, requiring Python and F environments, followed by <span style='color: #000000; font-weight: bold'>FastAPI and Uvicorn</span>  setup. With a minimalist yet powerful <span style='color: #000000; font-weight: bold'> React</span> frontend, this application has been intricately tailored to accommodate the backend integration, providing a comprehensive CRUD interface for to-do list items. The backend's <span style='color: #000000; font-weight: bold'>SQLite</span>  database ensures durable and transactional data storage, while FastAPI endows the application with high performance and swift response times. Coupled with <span style='color: #000000; font-weight: bold'>Swagger </span> documentation, the app promises an intuitive API exploration experience."
 	},
 
 	{
@@ -537,7 +537,8 @@ export const projects = [
 		linkRepo: "https://github.com/dornescum/coursesHOME",
 		linkPage: "",
 		img: "@../../src/img/projects/nodejs.webp",
-		tagJs: "Nodejs",
+		tagJs: "",
+        tagNode: true,
 		tagCss: "",
 		tagTs: "",
 		tagTutorial: false,

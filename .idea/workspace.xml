@@ -25,10 +25,38 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Remove Contact page and related materials&#10;&#10;The Contact.html page and its related JavaScript file have been deleted. Links to the Contact page in the navigation bar and on the Index.html page have also been removed. These changes completely eliminate references to and access points for the Contact page within the project.">
-      <change afterPath="$PROJECT_DIR$/src/img/projects/mirave.webp" afterDir="false" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="update projects with mirave">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextJs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactJs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/cypress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/examen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/nextJs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/reactJs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/sccs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/sql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/tailwind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/tutorials.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/typescript.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/utils/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,32 +116,37 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="1jBII24XkkGGVq0pYhvnNplwNag" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mihaidornescu/Documents/PERSONAL/Main/Mihai-Dornescu&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/mihaidornescu/Documents/PERSONAL/Main/Mihai-Dornescu",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -130,8 +163,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.17011.119" />
-        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.17011.119" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-PS-252.28238.9" />
+        <option value="bundled-php-predefined-a98d8de5180a-58f58c5035b3-com.jetbrains.php.sharedIndexes-PS-252.28238.9" />
       </set>
     </attachedChunks>
   </component>
@@ -515,7 +548,9 @@
       <workItem from="1718375217617" duration="4000" />
       <workItem from="1718633398802" duration="3206000" />
       <workItem from="1720520731889" duration="450000" />
-      <workItem from="1722942902119" duration="641000" />
+      <workItem from="1722942902119" duration="931000" />
+      <workItem from="1724323961903" duration="549000" />
+      <workItem from="1780126314595" duration="2442000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
@@ -860,7 +895,7 @@
       <option name="project" value="LOCAL" />
       <updated>1643555823321</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -879,7 +914,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="link mirage" />
     <MESSAGE value="alte poze" />
     <MESSAGE value="fix 992px" />
     <MESSAGE value="poze refacute" />
@@ -904,7 +938,8 @@
     <MESSAGE value="Add CodeBar Generator project to Projects.js&#10;&#10;A new project titled &quot;CodeBar Generator&quot; has been added to the Projects.js" />
     <MESSAGE value="Add CodeBar Generator project to Projects.js&#10;&#10;A new project titled &quot;CodeBar Generator&quot; has been added to the Projects.js file, containing all its related details such as title, description, tools used, repository and webpage links, and tags. In addition, minor changes have been made to the .idea/workspace.xml file, including updating settings and local task counter" />
     <MESSAGE value="Remove Contact page and related materials&#10;&#10;The Contact.html page and its related JavaScript file have been deleted. Links to the Contact page in the navigation bar and on the Index.html page have also been removed. These changes completely eliminate references to and access points for the Contact page within the project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Contact page and related materials&#10;&#10;The Contact.html page and its related JavaScript file have been deleted. Links to the Contact page in the navigation bar and on the Index.html page have also been removed. These changes completely eliminate references to and access points for the Contact page within the project." />
+    <MESSAGE value="update projects with mirave" />
+    <option name="LAST_COMMIT_MESSAGE" value="update projects with mirave" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -3,72 +3,21 @@ export const handleSidebar = (access, sidebar) => {
         sidebar.classList.toggle("sidebar");
         sidebar.classList.toggle("show");
         sidebar.innerHTML = `
-		<ul class="w-48 rounded-br-md h-full md:h-full bg-stone-50 pt-8 overflow-auto">
-                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="index.html" class="py-2 md:py-4">
-                        Home
-                    </a>
+            <ul class="list-unstyled bg-white pt-4 overflow-auto h-100 shadow" style="width: 200px;">
+                <li class="py-2 ps-3"><a href="index.html" class="text-dark text-decoration-none">Home</a></li>
+                <li class="py-2 ps-3"><a href="scss.html" class="text-dark text-decoration-none">Angular</a></li>
+                <li class="py-2 ps-3"><a href="reactJs.html" class="text-dark text-decoration-none">React js</a></li>
+                <li class="py-2 ps-3"><a href="nextJs.html" class="text-dark text-decoration-none">Next js</a></li>
+                <li class="py-2 ps-3"><a href="node.html" class="text-dark text-decoration-none">Node js</a></li>
+                <li class="py-2 ps-3"><a href="tutorials.html" class="text-dark text-decoration-none">Python</a></li>
+                <li class="py-2 ps-3"><a href="javascript.html" class="text-dark text-decoration-none">Javascript</a></li>
+                <li class="py-2 ps-3"><a href="typescript.html" class="text-dark text-decoration-none">Typescript</a></li>
+                <li class="py-2 ps-3"><a href="php.html" class="text-dark text-decoration-none">PHP</a></li>
+                <li class="py-2 ps-3"><a href="cypress.html" class="text-dark text-decoration-none">Cypress</a></li>
+                <li class="py-2 ps-3 bg-secondary bg-opacity-25">
+                    <a href="examen.html" class="text-warning text-decoration-none">Examen JQuery</a>
                 </li>
-                   </li>
-                    <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="scss.html" class="py-2 md:py-4">
-                        Angular
-                    </a>
-                </li>
-                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="reactJs.html" class="py-2 md:py-4">
-                        React js
-                    </a>
-                </li>
-                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="nextJs.html" class="py-2 md:py-4">
-                        Next js
-                    </a>
-                </li>
-             
-                         <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="node.html" class="py-2 md:py-4">
-                        Node js
-                    </a>
-                </li>
-                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="tutorials.html" class="py-2 md:py-4">
-                        Python
-                    </a>
-                 </li>
-                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="javascript.html" class="py-2 md:py-4">
-                        Javascript
-                    </a>
-                </li>
-                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="typescript.html" class="py-2 md:py-4">
-                        Typescript
-                    </a>
-                </li>
-                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="php.html" class="py-2 md:py-4">
-                        PHP
-                    </a>
-                </li>
-                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">
-                    <a href="cypress.html" class="py-2 md:py-4">
-                        Cypress
-                    </a>
-                </li>
-        
-                   <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12 bg-zinc-400">
-                    <a href="examen.html" class="py-2 md:py-4 text-amber-700">
-                       Examen JQuery
-                    </a>
-                     </li>
-<!--                <li class="block py-2 md:py-4 pl-4 md:pl-8  lg:pl-12">-->
-<!--                    <a href="sql.html" class="py-4 hover:text-stone-50">-->
-<!--                        SQL-->
-<!--                    </a>-->
-<!--                </li>-->
-
             </ul>
-		`
+        `;
     });
 };

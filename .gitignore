@@ -31,3 +31,4 @@ yarn-error.log*
 .vercel
 .next.config.js
 /.idea/php.xml
+/.claude
