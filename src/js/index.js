@@ -13,7 +13,7 @@ handleSidebar(btnNavbar, sidebar);
 
 const loading = getElement(".loading");
 const hideLoading = () => loading.classList.add("hide-loading");
-window.addEventListener("DOMContentLoaded", () => setTimeout(hideLoading, 500));
+window.addEventListener("DOMContentLoaded", () => setTimeout(hideLoading, 50));
 
 footer.innerHTML = `<p>&copy; ${YEAR}</p>`;
 
