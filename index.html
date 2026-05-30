@@ -154,15 +154,18 @@
     </section>
 
     <!-- cookie consent -->
-    <div class="cookie-container bg-light d-none py-4 position-relative" style="z-index: 10; background: #545555 !important; color: #fff !important;">
-        <p class="text-light px-4 py-2" id="cookie">
-            We use cookies in this website to give you the best experience on our
-            site and show you relevant ads. To find out more, read our
-            <a href="#">privacy policy</a> and <a href="#">cookie policy</a>.
-        </p>
-        <button class="cookie-btn btn btn-link p-1 position-absolute top-0 end-0">
-            <img alt="close btn" src="./src/img/svg/close.svg">
-        </button>
+    <div class="cookie-container d-none" style="position:fixed;bottom:0;left:0;right:0;z-index:1050;background:#2b2b2b;color:#fff;padding:1rem 1.5rem;">
+        <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
+            <p class="mb-0" style="font-size:.9rem;max-width:680px;">
+                We use cookies to analyse site traffic. No personal data is sold or shared.
+                <a href="cookie-policy.html" style="color:#adb5bd;">Learn more</a>
+            </p>
+            <div class="d-flex gap-2 flex-shrink-0">
+                <button class="cookie-btn-refuse btn btn-sm btn-outline-light">Refuse</button>
+                <button class="cookie-btn-essential btn btn-sm btn-outline-light">Only essentials</button>
+                <button class="cookie-btn-accept btn btn-sm btn-light text-dark fw-bold">Accept all</button>
+            </div>
+        </div>
     </div>
     </div><!-- /container -->
 </main>
@@ -190,6 +193,12 @@
         </li>
         <li class="p-1 d-flex justify-content-center align-items-center">
             <a href="contact.html" itemprop="author">
+                <img alt="dornescu.ro" src="./src/img/svg/contact.svg">
+            </a>
+        </li>
+        <li class="p-1 d-flex justify-content-center align-items-center ms-auto">
+<!--            <button id="withdraw-consent" style="font-size:.75rem;color:#6c757d;background:none;border:none;padding:0;cursor:pointer;">Cookie preferences</button>-->
+            <a href="cookie-policy.html" itemprop="author">
                 <img alt="dornescu.ro" src="./src/img/svg/contact.svg">
             </a>
         </li>

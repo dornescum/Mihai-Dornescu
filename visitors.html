@@ -75,6 +75,13 @@
             transition: width .3s ease;
         }
 
+        .truncate-cell {
+            max-width: 260px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
         #status-bar { font-size: .8rem; }
         #refresh-btn { font-weight: 600; }
         #loading, #error-state { display: none; }
@@ -160,6 +167,24 @@
                     <div id="tbl-languages"></div>
                 </div>
             </div>
+            <div class="col-12 col-md-6 col-xl-4">
+                <div class="section-card">
+                    <div class="card-title">Top Screens</div>
+                    <div id="tbl-screens"></div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+                <div class="section-card">
+                    <div class="card-title">Top Timezones</div>
+                    <div id="tbl-timezones"></div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-4">
+                <div class="section-card">
+                    <div class="card-title">Top User Agents</div>
+                    <div id="tbl-useragents"></div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -191,11 +216,14 @@ async function loadVisitors() {
         set('stat-languages', (d.top_languages ?? []).length);
 
         // breakdown tables
-        renderTable('tbl-websites',  d.by_website,    'Website',  'label', 'count', d.total);
-        renderTable('tbl-pages',     d.by_page,       'Page',     'label', 'count', d.total);
-        renderTable('tbl-dates',     d.by_date,       'Date',     'date',  'count', d.total);
-        renderTable('tbl-referrers', d.top_referrers, 'Referrer', 'label', 'count', d.total);
-        renderTable('tbl-languages', d.top_languages, 'Language', 'label', 'count', d.total);
+        renderTable('tbl-websites',   d.by_website,      'Website',    'label', 'count', d.total);
+        renderTable('tbl-pages',      d.by_page,         'Page',       'label', 'count', d.total);
+        renderTable('tbl-dates',      d.by_date,         'Date',       'date',  'count', d.total);
+        renderTable('tbl-referrers',  d.top_referrers,   'Referrer',   'label', 'count', d.total);
+        renderTable('tbl-languages',  d.top_languages,   'Language',   'label', 'count', d.total);
+        renderTable('tbl-screens',    d.top_screens,     'Screen',     'label', 'count', d.total);
+        renderTable('tbl-timezones',  d.top_timezones,   'Timezone',   'label', 'count', d.total);
+        renderTable('tbl-useragents', d.top_user_agents, 'User Agent', 'label', 'count', d.total, true);
 
         loading.style.display = 'none';
         dashboard.style.visibility = 'visible';
@@ -209,13 +237,15 @@ async function loadVisitors() {
     }
 }
 
-function renderTable(containerId, rows, labelHeader, labelKey, countKey, total) {
+function renderTable(containerId, rows, labelHeader, labelKey, countKey, total, truncate = false) {
     const container = document.getElementById(containerId);
-    if (!rows || rows.length === 0) {
+    const filtered  = (rows ?? []).filter(r => r[labelKey] != null && r[labelKey] !== '');
+    if (filtered.length === 0) {
         container.innerHTML = '<p class="text-muted px-3 py-2 mb-0" style="font-size:.85rem">No data</p>';
         return;
     }
-    const max = Math.max(...rows.map(r => r[countKey] ?? 0));
+    const max = Math.max(...filtered.map(r => r[countKey] ?? 0));
+    const labelClass = truncate ? ' class="truncate-cell"' : '';
     let html = `<table class="table table-hover">
         <thead><tr>
             <th>${esc(labelHeader)}</th>
@@ -224,12 +254,16 @@ function renderTable(containerId, rows, labelHeader, labelKey, countKey, total) 
             <th class="bar-cell"></th>
         </tr></thead><tbody>`;
 
-    for (const r of rows) {
-        const cnt  = r[countKey] ?? 0;
-        const pct  = total ? ((cnt / total) * 100).toFixed(1) : '–';
-        const bar  = max ? Math.round((cnt / max) * 100) : 0;
+    for (const r of filtered) {
+        const cnt   = r[countKey] ?? 0;
+        const pct   = total ? ((cnt / total) * 100).toFixed(1) : '–';
+        const bar   = max ? Math.round((cnt / max) * 100) : 0;
+        const label = esc(String(r[labelKey]));
+        const cell  = truncate
+            ? `<td${labelClass} title="${label}">${label}</td>`
+            : `<td>${label}</td>`;
         html += `<tr>
-            <td>${esc(String(r[labelKey] ?? '–'))}</td>
+            ${cell}
             <td class="text-end fw-bold">${cnt}</td>
             <td class="text-end text-muted">${pct}%</td>
             <td class="bar-cell">

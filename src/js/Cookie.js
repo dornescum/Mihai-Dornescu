@@ -1,28 +1,64 @@
-// ── config ────────────────────────────────────────────────────
-// TODO: confirm final path when Go endpoint is live
 const ANALYTICS_ENDPOINT = 'https://news.93-115-17-160.nip.io/v1/visitors';
-const TRACKED_KEY = 'visitor_tracked'; // sessionStorage — once per tab session
+const CONSENT_KEY        = 'cookie_consent';
+const CONSENT_TTL_DAYS   = 90;
+const TRACKED_KEY        = 'visitor_tracked';
 
-// ── cookie banner ──────────────────────────────────────────────
-const cookieContainer = document.querySelector('.cookie-container');
-const cookieButton    = document.querySelector('.cookie-btn');
+// ── consent helpers ────────────────────────────────────────────
+function getConsent() {
+    try {
+        const raw = localStorage.getItem(CONSENT_KEY);
+        return raw ? JSON.parse(raw) : null;
+    } catch {
+        return null;
+    }
+}
 
-cookieButton.addEventListener('click', () => {
-    cookieContainer.classList.add('d-none');
-    localStorage.setItem('cookieBannerDisplayed', 'true');
+function setConsent(choice) {
+    localStorage.setItem(CONSENT_KEY, JSON.stringify({
+        choice,
+        timestamp: new Date().toISOString(),
+    }));
+}
+
+function isExpired(consent) {
+    if (!consent?.timestamp) return true;
+    const ageDays = (Date.now() - new Date(consent.timestamp).getTime()) / 86_400_000;
+    return ageDays > CONSENT_TTL_DAYS;
+}
+
+function needsBanner() {
+    const consent = getConsent();
+    return !consent || isExpired(consent);
+}
+
+// ── banner ─────────────────────────────────────────────────────
+const banner = document.querySelector('.cookie-container');
+
+function hideBanner() {
+    banner.classList.add('d-none');
+}
+
+document.querySelector('.cookie-btn-accept').addEventListener('click', () => {
+    setConsent('accepted');
+    hideBanner();
+    trackVisitor();
 });
 
-// show banner after 4 s if not already dismissed
+document.querySelector('.cookie-btn-essential').addEventListener('click', () => {
+    setConsent('essential_only');
+    hideBanner();
+});
+
+document.querySelector('.cookie-btn-refuse').addEventListener('click', () => {
+    setConsent('refused');
+    hideBanner();
+});
+
 setTimeout(() => {
-    if (!localStorage.getItem('cookieBannerDisplayed')) {
-        cookieContainer.classList.remove('d-none');
-    }
+    if (needsBanner()) banner.classList.remove('d-none');
 }, 1000);
 
-// ── visitor analytics v1 (REST POST) ──────────────────────────
-// No IP available client-side. Payload: timestamp, agent, referrer,
-// page, language, timezone, screen, viewport.
-// v2 will replace fetch() with a gRPC-web call.
+// ── visitor analytics ──────────────────────────────────────────
 async function trackVisitor() {
     if (sessionStorage.getItem(TRACKED_KEY)) return;
 
@@ -50,4 +86,14 @@ async function trackVisitor() {
     }
 }
 
-trackVisitor();
+// ── withdraw consent ───────────────────────────────────────────
+document.getElementById('withdraw-consent')?.addEventListener('click', () => {
+    localStorage.removeItem(CONSENT_KEY);
+    location.reload();
+});
+
+// track only if consent is valid and accepted
+const consent = getConsent();
+if (consent && !isExpired(consent) && consent.choice === 'accepted') {
+    trackVisitor();
+}

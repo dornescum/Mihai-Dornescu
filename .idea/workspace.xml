@@ -25,9 +25,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Update workspace.xml and adjust payload in Cookie.js&#10;&#10;Updated workspace.xml for changelist, task tracking, and removed outdated messages. Modified the payload structure in Cookie.js to include `website_name` and renamed `userAgent` to `user_agent` for consistency.">
-      <change afterPath="$PROJECT_DIR$/visitors.html" afterDir="false" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Add Visitor Analytics page&#10;&#10;Created `visitors.html` for displaying visitor analytics using REST API data. Included various statistics, breakdown tables, and responsive design. Updated `.idea/workspace.xml` for task tracking and change management.">
+      <change afterPath="$PROJECT_DIR$/cookie-policy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/todo.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Cookie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visitors.html" beforeDir="false" afterPath="$PROJECT_DIR$/visitors.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -522,7 +527,7 @@
       <workItem from="1722942902119" duration="931000" />
       <workItem from="1724323961903" duration="549000" />
       <workItem from="1780126314595" duration="6504000" />
-      <workItem from="1780141433759" duration="2113000" />
+      <workItem from="1780141433759" duration="3647000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
@@ -867,7 +872,7 @@
       <option name="project" value="LOCAL" />
       <updated>1643555823321</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -886,7 +891,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor" />
     <MESSAGE value="refactor tailwind" />
     <MESSAGE value="refactor cdn" />
     <MESSAGE value="fix error svg" />
@@ -911,7 +915,8 @@
     <MESSAGE value="Update cookie consent, visitor analytics, and project details&#10;&#10;Enhanced cookie consent banner styles in index.html and optimized behavior in Cookie.js for better user experience. Added visitor tracking functionality in Cookie.js using a POST REST API. Updated &quot;NewsGo&quot; project description in Projects.js and adjusted workspace.xml settings including task counter." />
     <MESSAGE value="Add News Feed page and integrate with sidebar  &#10;&#10;Created `news.html` for Romanian news feed, fetching and displaying verified articles with categories, pagination, and a modal for article details. Integrated the new page with the sidebar in `handleSidebar.js`. Added `news.js` to handle data fetching and rendering. Updated workspace.xml for task tracking." />
     <MESSAGE value="Update workspace.xml and adjust payload in Cookie.js&#10;&#10;Updated workspace.xml for changelist, task tracking, and removed outdated messages. Modified the payload structure in Cookie.js to include `website_name` and renamed `userAgent` to `user_agent` for consistency." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace.xml and adjust payload in Cookie.js&#10;&#10;Updated workspace.xml for changelist, task tracking, and removed outdated messages. Modified the payload structure in Cookie.js to include `website_name` and renamed `userAgent` to `user_agent` for consistency." />
+    <MESSAGE value="Add Visitor Analytics page&#10;&#10;Created `visitors.html` for displaying visitor analytics using REST API data. Included various statistics, breakdown tables, and responsive design. Updated `.idea/workspace.xml` for task tracking and change management." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Visitor Analytics page&#10;&#10;Created `visitors.html` for displaying visitor analytics using REST API data. Included various statistics, breakdown tables, and responsive design. Updated `.idea/workspace.xml` for task tracking and change management." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
