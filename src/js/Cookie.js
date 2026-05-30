@@ -27,8 +27,9 @@ async function trackVisitor() {
     if (sessionStorage.getItem(TRACKED_KEY)) return;
 
     const payload = {
+        website_name: 'portfolio',
         timestamp:    new Date().toISOString(),
-        userAgent:    navigator.userAgent,
+        user_agent:   navigator.userAgent,
         referrer:     document.referrer || 'direct',
         page:         window.location.pathname,
         language:     navigator.language,
