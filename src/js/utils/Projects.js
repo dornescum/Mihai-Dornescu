@@ -15,7 +15,7 @@ export const projects = [
 		tagTutorial: false,
 		tagDB: "PostgreSQL",
 		desc: "Go, chi, PostgreSQL, pgvector, nginx",
-		extra: `<b>NewsGo</b> is a full-stack Go backend for a fact-checked Romanian news platform, deployed on a Hostinger VPS behind <b>nginx</b> (TLS via Let's Encrypt / nip.io).<br><br>
+		extra: `<b>NewsGo</b> is a full-stack Go backend for a fact-checked Romanian news platform, deployed on a  MVPS.net behind <b>nginx</b> (TLS via Let's Encrypt / nip.io).<br><br>
 <b>API layer</b> — <b>chi</b> router, structured JSON error envelopes, Swagger docs (<code>/swagger/</code>).
 Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET /v1/feed</code>) that runs COUNT and SELECT in parallel goroutines, with optional <code>?category=</code> and <code>?lang=</code> filters. Only <code>fact_check_status = verified</code> articles are ever exposed.<br><br>
 <b>PostgreSQL schema</b> — 14 migrations via <b>golang-migrate</b>: categories (self-referencing hierarchy), roles, article statuses, users, tokens, organizations, user_organizations, org_invites, articles, tags, article_tags, financial_support. The articles table carries a <code>vector(1536)</code> column for future <b>pgvector</b> semantic search (HNSW index planned).<br><br>
