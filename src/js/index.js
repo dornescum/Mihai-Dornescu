@@ -87,14 +87,14 @@ function displayData() {
 
         projectsGrid.insertAdjacentHTML('beforeend', `
             <li class="project-row d-flex align-items-start gap-2 px-3 py-2 border-bottom" data-testid="${item.id}">
-                <span class="text-muted small text-end mt-1 flex-shrink-0" style="min-width:1.75rem;">${num}.</span>
+                <span class="text-muted  text-end mt-1 flex-shrink-0" style="min-width:1.75rem;">${num}.</span>
                 <div class="flex-grow-1 overflow-hidden">
                     <div class="d-flex flex-wrap align-items-center gap-1">
-                        <span class="fw-semibold small text-dark">${item.title.trim()}</span>
+                        <span class="fw-semibold  text-dark">${item.title.trim()}</span>
                         ${tagBadges}
                         ${linksHtml ? `<span class="text-muted mx-1">·</span>${linksHtml}` : ''}
                     </div>
-                    <p class="small text-muted mt-1 mb-0">${item.description}</p>
+                    <p class="text-muted mt-1 mb-0">${item.description}</p>
                 </div>
                 ${item.extra ? `<button onclick="openModal(${projectIndex}, event)" class="info-btn btn btn-sm btn-link text-muted text-nowrap mt-1 flex-shrink-0 p-0">info</button>` : ''}
             </li>
@@ -128,6 +128,10 @@ window.openModal = (projectIndex, event) => {
 window.closeModal = () => {
     document.getElementById('myModal').style.display = 'none';
 };
+
+document.getElementById('myModal').addEventListener('click', (e) => {
+    if (e.target === e.currentTarget) closeModal();
+});
 
 function updatePagination() {
     const filtered = getFiltered();

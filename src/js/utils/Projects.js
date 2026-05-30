@@ -3,6 +3,50 @@ const project= 'https://github.com/dornescum/angularIonic-store';
 export const projects = [
 
 	{
+		id: "newsgo-2025",
+		title: "NewsGo — Fact-Checked News API",
+		description: "Go REST API with a role-based CMS dashboard. Goroutine-parallel feed queries, fact-check workflow, pgvector semantic search (WIP).",
+		tools: "<span style='color:#00ADD8;font-weight:bold'>Go</span>, chi, PostgreSQL, pgvector, golang-migrate, nginx, Bootstrap 5",
+		linkRepo: "",
+		linkPage: "https://news.93-115-17-160.nip.io/swagger/index.html",
+		img: "",
+		tagJs: "Go",
+		tagCss: "Bootstrap",
+		tagTutorial: false,
+		tagDB: "PostgreSQL",
+		desc: "Go, chi, PostgreSQL, pgvector, nginx",
+		extra: `<b>NewsGo</b> is a full-stack Go backend for a fact-checked Romanian news platform, deployed on a Hostinger VPS behind <b>nginx</b> (TLS via Let's Encrypt / nip.io).<br><br>
+<b>API layer</b> — <b>chi</b> router, structured JSON error envelopes, Swagger docs (<code>/swagger/</code>).
+Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET /v1/feed</code>) that runs COUNT and SELECT in parallel goroutines, with optional <code>?category=</code> and <code>?lang=</code> filters. Only <code>fact_check_status = verified</code> articles are ever exposed.<br><br>
+<b>PostgreSQL schema</b> — 14 migrations via <b>golang-migrate</b>: categories (self-referencing hierarchy), roles, article statuses, users, tokens, organizations, user_organizations, org_invites, articles, tags, article_tags, financial_support. The articles table carries a <code>vector(1536)</code> column for future <b>pgvector</b> semantic search (HNSW index planned).<br><br>
+<b>Dashboard</b> — server-side HTML via <code>html/template</code>. Role-based routing: admin → full article queue + fact-check controls; journalist → own articles only. Article editor uses <b>EasyMDE</b> (Markdown) with AJAX gallery upload (3 image slots, 5 MB limit, MIME validation). Session auth via <b>gorilla/securecookie</b> (HMAC-signed, HttpOnly).<br><br>
+<b>Middleware</b> — per-IP token-bucket rate limiter (in-memory), structured request logger, <code>RequireAuth</code> / <code>RequireRole</code> guards, request size cap, graceful shutdown on SIGTERM.<br><br>
+<b>Ops</b> — <code>docker-compose.yml</code> for local Postgres + pgAdmin; nginx proxies to <code>:8080</code> and serves <code>/public/uploads/</code> directly. Stripe webhook handler and pgvector embedding pipeline are the next milestones.`
+	},
+
+	{
+		id: "nutriketo-2025",
+		title: "Nutriketo Academy",
+		description: "Online learning platform for nutrition students. Monthly tests, certifications, PDF documents, bilingual (IT/EN) with DeepL.",
+		tools: "<span style='color:#000;'>Express.js</span>, TypeScript, EJS, MySQL, PM2, nginx, DeepL API",
+		linkRepo: "",
+		linkPage: "https://nutriketo.93-115-17-160.nip.io",
+		img: "",
+		tagJs: "Express",
+		tagCss: "Typescript",
+		tagTutorial: false,
+		tagDB: "Mysql",
+		tagNode: true,
+		desc: "Node.js, Express, TypeScript, MySQL, EJS",
+		extra: `<b>Nutriketo Academy</b> is a role-based educational platform built for nutrition students, deployed alongside NewsGo on the same Hostinger VPS behind <b>nginx</b> (port 3002).<br><br>
+<b>Roles</b> — three active roles: <b>admin</b> (platform management), <b>dean</b> (test builder, question bank, student progress), <b>student</b> (monthly tests, documents, certifications). Permissions are loaded into the session at login and enforced via <code>requireRole()</code> middleware.<br><br>
+<b>Tests</b> — one active test per calendar month, 30 questions, 4 answers, single attempt per student. Tests have a lifecycle: <code>draft → scheduled → active → closed</code>. The dean creates questions in a shared bilingual bank (IT/EN via <b>DeepL</b>) and schedules tests with <code>opens_at / closes_at</code> datetimes. Student answers and scores are stored with a unique constraint preventing re-attempts.<br><br>
+<b>Certifications</b> — every 3 months a certification is issued per student; a final diploma after 12 months. Files are hosted at non-guessable UUID-based URLs and are publicly shareable (LinkedIn etc.).<br><br>
+<b>Architecture</b> — modular: each feature (auth, dean, tests, documents, certifications, demo, payments) owns its router, controller, service, and model. Non-critical modules (demo, future Stripe payments) are wrapped in fault-isolation boundaries — if the demo playground fails, all other modules continue unaffected.<br><br>
+<b>Stack</b> — <b>Express + TypeScript</b> compiled to <code>dist/</code>, <b>EJS</b> server-side templates, <b>MySQL</b> (shared instance with oloproteic), <b>winston</b> logging, <b>express-session</b> auth, <b>bcrypt</b> passwords. Custom migration runner (<code>src/db/migrations/</code>) with up/down SQL files. PM2 manages the process alongside the other apps on the server.`
+	},
+
+	{
 		id: 12 - 30,
 		title: "Handymen Proof Of Concept",
 		description: "A full stack with ssr for seo",
