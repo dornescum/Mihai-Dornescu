@@ -25,10 +25,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Add new projects and modal functionality updates&#10;&#10;Added detailed entries for &quot;NewsGo&quot; and &quot;Nutriketo Academy&quot; to Projects.js, including descriptions, tools, and links. Updated modal behavior in index.js to close when clicking outside the modal. Improved button hover styling in index.html for better user experience. Updated workspace.xml with new configurations and updated task counter.">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Cookie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/utils/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/Projects.js" afterDir="false" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Update cookie consent, visitor analytics, and project details&#10;&#10;Enhanced cookie consent banner styles in index.html and optimized behavior in Cookie.js for better user experience. Added visitor tracking functionality in Cookie.js using a POST REST API. Updated &quot;NewsGo&quot; project description in Projects.js and adjusted workspace.xml settings including task counter.">
+      <change afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/news.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -522,7 +522,7 @@
       <workItem from="1720520731889" duration="450000" />
       <workItem from="1722942902119" duration="931000" />
       <workItem from="1724323961903" duration="549000" />
-      <workItem from="1780126314595" duration="5079000" />
+      <workItem from="1780126314595" duration="5837000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
@@ -867,7 +867,7 @@
       <option name="project" value="LOCAL" />
       <updated>1643555823321</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -886,7 +886,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="seo &amp; next js" />
     <MESSAGE value="rezervatie web" />
     <MESSAGE value="remove progress" />
     <MESSAGE value="refactor" />
@@ -911,7 +910,8 @@
     <MESSAGE value="Remove CSS, Cypress, and Examen pages&#10;&#10;Deleted `css.html`, `cypress.html`, `examen.html`, and their related JavaScript files. Removed associated references in the project to streamline the file structure." />
     <MESSAGE value="Streamline project structure by removing redundant assets&#10;&#10;Deleted unused `css.js` file and references. Adjusted `handleSidebar.js` for cleaner navigation. Improved loading experience by reducing delay in `index.js` and replacing loading GIF with text in `index.html`. Updated workspace configuration for better organization." />
     <MESSAGE value="Add new projects and modal functionality updates&#10;&#10;Added detailed entries for &quot;NewsGo&quot; and &quot;Nutriketo Academy&quot; to Projects.js, including descriptions, tools, and links. Updated modal behavior in index.js to close when clicking outside the modal. Improved button hover styling in index.html for better user experience. Updated workspace.xml with new configurations and updated task counter." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new projects and modal functionality updates&#10;&#10;Added detailed entries for &quot;NewsGo&quot; and &quot;Nutriketo Academy&quot; to Projects.js, including descriptions, tools, and links. Updated modal behavior in index.js to close when clicking outside the modal. Improved button hover styling in index.html for better user experience. Updated workspace.xml with new configurations and updated task counter." />
+    <MESSAGE value="Update cookie consent, visitor analytics, and project details&#10;&#10;Enhanced cookie consent banner styles in index.html and optimized behavior in Cookie.js for better user experience. Added visitor tracking functionality in Cookie.js using a POST REST API. Updated &quot;NewsGo&quot; project description in Projects.js and adjusted workspace.xml settings including task counter." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update cookie consent, visitor analytics, and project details&#10;&#10;Enhanced cookie consent banner styles in index.html and optimized behavior in Cookie.js for better user experience. Added visitor tracking functionality in Cookie.js using a POST REST API. Updated &quot;NewsGo&quot; project description in Projects.js and adjusted workspace.xml settings including task counter." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
