@@ -25,8 +25,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Add Cookie Policy page and enhance analytics features&#10;&#10;Created `cookie-policy.html` explaining cookie usage, consent options, and data collection details. Updated sidebar in `handleSidebar.js` to include links to &quot;Visitors&quot; and &quot;Cookie Policy&quot; pages. Improved cookie banner and analytics logic in `Cookie.js` to respect user consent. Enhanced `visitors.html` with new breakdown tables for screens, timezones, and user agents. Updated `.idea/workspace.xml` and added `docs/todo.md` for task tracking.">
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Add navigation link to Home in Visitor Analytics page&#10;&#10;Added a &quot;Home&quot; button in the navigation bar of `visitors.html` for improved accessibility. Updated `.idea/workspace.xml` with associated workspace changes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visitors.html" beforeDir="false" afterPath="$PROJECT_DIR$/visitors.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -523,7 +524,9 @@
       <workItem from="1780126314595" duration="6504000" />
       <workItem from="1780141433759" duration="4293000" />
       <workItem from="1780151326634" duration="1362000" />
-      <workItem from="1780214630891" duration="604000" />
+      <workItem from="1780214630891" duration="1589000" />
+      <workItem from="1780932185727" duration="900000" />
+      <workItem from="1781018207954" duration="427000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
@@ -868,7 +871,7 @@
       <option name="project" value="LOCAL" />
       <updated>1643555823321</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -887,7 +890,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor cdn" />
     <MESSAGE value="fix error svg" />
     <MESSAGE value="update projects" />
     <MESSAGE value="Update project page link and clean up workspace.xml&#10;&#10;The project page link in src/js/utils/Projects.js file has been updated to point to home instead of login. Simultaneously, unnecessary changelists have been removed from the .idea/workspace.xml to make the XML file cleaner and easier to work with." />
@@ -912,7 +914,8 @@
     <MESSAGE value="Update workspace.xml and adjust payload in Cookie.js&#10;&#10;Updated workspace.xml for changelist, task tracking, and removed outdated messages. Modified the payload structure in Cookie.js to include `website_name` and renamed `userAgent` to `user_agent` for consistency." />
     <MESSAGE value="Add Visitor Analytics page&#10;&#10;Created `visitors.html` for displaying visitor analytics using REST API data. Included various statistics, breakdown tables, and responsive design. Updated `.idea/workspace.xml` for task tracking and change management." />
     <MESSAGE value="Add Cookie Policy page and enhance analytics features&#10;&#10;Created `cookie-policy.html` explaining cookie usage, consent options, and data collection details. Updated sidebar in `handleSidebar.js` to include links to &quot;Visitors&quot; and &quot;Cookie Policy&quot; pages. Improved cookie banner and analytics logic in `Cookie.js` to respect user consent. Enhanced `visitors.html` with new breakdown tables for screens, timezones, and user agents. Updated `.idea/workspace.xml` and added `docs/todo.md` for task tracking." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Cookie Policy page and enhance analytics features&#10;&#10;Created `cookie-policy.html` explaining cookie usage, consent options, and data collection details. Updated sidebar in `handleSidebar.js` to include links to &quot;Visitors&quot; and &quot;Cookie Policy&quot; pages. Improved cookie banner and analytics logic in `Cookie.js` to respect user consent. Enhanced `visitors.html` with new breakdown tables for screens, timezones, and user agents. Updated `.idea/workspace.xml` and added `docs/todo.md` for task tracking." />
+    <MESSAGE value="Add navigation link to Home in Visitor Analytics page&#10;&#10;Added a &quot;Home&quot; button in the navigation bar of `visitors.html` for improved accessibility. Updated `.idea/workspace.xml` with associated workspace changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add navigation link to Home in Visitor Analytics page&#10;&#10;Added a &quot;Home&quot; button in the navigation bar of `visitors.html` for improved accessibility. Updated `.idea/workspace.xml` with associated workspace changes." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
