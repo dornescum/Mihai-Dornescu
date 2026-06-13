@@ -1,4 +1,5 @@
-const ANALYTICS_ENDPOINT = 'https://news.93-115-17-160.nip.io/v1/visitors';
+// const ANALYTICS_ENDPOINT = 'https://news.93-115-17-160.nip.io/v1/visitors';
+const ANALYTICS_ENDPOINT = ' https://stiri.digital/v1/visitors';
 const CONSENT_KEY        = 'cookie_consent';
 const CONSENT_TTL_DAYS   = 90;
 const TRACKED_KEY        = 'visitor_tracked';
