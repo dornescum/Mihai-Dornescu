@@ -1,4 +1,5 @@
-const API   = 'https://news.93-115-17-160.nip.io';
+// const API   = 'https://news.93-115-17-160.nip.io';
+const API   = 'https://stiri.digital';
 const LIMIT = 20;
 
 let currentPage    = 1;
