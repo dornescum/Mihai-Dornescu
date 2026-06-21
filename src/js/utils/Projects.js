@@ -8,7 +8,7 @@ export const projects = [
 		description: "Go REST API with a role-based CMS dashboard. Goroutine-parallel feed queries, fact-check workflow, pgvector semantic search (WIP).",
 		tools: "<span style='color:#00ADD8;font-weight:bold'>Go</span>, chi, PostgreSQL, pgvector, golang-migrate, nginx, Bootstrap 5",
 		linkRepo: "",
-		linkPage: "https://news.93-115-17-160.nip.io/swagger/index.html",
+		linkPage: "https://stiri.digital/news",
 		img: "",
 		tagJs: "Go",
 		tagCss: "Bootstrap",

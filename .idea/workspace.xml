@@ -25,10 +25,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Update workspace.xml and analytics endpoint&#10;&#10;Updated `.idea/workspace.xml` with task tracking updates and incremented the local tasks counter. Changed the analytics endpoint in `Cookie.js` and `visitors.html` to the new URL, commenting out the old ones.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/news.js" afterDir="false" />
-    </list>
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Update workspace.xml and news.js  &#10;&#10;Updated `.idea/workspace.xml` with task tracking updates and incremented the local tasks counter. Changed the news API endpoint in `news.js` to the new URL, commenting out the old one." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -529,7 +526,7 @@
       <workItem from="1781018207954" duration="1880000" />
       <workItem from="1781368710052" duration="253000" />
       <workItem from="1781369109867" duration="265000" />
-      <workItem from="1781414024164" duration="314000" />
+      <workItem from="1781414024164" duration="326000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
@@ -874,7 +871,7 @@
       <option name="project" value="LOCAL" />
       <updated>1643555823321</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -893,7 +890,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add video page and link in sidebar&#10;&#10;A new HTML file for the video page has been created. Also, a link to the new video page has been added to the sidebar navigation in the handleSidebar.js function." />
     <MESSAGE value="Add video player and related scripting to index.html&#10;&#10;This commit introduces a video player to the main index.html page. The additional JavaScript loads and processes a video stream, then displays it in the new player. The code also handles video file type and browser compatibility issues.&#10;after error on video.html" />
     <MESSAGE value="Remove video handling and clean workspace settings&#10;&#10;Deleted src/video.html file and removed the corresponding video handling code in index.html. In addition, cleaned up workspace.xml settings in the .idea directory. The commit helps make the project structure simpler and the workspace settings easier to manage." />
     <MESSAGE value="Removed video link from sidebar and updated workspace settings&#10;&#10;Removed the video page link from the sidebar navigation in the handleSidebar.js file. Additionally, streamlined the order of recent templates in the workspace.xml and updated the local tasks counter. Several commit messages were also removed for simplicity." />
@@ -918,7 +914,8 @@
     <MESSAGE value="Update workspace.xml and visitors.html&#10;&#10;Updated `.idea/workspace.xml` with task and changelist updates. Added a commented-out alternative endpoint in `visitors.html` for future use." />
     <MESSAGE value="Update workspace.xml and refactor Cookie.js&#10;&#10;Updated `.idea/workspace.xml` for task tracking and local tasks counter. Refactored `Cookie.js` to update the analytics endpoint and comment out the previous one." />
     <MESSAGE value="Update workspace.xml and analytics endpoint&#10;&#10;Updated `.idea/workspace.xml` with task tracking updates and incremented the local tasks counter. Changed the analytics endpoint in `Cookie.js` and `visitors.html` to the new URL, commenting out the old ones." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace.xml and analytics endpoint&#10;&#10;Updated `.idea/workspace.xml` with task tracking updates and incremented the local tasks counter. Changed the analytics endpoint in `Cookie.js` and `visitors.html` to the new URL, commenting out the old ones." />
+    <MESSAGE value="Update workspace.xml and news.js  &#10;&#10;Updated `.idea/workspace.xml` with task tracking updates and incremented the local tasks counter. Changed the news API endpoint in `news.js` to the new URL, commenting out the old one." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace.xml and news.js  &#10;&#10;Updated `.idea/workspace.xml` with task tracking updates and incremented the local tasks counter. Changed the news API endpoint in `news.js` to the new URL, commenting out the old one." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
