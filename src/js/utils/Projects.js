@@ -30,7 +30,7 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		description: "Online learning platform for nutrition students. Monthly tests, certifications, PDF documents, bilingual (IT/EN) with DeepL.",
 		tools: "<span style='color:#000;'>Express.js</span>, TypeScript, EJS, MySQL, PM2, nginx, DeepL API",
 		linkRepo: "",
-		linkPage: "https://nutriketo.93-115-17-160.nip.io",
+		linkPage: "http://147.93.59.56:3001/auth/login",
 		img: "",
 		tagJs: "Express",
 		tagCss: "Typescript",
