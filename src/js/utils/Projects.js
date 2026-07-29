@@ -79,7 +79,7 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
   <b>Stack</b> — <b>Express</b> + <b>EJS</b> (via <code>express-ejs-layouts</code>), <b>MySQL 8</b> (schema/seed in <code>database/init.sql</code>, spun up via <b>Docker Compose</b> alongside phpMyAdmin),
   <b>express-session</b> auth with a custom cookie name and session-ID generator, <b>bcryptjs</b> password hashing, <b>express-validator</b> input validation, <b>Helmet</b> CSP + <b>CORS</b>, <b>winston</b>
   logging, and <b>compression</b>/<b>morgan</b> for prod-friendly request handling.`
-  }
+  },
 
 	{
 		id: "nutriketo-2025",
