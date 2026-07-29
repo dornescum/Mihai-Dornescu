@@ -30,7 +30,7 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
   per-day macro/micronutrient totals (protein, carbs, vitamin C, etc.) computed from logged meals.`,
           tools: "Go, Chi, MySQL, golang-migrate, JWT, HTMX, Swagger, Docker",
           linkRepo: "https://github.com/dornescum/foodTracker",
-          linkPage: "",
+          linkPage: "http://147.93.59.56:3007/ingredients",
           img: "@../../src/img/projects/foodtracker.webp",
           tagJs: "",
           tagNode: false,
