@@ -24,7 +24,7 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 <b>Ops</b> — <code>docker-compose.yml</code> for local Postgres + pgAdmin; nginx proxies to <code>:8080</code> and serves <code>/public/uploads/</code> directly. Stripe webhook handler and pgvector embedding pipeline are the next milestones.`
 	},
 	      {
-          id: 07 - 29 - 2026,
+          id: "07 - 29 - 2026",
           title: "Food Tracker",
           description: "Full-stack nutrition tracking service in <b style='color: #6b9e11;'>Go</b> (chi + MySQL) with JWT auth, an ingredient database seeded from USDA FoodData Central, custom diet plans, and
   per-day macro/micronutrient totals (protein, carbs, vitamin C, etc.) computed from logged meals.",
