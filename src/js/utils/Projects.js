@@ -51,6 +51,35 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
   login/register), authenticated user pages (<code>/diet</code>, <code>/diets</code>, <code>/diet-plans</code> — <code>RequireUserPage</code>), and <code>/admin</code> (<code>RequireAdminPage</code>) for managing
   users, categories, ingredients and their nutrients/quantities.<br><br><b>API docs</b> — the JSON auth endpoints are documented with <b>swaggo</b> annotations, served at <code>/swagger/index.html</code>.`
       },
+	{
+      id: "medical-clinic-2025",
+      title: "Medical Clinic Patient Management",
+      description: "Patient management system for a medical clinic. Role-based access (admin/doctor/assistant/patient), appointment scheduling, medical records with severity tracking, and file uploads.",
+      tools: "<span style='color:#000;'>Express.js</span>, EJS, MySQL, Docker, Multer, Helmet, Winston",
+      linkRepo: "https://github.com/dornescum/medical_clinic",
+      linkPage: "",
+      img: "",
+      tagJs: "Express",
+      tagCss: "Bootstrap",
+      tagTutorial: false,
+      tagDB: "Mysql",
+      tagNode: true,
+      desc: "Node.js, Express, EJS, MySQL, Docker",
+      extra: `<b>Medical Clinic Patient Management</b> is an MVC-structured patient records and scheduling system for a small clinic, built with <b>Express.js</b> and server-rendered <b>EJS</b> views (Bootstrap 5
+  + Font Awesome on the frontend).<br><br>
+  <b>Roles</b> — four roles stored as an enum on the user (<code>1=admin, 2=doctor, 3=assistant, 4=patient</code>), enforced with a <code>requireRole()</code> family of middleware (<code>requireAdmin</code>,
+  <code>requireStaff</code>, <code>requireStaffOrAdmin</code>) gating routes for user management, patient records, and appointments.<br><br>
+  <b>Patients &amp; medical records</b> — full CRUD on patient profiles (contact info, DOB, address, payment type) with soft-delete (<code>is_deleted</code>). Doctors log observations per visit with a <b>severity
+  level (1–3, low/medium/high)</b> plus diagnosis/treatment, searchable by name, surname, phone, year, month, or ID; the dashboard surfaces the latest medical records and today's appointments.<br><br>
+  <b>Appointments</b> — a calendar view backed by a <code>doctor_id</code> + <code>location_id</code> + date/time model. Booking logic enforces business rules server-side: 1‑hour slots between 10:00–18:00, no
+  double-booking a doctor for the same slot, and a hard cap of 8 appointments per doctor per day. Appointments can be created against an existing patient or a walk-in name/phone/email captured inline from the
+  booking form.<br><br>
+  <b>File uploads</b> — medical documents (JPEG/PNG/PDF/DOC/DOCX, up to 10MB, 5 files per upload) are stored via <b>Multer</b> in per-patient directories (<code>/uploads/{patientId}/{filename}</code>) and served
+  through a controlled route rather than static hosting, so files aren't guessable/browsable outside their patient context.<br><br>
+  <b>Stack</b> — <b>Express</b> + <b>EJS</b> (via <code>express-ejs-layouts</code>), <b>MySQL 8</b> (schema/seed in <code>database/init.sql</code>, spun up via <b>Docker Compose</b> alongside phpMyAdmin),
+  <b>express-session</b> auth with a custom cookie name and session-ID generator, <b>bcryptjs</b> password hashing, <b>express-validator</b> input validation, <b>Helmet</b> CSP + <b>CORS</b>, <b>winston</b>
+  logging, and <b>compression</b>/<b>morgan</b> for prod-friendly request handling.`
+  }
 
 	{
 		id: "nutriketo-2025",
