@@ -57,7 +57,7 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
       description: "Patient management system for a medical clinic. Role-based access (admin/doctor/assistant/patient), appointment scheduling, medical records with severity tracking, and file uploads.",
       tools: "<span style='color:#000;'>Express.js</span>, EJS, MySQL, Docker, Multer, Helmet, Winston",
       linkRepo: "https://github.com/dornescum/medical_clinic",
-      linkPage: "",
+      linkPage: "http://147.93.59.56:3000/login",
       img: "",
       tagJs: "Express",
       tagCss: "Bootstrap",
