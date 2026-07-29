@@ -23,6 +23,38 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 <b>Middleware</b> — per-IP token-bucket rate limiter (in-memory), structured request logger, <code>RequireAuth</code> / <code>RequireRole</code> guards, request size cap, graceful shutdown on SIGTERM.<br><br>
 <b>Ops</b> — <code>docker-compose.yml</code> for local Postgres + pgAdmin; nginx proxies to <code>:8080</code> and serves <code>/public/uploads/</code> directly. Stripe webhook handler and pgvector embedding pipeline are the next milestones.`
 	},
+	      {
+          id: 07 - 29 - 2026,
+          title: "Food Tracker",
+          description: "Full-stack nutrition tracking service in <b style='color: #6b9e11;'>Go</b> (chi + MySQL) with JWT auth, an ingredient database seeded from USDA FoodData Central, custom diet plans, and
+  per-day macro/micronutrient totals (protein, carbs, vitamin C, etc.) computed from logged meals.",
+          tools: "Go, Chi, MySQL, golang-migrate, JWT, HTMX, Swagger, Docker",
+          linkRepo: "https://github.com/dornescum/foodTracker",
+          linkPage: "",
+          img: "@../../src/img/projects/foodtracker.webp",
+          tagJs: "",
+          tagNode: false,
+          tagCss: "",
+          tagTs: "",
+          tagTutorial: false,
+          desc: "Go/Chi nutrition tracker with JWT auth, MySQL schema, USDA ingredient data, custom diet plans and nutrient calculations",
+          extra: `<b>Food Tracker</b> is a full-stack Go backend for logging meals and tracking nutrition, built on <b>chi</b> with server-rendered <code>html/template</code> + <b>HTMX</b> views (no JS build
+  step) and a <b>MySQL</b> schema managed with <b>golang-migrate</b>.<br><br>
+  <b>Database</b> — 32 migrations, split into schema and seed pairs: <code>roles</code>, <code>users</code>, <code>refresh_tokens</code>, <code>categories</code> (5 food groups:
+  Fruits/Vegetables/Grains/Protein/Dairy), <code>ingredients</code> + <code>item_quantities</code>, <code>nutrient_types</code> + <code>ingredient_nutrients</code>,
+  <code>diets</code>/<code>diet_days</code>/<code>diet_day_ingredients</code>/<code>diet_tags</code>, <code>meal_slots</code>, <code>user_diets</code> and <code>daily_logs</code>. Most ingredient rows are
+  bulk-imported (not hand-authored) from <b>USDA FoodData Central</b>'s Foundation Foods dataset via a Python script that maps USDA categories/nutrients onto the app's schema and regenerates the seed
+  migrations.<br><br>
+  <b>Nutrition engine</b> — each ingredient carries 20 seeded nutrient types (Calories, Protein, Carbohydrates, Sugar, Fiber, Fat, Saturated Fat, Cholesterol, Sodium, Potassium, Calcium, Iron, Magnesium, Zinc,
+  Phosphorus, Vitamins A/C/D/E, B12) stored per 100g. Logging a meal at <code>/diet</code> scales every nutrient to the logged weight in Go (<code>ScaledNutrients</code>), and daily totals are summed across all
+  logged entries for that date.<br><br>
+  <b>Custom diets</b> — <code>/diet-plans</code> lets a user build a multi-day plan (day-by-day ingredient assignment via <code>/diet-plans/{id}/days/{day_number}</code>), while <code>/diets</code> lets them tag
+  day-to-day logs under a named, ongoing diet (<code>user_diets</code>) to track adherence over time.<br><br>
+  <b>Auth &amp; routing split</b> — JWT access/refresh tokens (refresh stored server-side, rotated via <code>/auth/refresh</code>). Three route groups behind separate middleware: public (home, categories,
+  ingredient browser, login/register), authenticated user pages (<code>/diet</code>, <code>/diets</code>, <code>/diet-plans</code> — <code>RequireUserPage</code>), and <code>/admin</code>
+  (<code>RequireAdminPage</code>) for managing users, categories, ingredients and their nutrients/quantities.<br><br>
+  <b>API docs</b> — the JSON auth endpoints are documented with <b>swaggo</b> annotations, served at <code>/swagger/index.html</code>.`
+      },
 
 	{
 		id: "nutriketo-2025",
