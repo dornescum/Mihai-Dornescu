@@ -1,7 +1,27 @@
 // <span style='color: #000000; font-weight: bold'></span>
 const project= 'https://github.com/dornescum/angularIonic-store';
 export const projects = [
-
+	{
+		id: "news-nest-2026",
+		title: "NewsNest — Fact-Checked News CMS (NestJS)",
+		description: "NestJS/TypeScript port of NewsGo's backend. Prisma ORM over MySQL, role-based publishing workflow (journalist → org manager/admin approval), RSS feed, MySQL-backed sessions.",
+		tools: "<span style='color:#E0234E;font-weight:bold'>NestJS</span>, TypeScript, Prisma, MySQL, EJS, Bootstrap 5",
+		linkRepo: "",
+		linkPage: "https://news-nest.147.93.59.56.nip.io/",
+		img: "",
+		tagJs: "Nest",
+		tagCss: "Bootstrap",
+		tagTutorial: false,
+		tagDB: "Mysql",
+		tagNode: true,
+		desc: "NestJS, TypeScript, Prisma, MySQL, EJS, role-based publishing workflow",
+		extra: `<b>NewsNest</b> is a NestJS/TypeScript rewrite of the NewsGo backend for the same fact-checked Romanian news platform, deployed alongside it on the same Hostinger VPS behind <b>nginx</b> (PM2-managed, port 3009).<br><br>
+<b>API/SSR layer</b> — NestJS 12 controllers with server-rendered <b>EJS</b> views (<code>express-ejs-layouts</code>) plus Swagger docs. A public <b>RSS feed</b> (<code>GET /v1/feed.rss</code>, hand-rolled XML) ports the Go app's original feed logic, building absolute URLs from the live request instead of a static base-URL env var — requires <code>app.set('trust proxy', 1)</code> to read the correct scheme/IP behind nginx.<br><br>
+<b>Data layer</b> — <b>Prisma ORM</b> (v7, MariaDB driver adapter) against <b>MySQL 8</b>. Schema: <code>Role</code>, <code>Organization</code>, <code>User</code>, <code>Language</code>, <code>ArticleStatus</code>, <code>Category</code>, <code>Article</code>. Production and dev seeding are split — lookup data (roles, statuses, languages, categories) is production-safe shared code, with test users seeded separately in dev only.<br><br>
+<b>Publishing workflow</b> — three roles (journalist / org manager / admin) enforced via guards. Journalists submit articles; managers and admins approve or flag them. Admins additionally manage organizations (created with a manager account in one step), categories, users, and can block/unblock both organizations and individual articles.<br><br>
+<b>Auth &amp; sessions</b> — <code>express-session</code> backed by MySQL (<code>express-mysql-session</code>), so sessions survive app restarts; <b>bcrypt</b> password hashing, <b>@nestjs/throttler</b> rate limiting, and a multilingual cookie-consent banner.<br><br>
+<b>Uploads &amp; ops</b> — Multer-handled article images served through a dedicated controller route rather than static hosting, so files aren't guessable/browsable outside their article context. <b>winston</b> + daily log rotation, <b>Vitest</b> for tests.`
+	},
 	{
 		id: "newsgo-2025",
 		title: "NewsGo — Fact-Checked News API",

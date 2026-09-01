@@ -25,8 +25,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Update workspace.xml and add new task entry&#10;&#10;Incremented the local tasks counter and added a new work item in `.idea/workspace.xml`.">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Update Projects.js and workspace.xml  &#10;&#10;Updated `Projects.js` with new project tags, improved descriptions, and formatting adjustments. Incremented the local tasks counter and added task entries in `.idea/workspace.xml`.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,61 +87,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.2627667716891886" />
-      <entry key="MS500" value="2.698044944976976" />
-      <entry key="S2" value="4.652568898117259" />
-      <entry key="S5" value="6.1525251394349" />
-      <entry key="S10" value="6.955487956269497" />
-      <entry key="S30" value="7.620347208137387" />
-      <entry key="S60" value="7.805905666360644" />
-      <entry key="M2" value="7.901859109964593" />
-      <entry key="M5" value="7.960477648368122" />
-      <entry key="M10" value="7.980194196366633" />
-      <entry key="M15" value="7.9867861916289655" />
-      <entry key="M30" value="7.993388120664331" />
-      <entry key="H1" value="7.996692815510568" />
-      <entry key="H2" value="7.99834609642053" />
-      <entry key="H4" value="7.999172970360402" />
-      <entry key="D1" value="7.999862150912879" />
-      <entry key="W1" value="7.99998030700842" />
+      <entry key="MS100" value="1.5206685239425065E-18" />
+      <entry key="MS500" value="2.731535891200467E-4" />
+      <entry key="S2" value="0.12855877568854615" />
+      <entry key="S5" value="0.4401913318237916" />
+      <entry key="S10" value="0.6669865983339719" />
+      <entry key="S30" value="1.8333218097133022" />
+      <entry key="S60" value="4.853056665973277" />
+      <entry key="M2" value="8.883929194325932" />
+      <entry key="M5" value="13.061561667923181" />
+      <entry key="M10" value="14.892824542932688" />
+      <entry key="M15" value="15.562618539672417" />
+      <entry key="M30" value="16.264496173660245" />
+      <entry key="H1" value="16.627945544795754" />
+      <entry key="H2" value="16.812884471767855" />
+      <entry key="H4" value="16.90616856126311" />
+      <entry key="D1" value="16.984323279990555" />
+      <entry key="W1" value="16.99775953257518" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000000000412039" />
+      <entry key="S5" value="1.000176187598524" />
+      <entry key="S10" value="1.0132735676637412" />
+      <entry key="S30" value="1.236771389419074" />
+      <entry key="S60" value="1.486591604345034" />
+      <entry key="M2" value="1.6975611832269868" />
+      <entry key="M5" value="1.865830583605743" />
+      <entry key="M10" value="1.930500179261532" />
+      <entry key="M15" value="1.953112811852486" />
+      <entry key="M30" value="1.9762749673388567" />
+      <entry key="H1" value="1.9880662767946575" />
+      <entry key="H2" value="1.9940152296593134" />
+      <entry key="H4" value="1.9970031241973687" />
+      <entry key="D1" value="1.999499895855945" />
+      <entry key="W1" value="1.9999285412336079" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9992852370397066" />
-      <entry key="MS500" value="2.6295944398988707" />
-      <entry key="S2" value="4.627325164261786" />
-      <entry key="S5" value="6.140209969954586" />
-      <entry key="S10" value="6.948795346395145" />
-      <entry key="S30" value="7.6179758806904605" />
-      <entry key="S60" value="7.804700891063112" />
-      <entry key="M2" value="7.901251819060372" />
-      <entry key="M5" value="7.960233538786532" />
-      <entry key="M10" value="7.980071941319275" />
-      <entry key="M15" value="7.986704643659291" />
-      <entry key="M30" value="7.993347324351222" />
-      <entry key="H1" value="7.996672411767088" />
-      <entry key="H2" value="7.9983358931514505" />
-      <entry key="H4" value="7.999167868376453" />
-      <entry key="D1" value="7.999861300533684" />
-      <entry key="W1" value="7.999980185524491" />
+      <entry key="MS100" value="6.442909720570772E-4" />
+      <entry key="MS500" value="0.2301112492909411" />
+      <entry key="S2" value="0.7821148374817226" />
+      <entry key="S5" value="1.2444214555164164" />
+      <entry key="S10" value="1.5621405436412767" />
+      <entry key="S30" value="3.0187780528667" />
+      <entry key="S60" value="6.309496453067384" />
+      <entry key="M2" value="10.564562706559531" />
+      <entry key="M5" value="14.92002345560855" />
+      <entry key="M10" value="16.819524041671542" />
+      <entry key="M15" value="17.51317031514638" />
+      <entry key="M30" value="18.23947662699626" />
+      <entry key="H1" value="18.615360994185256" />
+      <entry key="H2" value="18.80657338602531" />
+      <entry key="H4" value="18.90300830118682" />
+      <entry key="D1" value="18.98379591356786" />
+      <entry key="W1" value="18.997684178423224" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.3.1/bin/php" />
@@ -161,33 +160,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/mihaidornescu/Documents/PERSONAL/Main/Mihai-Dornescu",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mihaidornescu/Documents/PERSONAL/Main/Mihai-Dornescu&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -604,6 +603,8 @@
       <workItem from="1782052010866" duration="89000" />
       <workItem from="1782052138318" duration="243000" />
       <workItem from="1783575933842" duration="2244000" />
+      <workItem from="1785338436905" duration="504000" />
+      <workItem from="1788273991249" duration="47000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
@@ -948,7 +949,7 @@
       <option name="project" value="LOCAL" />
       <updated>1643555823321</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -967,8 +968,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Removed video link from sidebar and updated workspace settings&#10;&#10;Removed the video page link from the sidebar navigation in the handleSidebar.js file. Additionally, streamlined the order of recent templates in the workspace.xml and updated the local tasks counter. Several commit messages were also removed for simplicity." />
-    <MESSAGE value="Removed SQL link from sidebar and updated workspace settings&#10;&#10;The SQL link was commented out from the ‘handleSidebar.js’ file, removing it from the sidebar navigation. The ‘contact.html' link was also adjusted in the same file. This commit also includes updates to the 'workspace.xml' under the .idea directory, such as rearranging the order of templates and updating the local task counter. Some old commit messages were deleted for simplicity." />
     <MESSAGE value="Added new project details and updated workspace settings&#10;&#10;Extended the project list by adding the &quot;Express EJS&quot; project with all its configuration details into the Projects.js file. In addition, updated the workspace.xml file by reordering the templates, updating the local task counter, and removing some old commit messages for simplifying the changelist." />
     <MESSAGE value="Reorder projects and add new project details&#10;&#10;The project list in the Projects.js file has been reordered and new project details have been added. This update also includes modifications to the workspace.xml file: templates have been reordered, local task counter updated, and old commit messages removed for changelist simplification." />
     <MESSAGE value="Update project link in Projects.js&#10;&#10;The project link in the Projects.js file has been updated. The previous link &quot;http://62.171.167.229:5000" />
@@ -992,7 +991,9 @@
     <MESSAGE value="Update workspace.xml and news.js  &#10;&#10;Updated `.idea/workspace.xml` with task tracking updates and incremented the local tasks counter. Changed the news API endpoint in `news.js` to the new URL, commenting out the old one." />
     <MESSAGE value="Update workspace.xml and update Projects.js link&#10;&#10;Updated `.idea/workspace.xml` with task tracking updates and incremented the local tasks counter. Updated the project link for &quot;NewsGo&quot; in `Projects.js` to the new URL." />
     <MESSAGE value="Update workspace.xml and add new task entry&#10;&#10;Incremented the local tasks counter and added a new work item in `.idea/workspace.xml`." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace.xml and add new task entry&#10;&#10;Incremented the local tasks counter and added a new work item in `.idea/workspace.xml`." />
+    <MESSAGE value="Update Projects.js and workspace.xml  &#10;&#10;Updated `Projects.js` with new project tags, improved descriptions, and formatting adjustments" />
+    <MESSAGE value="Update Projects.js and workspace.xml  &#10;&#10;Updated `Projects.js` with new project tags, improved descriptions, and formatting adjustments. Incremented the local tasks counter and added task entries in `.idea/workspace.xml`." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Projects.js and workspace.xml  &#10;&#10;Updated `Projects.js` with new project tags, improved descriptions, and formatting adjustments. Incremented the local tasks counter and added task entries in `.idea/workspace.xml`." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
