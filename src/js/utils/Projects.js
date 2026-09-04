@@ -2,6 +2,29 @@
 const project= 'https://github.com/dornescum/angularIonic-store';
 export const projects = [
 	{
+		id: "news-express-2026",
+		title: "NewsExpress — Fact-Checked News CMS (Express)",
+		description: "Plain Express/TypeScript rewrite of NewsNest's NestJS backend — third leg of the Go → NestJS → Express trio, comparing the same product across three backend architectures. Raw mysql2 (no ORM), manual singletons (no DI container), Zod validation, same role-based publishing workflow (journalist → org manager/admin approval).",
+		tools: "<span style='color:#000000;font-weight:bold'>Express</span>, TypeScript, mysql2, Zod, EJS, Bootstrap 5",
+		linkRepo: "",
+		linkPage: "",
+		img: "",
+		tagJs: "Express",
+		tagCss: "Bootstrap",
+		tagTutorial: false,
+		tagDB: "Mysql",
+		tagNode: true,
+		desc: "Express, TypeScript, mysql2, Zod, EJS, role-based publishing workflow",
+		extra: `<b>NewsExpress</b> is a plain Express/TypeScript rewrite of the NewsNest NestJS backend for the same fact-checked Romanian news platform — the third version of the same product, after Go and NestJS.<br><br>
+<b>Structure</b> — layer-folder organization (<code>controllers/</code>, <code>models/</code>, <code>routes/</code>, <code>middleware/</code>, <code>types/</code>) rather than NestJS's feature-folder layout; each controller/model exports its own singleton instead of a DI container resolving a dependency graph.<br><br>
+<b>Data layer</b> — raw <b>mysql2</b> (promise pool), no ORM: hand-written parameterized SQL, including multi-table atomic updates (e.g. a manager's approve/flag only ever touches an article in their own non-blocked organization, checked and updated in one query) and correlated subqueries for aggregate counts.<br><br>
+<b>Validation</b> — <b>Zod</b> schemas replace class-validator/class-transformer entirely: one schema per form doubles as its own TypeScript type (<code>z.infer</code>), parsed through a single <code>parseAndValidate()</code> helper — no decorators, no <code>reflect-metadata</code>.<br><br>
+<b>Publishing workflow</b> — same three-role chain as NewsNest (journalist / org manager / admin), reimplemented as plain <code>requireAuth</code>/<code>requireRole</code> middleware instead of Guards. Admins manage organizations (created with a manager account in one atomic transaction), categories, and users, and can block/unblock organizations and individual articles independently of their workflow status.<br><br>
+<b>Auth &amp; sessions</b> — <code>express-session</code> backed by MySQL (<code>express-mysql-session</code>), <b>bcrypt</b> password hashing, role-based dashboard redirects.<br><br>
+<b>Uploads &amp; ops</b> — Multer (memory storage, size/count limits) for article images, served through a dedicated controller route rather than static hosting; <b>winston</b> + daily log rotation with a dedicated error-file transport; i18n (RO/EN) via a small hand-rolled translation lookup.<br><br>
+<b>Why Express, in hindsight</b> — liked: manual singletons matched the app's actual dependency graph, which turned out too shallow to need a container managing it; Zod schemas removed the DTO-class-plus-decorators split into one file that's both the validator and the type. Less convinced by: losing Prisma's compile-time schema means column names/types are trust-the-runtime — this migration hit a real bug from it (a NOT NULL column with no DB-level default that Prisma had silently handled at the ORM layer on every write); no decorator-driven Swagger, so that story has to be rebuilt from scratch with comment annotations instead of inherited for free; and more files per feature (separate model/controller/routes/types) for the same functionality NestJS colocated more tightly.`
+	},
+	{
 		id: "news-nest-2026",
 		title: "NewsNest — Fact-Checked News CMS (NestJS)",
 		description: "NestJS/TypeScript port of NewsGo's backend. Prisma ORM over MySQL, role-based publishing workflow (journalist → org manager/admin approval), RSS feed, MySQL-backed sessions.",

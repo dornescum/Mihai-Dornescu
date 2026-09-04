@@ -25,9 +25,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Update Projects.js and workspace.xml  &#10;&#10;Updated `Projects.js` with new project tags, improved descriptions, and formatting adjustments. Incremented the local tasks counter and added task entries in `.idea/workspace.xml`.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Add NewsNest project details and update workspace settings  &#10;&#10;Added &quot;NewsNest&quot; project details with full description, tags, and links in `Projects.js`. Updated `.idea/workspace.xml` with incremented local tasks counter and additional task entries." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,61 +85,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.5206685239425065E-18" />
-      <entry key="MS500" value="2.731535891200467E-4" />
-      <entry key="S2" value="0.12855877568854615" />
-      <entry key="S5" value="0.4401913318237916" />
-      <entry key="S10" value="0.6669865983339719" />
-      <entry key="S30" value="1.8333218097133022" />
-      <entry key="S60" value="4.853056665973277" />
-      <entry key="M2" value="8.883929194325932" />
-      <entry key="M5" value="13.061561667923181" />
-      <entry key="M10" value="14.892824542932688" />
-      <entry key="M15" value="15.562618539672417" />
-      <entry key="M30" value="16.264496173660245" />
-      <entry key="H1" value="16.627945544795754" />
-      <entry key="H2" value="16.812884471767855" />
-      <entry key="H4" value="16.90616856126311" />
-      <entry key="D1" value="16.984323279990555" />
-      <entry key="W1" value="16.99775953257518" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000062835008032" />
+      <entry key="S2" value="1.0500668673493514" />
+      <entry key="S5" value="1.3018707005400398" />
+      <entry key="S10" value="1.5523404455943683" />
+      <entry key="S30" value="2.721612012811528" />
+      <entry key="S60" value="5.702877343770483" />
+      <entry key="M2" value="9.745391043068892" />
+      <entry key="M5" value="13.979703240440493" />
+      <entry key="M10" value="15.846083605458503" />
+      <entry key="M15" value="16.53003943175267" />
+      <entry key="M30" value="17.24746303806371" />
+      <entry key="H1" value="17.619236383450573" />
+      <entry key="H2" value="17.808480881996456" />
+      <entry key="H4" value="17.903954405015497" />
+      <entry key="D1" value="17.983952527764067" />
+      <entry key="W1" value="17.997706525575342" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.000000000412039" />
-      <entry key="S5" value="1.000176187598524" />
-      <entry key="S10" value="1.0132735676637412" />
-      <entry key="S30" value="1.236771389419074" />
-      <entry key="S60" value="1.486591604345034" />
-      <entry key="M2" value="1.6975611832269868" />
-      <entry key="M5" value="1.865830583605743" />
-      <entry key="M10" value="1.930500179261532" />
-      <entry key="M15" value="1.953112811852486" />
-      <entry key="M30" value="1.9762749673388567" />
-      <entry key="H1" value="1.9880662767946575" />
-      <entry key="H2" value="1.9940152296593134" />
-      <entry key="H4" value="1.9970031241973687" />
-      <entry key="D1" value="1.999499895855945" />
-      <entry key="W1" value="1.9999285412336079" />
+      <entry key="MS100" value="6.441304320900628E-9" />
+      <entry key="MS500" value="0.02300354472137778" />
+      <entry key="S2" value="0.38944729445211695" />
+      <entry key="S5" value="0.6858923940253617" />
+      <entry key="S10" value="0.8391052762834504" />
+      <entry key="S30" value="1.1614111989746398" />
+      <entry key="S60" value="1.4405885726684757" />
+      <entry key="M2" value="1.6710890015125954" />
+      <entry key="M5" value="1.854137191850134" />
+      <entry key="M10" value="1.924441329383012" />
+      <entry key="M15" value="1.9490241250473337" />
+      <entry key="M30" value="1.9742052961276921" />
+      <entry key="H1" value="1.9870249942187153" />
+      <entry key="H2" value="1.9934929620446105" />
+      <entry key="H4" value="1.996741581972238" />
+      <entry key="D1" value="1.999456248603945" />
+      <entry key="W1" value="1.9999223045168417" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="6.442909720570772E-4" />
-      <entry key="MS500" value="0.2301112492909411" />
-      <entry key="S2" value="0.7821148374817226" />
-      <entry key="S5" value="1.2444214555164164" />
-      <entry key="S10" value="1.5621405436412767" />
-      <entry key="S30" value="3.0187780528667" />
-      <entry key="S60" value="6.309496453067384" />
-      <entry key="M2" value="10.564562706559531" />
-      <entry key="M5" value="14.92002345560855" />
-      <entry key="M10" value="16.819524041671542" />
-      <entry key="M15" value="17.51317031514638" />
-      <entry key="M30" value="18.23947662699626" />
-      <entry key="H1" value="18.615360994185256" />
-      <entry key="H2" value="18.80657338602531" />
-      <entry key="H4" value="18.90300830118682" />
-      <entry key="D1" value="18.98379591356786" />
-      <entry key="W1" value="18.997684178423224" />
+      <entry key="MS100" value="0.004842608207036738" />
+      <entry key="MS500" value="0.3496558860097407" />
+      <entry key="S2" value="1.0706369506021058" />
+      <entry key="S5" value="1.7522685839317773" />
+      <entry key="S10" value="2.2417219760951443" />
+      <entry key="S30" value="3.817224092961744" />
+      <entry key="S60" value="7.105402664704195" />
+      <entry key="M2" value="11.395384280349857" />
+      <entry key="M5" value="15.824742627772217" />
+      <entry key="M10" value="17.765848193565063" />
+      <entry key="M15" value="18.47591580133928" />
+      <entry key="M30" value="19.220079091842376" />
+      <entry key="H1" value="19.60546283816727" />
+      <entry key="H2" value="19.801573584877538" />
+      <entry key="H4" value="19.900495608812314" />
+      <entry key="D1" value="19.983375345372707" />
+      <entry key="W1" value="19.997624053386183" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.3.1/bin/php" />
@@ -605,6 +603,7 @@
       <workItem from="1783575933842" duration="2244000" />
       <workItem from="1785338436905" duration="504000" />
       <workItem from="1788273991249" duration="47000" />
+      <workItem from="1788283575808" duration="325000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
@@ -949,7 +948,7 @@
       <option name="project" value="LOCAL" />
       <updated>1643555823321</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -968,7 +967,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added new project details and updated workspace settings&#10;&#10;Extended the project list by adding the &quot;Express EJS&quot; project with all its configuration details into the Projects.js file. In addition, updated the workspace.xml file by reordering the templates, updating the local task counter, and removing some old commit messages for simplifying the changelist." />
     <MESSAGE value="Reorder projects and add new project details&#10;&#10;The project list in the Projects.js file has been reordered and new project details have been added. This update also includes modifications to the workspace.xml file: templates have been reordered, local task counter updated, and old commit messages removed for changelist simplification." />
     <MESSAGE value="Update project link in Projects.js&#10;&#10;The project link in the Projects.js file has been updated. The previous link &quot;http://62.171.167.229:5000" />
     <MESSAGE value="Update project link in Projects.js&#10;&#10;The project link in the Projects.js file has been updated. The previous link &quot;http://62.171.167.229:5000/&quot; has been replaced with the new link &quot;https://images.dornescu.ro&quot;." />
@@ -993,7 +991,8 @@
     <MESSAGE value="Update workspace.xml and add new task entry&#10;&#10;Incremented the local tasks counter and added a new work item in `.idea/workspace.xml`." />
     <MESSAGE value="Update Projects.js and workspace.xml  &#10;&#10;Updated `Projects.js` with new project tags, improved descriptions, and formatting adjustments" />
     <MESSAGE value="Update Projects.js and workspace.xml  &#10;&#10;Updated `Projects.js` with new project tags, improved descriptions, and formatting adjustments. Incremented the local tasks counter and added task entries in `.idea/workspace.xml`." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Projects.js and workspace.xml  &#10;&#10;Updated `Projects.js` with new project tags, improved descriptions, and formatting adjustments. Incremented the local tasks counter and added task entries in `.idea/workspace.xml`." />
+    <MESSAGE value="Add NewsNest project details and update workspace settings  &#10;&#10;Added &quot;NewsNest&quot; project details with full description, tags, and links in `Projects.js`. Updated `.idea/workspace.xml` with incremented local tasks counter and additional task entries." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add NewsNest project details and update workspace settings  &#10;&#10;Added &quot;NewsNest&quot; project details with full description, tags, and links in `Projects.js`. Updated `.idea/workspace.xml` with incremented local tasks counter and additional task entries." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
