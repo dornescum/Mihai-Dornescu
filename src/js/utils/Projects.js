@@ -7,7 +7,7 @@ export const projects = [
 		description: "Plain Express/TypeScript rewrite of NewsNest's NestJS backend — third leg of the Go → NestJS → Express trio, comparing the same product across three backend architectures. Raw mysql2 (no ORM), manual singletons (no DI container), Zod validation, same role-based publishing workflow (journalist → org manager/admin approval).",
 		tools: "<span style='color:#000000;font-weight:bold'>Express</span>, TypeScript, mysql2, Zod, EJS, Bootstrap 5",
 		linkRepo: "",
-		linkPage: "",
+		linkPage: "https://news-express.147.93.59.56.nip.io/",
 		img: "",
 		tagJs: "Express",
 		tagCss: "Bootstrap",
