@@ -64,7 +64,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 <b>PostgreSQL schema</b> — 14 migrations via <b>golang-migrate</b>: categories (self-referencing hierarchy), roles, article statuses, users, tokens, organizations, user_organizations, org_invites, articles, tags, article_tags, financial_support. The articles table carries a <code>vector(1536)</code> column for future <b>pgvector</b> semantic search (HNSW index planned).<br><br>
 <b>Dashboard</b> — server-side HTML via <code>html/template</code>. Role-based routing: admin → full article queue + fact-check controls; journalist → own articles only. Article editor uses <b>EasyMDE</b> (Markdown) with AJAX gallery upload (3 image slots, 5 MB limit, MIME validation). Session auth via <b>gorilla/securecookie</b> (HMAC-signed, HttpOnly).<br><br>
 <b>Middleware</b> — per-IP token-bucket rate limiter (in-memory), structured request logger, <code>RequireAuth</code> / <code>RequireRole</code> guards, request size cap, graceful shutdown on SIGTERM.<br><br>
-<b>Ops</b> — <code>docker-compose.yml</code> for local Postgres + pgAdmin; nginx proxies to <code>:8080</code> and serves <code>/public/uploads/</code> directly. Stripe webhook handler and pgvector embedding pipeline are the next milestones.`
+<b>Ops</b> — <code>docker-compose.yml</code> for local Postgres + pgAdmin; nginx proxies to <code>:8080</code> and serves <code>/public/uploads/</code> directly. Stripe webhook handler and pgvector embedding pipeline are the next milestones.
+ <b>Part of a trio</b> — the same product was later rebuilt in <b>NestJS</b> (Prisma, DI, decorators) and <b>Express</b> (raw SQL, no DI container) to compare backend architectures side by side; see those two cards for what changed and why.`
 	},
       {
           id: "07 - 29 - 2026",

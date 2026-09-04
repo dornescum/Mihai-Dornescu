@@ -25,7 +25,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Add NewsNest project details and update workspace settings  &#10;&#10;Added &quot;NewsNest&quot; project details with full description, tags, and links in `Projects.js`. Updated `.idea/workspace.xml` with incremented local tasks counter and additional task entries." />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Update Projects.js with NewsExpress page link &#10;&#10;Added the deployment link for the &quot;NewsExpress&quot; project in `Projects.js`." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -604,6 +604,7 @@
       <workItem from="1785338436905" duration="504000" />
       <workItem from="1788273991249" duration="47000" />
       <workItem from="1788283575808" duration="325000" />
+      <workItem from="1788532006692" duration="314000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
@@ -948,7 +949,7 @@
       <option name="project" value="LOCAL" />
       <updated>1643555823321</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -967,8 +968,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Reorder projects and add new project details&#10;&#10;The project list in the Projects.js file has been reordered and new project details have been added. This update also includes modifications to the workspace.xml file: templates have been reordered, local task counter updated, and old commit messages removed for changelist simplification." />
-    <MESSAGE value="Update project link in Projects.js&#10;&#10;The project link in the Projects.js file has been updated. The previous link &quot;http://62.171.167.229:5000" />
     <MESSAGE value="Update project link in Projects.js&#10;&#10;The project link in the Projects.js file has been updated. The previous link &quot;http://62.171.167.229:5000/&quot; has been replaced with the new link &quot;https://images.dornescu.ro&quot;." />
     <MESSAGE value="Add CodeBar Generator project to Projects.js&#10;&#10;A new project titled &quot;CodeBar Generator&quot; has been added to the Projects.js" />
     <MESSAGE value="Add CodeBar Generator project to Projects.js&#10;&#10;A new project titled &quot;CodeBar Generator&quot; has been added to the Projects.js file, containing all its related details such as title, description, tools used, repository and webpage links, and tags. In addition, minor changes have been made to the .idea/workspace.xml file, including updating settings and local task counter" />
@@ -992,7 +991,9 @@
     <MESSAGE value="Update Projects.js and workspace.xml  &#10;&#10;Updated `Projects.js` with new project tags, improved descriptions, and formatting adjustments" />
     <MESSAGE value="Update Projects.js and workspace.xml  &#10;&#10;Updated `Projects.js` with new project tags, improved descriptions, and formatting adjustments. Incremented the local tasks counter and added task entries in `.idea/workspace.xml`." />
     <MESSAGE value="Add NewsNest project details and update workspace settings  &#10;&#10;Added &quot;NewsNest&quot; project details with full description, tags, and links in `Projects.js`. Updated `.idea/workspace.xml` with incremented local tasks counter and additional task entries." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add NewsNest project details and update workspace settings  &#10;&#10;Added &quot;NewsNest&quot; project details with full description, tags, and links in `Projects.js`. Updated `.idea/workspace.xml` with incremented local tasks counter and additional task entries." />
+    <MESSAGE value="Add NewsExpress project details and update workspace settings&#10;&#10;Added &quot;NewsExpress&quot; project details with full description, tags, and links in `Projects.js`. Updated `.idea/workspace.xml` with incremented local tasks counter and additional task entries." />
+    <MESSAGE value="Update Projects.js with NewsExpress page link &#10;&#10;Added the deployment link for the &quot;NewsExpress&quot; project in `Projects.js`." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Projects.js with NewsExpress page link &#10;&#10;Added the deployment link for the &quot;NewsExpress&quot; project in `Projects.js`." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
