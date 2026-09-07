@@ -25,7 +25,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Update Projects.js with NewsExpress page link &#10;&#10;Added the deployment link for the &quot;NewsExpress&quot; project in `Projects.js`." />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Update Projects.js with NewsExpress page link &#10;&#10;Added the deployment link for the &quot;NewsExpress&quot; project in `Projects.js`.">
+      <change afterPath="$PROJECT_DIR$/certifications.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/certificates/cs50p-intro-to-programming-with-python.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/certificates/datacamp-intermediate-sql.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/certificates/datacamp-sql-for-database-administrators.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/certificates/datacamp-sql-server-for-database-administrators.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/certificates/hyperskill-sql-for-backend-developers.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/certifications.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/utils/Certifications.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,64 +95,64 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000062835008032" />
-      <entry key="S2" value="1.0500668673493514" />
-      <entry key="S5" value="1.3018707005400398" />
-      <entry key="S10" value="1.5523404455943683" />
-      <entry key="S30" value="2.721612012811528" />
-      <entry key="S60" value="5.702877343770483" />
-      <entry key="M2" value="9.745391043068892" />
-      <entry key="M5" value="13.979703240440493" />
-      <entry key="M10" value="15.846083605458503" />
-      <entry key="M15" value="16.53003943175267" />
-      <entry key="M30" value="17.24746303806371" />
-      <entry key="H1" value="17.619236383450573" />
-      <entry key="H2" value="17.808480881996456" />
-      <entry key="H4" value="17.903954405015497" />
-      <entry key="D1" value="17.983952527764067" />
-      <entry key="W1" value="17.997706525575342" />
+      <entry key="MS100" value="1.359215564364629" />
+      <entry key="MS500" value="2.4773587601316" />
+      <entry key="S2" value="4.04645212864549" />
+      <entry key="S5" value="6.349940467338155" />
+      <entry key="S10" value="9.399938881113044" />
+      <entry key="S30" value="17.580237782597123" />
+      <entry key="S60" value="24.16128818865156" />
+      <entry key="M2" value="31.073717721327263" />
+      <entry key="M5" value="38.13294169721737" />
+      <entry key="M10" value="41.294062950609835" />
+      <entry key="M15" value="42.46375033671277" />
+      <entry key="M30" value="43.69768506882976" />
+      <entry key="H1" value="44.34002612588475" />
+      <entry key="H2" value="44.66777439094217" />
+      <entry key="H4" value="44.83332314479573" />
+      <entry key="D1" value="44.97214180888224" />
+      <entry key="W1" value="44.996018325783346" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="6.441304320900628E-9" />
-      <entry key="MS500" value="0.02300354472137778" />
-      <entry key="S2" value="0.38944729445211695" />
-      <entry key="S5" value="0.6858923940253617" />
-      <entry key="S10" value="0.8391052762834504" />
-      <entry key="S30" value="1.1614111989746398" />
-      <entry key="S60" value="1.4405885726684757" />
-      <entry key="M2" value="1.6710890015125954" />
-      <entry key="M5" value="1.854137191850134" />
-      <entry key="M10" value="1.924441329383012" />
-      <entry key="M15" value="1.9490241250473337" />
-      <entry key="M30" value="1.9742052961276921" />
-      <entry key="H1" value="1.9870249942187153" />
-      <entry key="H2" value="1.9934929620446105" />
-      <entry key="H4" value="1.996741581972238" />
-      <entry key="D1" value="1.999456248603945" />
-      <entry key="W1" value="1.9999223045168417" />
+      <entry key="MS100" value="4.939544665069446E-106" />
+      <entry key="MS500" value="8.684351417502454E-22" />
+      <entry key="S2" value="5.486813025821897E-6" />
+      <entry key="S5" value="0.009109089852647734" />
+      <entry key="S10" value="0.12470597852070209" />
+      <entry key="S30" value="0.852995394853798" />
+      <entry key="S60" value="1.5207306336905104" />
+      <entry key="M2" value="2.1030631116110676" />
+      <entry key="M5" value="2.592065065322837" />
+      <entry key="M10" value="2.786618124225643" />
+      <entry key="M15" value="2.8555508807236993" />
+      <entry key="M30" value="2.9266512707679704" />
+      <entry key="H1" value="2.9630394223012853" />
+      <entry key="H2" value="2.9814475002146064" />
+      <entry key="H4" value="2.9907056144459703" />
+      <entry key="D1" value="2.998448409826859" />
+      <entry key="W1" value="2.9997782823094092" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.004842608207036738" />
-      <entry key="MS500" value="0.3496558860097407" />
-      <entry key="S2" value="1.0706369506021058" />
-      <entry key="S5" value="1.7522685839317773" />
-      <entry key="S10" value="2.2417219760951443" />
-      <entry key="S30" value="3.817224092961744" />
-      <entry key="S60" value="7.105402664704195" />
-      <entry key="M2" value="11.395384280349857" />
-      <entry key="M5" value="15.824742627772217" />
-      <entry key="M10" value="17.765848193565063" />
-      <entry key="M15" value="18.47591580133928" />
-      <entry key="M30" value="19.220079091842376" />
-      <entry key="H1" value="19.60546283816727" />
-      <entry key="H2" value="19.801573584877538" />
-      <entry key="H4" value="19.900495608812314" />
-      <entry key="D1" value="19.983375345372707" />
-      <entry key="W1" value="19.997624053386183" />
+      <entry key="MS100" value="1.28502536514678" />
+      <entry key="MS500" value="2.4162014128887606" />
+      <entry key="S2" value="3.9479634585961074" />
+      <entry key="S5" value="6.291850599825659" />
+      <entry key="S10" value="9.45871754781647" />
+      <entry key="S30" value="18.35823957480895" />
+      <entry key="S60" value="25.62369825470391" />
+      <entry key="M2" value="33.13934987226998" />
+      <entry key="M5" value="40.70740277515552" />
+      <entry key="M10" value="44.071368947700854" />
+      <entry key="M15" value="45.31297364081632" />
+      <entry key="M30" value="46.62111118073591" />
+      <entry key="H1" value="47.30143731230623" />
+      <entry key="H2" value="47.64840381904911" />
+      <entry key="H4" value="47.82361872958608" />
+      <entry key="D1" value="47.97052174200096" />
+      <entry key="W1" value="47.99578682231004" />
     </decayedShown>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.3.1/bin/php" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP Herd" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -158,33 +168,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mihaidornescu/Documents/PERSONAL/Main/Mihai-Dornescu&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/mihaidornescu/Documents/ELSE/M/Mihai-Dornescu",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -201,8 +211,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PS-261.26222.71" />
-        <option value="bundled-php-predefined-a98d8de5180a-6bbb74dbab74-com.jetbrains.php.sharedIndexes-PS-261.26222.71" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PS-261.25134.104" />
+        <option value="bundled-php-predefined-a98d8de5180a-6bbb74dbab74-com.jetbrains.php.sharedIndexes-PS-261.25134.104" />
       </set>
     </attachedChunks>
   </component>
@@ -605,6 +615,7 @@
       <workItem from="1788273991249" duration="47000" />
       <workItem from="1788283575808" duration="325000" />
       <workItem from="1788532006692" duration="314000" />
+      <workItem from="1788774796356" duration="1044000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
