@@ -73,7 +73,7 @@
 <footer id="footer">
     <div class="container">
         <ul class="d-flex ps-2 py-3 list-unstyled mb-0">
-            <li class="p-1">
+            <li class="p-1 d-flex align-items-center">
                 <div id="footer-year"></div>
             </li>
             <li class="p-1 d-flex justify-content-center align-items-center">
@@ -97,7 +97,7 @@
     import { handleSidebar } from './src/js/utils/handleSidebar.js';
     import { YEAR }          from './src/js/utils/footerYear.js';
     handleSidebar(document.getElementById('access-sidebar'), document.getElementById('sidebar'));
-    document.getElementById('footer-year').innerHTML = `<p>&copy; ${YEAR}</p>`;
+    document.getElementById('footer-year').innerHTML = `<p class="m-0">&copy; ${YEAR}</p>`;
 </script>
 <!-- certifications -->
 <script src="src/js/certifications.js" type="module"></script>

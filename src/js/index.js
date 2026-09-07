@@ -15,7 +15,7 @@ const loading = getElement(".loading");
 const hideLoading = () => loading.classList.add("hide-loading");
 window.addEventListener("DOMContentLoaded", () => setTimeout(hideLoading, 50));
 
-footer.innerHTML = `<p>&copy; ${YEAR}</p>`;
+footer.innerHTML = `<p class="m-0">&copy; ${YEAR}</p>`;
 
 const itemsPerPage = 12;
 let currentPage = 1;
