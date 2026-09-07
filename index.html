@@ -153,6 +153,23 @@
         <div class="d-flex flex-wrap gap-1 align-items-center" id="pagination"></div>
     </section>
 
+    <!-- earlier exercises (learning history) -->
+    <section class="my-4" id="earlier-section">
+        <button aria-controls="earlier-exercises" aria-expanded="false"
+                class="btn btn-sm btn-light border text-muted d-flex align-items-center gap-2"
+                data-bs-target="#earlier-exercises" data-bs-toggle="collapse" id="earlier-toggle">
+            <span id="earlier-toggle-icon">▸</span>
+            <span>Earlier exercises</span>
+            <span class="badge bg-secondary" id="earlier-count"></span>
+        </button>
+        <div class="collapse mt-2" id="earlier-exercises">
+            <p class="text-muted small fst-italic mb-2">
+                Older projects from when I was learning to code — kept here to show progression, not as current work.
+            </p>
+            <ol class="list-unstyled border rounded bg-light" id="earlier-list"></ol>
+        </div>
+    </section>
+
     <!-- cookie consent -->
     <div class="cookie-container d-none" style="position:fixed;bottom:0;left:0;right:0;z-index:1050;background:#2b2b2b;color:#fff;padding:1rem 1.5rem;">
         <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
@@ -184,22 +201,6 @@
         <li class="p-1 d-flex justify-content-center align-items-center">
             <a href="https://www.linkedin.com/in/mihai-dornescu-21b35a94/" rel="noopener" target="_blank">
                 <img alt="linkedIn action" src="./src/img/svg/linkedIn.svg">
-            </a>
-        </li>
-        <li class="p-1 d-flex justify-content-center align-items-center">
-            <a href="https://dornescu.ro/" itemprop="author" rel="noopener" target="_blank">
-                <img alt="dornescu.ro" src="./src/img/svg/blog.svg">
-            </a>
-        </li>
-        <li class="p-1 d-flex justify-content-center align-items-center">
-            <a href="contact.html" itemprop="author">
-                <img alt="dornescu.ro" src="./src/img/svg/contact.svg">
-            </a>
-        </li>
-        <li class="p-1 d-flex justify-content-center align-items-center ms-auto">
-<!--            <button id="withdraw-consent" style="font-size:.75rem;color:#6c757d;background:none;border:none;padding:0;cursor:pointer;">Cookie preferences</button>-->
-            <a href="cookie-policy.html" itemprop="author">
-                <img alt="dornescu.ro" src="./src/img/svg/contact.svg">
             </a>
         </li>
     </ul>

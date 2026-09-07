@@ -82,7 +82,7 @@ async function trackVisitor() {
             body:    JSON.stringify(payload),
         });
         sessionStorage.setItem(TRACKED_KEY, '1');
-    } catch (_) {
+    } catch {
         // fire-and-forget — analytics failure must never affect the page
     }
 }

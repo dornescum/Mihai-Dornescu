@@ -21,6 +21,9 @@ const itemsPerPage = 12;
 let currentPage = 1;
 let activeTag = null;
 
+const mainProjects = projects.filter(p => p.relevant !== 0);
+const earlierProjects = projects.filter(p => p.relevant === 0);
+
 function getProjectTags(item) {
     const tags = [];
     if (item.tagJs) tags.push(item.tagJs);
@@ -33,13 +36,13 @@ function getProjectTags(item) {
 }
 
 function getFiltered() {
-    if (!activeTag) return projects;
-    return projects.filter(p => getProjectTags(p).includes(activeTag));
+    if (!activeTag) return mainProjects;
+    return mainProjects.filter(p => getProjectTags(p).includes(activeTag));
 }
 
 function renderFilters() {
     const container = getElement('#tag-filters');
-    const allTags = [...new Set(projects.flatMap(p => getProjectTags(p)))].sort();
+    const allTags = [...new Set(mainProjects.flatMap(p => getProjectTags(p)))].sort();
 
     const btns = ['All', ...allTags].map(tag => {
         const val = tag === 'All' ? '' : tag;
@@ -59,6 +62,36 @@ function renderFilters() {
     });
 }
 
+function renderProjectRow(item, num, { interactiveTags = true } = {}) {
+    const projectIndex = projects.indexOf(item);
+    const tags = getProjectTags(item);
+
+    const tagBadges = tags.map(t => interactiveTags
+        ? `<button class="tag-badge btn btn-sm btn-outline-secondary py-0 px-2 lh-base" style="font-size:0.7rem;" data-tag="${t}">${t}</button>`
+        : `<span class="badge bg-white text-secondary border py-1 px-2 lh-base" style="font-size:0.7rem;">${t}</span>`
+    ).join('');
+
+    const links = [];
+    if (item.linkPage) links.push(`<a href="${item.linkPage}" target="_blank" rel="noopener" class="link-warning small">live</a>`);
+    if (item.linkRepo) links.push(`<a href="${item.linkRepo}" target="_blank" rel="noopener" class="link-secondary small">repo</a>`);
+    const linksHtml = links.join('<span class="text-muted mx-1">|</span>');
+
+    return `
+        <li class="project-row d-flex align-items-start gap-2 px-3 py-2 border-bottom" data-testid="${item.id}">
+            <span class="text-muted  text-end mt-1 flex-shrink-0" style="min-width:1.75rem;">${num}.</span>
+            <div class="flex-grow-1 overflow-hidden">
+                <div class="d-flex flex-wrap align-items-center gap-1">
+                    <span class="fw-semibold  text-dark">${item.title.trim()}</span>
+                    ${tagBadges}
+                    ${linksHtml ? `<span class="text-muted mx-1">·</span>${linksHtml}` : ''}
+                </div>
+                <p class="text-muted mt-1 mb-0">${item.description}</p>
+            </div>
+            ${item.extra ? `<button onclick="openModal(${projectIndex})" class="info-btn btn btn-sm btn-link text-muted text-nowrap mt-1 flex-shrink-0 p-0">info</button>` : ''}
+        </li>
+    `;
+}
+
 function displayData() {
     const filtered = getFiltered();
     const start = (currentPage - 1) * itemsPerPage;
@@ -72,33 +105,7 @@ function displayData() {
     }
 
     pageItems.forEach((item, idx) => {
-        const projectIndex = projects.indexOf(item);
-        const num = start + idx + 1;
-        const tags = getProjectTags(item);
-
-        const tagBadges = tags.map(t =>
-            `<button class="tag-badge btn btn-sm btn-outline-secondary py-0 px-2 lh-base" style="font-size:0.7rem;" data-tag="${t}">${t}</button>`
-        ).join('');
-
-        const links = [];
-        if (item.linkPage) links.push(`<a href="${item.linkPage}" target="_blank" rel="noopener" class="link-warning small">live</a>`);
-        if (item.linkRepo) links.push(`<a href="${item.linkRepo}" target="_blank" rel="noopener" class="link-secondary small">repo</a>`);
-        const linksHtml = links.join('<span class="text-muted mx-1">|</span>');
-
-        projectsGrid.insertAdjacentHTML('beforeend', `
-            <li class="project-row d-flex align-items-start gap-2 px-3 py-2 border-bottom" data-testid="${item.id}">
-                <span class="text-muted  text-end mt-1 flex-shrink-0" style="min-width:1.75rem;">${num}.</span>
-                <div class="flex-grow-1 overflow-hidden">
-                    <div class="d-flex flex-wrap align-items-center gap-1">
-                        <span class="fw-semibold  text-dark">${item.title.trim()}</span>
-                        ${tagBadges}
-                        ${linksHtml ? `<span class="text-muted mx-1">·</span>${linksHtml}` : ''}
-                    </div>
-                    <p class="text-muted mt-1 mb-0">${item.description}</p>
-                </div>
-                ${item.extra ? `<button onclick="openModal(${projectIndex}, event)" class="info-btn btn btn-sm btn-link text-muted text-nowrap mt-1 flex-shrink-0 p-0">info</button>` : ''}
-            </li>
-        `);
+        projectsGrid.insertAdjacentHTML('beforeend', renderProjectRow(item, start + idx + 1));
     });
 
     projectsGrid.querySelectorAll('.tag-badge').forEach(badge => {
@@ -112,7 +119,25 @@ function displayData() {
     });
 }
 
-window.openModal = (projectIndex, event) => {
+function renderEarlierExercises() {
+    if (!earlierProjects.length) return;
+
+    const toggle = getElement('#earlier-toggle');
+    const count = getElement('#earlier-count');
+    const icon = getElement('#earlier-toggle-icon');
+    const list = getElement('#earlier-list');
+    const panel = getElement('#earlier-exercises');
+
+    count.textContent = earlierProjects.length;
+    list.innerHTML = earlierProjects
+        .map((item, idx) => renderProjectRow(item, idx + 1, { interactiveTags: false }))
+        .join('');
+
+    panel.addEventListener('shown.bs.collapse', () => { icon.textContent = '▾'; toggle.setAttribute('aria-expanded', 'true'); });
+    panel.addEventListener('hidden.bs.collapse', () => { icon.textContent = '▸'; toggle.setAttribute('aria-expanded', 'false'); });
+}
+
+window.openModal = (projectIndex) => {
     const modal = document.getElementById('myModal');
     const description = document.getElementById('modalDescription');
     if (!modal) return;
@@ -130,7 +155,7 @@ window.closeModal = () => {
 };
 
 document.getElementById('myModal').addEventListener('click', (e) => {
-    if (e.target === e.currentTarget) closeModal();
+    if (e.target === e.currentTarget) window.closeModal();
 });
 
 function updatePagination() {
@@ -159,6 +184,7 @@ function updatePagination() {
 renderFilters();
 displayData();
 updatePagination();
+renderEarlierExercises();
 
 let data = [];
 async function fetchData() {
