@@ -53,6 +53,19 @@ export const certifications = [
 		desc: "Certificate of Completion for SQL for Backend Developers — Hyperskill, a course provided by JetBrains Academy."
 	},
 	{
+		id: "telacad-sql-databases-2023",
+		title: "Baze de date - SQL (Databases - SQL)",
+		issuer: "Telecom Academy",
+		issuerColor: "#0EA5E9",
+		date: "2023-06-02",
+		length: "",
+		credentialId: "788f90fa87444f848b4cde1f9f387fd6",
+		verifyUrl: "https://cursuri.telacad.ro/certificates/788f90fa87444f848b4cde1f9f387fd6",
+		file: "",
+		tags: ["SQL", "MySQL", "Databases"],
+		desc: "Diplomă de promovare (Romanian-language course) covering relational database design and normalization, MySQL DDL/DML, complex queries with joins/subqueries/views, transactions, stored procedures and functions, cursors, and triggers."
+	},
+	{
 		id: "cs50p-2023",
 		title: "CS50's Introduction to Programming with Python",
 		issuer: "Harvard University (CS50)",
