@@ -25,16 +25,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Update Projects.js with NewsExpress page link &#10;&#10;Added the deployment link for the &quot;NewsExpress&quot; project in `Projects.js`.">
-      <change afterPath="$PROJECT_DIR$/certifications.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/certificates/cs50p-intro-to-programming-with-python.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/certificates/datacamp-intermediate-sql.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/certificates/datacamp-sql-for-database-administrators.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/certificates/datacamp-sql-server-for-database-administrators.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/certificates/hyperskill-sql-for-backend-developers.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/certifications.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/utils/Certifications.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/handleSidebar.js" afterDir="false" />
+    <list default="true" id="231d991e-40da-4cb5-b930-6a4bf731f25c" name="Default Changelist" comment="Add new certification &quot;Baze de date - SQL&quot; to Certifications.js">
+      <change afterPath="$PROJECT_DIR$/src/certificates/datacamp-cleaning-data-in-postgresql-databases.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/certificates/datacamp-data-manipulation-with-pandas.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/certificates/datacamp-intermediate-python-for-developers.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/utils/Certifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils/Certifications.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -615,7 +610,7 @@
       <workItem from="1788273991249" duration="47000" />
       <workItem from="1788283575808" duration="325000" />
       <workItem from="1788532006692" duration="314000" />
-      <workItem from="1788774796356" duration="1044000" />
+      <workItem from="1788774796356" duration="2370000" />
     </task>
     <task id="LOCAL-00081" summary="poze webp dimensiune">
       <created>1612973014175</created>
@@ -960,7 +955,7 @@
       <option name="project" value="LOCAL" />
       <updated>1643555823321</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -979,8 +974,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update project link in Projects.js&#10;&#10;The project link in the Projects.js file has been updated. The previous link &quot;http://62.171.167.229:5000/&quot; has been replaced with the new link &quot;https://images.dornescu.ro&quot;." />
-    <MESSAGE value="Add CodeBar Generator project to Projects.js&#10;&#10;A new project titled &quot;CodeBar Generator&quot; has been added to the Projects.js" />
     <MESSAGE value="Add CodeBar Generator project to Projects.js&#10;&#10;A new project titled &quot;CodeBar Generator&quot; has been added to the Projects.js file, containing all its related details such as title, description, tools used, repository and webpage links, and tags. In addition, minor changes have been made to the .idea/workspace.xml file, including updating settings and local task counter" />
     <MESSAGE value="Remove Contact page and related materials&#10;&#10;The Contact.html page and its related JavaScript file have been deleted. Links to the Contact page in the navigation bar and on the Index.html page have also been removed. These changes completely eliminate references to and access points for the Contact page within the project." />
     <MESSAGE value="update projects with mirave" />
@@ -1004,7 +997,9 @@
     <MESSAGE value="Add NewsNest project details and update workspace settings  &#10;&#10;Added &quot;NewsNest&quot; project details with full description, tags, and links in `Projects.js`. Updated `.idea/workspace.xml` with incremented local tasks counter and additional task entries." />
     <MESSAGE value="Add NewsExpress project details and update workspace settings&#10;&#10;Added &quot;NewsExpress&quot; project details with full description, tags, and links in `Projects.js`. Updated `.idea/workspace.xml` with incremented local tasks counter and additional task entries." />
     <MESSAGE value="Update Projects.js with NewsExpress page link &#10;&#10;Added the deployment link for the &quot;NewsExpress&quot; project in `Projects.js`." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Projects.js with NewsExpress page link &#10;&#10;Added the deployment link for the &quot;NewsExpress&quot; project in `Projects.js`." />
+    <MESSAGE value="Add certifications section with data, HTML and functionality&#10;&#10;Introduced a new certifications section, including:&#10;- `certifications.html` page with responsive design and filtering capabilities.&#10;- Added `src/js/utils/Certifications.js` for certifications data management.&#10;- Created `src/js/certifications.js` to dynamically render certifications with filters.&#10;- Added multiple certification files in `src/certificates/`.&#10;- Integrated the &quot;Certifications&quot; sidebar menu link." />
+    <MESSAGE value="Add new certification &quot;Baze de date - SQL&quot; to Certifications.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new certification &quot;Baze de date - SQL&quot; to Certifications.js" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

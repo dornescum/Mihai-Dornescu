@@ -26,6 +26,45 @@ export const certifications = [
 		desc: "Statement of Accomplishment for completing SQL for Database Administrators (16 hrs) — DataCamp."
 	},
 	{
+		id: "datacamp-data-manipulation-pandas-2026",
+		title: "Data Manipulation with pandas",
+		issuer: "DataCamp",
+		issuerColor: "#03EF62",
+		date: "2026-02-19",
+		length: "4 hr",
+		credentialId: "#45,997,561",
+		verifyUrl: "",
+		file: "src/certificates/datacamp-data-manipulation-with-pandas.pdf",
+		tags: ["Python", "pandas"],
+		desc: "Statement of Accomplishment for completing Data Manipulation with pandas (4 hrs) — DataCamp."
+	},
+	{
+		id: "datacamp-cleaning-data-postgresql-2026",
+		title: "Cleaning Data in PostgreSQL Databases",
+		issuer: "DataCamp",
+		issuerColor: "#03EF62",
+		date: "2026-02-06",
+		length: "4 hr",
+		credentialId: "#45,776,128",
+		verifyUrl: "",
+		file: "src/certificates/datacamp-cleaning-data-in-postgresql-databases.pdf",
+		tags: ["SQL", "PostgreSQL"],
+		desc: "Statement of Accomplishment for completing Cleaning Data in PostgreSQL Databases (4 hrs) — DataCamp."
+	},
+	{
+		id: "datacamp-intermediate-python-2026",
+		title: "Intermediate Python for Developers",
+		issuer: "DataCamp",
+		issuerColor: "#03EF62",
+		date: "2026-01-21",
+		length: "2 hr",
+		credentialId: "#45,524,411",
+		verifyUrl: "",
+		file: "src/certificates/datacamp-intermediate-python-for-developers.pdf",
+		tags: ["Python"],
+		desc: "Statement of Accomplishment for completing Intermediate Python for Developers (2 hrs) — DataCamp."
+	},
+	{
 		id: "datacamp-intermediate-sql-2025",
 		title: "Intermediate SQL",
 		issuer: "DataCamp",
