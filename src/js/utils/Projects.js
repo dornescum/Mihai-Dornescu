@@ -1,5 +1,27 @@
 export const projects = [
 	{
+		id: "task-manager-sqlite-2026",
+		relevant: 1,
+		title: "Task Manager — Kanban with RBAC State Machine",
+		description: "Kanban-style task manager with a 5-role RBAC system and a per-role task state machine (todo → in_progress → testing → done), plus org-wide real-time chat (DMs and named/group rooms) via Server-Sent Events.",
+		tools: "<span style='color:#000000;font-weight:bold'>Express</span>, TypeScript, better-sqlite3, EJS, JWT, SSE",
+		linkRepo: "https://github.com/dornescum/taskMangerExpressSqlite",
+		linkPage: "http://147.93.59.56:3011/login",
+		img: "",
+		tagJs: "Express",
+		tagCss: "Bootstrap",
+		tagTs: "Typescript",
+		tagTutorial: false,
+		tagDB: "Sqlite",
+		tagNode: true,
+		desc: "Express, TypeScript, better-sqlite3, EJS, RBAC task state machine, real-time chat over SSE",
+		extra: `<b>Task Manager</b> is a Kanban-style project/task tracker built with <b>Express</b>, <b>TypeScript</b>, and server-rendered <b>EJS</b> views, using <b>better-sqlite3</b> (WAL mode) as a deliberately lightweight, dependency-free data layer — no external DB server to provision for a small portfolio deploy. A planned v2 will reimplement the same product spec as an <b>Angular 18</b> SPA over an <b>Express/TypeScript</b> API backed by <b>MySQL</b>, as a paired piece showing the same problem solved with a decoupled frontend/backend instead of server-rendered EJS.<br><br>
+<b>RBAC &amp; task state machine</b> — five roles (<code>admin</code>, <code>manager</code>, <code>pm</code>, <code>developer</code>, <code>tester</code>) with per-role dashboards. Task status moves through a fixed pipeline (<code>todo → in_progress → testing → done</code>) via an explicit transition table keyed by role: developers drive a task from <code>todo</code> through to <code>testing</code>; testers can pass it to <code>done</code> or bounce it back to <code>in_progress</code>; managers can additionally revert stalled work. Priority (<code>low/medium/high</code>) and status are both enforced with SQLite <code>CHECK</code> constraints, mirrored in TypeScript's <code>as const</code> union types so the DB schema and the type system can't drift apart.<br><br>
+<b>Real-time chat</b> — org-wide messaging decoupled from any single project: direct messages plus named/group rooms, delivered live over <b>Server-Sent Events</b> (no WebSocket infra needed) with unread-count tracking, creator-only room deletion, and a member-management modal.<br><br>
+<b>Auth</b> — JWT stored in an <code>HttpOnly</code> cookie (<code>bcryptjs</code> password hashing), with the <code>Secure</code> flag configurable via a <code>COOKIE_SECURE</code> env var independent of <code>NODE_ENV</code>, so the same build can run behind TLS in one deployment and over plain HTTP in another without a code change.<br><br>
+<b>Ops</b> — <b>winston</b> logging, <code>express-validator</code> input validation, a custom migration/seed/reset CLI, Jest for unit/integration tests, Cypress for E2E. Deployed via <b>PM2</b> alongside the rest of the portfolio's apps on the same VPS.`
+	},
+	{
 		id: "news-express-2026",
 		relevant: 1,
 		title: "NewsExpress — Fact-Checked News CMS (Express)",
