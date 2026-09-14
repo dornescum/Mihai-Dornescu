@@ -6,7 +6,7 @@ export const projects = [
 		description: "Kanban-style task manager with a 5-role RBAC system and a per-role task state machine (todo → in_progress → testing → done), plus org-wide real-time chat (DMs and named/group rooms) via Server-Sent Events.",
 		tools: "<span style='color:#000000;font-weight:bold'>Express</span>, TypeScript, better-sqlite3, EJS, JWT, SSE",
 		linkRepo: "https://github.com/dornescum/taskMangerExpressSqlite",
-		linkPage: "http://147.93.59.56:3011/login",
+		linkPage: "http://147.93.59.56:3011",
 		img: "",
 		tagJs: "Express",
 		tagCss: "Bootstrap",
