@@ -150,7 +150,7 @@ function openArticle(id) {
 window.closeArticleModal = () => { el('articleModal').style.display = 'none'; };
 
 el('articleModal').addEventListener('click', e => {
-    if (e.target === e.currentTarget) closeArticleModal();
+    if (e.target === e.currentTarget) window.closeArticleModal();
 });
 
 // ── main load ──────────────────────────────────────────────────

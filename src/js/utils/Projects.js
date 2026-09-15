@@ -1,8 +1,29 @@
-// <span style='color: #000000; font-weight: bold'></span>
-const project= 'https://github.com/dornescum/angularIonic-store';
 export const projects = [
 	{
+		id: "task-manager-sqlite-2026",
+		relevant: 1,
+		title: "Task Manager — Kanban with RBAC State Machine",
+		description: "Kanban-style task manager with a 5-role RBAC system and a per-role task state machine (todo → in_progress → testing → done), plus org-wide real-time chat (DMs and named/group rooms) via Server-Sent Events.",
+		tools: "<span style='color:#000000;font-weight:bold'>Express</span>, TypeScript, better-sqlite3, EJS, JWT, SSE",
+		linkRepo: "https://github.com/dornescum/taskMangerExpressSqlite",
+		linkPage: "http://147.93.59.56:3011",
+		img: "",
+		tagJs: "Express",
+		tagCss: "Bootstrap",
+		tagTs: "Typescript",
+		tagTutorial: false,
+		tagDB: "Sqlite",
+		tagNode: true,
+		desc: "Express, TypeScript, better-sqlite3, EJS, RBAC task state machine, real-time chat over SSE",
+		extra: `<b>Task Manager</b> is a Kanban-style project/task tracker built with <b>Express</b>, <b>TypeScript</b>, and server-rendered <b>EJS</b> views, using <b>better-sqlite3</b> (WAL mode) as a deliberately lightweight, dependency-free data layer — no external DB server to provision for a small portfolio deploy. A planned v2 will reimplement the same product spec as an <b>Angular 18</b> SPA over an <b>Express/TypeScript</b> API backed by <b>MySQL</b>, as a paired piece showing the same problem solved with a decoupled frontend/backend instead of server-rendered EJS.<br><br>
+<b>RBAC &amp; task state machine</b> — five roles (<code>admin</code>, <code>manager</code>, <code>pm</code>, <code>developer</code>, <code>tester</code>) with per-role dashboards. Task status moves through a fixed pipeline (<code>todo → in_progress → testing → done</code>) via an explicit transition table keyed by role: developers drive a task from <code>todo</code> through to <code>testing</code>; testers can pass it to <code>done</code> or bounce it back to <code>in_progress</code>; managers can additionally revert stalled work. Priority (<code>low/medium/high</code>) and status are both enforced with SQLite <code>CHECK</code> constraints, mirrored in TypeScript's <code>as const</code> union types so the DB schema and the type system can't drift apart.<br><br>
+<b>Real-time chat</b> — org-wide messaging decoupled from any single project: direct messages plus named/group rooms, delivered live over <b>Server-Sent Events</b> (no WebSocket infra needed) with unread-count tracking, creator-only room deletion, and a member-management modal.<br><br>
+<b>Auth</b> — JWT stored in an <code>HttpOnly</code> cookie (<code>bcryptjs</code> password hashing), with the <code>Secure</code> flag configurable via a <code>COOKIE_SECURE</code> env var independent of <code>NODE_ENV</code>, so the same build can run behind TLS in one deployment and over plain HTTP in another without a code change.<br><br>
+<b>Ops</b> — <b>winston</b> logging, <code>express-validator</code> input validation, a custom migration/seed/reset CLI, Jest for unit/integration tests, Cypress for E2E. Deployed via <b>PM2</b> alongside the rest of the portfolio's apps on the same VPS.`
+	},
+	{
 		id: "news-express-2026",
+		relevant: 1,
 		title: "NewsExpress — Fact-Checked News CMS (Express)",
 		description: "Plain Express/TypeScript rewrite of NewsNest's NestJS backend — third leg of the Go → NestJS → Express trio, comparing the same product across three backend architectures. Raw mysql2 (no ORM), manual singletons (no DI container), Zod validation, same role-based publishing workflow (journalist → org manager/admin approval).",
 		tools: "<span style='color:#000000;font-weight:bold'>Express</span>, TypeScript, mysql2, Zod, EJS, Bootstrap 5",
@@ -11,6 +32,7 @@ export const projects = [
 		img: "",
 		tagJs: "Express",
 		tagCss: "Bootstrap",
+		tagTs: "Typescript",
 		tagTutorial: false,
 		tagDB: "Mysql",
 		tagNode: true,
@@ -26,6 +48,7 @@ export const projects = [
 	},
 	{
 		id: "news-nest-2026",
+		relevant: 1,
 		title: "NewsNest — Fact-Checked News CMS (NestJS)",
 		description: "NestJS/TypeScript port of NewsGo's backend. Prisma ORM over MySQL, role-based publishing workflow (journalist → org manager/admin approval), RSS feed, MySQL-backed sessions.",
 		tools: "<span style='color:#E0234E;font-weight:bold'>NestJS</span>, TypeScript, Prisma, MySQL, EJS, Bootstrap 5",
@@ -33,6 +56,7 @@ export const projects = [
 		linkPage: "https://news-nest.147.93.59.56.nip.io/",
 		img: "",
 		tagJs: "Nest",
+		tagTs: "Typescript",
 		tagCss: "Bootstrap",
 		tagTutorial: false,
 		tagDB: "Mysql",
@@ -47,6 +71,7 @@ export const projects = [
 	},
 	{
 		id: "newsgo-2025",
+		relevant: 1,
 		title: "NewsGo — Fact-Checked News API",
 		description: "Go REST API with a role-based CMS dashboard. Goroutine-parallel feed queries, fact-check workflow, pgvector semantic search (WIP).",
 		tools: "<span style='color:#00ADD8;font-weight:bold'>Go</span>, chi, PostgreSQL, pgvector, golang-migrate, nginx, Bootstrap 5",
@@ -68,7 +93,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
  <b>Part of a trio</b> — the same product was later rebuilt in <b>NestJS</b> (Prisma, DI, decorators) and <b>Express</b> (raw SQL, no DI container) to compare backend architectures side by side; see those two cards for what changed and why.`
 	},
       {
-          id: "07 - 29 - 2026",
+          id: "food-tracker-2026",
+          relevant: 1,
           title: "Food Tracker",
           description: `Full-stack nutrition tracking service in <b style='color: #6b9e11;'>Go</b> (chi + MySQL) with JWT auth, an ingredient database seeded from USDA FoodData Central, custom diet plans, and
   per-day macro/micronutrient totals (protein, carbs, vitamin C, etc.) computed from logged meals.`,
@@ -98,6 +124,7 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
       },
 	{
       id: "medical-clinic-2025",
+      relevant: 1,
       title: "Medical Clinic Patient Management",
       description: "Patient management system for a medical clinic. Role-based access (admin/doctor/assistant/patient), appointment scheduling, medical records with severity tracking, and file uploads.",
       tools: "<span style='color:#000;'>Express.js</span>, EJS, MySQL, Docker, Multer, Helmet, Winston",
@@ -106,6 +133,7 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
       img: "",
       tagJs: "Express",
       tagCss: "Bootstrap",
+		tagTs: "Typescript",
       tagTutorial: false,
       tagDB: "Mysql",
       tagNode: true,
@@ -128,6 +156,7 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 
 	{
 		id: "nutriketo-2025",
+		relevant: 1,
 		title: "Nutriketo Academy",
 		description: "Online learning platform for nutrition students. Monthly tests, certifications, PDF documents, bilingual (IT/EN) with DeepL.",
 		tools: "<span style='color:#000;'>Express.js</span>, TypeScript, EJS, MySQL, PM2, nginx, DeepL API",
@@ -135,7 +164,7 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		linkPage: "http://147.93.59.56:3001/auth/login",
 		img: "",
 		tagJs: "Express",
-		tagCss: "Typescript",
+		tagTs: "Typescript",
 		tagTutorial: false,
 		tagDB: "Mysql",
 		tagNode: true,
@@ -149,7 +178,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 	},
 
 	{
-		id: 12 - 30,
+		id: "handymen-poc-2023",
+		relevant: 1,
 		title: "Handymen Proof Of Concept",
 		description: "A full stack with ssr for seo",
 		tools: " <span  style='color: #ef3333;'>Angular 16</span>, Universal Engine, <span  style='color: #000000;'>Express</span>, Tailwind Css",
@@ -158,6 +188,7 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		img: "@../../src/img/projects/instalator40.webp",
 		tagJs: "Angular",
 		tagCss: "Tailwind",
+		tagTs: "Typescript",
 		tagTutorial: false,
 		desc: "Angular",
 		extra: "This full-stack web application,  <span style='color: #ef3333; font-weight: bold'> POC Meseriași </span> , showcases a robust frontend built with Angular, employing the latest features for dynamic content rendering and interactive user experiences. Key frontend technologies include <span style='color: #000000; font-weight: bold'>Angular Universal</span>  for server-side rendering, enhancing <span  style='color: #000000; font-weight: bold'>SEO </span> and performance, and Tailwind CSS for sleek, responsive designs." +
@@ -169,7 +200,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 	},
 
 	{
-		id: 1 / 5 / 2023,
+		id: "fullstack-admin-panel-2023",
+		relevant: 1,
 		title: "Full stack admin panel",
 		description: "node js express, jsonwebtoken, md5, joi, sqlite, angular form, typescript, tailwind css",
 		tools: "Node js, <span  style='color: #000000;'>Express</span>, Sqlite, <span  style='color: #ef3333;'>Angular</span>, Typescript",
@@ -186,7 +218,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		extra: "This full-stack SaaS project is an  electronic warehouse simulation platform where users, after account creation, can manage a plethora of electronic products across various categories and brands. Embracing a mobile-first design philosophy, the client-side is crafted using <span style='color: #000000; font-weight: bold'>Angular</span> , ensuring an optimal and responsive experience across devices. The system facilitates full CRUD operations, allowing for the addition, modification, and movement of inventory items between virtual storages. A key feature is the real-time transactional database management powered by <span style='color: #000000; font-weight: bold'>SQLite</span> , ensuring data integrity as items are transferred across storages. The backend, constructed with Express, delivers robust MVC architecture for efficient data filtering by brand, category, and price, as well as search functionality for product names and fallback brand searches. Each product is uniquely identified by a barcode, incorporating storage, category, brand, and owner details. <span style='color: #000000; font-weight: bold'>Chart js</span>  integration provides insightful visualizations of storage metrics. Moreover, users can download complete SQL product lists, enabling easy data portability and backup. This platform exemplifies a comprehensive warehouse management solution with a keen focus on user-centric design, data accuracy, and operational efficiency."
 	},
 	{
-		id: 17 - 6 - 24,
+		id: "mirave-solutions-2024",
+		relevant: 1,
 		title: "Mirave Solutions",
 		description: " Express.js, TypeScript, Mysql, Ejs  ",
 		tools: "Express validator, Express-sessions, Cookie-parser, Express-rate-limit, Express-helmet",
@@ -194,7 +227,7 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		linkPage: "",
 		img: "@../../src/img/projects/mirave.webp",
 		tagJs: "Express",
-		tagCss: "Typescript",
+		tagTs: "Typescript",
 		tagTutorial: false,
 		tagDB: 'Mysql',
 		tagNode: true,
@@ -203,7 +236,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 
 	},
 	{
-		id: 13 - 6 - 24,
+		id: "convert-image-2024",
+		relevant: 1,
 		title: "Convert image",
 		description: "Convert jpeg to webp, png. Tiff to jpeg, BMP to png. ",
 		tools: " <span  style='color: #6b9e11;'>Python</span>,Flask , Pillow, Jinja2, Mysql",
@@ -219,7 +253,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		extra: "This project is a web application that allows users to upload, process, and view various image formats, JPEG, PNG, WEBP, TIFF . It utilizes Flask as the web framework and leverages several libraries for image handling, database management, and session management. Key functionalities include: Image Processing | GeoIP Location | Session Management | Database Interaction. Integrates Geolite2 to retrieve geographic information based on the user's IP address. Implements Flask-Session for server-side session management. Uses Flask-Limiter to manage request rates and avoid abuse. Utilizes python-dotenv to load environment variables from a .env file, ensuring secure configuration management. Connects to a MySQL database using SQLAlchemy and pymysql for ORM capabilities and session management."
 	},
 	{
-		id: 4-9-24,
+		id: "laravel-crud-2024",
+		relevant: 1,
 		title: "Laravel CRUD",
 		description: "Users add books, filter by category, title, author.",
 		tools: " <span  style='color: #ef3333;'>Laravel 11</span>,  <span  style='color: #000000; font-weight: bolder'>Php</span>, Mysql",
@@ -236,7 +271,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 
 	},
 	{
-		id: 15 / 8,
+		id: "ionic-ecommerce-simulator-2023",
+		relevant: 1,
 		title: " Ionic ecommerce simulator",
 		description: "Ionic,Angular, Capacitor, @ngrx/store",
 		tools: " <span  style='color: #ef3333;'>Angular 14</span>, Typescript, Ionic, Capacitor",
@@ -245,6 +281,7 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		img: "@../../src/img/projects/ionic-angular.webp",
 		tagJs: "Angular",
 		tagCss: "Css",
+		tagTs: "Typescript",
 		tagTutorial: false,
 		desc: "Ionic Angular",
 		extra: "Dive into the world of mobile commerce with this <span style='color: #000000; font-weight: bold'>Ionic</span> -based e-commerce simulation app, designed to deliver a complete shopping experience on both <span style='color: #000000; font-weight: bold'>Android </span> devices and web platforms. The app encapsulates the essence of e-commerce, allowing customers to seamlessly add products to their cart, update quantities, and manage their selections with ease. Developed with a mobile-first approach, the app is rigorously tested on Android to ensure a flawless user experience, while maintaining full functionality on web browsers for a broader reach. Built upon the robust foundations of <span style='color: #000000; font-weight: bold'> Angular </span>and the latest version of Ionic, the app promises high performance and a native-like feel. Leveraging <span style='color: #000000; font-weight: bold'>Capacitor's</span>  cross-platform APIs, the application offers a range of device features and integrations, such as haptics feedback, status bar customization, and secure storage preferences. With state management powered by <span style='color: #000000; font-weight: bold'>NgRx</span> , the app ensures predictability in state transitions, immutability, and performance. "
@@ -255,7 +292,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 
 	},
 	{
-		id: 1 /15/ 24,
+		id: "ionic-node-mysql-docker-2024",
+		relevant: 1,
 		title: " Ionic node mysql docker",
 		description: "Simple express with docker mysql, for <b><i><a href='https://github.com/dornescum/angularIonic-store' target='_blank'>Ionic ecommerce simulator</a> </i></b> ",
 		tools: " <span  style='color: #000000;'>Express</span>, Ionic, Typescript, <b>Docker</b>",
@@ -271,7 +309,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		Leveraging TypeScript, the project offers strong typing and modern JavaScript features, leading to more maintainable and error-resistant code.`
 	},
 	{
-		id: 2 - 23,
+		id: "mockup-ecommerce-context-api-2023",
+		relevant: 1,
 		title: "Mockup Ecommerce, context api",
 		description: "Ecommerce, Next js, Node js <span style='color: #FF0000FF'><b>Because is a free service of node, it will take 15 sec to be online</b></span>",
 		tools: "Next js, Tailwind Css",
@@ -285,7 +324,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		extra: "This e-commerce mockup project, developed as an online electronic store platform, leverages <span style='color: #000000; font-weight: bold'>Next js</span> , a formidable framework for server-rendered React applications. Emphasizing a mobile-first design approach, the platform ensures optimal usability and aesthetics on smaller screens, progressively enhancing the experience for larger devices. This strategy is pivotal in today's mobile-centric world, ensuring a broad reach and user satisfaction. The project capitalizes on Next js's strengths in efficient page rendering and routing, contributing to an exceptionally performant user experience. Interactive charts powered by <span style='color: #000000; font-weight: bold'>Chart js</span> , and engaging visual elements like  <span style='color: #000000; font-weight: bold'>React Icons</span> and <span style='color: #000000; font-weight: bold'>Slick Carousel</span> , are seamlessly integrated to enrich the interface. React Popup enhances interactivity, offering intuitive modal and dialogue display. Frontend styling with <span style='color: #000000; font-weight: bold'>Tailwind CSS</span>  guarantees a modern, responsive design that elegantly adapts across various devices. The application's robust setup includes dotenv for environment variable management and ESLint for code quality assurance, embodying best practices in configuration and development. This project stands out as a state-of-the-art e-commerce solution, with its focus on interactivity, mobile-first user engagement, and compelling aesthetic appeal."
 	},
 	{
-		id: 1/10/24,
+		id: "statistics-2024",
+		relevant: 1,
 		title: "Statistics ",
 		description: "Analyzing statistics for <span style='color: #000000'><b><a href='https://mp.dornescu.ro' target='_blank'>Handymen Proof Of Concept</a> </b></span>",
 		tools: "<span  style='color: #ef3333;'>Angular 16</span>, Tailwind Css",
@@ -299,7 +339,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		extra: "This project is built for displaying and analyzing statistics, specifically focused on client search data. It is designed to provide insights into various metrics such as device type, operating system, brand, and IP location details (country and town)"
 	},
 	{
-		id: 17 - 6 - 24,
+		id: "codebar-generator-2024",
+		relevant: 1,
 		title: "CodeBar Generator",
 		description: " Express.js, TypeScript, Mysql, Ejs  ",
 		tools: "Express validator, Express-sessions, Cookie-parser, Express-rate-limit, Express-helmet",
@@ -316,7 +357,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 
 	},
 	{
-		id: 7 - 6 - 24,
+		id: "express-ejs-2024",
+		relevant: 1,
 		title: "Express EJS",
 		description: " Express.js, TypeScript, Mysql ",
 		tools: "Express validator, Express-sessions, Cookie-parser, Express-rate-limit, Express-helmet",
@@ -332,7 +374,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		extra: "Features<br> Server Setup: Utilizes Express js for server management. Template Engine: Employs EJS for dynamic HTML generation. Security: Implements security best practices using Helmet and Express Rate Limit. Validation: Integrates Express Validator for request validation. Session Management: Manages user sessions with Express Session and Cookie Parser. Environment Variables: Uses Dotenv to manage environment variables. Database Integration: Connects to MySQL databases using MySQL2. Dependencies<br> Express: Framework for building web applications. cookie-parser: Middleware for parsing cookies. dotenv: Loads environment variables from a env file. ejs: Embedded JavaScript templates. express-rate-limit: Middleware for rate limiting. express-session: Middleware for managing sessions. express-validator: Middleware for validating requests. helmet: Security middleware. mysql2: MySQL client for Node js. ts-node: TypeScript execution environment for Node js."
 	},
 	{
-		id: 8 - 25,
+		id: "fastapi-todo-2025",
+		relevant: 1,
 		title: "FastApi Todo",
 		description: "CRUD app",
 		tools: "FastApi, <span  style='color: #6b9e11;'>Python</span>, Sqlite, React",
@@ -349,7 +392,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 	},
 
 	{
-		id: 7 - 8,
+		id: "todo-app-jest-testing-2023",
+		relevant: 0,
 		title: "Todo App Jest testing",
 		description: "Jest testing api, Supertest",
 		tools: "Jest,SuperTest, <span  style='color: #000000;'>Express</span>, Sqlite",
@@ -366,7 +410,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 
 	},
 	{
-		id: 15 - 7,
+		id: "resume-parser-python-2023",
+		relevant: 0,
 		title: "Resume parser with python",
 		description: "Pdf parser for certain words",
 		tools: "Flask, spacy, pdfminer.six, pytest, <span  style='color: #6b9e11;'>Python</span>",
@@ -381,7 +426,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 
 	},
 	{
-		id: 2 - 15,
+		id: "movie-search-2023",
+		relevant: 0,
 		title: "Movie search",
 		description: "Fetching movies from DB and search for the movies",
 		tools: "React js, Tailwind Css",
@@ -396,7 +442,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 
 	},
 	{
-		id: "09-08-23",
+		id: "admin-panel-ecommerce-2023",
+		relevant: 0,
 		title: "Admin panel ecommerce",
 		description: "node js express, jsonwebtoken, md5, express-validator, express-rate-limit, helmet, mysql, angular, primeng",
 		tools: " <span  style='color: #000000;'>Express</span>, <span  style='color: #ef3333;'>Angular</span>, Mysql",
@@ -415,7 +462,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 	},
 
 	{
-		id: 1,
+		id: "mockup-delivery-website-2023",
+		relevant: 0,
 		title: "Mock Up Delivery Website",
 		description: " Next js and Tailwind Css to create a website for an imaginary company that produces and processes food. Using ISR & SSR, hybrid",
 		tools: "Next js, Tailwind Css",
@@ -430,7 +478,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 
 	},
 	{
-		id: '8-04-23',
+		id: "express-server-ecommerce-2023",
+		relevant: 0,
 		title: "Express server for Ecommerce",
 		description: "Express routes for an ecommerce, on render",
 		tools: "<span  style='color: #000000;'>Express</span>, Sqlite",
@@ -448,7 +497,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 	},
 
 	{
-		id: 12,
+		id: "menu-cart-2023",
+		relevant: 0,
 		title: "Menu cart",
 		description: "Context Api for state management",
 		tools: "React js, Tailwind Css",
@@ -462,7 +512,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		extra: ""
 
 	}, {
-		id: 3 - 3,
+		id: "challenge-sunnyside-agency-2023",
+		relevant: 0,
 		title: "Challenge",
 		description: "FrontEndMentor challenge, Sunnyside agency landing page",
 		tools: "React js, Tailwind Css",
@@ -476,7 +527,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		extra: ""
 
 	}, {
-		id: 3 - 8,
+		id: "challenge-time-tracking-2023",
+		relevant: 0,
 		title: "Challenge time-tracking",
 		description: "FrontEndMentor challenge",
 		tools: "Tailwind Css, Javascript",
@@ -490,7 +542,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		extra: ""
 
 	}, {
-		id: 3 - 9,
+		id: "challenge-accordion-2023",
+		relevant: 0,
 		title: "Challenge accordion",
 		description: "FrontEndMentor challenge",
 		tools: "Tailwind Css, React js",
@@ -504,7 +557,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		extra: ""
 
 	}, {
-		id: 3 - 13,
+		id: "challenge-testimonial-bootcamp-2023",
+		relevant: 0,
 		title: "Challenge testimonial bootCamp",
 		description: "FrontEndMentor challenge",
 		tools: "Tailwind Css, Javascript",
@@ -518,7 +572,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		extra: ""
 
 	}, {
-		id: 3 - 25,
+		id: "challenge-countdown-timer-2023",
+		relevant: 0,
 		title: "Challenge count down timer",
 		description: "FrontEndMentor challenge",
 		tools: "Tailwind Css, Javascript",
@@ -532,7 +587,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		extra: ""
 
 	}, {
-		id: 3,
+		id: "admin-panel-cypress-2023",
+		relevant: 0,
 		title: "Admin Panel",
 		description: "An admin panel in which I tested Cypress together with React js",
 		tools: "React js, Styled-Components, Cypress, Context Api",
@@ -546,7 +602,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		extra: ""
 
 	}, {
-		id: 4,
+		id: "cypress-firmecadastru-2023",
+		relevant: 0,
 		title: "Cypress testing FirmeCadastru.ro",
 		description: "Cypress testing FirmeCadastru.ro",
 		tools: "Cypress",
@@ -560,7 +617,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		extra: ""
 
 	}, {
-		id: 2,
+		id: "best-car-ever-2022",
+		relevant: 0,
 		title: "Best Car Ever",
 		description: "An exercise in which I used Next js and Scss to create a website where I sell a car",
 		tools: "Next js, Scss, Simple-react-lightbox, React Icons",
@@ -574,7 +632,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		extra: ""
 
 	}, {
-		id: 2 - 17,
+		id: "search-for-images-2022",
+		relevant: 0,
 		title: "Search for images",
 		description: "React, Unsplash api",
 		tools: "React js, React-Icons, Tailwind css",
@@ -589,7 +648,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 
 	},
 	{
-		id: 6,
+		id: "card-article-2022",
+		relevant: 0,
 		title: "Card",
 		description: "Basic article card, challenge from FrontEndMentor.io",
 		tools: "Html, Scss",
@@ -603,7 +663,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		extra: ""
 
 	}, {
-		id: 7,
+		id: "card-equilibrium-nft-2022",
+		relevant: 0,
 		title: "Card",
 		description: "Equilibrium card, challenge from FrontEndMentor.io",
 		tools: "Html, Scss",
@@ -617,7 +678,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		extra: ""
 
 	}, {
-		id: 3 - 4,
+		id: "challenge-testimonials-2022",
+		relevant: 0,
 		title: "Challenge testimonials",
 		description: "FrontEndMentor challenge, Testimonials, grid section ",
 		tools: "Tailwind Css",
@@ -632,7 +694,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 
 	},
 	{
-		id: 10,
+		id: "vuetify-2022",
+		relevant: 0,
 		title: "Vuetify",
 		description: "Vue js and Vuetify, a Material Design Framework",
 		tools: "Vue Js",
@@ -646,7 +709,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 		extra: ""
 
 	}, {
-		id: 9,
+		id: "portfolio-vanilla-js-2022",
+		relevant: 0,
 		title: "You are looking at it 😃",
 		description: "I am using Vanilla Js, ES6 modules with Tailwind Css",
 		tools: "Vanilla Js, Tailwind Css",
@@ -661,7 +725,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 
 	},
 	{
-		id: 1 - 2,
+		id: "resume-minimalist-2022",
+		relevant: 0,
 		title: "My version of a resume",
 		description: "Minimalist Resume",
 		tools: "Scss, Javascript",
@@ -676,7 +741,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 
 	},
 	{
-		id: 11 - 13 - 2022,
+		id: "crud-node-sqlite3-2022",
+		relevant: 0,
 		title: "CRUD",
 		description: "Simple node js. POST, PUT, GET, DELETE and use of <b  style='color: #6b9e11;'>sqlite</b> for database",
 		tools: "Node js, Sqlite3 ",
@@ -693,7 +759,8 @@ Public read endpoints include a <b>HackerNews-style verified feed</b> (<code>GET
 
 	},
 	{
-		id: 12 / 10 / 23,
+		id: "simple-image-recognition-2023",
+		relevant: 0,
 		title: " Simple image recognition",
 		description: "For good accuracy, use a photo with a face and good light.",
 		tools: "<span  style='color: #ef3333;'>Angular</span>, Typescript, FaceApi.js",
