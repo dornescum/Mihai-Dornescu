@@ -1,5 +1,26 @@
 export const projects = [
 	{
+		id: "news-java-2026",
+		relevant: 1,
+		title: "NewsJava — Read-Only News REST API (Spring Boot)",
+		description: "Fourth leg of the Go → NestJS → Express → Java news platform comparison. A public, read-only JSON REST API built with Java 21 and Spring Boot 4, reading the NewsNest MySQL database directly. Filterable, paginated articles, Swagger UI",
+		tools: "<span style='color:#E76F00;font-weight:bold'>Java 21</span>, Spring Boot 4, Spring Data JPA, Hibernate 7, MySQL, Testcontainers, Swagger",
+		linkRepo: "",
+		linkPage: "http://147.93.59.56:3005",
+		img: "",
+		tagJs: "Java",
+		tagCss: "",
+		tagTs: "",
+		tagTutorial: false,
+		tagDB: "Mysql",
+		desc: "Java 21, Spring Boot 4, JPA/Hibernate, MySQL, read-only REST API with OpenAPI docs",
+		extra: `<b>NewsJava</b> is the fourth implementation of the same news platform, each a from-scratch rewrite in a different stack (<b>Go + chi</b>, <b>NestJS + Prisma</b>, <b>Express</b>, now <b>Spring Boot</b>). Unlike the earlier versions it has <b>no GUI, no authentication, no admin and no roles</b>: it only serves published articles as JSON.<br><br>
+<b>Shared database, read-only</b> — it reads the <b>NewsNest MySQL database</b> directly and never writes to it. The schema belongs to the Prisma migrations in NewsNest, repositories expose no <code>save</code>/<code>delete</code>, and the connection pool is read-only. Only the columns the API needs are mapped (from <code>users</code>: just <code>id</code>, <code>username</code>, <code>first_name</code>, <code>last_name</code>).<br><br>
+<b>Visibility rule</b> — same as NewsNest: an article is public only when it is <b>approved and not blocked by an admin</b>. Anything else returns <code>404</code>, indistinguishable from an id that doesn't exist.<br><br>
+<b>API</b> — <code>GET /v1/articles</code> (paginated, filterable), <code>GET /v1/articles/{id}</code>, <code>GET /v1/categories</code> (top-level categories with subcategories), <code>GET /v1/languages</code>, and <code>/actuator/health</code>. Optional filters combine with AND: <code>title</code> (case- and accent-insensitive), <code>category</code>, <code>subcategory</code>, <code>language</code>, <code>country</code>, <code>year</code>, <code>from</code>/<code>to</code>, <code>author</code>, <code>organization</code>, <code>premium</code>. They take public slugs and codes rather than internal ids, and are built with <b>JPA Specifications</b>. Paging and sorting use the standard Spring Data parameters (size capped at 50, sort whitelist: <code>publishDate</code>, <code>title</code>, <code>id</code>).<br><br>
+ on query parameters and <code>application/problem+json</code> — <b>Java 21</b>, <b>Spring Boot 4.1</b> (Spring MVC on virtual threads), <b>Hibernate 7</b>, <b>MySQL 8</b> via Connector/J, <b>Testcontainers</b> for tests against a real MySQL. Deployed with <b>PM2</b> behind <b>nginx</b> on the same VPS as the other versions.`
+	},
+	{
 		id: "task-manager-sqlite-2026",
 		relevant: 1,
 		title: "Task Manager — Kanban with RBAC State Machine",
