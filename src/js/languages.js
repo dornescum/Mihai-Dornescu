@@ -6,7 +6,7 @@ const filtersContainer = getElement("#issuer-filters");
 
 let activeLanguage = null;
 
-const sorted = [...languageCourses].sort((a, b) => new Date(b.date) - new Date(a.date));
+const sorted = [...languageCourses].sort((a, b) => (a.order ?? 999) - (b.order ?? 999) || new Date(b.date) - new Date(a.date));
 
 function formatDate(date) {
     if (/^\d{4}$/.test(date)) return date;
