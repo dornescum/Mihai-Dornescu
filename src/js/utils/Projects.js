@@ -1,5 +1,29 @@
 export const projects = [
 	{
+		id: "gochecker-2026",
+		relevant: 1,
+		title: "goChecker — Website Uptime Checker & Route Monitor",
+		description: "Go service with two jobs: a public \"is that site up?\" checker with an SSRF guard and rate limits, and a private monitor that signs in to another app as test users, checks its pages every few hours, pings it every 5 minutes and emails an alert when something breaks. Admin dashboard with charts.",
+		tools: "<span style='color:#00ADD8;font-weight:bold'>Go</span>, chi, SQLite, html/template, cron, pm2, nginx",
+		linkRepo: "",
+		linkPage: "https://gochecker.147.93.59.56.nip.io/",
+		img: "",
+		tagJs: "Go",
+		tagCss: "",
+		tagTs: "",
+		tagTutorial: false,
+		tagDB: "Sqlite",
+		tagNode: false,
+		desc: "Go, chi, SQLite, SSRF-safe URL checker, authenticated route monitor with cron, Gmail alerts and an admin dashboard with charts",
+		extra: `<b>goChecker</b> is a small Go service built for one practical purpose: knowing when a real application stops working. It is one static binary with three commands — <code>serve</code> (the website), <code>probe</code> and <code>ping</code> (short runs started by cron) — and a tech page for developers at <code>/tech</code>.<br><br>
+<b>Public checker</b> — a visitor enters an address and gets <b>up</b>, <b>up (restricted)</b> or <b>down</b> with a reason. The dialer blocks private, loopback, link-local (cloud metadata), CGNAT and reserved ranges for IPv4 and IPv6, including IPv4-mapped IPv6, checked on the address actually dialled so DNS tricks do not bypass it. Redirects are capped, requests time out after 5 seconds, and a per-IP sliding window plus a daily cap limit use.<br><br>
+<b>Route monitor</b> — what to check lives in a <code>routes.yaml</code> file: sites, test accounts (as environment variable names, never values), fixture ids and routes with expected status, text or redirect target. The runner reads each login form like a browser, keeps a cookie jar per role (client, doctor) and sends <b>GET requests only</b>. Results are labelled ok, slow, error or skipped; a failed route is confirmed once more before it counts, and after three connection failures the rest of a site is skipped instead of waiting for every timeout. An optional HMAC-signed header can be sent to the monitored site, and a file lock stops two runs overlapping.<br><br>
+<b>Schedules and alerts</b> — a full probe every 3 hours and a 5-minute ping of a health route. A probe with errors sends one consolidated email through Gmail SMTP; the ping mails only when the state changes (down, then &ldquo;recovered&rdquo;) so a long outage does not flood the inbox. An admin button also sends a summary of all routes on demand.<br><br>
+<b>Admin dashboard</b> — single admin (bcrypt, per-session CSRF), visitor and route-result tables with filters, pagination and delete, buttons to run a check, a ping or a summary mail, and a <b>Charts</b> page for non-technical readers: errors per day by role, a 30-day green/red day strip, the pages with most errors and the slowest pages, drawn as server-side SVG with no JavaScript.<br><br>
+<b>Security design</b> — strict Content-Security-Policy, <code>X-Frame-Options: DENY</code>, request body limits, and the public server loads only its own keys from <code>.env</code>, while test-account passwords are read by the separate <code>probe</code> process. A <code>Secret</code> type redacts itself in logs, and fixture ids never reach the database (results store <code>/profile/{client_uid}</code>, not the real id).<br><br>
+<b>Stack &amp; ops</b> — <b>Go 1.26</b>, <b>chi</b>, pure-Go <b>SQLite</b> (WAL, no CGO), <code>html/template</code> embedded in the binary, plain CSS. Runs under <b>PM2</b> behind <b>nginx</b> on the same VPS as the other projects, with cron for the schedules.`
+	},
+	{
 		id: "news-java-2026",
 		relevant: 1,
 		title: "NewsJava — Read-Only News REST API (Spring Boot)",
