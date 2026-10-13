@@ -47,7 +47,7 @@ function renderFilters() {
     const btns = ['All', ...allTags].map(tag => {
         const val = tag === 'All' ? '' : tag;
         const active = tag === 'All' ? !activeTag : activeTag === tag;
-        return `<button class="tag-filter-btn btn btn-sm ${active ? 'btn-dark' : 'btn-outline-secondary'}" data-tag="${val}">${tag}</button>`;
+        return `<button class="tag-filter-btn sz-chip${active ? ' is-active' : ''}" data-tag="${val}">${tag}</button>`;
     }).join('');
 
     container.innerHTML = btns;
@@ -67,7 +67,7 @@ function renderProjectRow(item, num, { interactiveTags = true } = {}) {
     const tags = getProjectTags(item);
 
     const tagBadges = tags.map(t => interactiveTags
-        ? `<button class="tag-badge btn btn-sm btn-outline-secondary py-0 px-2 lh-base" style="font-size:0.7rem;" data-tag="${t}">${t}</button>`
+        ? `<button class="tag-badge sz-chip sz-chip--tag" data-tag="${t}">${t}</button>`
         : `<span class="badge bg-white text-secondary border py-1 px-2 lh-base" style="font-size:0.7rem;">${t}</span>`
     ).join('');
 
@@ -87,7 +87,7 @@ function renderProjectRow(item, num, { interactiveTags = true } = {}) {
                 </div>
                 <p class="text-muted mt-1 mb-0">${item.description}</p>
             </div>
-            ${item.extra ? `<button onclick="openModal(${projectIndex})" class="info-btn btn btn-sm btn-link text-muted text-nowrap mt-1 flex-shrink-0 p-0">info</button>` : ''}
+            ${item.extra ? `<button onclick="openModal(${projectIndex})" class="info-btn sz-link text-nowrap mt-1 flex-shrink-0">info</button>` : ''}
         </li>
     `;
 }
@@ -169,7 +169,7 @@ function updatePagination() {
     const mkBtn = (label, page, active = false) => {
         const btn = document.createElement('button');
         btn.innerText = label;
-        btn.className = active ? 'btn btn-sm btn-dark' : 'btn btn-sm btn-outline-secondary';
+        btn.className = active ? 'sz-chip is-active' : 'sz-chip';
         if (!active) {
             btn.addEventListener('click', () => { currentPage = page; displayData(); updatePagination(); });
         }

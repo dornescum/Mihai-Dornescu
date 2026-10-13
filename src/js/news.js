@@ -90,7 +90,7 @@ function renderFilters() {
     container.innerHTML = ['All', ...categories].map(cat => {
         const val    = cat === 'All' ? '' : cat;
         const active = cat === 'All' ? !activeCategory : activeCategory === cat;
-        return `<button class="cat-btn btn btn-sm ${active ? 'btn-dark' : 'btn-outline-secondary'}" data-cat="${val}">${cat}</button>`;
+        return `<button class="cat-btn sz-chip${active ? ' is-active' : ''}" data-cat="${val}">${cat}</button>`;
     }).join('');
 
     container.querySelectorAll('.cat-btn').forEach(btn => {
@@ -112,7 +112,7 @@ function renderPagination() {
     const mk = (label, page, active) => {
         const btn = document.createElement('button');
         btn.textContent = label;
-        btn.className   = `btn btn-sm ${active ? 'btn-dark' : 'btn-outline-secondary'}`;
+        btn.className   = `sz-chip${active ? ' is-active' : ''}`;
         if (!active) btn.addEventListener('click', () => { currentPage = page; load(); });
         return btn;
     };

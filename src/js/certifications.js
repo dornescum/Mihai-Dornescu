@@ -24,7 +24,7 @@ function renderFilters() {
     const btns = ["All", ...issuers].map(issuer => {
         const val = issuer === "All" ? "" : issuer;
         const active = issuer === "All" ? !activeIssuer : activeIssuer === issuer;
-        return `<button class="issuer-filter-btn btn btn-sm ${active ? "btn-dark" : "btn-outline-secondary"}" data-issuer="${val}">${issuer}</button>`;
+        return `<button class="issuer-filter-btn sz-chip${active ? ' is-active' : ''}" data-issuer="${val}">${issuer}</button>`;
     }).join("");
 
     filtersContainer.innerHTML = btns;
