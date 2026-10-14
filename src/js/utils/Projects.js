@@ -1,5 +1,28 @@
 export const projects = [
 	{
+		id: "garmingo-2026",
+		relevant: 1,
+		title: "garminGo — Workout Screenshot Tracker",
+		description: "Go web app that reads workout and daily-health screenshots (Garmin, Apple Health, Fitbit, Polar...) with OCR, stores the metrics in SQLite and turns them into history, week/month reports and a dashboard. Also keeps medical documents with blood values and encrypted private notes the admin cannot read.",
+		tools: "<span style='color:#00ADD8;font-weight:bold'>Go</span>, chi, SQLite (WAL), Tesseract OCR, poppler, html/template, vanilla ES6",
+		linkRepo: "",
+		linkPage: "https://garmingo.147.93.59.56.nip.io/",
+		img: "",
+		tagJs: "Go",
+		tagCss: "Css",
+		tagTutorial: false,
+		tagDB: "Sqlite",
+		desc: "Go, chi, SQLite WAL, Tesseract OCR, server-rendered MVC, AES-GCM encrypted notes",
+		extra: `<b>garminGo</b> lets a user upload screenshots of their workouts and daily health screens from any watch app; the server reads them, saves the numbers and shows the training history. Server-rendered Go, deployed with <b>PM2</b> behind <b>nginx</b> (Let's Encrypt / nip.io) on the same VPS as the other portfolio apps.<br><br>
+<b>Architecture</b> — deliberately <b>MVC</b> rather than idiomatic Go packages: <code>routes → middleware → controllers → services → repositories → SQLite</code>, dependencies pointing downwards only, all structs in one <code>models</code> package and all constants in one file. Standard library first: <b>chi</b> router, <code>html/template</code>, <code>log/slog</code>, no ORM, no DI framework.<br><br>
+<b>Screenshot reading</b> — <b>Tesseract</b> OCR plus a rule-based parser. Each image is classified as a workout screen (56 activity types matched in the title, label/value rows), a daily summary (steps, sleep score, resting HR, HRV, body battery, VO2 max, weight...) or rejected with a specific message. Each daily reading gets the date of its own card ("Yesterday", "Oct 10"), not the upload date. Up to 5 images per upload, saved in <b>one transaction</b>; a duplicate image (content hash) rolls the whole upload back and removes the files. OCR runs through a 2-slot semaphore so it cannot starve the shared box.<br><br>
+<b>SQLite in WAL mode</b> — pure-Go <code>modernc.org/sqlite</code> (static binary, <code>CGO_ENABLED=0</code>), a single-connection writer and a separate read pool, <code>BEGIN IMMEDIATE</code> write transactions, <code>STRICT</code> tables, one <code>schema.sql</code> with <code>IF NOT EXISTS</code> instead of a migration manager.<br><br>
+<b>Reports</b> — week and month reports with the change against the previous period, time per day/week, a calendar heatmap, breakdown by type and CSV export.<br><br>
+<b>Medical documents</b> — PDF, image and Word uploads; the text layer is read with <b>poppler</b> (<code>pdftotext</code>), scanned pages are rendered and OCR'd (English, Italian, Romanian), and blood values are flagged low / normal / high. File types are checked from the content, not the name.<br><br>
+<b>Private notes</b> — encrypted with <b>AES-256-GCM</b> using a random per-user key, itself wrapped with a key derived from the user's password (<b>scrypt</b>). The server never stores the plain key, so neither the admin nor a stolen database file can read the notes; the ciphertext is bound to the user id.<br><br>
+<b>Auth &amp; admin</b> — bcrypt, server-side sessions in SQLite with an HttpOnly cookie, soft-deleted workouts, an admin area that answers non-admins with the normal 404 page. Frontend is vanilla <b>ES6</b> with progressive enhancement (e.g. a screenshot lightbox that still works as a plain link without JS).`
+	},
+	{
 		id: "gochecker-2026",
 		relevant: 1,
 		title: "goChecker — Website Uptime Checker & Route Monitor",
